@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E8D75CD7-1E91-41E8-BB90-38E1A180EC1A}</ProjectGuid>
+    <RootNamespace>SchoolJoy</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ADOConn.h" />
+    <ClInclude Include="ConnectSet.h" />
+    <ClInclude Include="Download.h" />
+    <ClInclude Include="Download_AllDownloaded.h" />
+    <ClInclude Include="Download_Downloaded.h" />
+    <ClInclude Include="Download_Downloading.h" />
+    <ClInclude Include="LogIn.h" />
+    <ClInclude Include="ProListCtrl.h" />
+    <ClInclude Include="Register.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SchoolJoy.h" />
+    <ClInclude Include="SchoolJoyDlg.h" />
+    <ClInclude Include="Search.h" />
+    <ClInclude Include="Set.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="ThreadOperate.h" />
+    <ClInclude Include="Upload.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ADOConn.cpp" />
+    <ClCompile Include="ConnectSet.cpp" />
+    <ClCompile Include="Download.cpp" />
+    <ClCompile Include="Download_AllDownloaded.cpp" />
+    <ClCompile Include="Download_Downloaded.cpp" />
+    <ClCompile Include="Download_Downloading.cpp" />
+    <ClCompile Include="LogIn.cpp" />
+    <ClCompile Include="ProListCtrl.cpp" />
+    <ClCompile Include="Register.cpp" />
+    <ClCompile Include="SchoolJoy.cpp" />
+    <ClCompile Include="SchoolJoyDlg.cpp" />
+    <ClCompile Include="Search.cpp" />
+    <ClCompile Include="Set.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="ThreadOperate.cpp" />
+    <ClCompile Include="Upload.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SchoolJoy.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\SchoolJoy.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="PNG\word1.png" />
+    <Image Include="res\20131102093736493_easyicon_net_64.ico" />
+    <Image Include="res\20131102094150756_easyicon_net_128.ico" />
+    <Image Include="res\2013110209461598_easyicon_net_128.ico" />
+    <Image Include="res\20131102094737965_easyicon_net_128.ico" />
+    <Image Include="res\20131102094845138_easyicon_net_128.ico" />
+    <Image Include="res\20131102095010489_easyicon_net_128.ico" />
+    <Image Include="res\20131102095054679_easyicon_net_128.ico" />
+    <Image Include="res\877391f01ec9fa694af70ff7ad25000d8c0c7fb727d1-gvQ22R_fw580_副本.jpg" />
+    <Image Include="res\background.bmp" />
+    <Image Include="res\background1.bmp" />
+    <Image Include="res\background2.bmp" />
+    <Image Include="res\bitmap3.bmp" />
+    <Image Include="res\d291e172e918b151b9ddbefae58bcf21864530c54351c-RjiMvV_fw580.jpg" />
+    <Image Include="res\Download.bmp" />
+    <Image Include="res\flashget.ico" />
+    <Image Include="res\icon1.ico" />
+    <Image Include="res\icon2.ico" />
+    <Image Include="res\login_bmp.bmp" />
+    <Image Include="res\picture1.bmp" />
+    <Image Include="res\picture2.bmp" />
+    <Image Include="res\picture3.bmp" />
+    <Image Include="res\picture4.bmp" />
+    <Image Include="res\picture5.bmp" />
+    <Image Include="res\picture6.bmp" />
+    <Image Include="res\picture7.bmp" />
+    <Image Include="res\picture8.bmp" />
+    <Image Include="res\picture9.bmp" />
+    <Image Include="res\png2.png" />
+    <Image Include="res\SchoolJoy.ico" />
+    <Image Include="res\SchoolJoy1.ico" />
+    <Image Include="res\search.bmp" />
+    <Image Include="res\set.bmp" />
+    <Image Include="res\sign.bmp" />
+    <Image Include="res\sign3.bmp" />
+    <Image Include="res\sign3.png" />
+    <Image Include="res\sign4.bmp" />
+    <Image Include="res\sign_bmp.bmp" />
+    <Image Include="res\sign_副本.bmp" />
+    <Image Include="res\sign_副本_副本.bmp" />
+    <Image Include="res\upload.bmp" />
+    <Image Include="res\user.bmp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="SchoolJoy.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

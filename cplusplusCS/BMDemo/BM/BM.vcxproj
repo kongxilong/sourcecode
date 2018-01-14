@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0F8FDF46-09CB-46CA-BCF1-B644F233CB5C}</ProjectGuid>
+    <RootNamespace>BM</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>BMClient</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>D:\program files\VLD\Visual Leak Detector\lib\Win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ADOExcel.h" />
+    <ClInclude Include="BM.h" />
+    <ClInclude Include="BMDoc.h" />
+    <ClInclude Include="BMView.h" />
+    <ClInclude Include="CtmEdit.h" />
+    <ClInclude Include="CtmInfo.h" />
+    <ClInclude Include="CtmNew.h" />
+    <ClInclude Include="CustomInfoExProp.h" />
+    <ClInclude Include="CustomInfoProp.h" />
+    <ClInclude Include="DataExportPropSheet.h" />
+    <ClInclude Include="DataImportPropSheet.h" />
+    <ClInclude Include="DBConf.h" />
+    <ClInclude Include="DBNew.h" />
+    <ClInclude Include="DealListView.h" />
+    <ClInclude Include="DeductSet.h" />
+    <ClInclude Include="EmpEdit.h" />
+    <ClInclude Include="EmpInfoExProp.h" />
+    <ClInclude Include="EmpInfoProp.h" />
+    <ClInclude Include="EmpInfoSearch.h" />
+    <ClInclude Include="EmpInfoView.h" />
+    <ClInclude Include="EmpNew.h" />
+    <ClInclude Include="EmpPerformanceSearch.h" />
+    <ClInclude Include="ExListCtrl.h" />
+    <ClInclude Include="FactoryEdit.h" />
+    <ClInclude Include="FactoryNew.h" />
+    <ClInclude Include="FctSet.h" />
+    <ClInclude Include="Login.h" />
+    <ClInclude Include="MainFormView.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="MtAndFctSheet.h" />
+    <ClInclude Include="MtNoteEdit.h" />
+    <ClInclude Include="MtNoteNew.h" />
+    <ClInclude Include="MtSetProp.h" />
+    <ClInclude Include="NotePublic.h" />
+    <ClInclude Include="OrderContent.h" />
+    <ClInclude Include="OrderEdit.h" />
+    <ClInclude Include="OrderIncompletedProgView.h" />
+    <ClInclude Include="OrderNewPropSheet.h" />
+    <ClInclude Include="PerformanceMgView.h" />
+    <ClInclude Include="PosAdd.h" />
+    <ClInclude Include="PosEdit.h" />
+    <ClInclude Include="ProdInfoExProp.h" />
+    <ClInclude Include="ProdInfoProp.h" />
+    <ClInclude Include="PwdEdit.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="ServiceSearch.h" />
+    <ClInclude Include="ServModify.h" />
+    <ClInclude Include="ServReg.h" />
+    <ClInclude Include="ServSearch.h" />
+    <ClInclude Include="Sock.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="StoreAdd.h" />
+    <ClInclude Include="StoreAlertSet.h" />
+    <ClInclude Include="StoreHistory.h" />
+    <ClInclude Include="StoreInfo.h" />
+    <ClInclude Include="StoreOut.h" />
+    <ClInclude Include="SysPostion.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ADOExcel.cpp" />
+    <ClCompile Include="BM.cpp" />
+    <ClCompile Include="BMDoc.cpp" />
+    <ClCompile Include="BMView.cpp" />
+    <ClCompile Include="CtmEdit.cpp" />
+    <ClCompile Include="CtmInfo.cpp" />
+    <ClCompile Include="CtmNew.cpp" />
+    <ClCompile Include="CustomInfoExProp.cpp" />
+    <ClCompile Include="CustomInfoProp.cpp" />
+    <ClCompile Include="DataExportPropSheet.cpp" />
+    <ClCompile Include="DataImportPropSheet.cpp" />
+    <ClCompile Include="DBConf.cpp" />
+    <ClCompile Include="DBNew.cpp" />
+    <ClCompile Include="DealListView.cpp" />
+    <ClCompile Include="DeductSet.cpp" />
+    <ClCompile Include="EmpEdit.cpp" />
+    <ClCompile Include="EmpInfoExProp.cpp" />
+    <ClCompile Include="EmpInfoProp.cpp" />
+    <ClCompile Include="EmpInfoSearch.cpp" />
+    <ClCompile Include="EmpInfoView.cpp" />
+    <ClCompile Include="EmpNew.cpp" />
+    <ClCompile Include="EmpPerformanceSearch.cpp" />
+    <ClCompile Include="ExListCtrl.cpp" />
+    <ClCompile Include="FactoryEdit.cpp" />
+    <ClCompile Include="FactoryNew.cpp" />
+    <ClCompile Include="FctSet.cpp" />
+    <ClCompile Include="Login.cpp" />
+    <ClCompile Include="MainFormView.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="MtAndFctSheet.cpp" />
+    <ClCompile Include="MtNoteEdit.cpp" />
+    <ClCompile Include="MtNoteNew.cpp" />
+    <ClCompile Include="MtSetProp.cpp" />
+    <ClCompile Include="NotePublic.cpp" />
+    <ClCompile Include="OrderContent.cpp" />
+    <ClCompile Include="OrderEdit.cpp" />
+    <ClCompile Include="OrderIncompletedProgView.cpp" />
+    <ClCompile Include="OrderNewPropSheet.cpp" />
+    <ClCompile Include="PerformanceMgView.cpp" />
+    <ClCompile Include="PosAdd.cpp" />
+    <ClCompile Include="PosEdit.cpp" />
+    <ClCompile Include="ProdInfoExProp.cpp" />
+    <ClCompile Include="ProdInfoProp.cpp" />
+    <ClCompile Include="PwdEdit.cpp" />
+    <ClCompile Include="ServiceSearch.cpp" />
+    <ClCompile Include="ServModify.cpp" />
+    <ClCompile Include="ServReg.cpp" />
+    <ClCompile Include="ServSearch.cpp" />
+    <ClCompile Include="Sock.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="StoreAdd.cpp" />
+    <ClCompile Include="StoreAlertSet.cpp" />
+    <ClCompile Include="StoreHistory.cpp" />
+    <ClCompile Include="StoreInfo.cpp" />
+    <ClCompile Include="StoreOut.cpp" />
+    <ClCompile Include="SysPostion.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BM.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\Users\Administrator\Desktop\桌面\工作\兼职\资料\转换后图标素材\BMMAIN.ico" />
+    <Image Include="..\..\..\Users\Administrator\Desktop\桌面\工作\兼职\资料\转换后图标素材\EMM.bmp" />
+    <Image Include="..\..\..\users\administrator\desktop\桌面\工作\兼职\资料\转换后图标素材\icon2.ico" />
+    <Image Include="..\..\..\Users\Administrator\Desktop\桌面\工作\兼职\资料\转换后图标素材\SYSTEMSETUPLARGE.bmp" />
+    <Image Include="..\..\..\Users\Administrator\Desktop\桌面\工作\兼职\资料\转换后图标素材\SYSYTEMSETUPSMALL.bmp" />
+    <Image Include="C:\Users\Administrator\Desktop\桌面\工作\兼职\资料\转换后图标素材\BMMAIN.ico" />
+    <Image Include="C:\Users\Administrator\Desktop\桌面\工作\兼职\资料\转换后图标素材\SYSYTEMSETUPSMALL.bmp" />
+    <Image Include="res\bitmap2.bmp" />
+    <Image Include="res\BM.ico" />
+    <Image Include="res\BMDoc.ico" />
+    <Image Include="res\buttons.bmp" />
+    <Image Include="res\custom.bmp" />
+    <Image Include="res\EMM.bmp" />
+    <Image Include="res\filelarge.bmp" />
+    <Image Include="res\filesmall.bmp" />
+    <Image Include="res\info.bmp" />
+    <Image Include="res\main.bmp" />
+    <Image Include="res\MAINAPP.bmp" />
+    <Image Include="res\MAINBMP.bmp" />
+    <Image Include="res\MainFormView.bmp" />
+    <Image Include="res\progress.bmp" />
+    <Image Include="res\QATLarge.bmp" />
+    <Image Include="res\QATSMALL.bmp" />
+    <Image Include="res\service.bmp" />
+    <Image Include="res\SSLARGE.bmp" />
+    <Image Include="res\StartIcon.bmp" />
+    <Image Include="res\stock.bmp" />
+    <Image Include="res\Toolbar.bmp" />
+    <Image Include="res\Toolbar256.bmp" />
+    <Image Include="res\writelarge.bmp" />
+    <Image Include="res\writesmall.bmp" />
+    <Image Include="res\项目4.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\BM.rc2" />
+    <None Include="res\ribbon.mfcribbon-ms" />
+    <None Include="res\StartIcon.icon" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="BM.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

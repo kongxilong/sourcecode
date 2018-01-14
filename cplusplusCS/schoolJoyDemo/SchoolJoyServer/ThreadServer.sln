@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ThreadServer", "ThreadServer.vcxproj", "{C8F81235-8400-4021-B3E6-BCCC883152DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8F81235-8400-4021-B3E6-BCCC883152DE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C8F81235-8400-4021-B3E6-BCCC883152DE}.Debug|Win32.Build.0 = Debug|Win32
+		{C8F81235-8400-4021-B3E6-BCCC883152DE}.Release|Win32.ActiveCfg = Release|Win32
+		{C8F81235-8400-4021-B3E6-BCCC883152DE}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

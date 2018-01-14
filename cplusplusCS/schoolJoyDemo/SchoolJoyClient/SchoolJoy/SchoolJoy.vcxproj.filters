@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SchoolJoy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SchoolJoyDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Download.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Search.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Upload.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Download_AllDownloaded.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Download_Downloaded.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Download_Downloading.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LogIn.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Set.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Register.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ADOConn.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectSet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadOperate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ProListCtrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SchoolJoy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SchoolJoyDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Download.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Search.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Upload.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Download_AllDownloaded.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Download_Downloaded.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Download_Downloading.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LogIn.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Set.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Register.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ADOConn.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectSet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadOperate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ProListCtrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SchoolJoy.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\SchoolJoy.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\SchoolJoy.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\877391f01ec9fa694af70ff7ad25000d8c0c7fb727d1-gvQ22R_fw580_副本.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\flashget.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon2.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\20131102093736493_easyicon_net_64.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\20131102094150756_easyicon_net_128.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\2013110209461598_easyicon_net_128.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\20131102094737965_easyicon_net_128.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\20131102094845138_easyicon_net_128.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\20131102095010489_easyicon_net_128.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\20131102095054679_easyicon_net_128.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\d291e172e918b151b9ddbefae58bcf21864530c54351c-RjiMvV_fw580.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Download.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\background.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\background2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\search.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\set.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\upload.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\user.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\background1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\SchoolJoy1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\sign.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\sign_副本.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\sign_副本_副本.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap3.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\login_bmp.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\sign_bmp.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\sign3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\sign3.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\picture1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\png2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="PNG\word1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\picture2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\picture3.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\sign4.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\picture4.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\picture5.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\picture6.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\picture7.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\picture8.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\picture9.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

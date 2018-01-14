@@ -1,0 +1,478 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BM.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BMDoc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BMView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DBConf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DBNew.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Login.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PwdEdit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFormView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomInfoProp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ProdInfoProp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DataImportPropSheet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpInfoView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpInfoProp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DataExportPropSheet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomInfoExProp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpInfoExProp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ProdInfoExProp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SysPostion.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PosAdd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PosEdit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MtSetProp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FctSet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MtAndFctSheet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CtmInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CtmNew.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CtmEdit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StoreInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StoreAdd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StoreOut.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StoreHistory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceSearch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ServReg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ServModify.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DealListView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OrderNewPropSheet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OrderIncompletedProgView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OrderEdit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PerformanceMgView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpPerformanceSearch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DeductSet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpNew.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpEdit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NotePublic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MtNoteNew.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MtNoteEdit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FactoryNew.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FactoryEdit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ServSearch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpInfoSearch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Sock.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OrderContent.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ADOExcel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StoreAlertSet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ExListCtrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BM.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BMDoc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BMView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DBConf.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DBNew.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Login.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PwdEdit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFormView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomInfoProp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ProdInfoProp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DataImportPropSheet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EmpInfoView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EmpInfoProp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DataExportPropSheet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomInfoExProp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EmpInfoExProp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ProdInfoExProp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SysPostion.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PosAdd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PosEdit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MtSetProp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FctSet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MtAndFctSheet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CtmInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CtmNew.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CtmEdit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StoreInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StoreAdd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StoreOut.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StoreHistory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceSearch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ServReg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ServModify.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DealListView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OrderNewPropSheet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OrderIncompletedProgView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OrderEdit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PerformanceMgView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EmpPerformanceSearch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DeductSet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EmpNew.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EmpEdit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NotePublic.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MtNoteNew.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MtNoteEdit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FactoryNew.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FactoryEdit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ServSearch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EmpInfoSearch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Sock.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OrderContent.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ADOExcel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StoreAlertSet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ExListCtrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BM.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\info.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\buttons.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\filelarge.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\filesmall.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\main.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\writelarge.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\writesmall.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\BMDoc.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\BM.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Toolbar256.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\QATLarge.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\QATSMALL.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\MAINBMP.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\MAINAPP.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\Users\Administrator\Desktop\桌面\工作\兼职\资料\转换后图标素材\BMMAIN.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\Users\Administrator\Desktop\桌面\工作\兼职\资料\转换后图标素材\SYSTEMSETUPLARGE.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\Users\Administrator\Desktop\桌面\工作\兼职\资料\转换后图标素材\SYSYTEMSETUPSMALL.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\项目4.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\SSLARGE.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\Users\Administrator\Desktop\桌面\工作\兼职\资料\转换后图标素材\EMM.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\EMM.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\custom.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\stock.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\service.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\progress.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\MainFormView.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\StartIcon.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\users\administrator\desktop\桌面\工作\兼职\资料\转换后图标素材\icon2.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="C:\Users\Administrator\Desktop\桌面\工作\兼职\资料\转换后图标素材\BMMAIN.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="C:\Users\Administrator\Desktop\桌面\工作\兼职\资料\转换后图标素材\SYSYTEMSETUPSMALL.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\ribbon.mfcribbon-ms">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\BM.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\StartIcon.icon" />
+  </ItemGroup>
+</Project>
