@@ -1,0 +1,205 @@
+<?xml version="1.0"?>
+<resource>
+	<group>
+		<item objid="567" name="ControlBase" />
+	</group>
+	<int>
+		<item objid="568" name="@Object_Id" data="564" />
+	</int>
+	<string>
+		<item objid="569" name="@Object_Type" counts="1" defaultarea="1" area0="1" data0="Edit" />
+	</string>
+	<string>
+		<item objid="570" name="@Object_Name" counts="1" defaultarea="1" area0="1" data0="EditCtrl" />
+	</string>
+	<bool>
+		<item objid="571" name="Lock" data="1" />
+	</bool>
+	<bool>
+		<item objid="572" name="Visible" data="1" />
+	</bool>
+	<bool>
+		<item objid="573" name="Enable" data="1" />
+	</bool>
+	<bool>
+		<item objid="574" name="ReceiveMouseMessage" data="1" />
+	</bool>
+	<int>
+		<item objid="575" name="TabOrder" data="0" />
+	</int>
+	<bool>
+		<item objid="576" name="DefaultEnterCtrl" data="0" />
+	</bool>
+	<group>
+		<item objid="577" name="SystemTips" />
+	</group>
+	<group>
+		<item objid="577" name="SystemTips" />
+	</group>
+	<bool>
+		<item objid="578" name="ShowInUserDefPos" data="0" />
+	</bool>
+	<bool>
+		<item objid="579" name="Baloon" data="0" />
+	</bool>
+	<string />
+	<int>
+		<item objid="581" name="ShowTime" data="0" />
+	</int>
+	<group>
+		<item objid="582" name="Draw" />
+	</group>
+	<group>
+		<item objid="582" name="Draw" />
+	</group>
+	<bool>
+		<item objid="583" name="NoDrawControl" data="0" />
+	</bool>
+	<bool>
+		<item objid="584" name="AlphaBlendDraw" data="1" />
+	</bool>
+	<int>
+		<item objid="585" name="DrawAlpha" data="255" />
+	</int>
+	<bool>
+		<item objid="586" name="TempDrawMem" data="1" />
+	</bool>
+	<group>
+		<item objid="587" name="Layout" />
+	</group>
+	<group>
+		<item objid="587" name="Layout" />
+	</group>
+	<int>
+		<item objid="588" name="@Width" data="334" />
+	</int>
+	<int>
+		<item objid="589" name="@Height" data="36" />
+	</int>
+	<combobox>
+		<item objid="590" name="@Layout_Type" counts="16" select="0" />
+	</combobox>
+	<int>
+		<item objid="591" name="@LeftSpace" data="97" />
+	</int>
+	<int>
+		<item objid="592" name="@RightSpace" data="69" />
+	</int>
+	<int>
+		<item objid="593" name="@TopSpace" data="94" />
+	</int>
+	<int>
+		<item objid="594" name="@BottomSpace" data="370" />
+	</int>
+	<group>
+		<item objid="595" name="Animation" />
+	</group>
+	<group>
+		<item objid="595" name="Animation" />
+	</group>
+	<combobox>
+		<item objid="596" name="AnimationType" counts="82" select="0" />
+	</combobox>
+	<int>
+		<item objid="597" name="FrameTime" data="20" />
+	</int>
+	<combobox>
+		<item objid="598" name="AnimationDirection" counts="2" select="0" />
+	</combobox>
+	<group>
+		<item objid="599" name="ControlPropetry" />
+	</group>
+	<image>
+		<item objid="600" name="EditBackgroundImage" imagebasename="UFD_Edit_Ctrl_Bk" />
+	</image>
+	<imagebase>
+		<item objid="644" name="UFD_Edit_Ctrl_Bk" imageinzip="UFD_Edit_Bk.png" showtype="2">
+			<rectinimage left="0" top="0" right="252" bottom="25" />
+			<jgg left="8" top="8" right="8" bottom="8" drawmid="1" />
+			<animation playtype="0" looptype="0" bofangtype="0" />
+		</item>
+	</imagebase>
+	<group>
+		<item objid="601" name="Margins" />
+	</group>
+	<group>
+		<item objid="601" name="Margins" />
+	</group>
+	<int>
+		<item objid="602" name="Left" data="2" />
+	</int>
+	<int>
+		<item objid="603" name="Top" data="4" />
+	</int>
+	<int>
+		<item objid="604" name="Right" data="2" />
+	</int>
+	<int>
+		<item objid="605" name="Bottom" data="5" />
+	</int>
+	<group>
+		<item objid="606" name="EditWindow" />
+	</group>
+	<group>
+		<item objid="606" name="EditWindow" />
+	</group>
+	<font>
+		<item objid="607" name="EditFont" fontbasename="UFD_EDIT_FONT" />
+	</font>
+	<fontbase>
+		<item objid="648" name="UFD_EDIT_FONT">
+			<logfont lfFaceName="微软雅黑" lfHeight="-16" lfWidth="0" lfEscapement="0" lfOrientation="0" lfWeight="400" lfItalic="0" lfUnderline="0" lfStrikeOut="0" lfCharSet="134" lfOutPrecision="3" lfClipPrecision="2" lfQuality="1" lfPitchAndFamily="34" />
+			<mode color="0" VAligning="1" HAligning="0" ShowMode="0" Effect="0" />
+		</item>
+	</fontbase>
+	<string />
+	<font />
+	<group>
+		<item objid="610" name="BkColor" />
+	</group>
+	<group>
+		<item objid="610" name="BkColor" />
+	</group>
+	<bool>
+		<item objid="611" name="ShowBkColor" data="1" />
+	</bool>
+	<int>
+		<item objid="612" name="BkColor_R" data="242" />
+	</int>
+	<int>
+		<item objid="613" name="BkColor_G" data="242" />
+	</int>
+	<int>
+		<item objid="614" name="BkColor_B" data="242" />
+	</int>
+	<bool>
+		<item objid="615" name="ReadOnly" data="0" />
+	</bool>
+	<font>
+		<item objid="616" name="ReadOnlyEditFont" fontbasename="UFD_EDIT_RO_FONT" />
+	</font>
+	<fontbase>
+		<item objid="651" name="UFD_EDIT_RO_FONT">
+			<logfont lfFaceName="微软雅黑" lfHeight="-16" lfWidth="0" lfEscapement="0" lfOrientation="0" lfWeight="400" lfItalic="0" lfUnderline="0" lfStrikeOut="0" lfCharSet="134" lfOutPrecision="3" lfClipPrecision="2" lfQuality="1" lfPitchAndFamily="34" />
+			<mode color="12582912" VAligning="1" HAligning="0" ShowMode="0" Effect="0" />
+		</item>
+	</fontbase>
+	<group>
+		<item objid="617" name="ReadOnlyBkColor" />
+	</group>
+	<group>
+		<item objid="617" name="ReadOnlyBkColor" />
+	</group>
+	<bool>
+		<item objid="618" name="ReadOnlyShowBkColor" data="1" />
+	</bool>
+	<int>
+		<item objid="619" name="ReadOnlyBkColor_R" data="242" />
+	</int>
+	<int>
+		<item objid="620" name="ReadOnlyBkColor_G" data="242" />
+	</int>
+	<int>
+		<item objid="621" name="ReadOnlyBkColor_B" data="242" />
+	</int>
+</resource>

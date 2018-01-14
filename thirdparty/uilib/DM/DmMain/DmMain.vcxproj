@@ -1,0 +1,513 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{795F1257-CA62-390C-B9E5-6F106EAEA8BB}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>DmMain</ProjectName>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">DmMain.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(MSBuildProjectName)_d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Install\编程\开源库\DM\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">DmMain.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">DmMain</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Install\编程\开源库\DM\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">DmMain.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">DmMain</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Install\编程\开源库\DM\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">DmMain.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">DmMain</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)DmMain\inc;$(SolutionDir)DmMain\inc\Common;$(SolutionDir)DmMain\inc\Common\Template;$(SolutionDir)DmMain\inc\Common\Plugins;$(SolutionDir)DmMain\inc\Common\ActiveX;$(SolutionDir)DmMain\inc\Core;$(SolutionDir)DmMain\inc\Core\Msg;$(SolutionDir)DmMain\inc\Core\Dui;$(SolutionDir)DmMain\inc\Core\Event;$(SolutionDir)DmMain\inc\IDmMain;$(SolutionDir)DmMain\inc\Modules;$(SolutionDir)DmMain\inc\Modules\Render;$(SolutionDir)DmMain\inc\Modules\Skin;$(SolutionDir)DmMain\inc\Widgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>DmMainAfx.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;DLL_DMMAIN;_DMDesigner_;DMLOG_ON;UNICODE;_UNICODE;CMAKE_INTDIR="Debug";DmMain_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;DLL_DMMAIN;_DMDesigner_;DMLOG_ON;UNICODE;_UNICODE;CMAKE_INTDIR=\"Debug\";DmMain_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Install\编程\开源库\DM\DmMain\inc;D:\Install\编程\开源库\DM\DmMain\inc\Common;D:\Install\编程\开源库\DM\DmMain\inc\Common\Template;D:\Install\编程\开源库\DM\DmMain\inc\Common\Plugins;D:\Install\编程\开源库\DM\DmMain\inc\Common\ActiveX;D:\Install\编程\开源库\DM\DmMain\inc\Core;D:\Install\编程\开源库\DM\DmMain\inc\Core\Msg;D:\Install\编程\开源库\DM\DmMain\inc\Core\Dui;D:\Install\编程\开源库\DM\DmMain\inc\Core\Event;D:\Install\编程\开源库\DM\DmMain\inc\IDmMain;D:\Install\编程\开源库\DM\DmMain\inc\Modules;D:\Install\编程\开源库\DM\DmMain\inc\Modules\Render;D:\Install\编程\开源库\DM\DmMain\inc\Modules\Skin;D:\Install\编程\开源库\DM\DmMain\inc\Widgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Install\编程\开源库\DM\DmMain\inc;D:\Install\编程\开源库\DM\DmMain\inc\Common;D:\Install\编程\开源库\DM\DmMain\inc\Common\Template;D:\Install\编程\开源库\DM\DmMain\inc\Common\Plugins;D:\Install\编程\开源库\DM\DmMain\inc\Common\ActiveX;D:\Install\编程\开源库\DM\DmMain\inc\Core;D:\Install\编程\开源库\DM\DmMain\inc\Core\Msg;D:\Install\编程\开源库\DM\DmMain\inc\Core\Dui;D:\Install\编程\开源库\DM\DmMain\inc\Core\Event;D:\Install\编程\开源库\DM\DmMain\inc\IDmMain;D:\Install\编程\开源库\DM\DmMain\inc\Modules;D:\Install\编程\开源库\DM\DmMain\inc\Modules\Render;D:\Install\编程\开源库\DM\DmMain\inc\Modules\Skin;D:\Install\编程\开源库\DM\DmMain\inc\Widgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)\bin;$(SolutionDir)bin\$(Configuration);$(SolutionDir)3rdParty\lib;$(SolutionDir)3rdParty\lib\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>$(SolutionDir)bin\Debug\$(MSBuildProjectName)_d.lib</ImportLibrary>
+      <ProgramDataBaseFile>$(SolutionDir)bin\Debug\$(MSBuildProjectName)_d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Install\编程\开源库\DM\DmMain\inc;D:\Install\编程\开源库\DM\DmMain\inc\Common;D:\Install\编程\开源库\DM\DmMain\inc\Common\Template;D:\Install\编程\开源库\DM\DmMain\inc\Common\Plugins;D:\Install\编程\开源库\DM\DmMain\inc\Common\ActiveX;D:\Install\编程\开源库\DM\DmMain\inc\Core;D:\Install\编程\开源库\DM\DmMain\inc\Core\Msg;D:\Install\编程\开源库\DM\DmMain\inc\Core\Dui;D:\Install\编程\开源库\DM\DmMain\inc\Core\Event;D:\Install\编程\开源库\DM\DmMain\inc\IDmMain;D:\Install\编程\开源库\DM\DmMain\inc\Modules;D:\Install\编程\开源库\DM\DmMain\inc\Modules\Render;D:\Install\编程\开源库\DM\DmMain\inc\Modules\Skin;D:\Install\编程\开源库\DM\DmMain\inc\Widgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>DmMainAfx.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DLL_DMMAIN;_DMDesigner_;DMLOG_ON;UNICODE;_UNICODE;CMAKE_INTDIR="Release";DmMain_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DLL_DMMAIN;_DMDesigner_;DMLOG_ON;UNICODE;_UNICODE;CMAKE_INTDIR=\"Release\";DmMain_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Install\编程\开源库\DM\DmMain\inc;D:\Install\编程\开源库\DM\DmMain\inc\Common;D:\Install\编程\开源库\DM\DmMain\inc\Common\Template;D:\Install\编程\开源库\DM\DmMain\inc\Common\Plugins;D:\Install\编程\开源库\DM\DmMain\inc\Common\ActiveX;D:\Install\编程\开源库\DM\DmMain\inc\Core;D:\Install\编程\开源库\DM\DmMain\inc\Core\Msg;D:\Install\编程\开源库\DM\DmMain\inc\Core\Dui;D:\Install\编程\开源库\DM\DmMain\inc\Core\Event;D:\Install\编程\开源库\DM\DmMain\inc\IDmMain;D:\Install\编程\开源库\DM\DmMain\inc\Modules;D:\Install\编程\开源库\DM\DmMain\inc\Modules\Render;D:\Install\编程\开源库\DM\DmMain\inc\Modules\Skin;D:\Install\编程\开源库\DM\DmMain\inc\Widgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Install\编程\开源库\DM\DmMain\inc;D:\Install\编程\开源库\DM\DmMain\inc\Common;D:\Install\编程\开源库\DM\DmMain\inc\Common\Template;D:\Install\编程\开源库\DM\DmMain\inc\Common\Plugins;D:\Install\编程\开源库\DM\DmMain\inc\Common\ActiveX;D:\Install\编程\开源库\DM\DmMain\inc\Core;D:\Install\编程\开源库\DM\DmMain\inc\Core\Msg;D:\Install\编程\开源库\DM\DmMain\inc\Core\Dui;D:\Install\编程\开源库\DM\DmMain\inc\Core\Event;D:\Install\编程\开源库\DM\DmMain\inc\IDmMain;D:\Install\编程\开源库\DM\DmMain\inc\Modules;D:\Install\编程\开源库\DM\DmMain\inc\Modules\Render;D:\Install\编程\开源库\DM\DmMain\inc\Modules\Skin;D:\Install\编程\开源库\DM\DmMain\inc\Widgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/Install/编程/开源库/DM/bin;D:/Install/编程/开源库/DM/bin/$(Configuration);D:/Install/编程/开源库/DM/3rdParty/lib;D:/Install/编程/开源库/DM/3rdParty/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Install/编程/开源库/DM/bin/Release/DmMain.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Install/编程/开源库/DM/bin/Release/DmMain.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Install\编程\开源库\DM\DmMain\inc;D:\Install\编程\开源库\DM\DmMain\inc\Common;D:\Install\编程\开源库\DM\DmMain\inc\Common\Template;D:\Install\编程\开源库\DM\DmMain\inc\Common\Plugins;D:\Install\编程\开源库\DM\DmMain\inc\Common\ActiveX;D:\Install\编程\开源库\DM\DmMain\inc\Core;D:\Install\编程\开源库\DM\DmMain\inc\Core\Msg;D:\Install\编程\开源库\DM\DmMain\inc\Core\Dui;D:\Install\编程\开源库\DM\DmMain\inc\Core\Event;D:\Install\编程\开源库\DM\DmMain\inc\IDmMain;D:\Install\编程\开源库\DM\DmMain\inc\Modules;D:\Install\编程\开源库\DM\DmMain\inc\Modules\Render;D:\Install\编程\开源库\DM\DmMain\inc\Modules\Skin;D:\Install\编程\开源库\DM\DmMain\inc\Widgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>DmMainAfx.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DLL_DMMAIN;_DMDesigner_;DMLOG_ON;UNICODE;_UNICODE;CMAKE_INTDIR="MinSizeRel";DmMain_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DLL_DMMAIN;_DMDesigner_;DMLOG_ON;UNICODE;_UNICODE;CMAKE_INTDIR=\"MinSizeRel\";DmMain_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Install\编程\开源库\DM\DmMain\inc;D:\Install\编程\开源库\DM\DmMain\inc\Common;D:\Install\编程\开源库\DM\DmMain\inc\Common\Template;D:\Install\编程\开源库\DM\DmMain\inc\Common\Plugins;D:\Install\编程\开源库\DM\DmMain\inc\Common\ActiveX;D:\Install\编程\开源库\DM\DmMain\inc\Core;D:\Install\编程\开源库\DM\DmMain\inc\Core\Msg;D:\Install\编程\开源库\DM\DmMain\inc\Core\Dui;D:\Install\编程\开源库\DM\DmMain\inc\Core\Event;D:\Install\编程\开源库\DM\DmMain\inc\IDmMain;D:\Install\编程\开源库\DM\DmMain\inc\Modules;D:\Install\编程\开源库\DM\DmMain\inc\Modules\Render;D:\Install\编程\开源库\DM\DmMain\inc\Modules\Skin;D:\Install\编程\开源库\DM\DmMain\inc\Widgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Install\编程\开源库\DM\DmMain\inc;D:\Install\编程\开源库\DM\DmMain\inc\Common;D:\Install\编程\开源库\DM\DmMain\inc\Common\Template;D:\Install\编程\开源库\DM\DmMain\inc\Common\Plugins;D:\Install\编程\开源库\DM\DmMain\inc\Common\ActiveX;D:\Install\编程\开源库\DM\DmMain\inc\Core;D:\Install\编程\开源库\DM\DmMain\inc\Core\Msg;D:\Install\编程\开源库\DM\DmMain\inc\Core\Dui;D:\Install\编程\开源库\DM\DmMain\inc\Core\Event;D:\Install\编程\开源库\DM\DmMain\inc\IDmMain;D:\Install\编程\开源库\DM\DmMain\inc\Modules;D:\Install\编程\开源库\DM\DmMain\inc\Modules\Render;D:\Install\编程\开源库\DM\DmMain\inc\Modules\Skin;D:\Install\编程\开源库\DM\DmMain\inc\Widgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/Install/编程/开源库/DM/bin;D:/Install/编程/开源库/DM/bin/$(Configuration);D:/Install/编程/开源库/DM/3rdParty/lib;D:/Install/编程/开源库/DM/3rdParty/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Install/编程/开源库/DM/bin/MinSizeRel/DmMain.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Install/编程/开源库/DM/bin/MinSizeRel/DmMain.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Install\编程\开源库\DM\DmMain\inc;D:\Install\编程\开源库\DM\DmMain\inc\Common;D:\Install\编程\开源库\DM\DmMain\inc\Common\Template;D:\Install\编程\开源库\DM\DmMain\inc\Common\Plugins;D:\Install\编程\开源库\DM\DmMain\inc\Common\ActiveX;D:\Install\编程\开源库\DM\DmMain\inc\Core;D:\Install\编程\开源库\DM\DmMain\inc\Core\Msg;D:\Install\编程\开源库\DM\DmMain\inc\Core\Dui;D:\Install\编程\开源库\DM\DmMain\inc\Core\Event;D:\Install\编程\开源库\DM\DmMain\inc\IDmMain;D:\Install\编程\开源库\DM\DmMain\inc\Modules;D:\Install\编程\开源库\DM\DmMain\inc\Modules\Render;D:\Install\编程\开源库\DM\DmMain\inc\Modules\Skin;D:\Install\编程\开源库\DM\DmMain\inc\Widgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>DmMainAfx.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DLL_DMMAIN;_DMDesigner_;DMLOG_ON;UNICODE;_UNICODE;CMAKE_INTDIR="RelWithDebInfo";DmMain_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DLL_DMMAIN;_DMDesigner_;DMLOG_ON;UNICODE;_UNICODE;CMAKE_INTDIR=\"RelWithDebInfo\";DmMain_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Install\编程\开源库\DM\DmMain\inc;D:\Install\编程\开源库\DM\DmMain\inc\Common;D:\Install\编程\开源库\DM\DmMain\inc\Common\Template;D:\Install\编程\开源库\DM\DmMain\inc\Common\Plugins;D:\Install\编程\开源库\DM\DmMain\inc\Common\ActiveX;D:\Install\编程\开源库\DM\DmMain\inc\Core;D:\Install\编程\开源库\DM\DmMain\inc\Core\Msg;D:\Install\编程\开源库\DM\DmMain\inc\Core\Dui;D:\Install\编程\开源库\DM\DmMain\inc\Core\Event;D:\Install\编程\开源库\DM\DmMain\inc\IDmMain;D:\Install\编程\开源库\DM\DmMain\inc\Modules;D:\Install\编程\开源库\DM\DmMain\inc\Modules\Render;D:\Install\编程\开源库\DM\DmMain\inc\Modules\Skin;D:\Install\编程\开源库\DM\DmMain\inc\Widgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Install\编程\开源库\DM\DmMain\inc;D:\Install\编程\开源库\DM\DmMain\inc\Common;D:\Install\编程\开源库\DM\DmMain\inc\Common\Template;D:\Install\编程\开源库\DM\DmMain\inc\Common\Plugins;D:\Install\编程\开源库\DM\DmMain\inc\Common\ActiveX;D:\Install\编程\开源库\DM\DmMain\inc\Core;D:\Install\编程\开源库\DM\DmMain\inc\Core\Msg;D:\Install\编程\开源库\DM\DmMain\inc\Core\Dui;D:\Install\编程\开源库\DM\DmMain\inc\Core\Event;D:\Install\编程\开源库\DM\DmMain\inc\IDmMain;D:\Install\编程\开源库\DM\DmMain\inc\Modules;D:\Install\编程\开源库\DM\DmMain\inc\Modules\Render;D:\Install\编程\开源库\DM\DmMain\inc\Modules\Skin;D:\Install\编程\开源库\DM\DmMain\inc\Widgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/Install/编程/开源库/DM/bin;D:/Install/编程/开源库/DM/bin/$(Configuration);D:/Install/编程/开源库/DM/3rdParty/lib;D:/Install/编程/开源库/DM/3rdParty/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Install/编程/开源库/DM/bin/RelWithDebInfo/DmMain.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Install/编程/开源库/DM/bin/RelWithDebInfo/DmMain.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Common\ActiveX\DMActiveXBase.cpp" />
+    <ClCompile Include="src\Common\ActiveX\DMActiveXHelper.cpp" />
+    <ClCompile Include="src\Common\DMColor.cpp" />
+    <ClCompile Include="src\Common\DMDC.cpp" />
+    <ClCompile Include="src\Common\DMDIBHelper.cpp" />
+    <ClCompile Include="src\Common\DMGifParse.cpp" />
+    <ClCompile Include="src\Common\DMHWndHelper.cpp" />
+    <ClCompile Include="src\Common\DMMemDispatch.cpp" />
+    <ClCompile Include="src\Common\DMSpyTool.cpp" />
+    <ClCompile Include="src\Common\DMXmlParse.cpp" />
+    <ClCompile Include="src\Common\DUIWindowHelper.cpp" />
+    <ClCompile Include="src\Common\Plugins\DMDynLib.cpp" />
+    <ClCompile Include="src\Common\Plugins\DMDynLibMgr.cpp" />
+    <ClCompile Include="src\Common\Plugins\DMPluginsTool.cpp" />
+    <ClCompile Include="src\Common\pugixml.cpp" />
+    <ClCompile Include="src\Core\DMApp.cpp" />
+    <ClCompile Include="src\Core\DMAppData.cpp" />
+    <ClCompile Include="src\Core\DMBase.cpp" />
+    <ClCompile Include="src\Core\DMContainerImpl.cpp" />
+    <ClCompile Include="src\Core\DMCWnd.cpp" />
+    <ClCompile Include="src\Core\DMCWndBase.cpp" />
+    <ClCompile Include="src\Core\DMDispatch.cpp" />
+    <ClCompile Include="src\Core\DMDragWnd.cpp" />
+    <ClCompile Include="src\Core\DMDropWnd.cpp" />
+    <ClCompile Include="src\Core\DMHDialog.cpp" />
+    <ClCompile Include="src\Core\DMHelper.cpp" />
+    <ClCompile Include="src\Core\DMHWnd.cpp" />
+    <ClCompile Include="src\Core\DMRegMgr.cpp" />
+    <ClCompile Include="src\Core\DMThreadMgr.cpp" />
+    <ClCompile Include="src\Core\DMTips.cpp" />
+    <ClCompile Include="src\Core\Dui\DUIAccel.cpp" />
+    <ClCompile Include="src\Core\Dui\DUIDropTargetDispatch.cpp" />
+    <ClCompile Include="src\Core\Dui\DUIFocusMgr.cpp" />
+    <ClCompile Include="src\Core\Dui\DUIFontPool.cpp" />
+    <ClCompile Include="src\Core\Dui\DUISkinPool.cpp" />
+    <ClCompile Include="src\Core\Dui\DUIStylePool.cpp" />
+    <ClCompile Include="src\Core\Dui\DUITimer.cpp" />
+    <ClCompile Include="src\Core\Dui\DUIWndPool.cpp" />
+    <ClCompile Include="src\Core\Event\DMEventMgr.cpp" />
+    <ClCompile Include="src\Core\Event\DMEvents.cpp" />
+    <ClCompile Include="src\Core\Event\DMEventSubscriber.cpp" />
+    <ClCompile Include="src\Core\Msg\DMMsgLoop.cpp" />
+    <ClCompile Include="src\Core\Msg\DMMsgThunk.cpp" />
+    <ClCompile Include="src\DmMainAfx.cpp" />
+    <ClCompile Include="src\Modules\DMAttributeImpl.cpp" />
+    <ClCompile Include="src\Modules\DMDrawImpl.cpp" />
+    <ClCompile Include="src\Modules\DMImgDecoderImpl.cpp" />
+    <ClCompile Include="src\Modules\DMLayoutImpl.cpp" />
+    <ClCompile Include="src\Modules\DMLogImpl.cpp" />
+    <ClCompile Include="src\Modules\DMPluginImpl.cpp" />
+    <ClCompile Include="src\Modules\DMResFolderImpl.cpp" />
+    <ClCompile Include="src\Modules\DMResHelper.cpp" />
+    <ClCompile Include="src\Modules\DMStyleImpl.cpp" />
+    <ClCompile Include="src\Modules\DMTooltipImpl.cpp" />
+    <ClCompile Include="src\Modules\Render\DMBitmapImpl.cpp" />
+    <ClCompile Include="src\Modules\Render\DMBrushImpl.cpp" />
+    <ClCompile Include="src\Modules\Render\DMCanvasImpl.cpp" />
+    <ClCompile Include="src\Modules\Render\DMFontImpl.cpp" />
+    <ClCompile Include="src\Modules\Render\DMPenImpl.cpp" />
+    <ClCompile Include="src\Modules\Render\DMRegionImpl.cpp" />
+    <ClCompile Include="src\Modules\Render\DMRenderImpl.cpp" />
+    <ClCompile Include="src\Modules\Skin\DMImg9SkinImpl.cpp" />
+    <ClCompile Include="src\Modules\Skin\DMImgListSkinImpl.cpp" />
+    <ClCompile Include="src\Modules\Skin\DMScrollBarSkinImpl.cpp" />
+    <ClCompile Include="src\Widgets\DUIActiveX.cpp" />
+    <ClCompile Include="src\Widgets\DUIAnimate.cpp" />
+    <ClCompile Include="src\Widgets\DUIAnimateHelper.cpp" />
+    <ClCompile Include="src\Widgets\DUIButton.cpp" />
+    <ClCompile Include="src\Widgets\DUICheckBox.cpp" />
+    <ClCompile Include="src\Widgets\DUIComboBox.cpp" />
+    <ClCompile Include="src\Widgets\DUIComboBoxHelper.cpp" />
+    <ClCompile Include="src\Widgets\DUIEdit.cpp" />
+    <ClCompile Include="src\Widgets\DUIEditHelper.cpp" />
+    <ClCompile Include="src\Widgets\DUIFlash.cpp" />
+    <ClCompile Include="src\Widgets\DUIFlowLayout.cpp" />
+    <ClCompile Include="src\Widgets\DUIGif.cpp" />
+    <ClCompile Include="src\Widgets\DUIGroup.cpp" />
+    <ClCompile Include="src\Widgets\DUIHeaderCtrl.cpp" />
+    <ClCompile Include="src\Widgets\DUIHotKeyCtrl.cpp" />
+    <ClCompile Include="src\Widgets\DUIIE.cpp" />
+    <ClCompile Include="src\Widgets\DUIItemPanel.cpp" />
+    <ClCompile Include="src\Widgets\DUILink.cpp" />
+    <ClCompile Include="src\Widgets\DUIListBox.cpp" />
+    <ClCompile Include="src\Widgets\DUIListBoxEx.cpp" />
+    <ClCompile Include="src\Widgets\DUIListCtrlEx.cpp" />
+    <ClCompile Include="src\Widgets\DUIMenu.cpp" />
+    <ClCompile Include="src\Widgets\DUIMenuHelper.cpp" />
+    <ClCompile Include="src\Widgets\DUIPAddressCtrl.cpp" />
+    <ClCompile Include="src\Widgets\DUIProcessCtrl.cpp" />
+    <ClCompile Include="src\Widgets\DUIRadioButton.cpp" />
+    <ClCompile Include="src\Widgets\DUIScrollBase.cpp" />
+    <ClCompile Include="src\Widgets\DUISliderCtrl.cpp" />
+    <ClCompile Include="src\Widgets\DUIStatic.cpp" />
+    <ClCompile Include="src\Widgets\DUITabCtrl.cpp" />
+    <ClCompile Include="src\Widgets\DUITreeCtrl.cpp" />
+    <ClCompile Include="src\Widgets\DUITreeCtrlEx.cpp" />
+    <ClCompile Include="src\Widgets\DUIWindow.cpp" />
+    <ClCompile Include="src\Widgets\IDUIRealWnd.cpp" />
+    <ClInclude Include="inc\Common\ActiveX\DMActiveXBase.h" />
+    <ClInclude Include="inc\Common\ActiveX\DMActiveXHelper.h" />
+    <ClInclude Include="inc\Common\DMColor.h" />
+    <ClInclude Include="inc\Common\DMDC.h" />
+    <ClInclude Include="inc\Common\DMDef.h" />
+    <ClInclude Include="inc\Common\DMDelegate.h" />
+    <ClInclude Include="inc\Common\DMDIBHelper.h" />
+    <ClInclude Include="inc\Common\DMError.h" />
+    <ClInclude Include="inc\Common\DMGifParse.h" />
+    <ClInclude Include="inc\Common\DMHelper.h" />
+    <ClInclude Include="inc\Common\DMHWndHelper.h" />
+    <ClInclude Include="inc\Common\DMMemDispatch.h" />
+    <ClInclude Include="inc\Common\DMMisc.h" />
+    <ClInclude Include="inc\Common\DMRefNum.h" />
+    <ClInclude Include="inc\Common\DMSpyTool.h" />
+    <ClInclude Include="inc\Common\DMXmlParse.h" />
+    <ClInclude Include="inc\Common\DUIWindowHelper.h" />
+    <ClInclude Include="inc\Common\Plugins\DMDynLib.h" />
+    <ClInclude Include="inc\Common\Plugins\DMDynLibMgr.h" />
+    <ClInclude Include="inc\Common\Plugins\DMPluginsTool.h" />
+    <ClInclude Include="inc\Common\pugiconfig.hpp" />
+    <ClInclude Include="inc\Common\pugixml.hpp" />
+    <ClInclude Include="inc\Common\Template\DMAllocT.h" />
+    <ClInclude Include="inc\Common\Template\DMArrayT.h" />
+    <ClInclude Include="inc\Common\Template\DMAutoResetT.h" />
+    <ClInclude Include="inc\Common\Template\DMLock.h" />
+    <ClInclude Include="inc\Common\Template\DMMapT.h" />
+    <ClInclude Include="inc\Common\Template\DMSingletonT.h" />
+    <ClInclude Include="inc\Common\Template\DMSmartPtrT.h" />
+    <ClInclude Include="inc\Common\Template\DMStringT.h" />
+    <ClInclude Include="inc\Common\Template\DMTreeT.h" />
+    <ClInclude Include="inc\Core\DMApp.h" />
+    <ClInclude Include="inc\Core\DMAppData.h" />
+    <ClInclude Include="inc\Core\DMBase.h" />
+    <ClInclude Include="inc\Core\DMContainerImpl.h" />
+    <ClInclude Include="inc\Core\DMCWnd.h" />
+    <ClInclude Include="inc\Core\DMCWndBase.h" />
+    <ClInclude Include="inc\Core\DMDispatch.h" />
+    <ClInclude Include="inc\Core\DMDragWnd.h" />
+    <ClInclude Include="inc\Core\DMDropWnd.h" />
+    <ClInclude Include="inc\Core\DMHDialog.h" />
+    <ClInclude Include="inc\Core\DMHWnd.h" />
+    <ClInclude Include="inc\Core\DMRegMgr.h" />
+    <ClInclude Include="inc\Core\DMThreadMgr.h" />
+    <ClInclude Include="inc\Core\DMTips.h" />
+    <ClInclude Include="inc\Core\Dui\DUIAccel.h" />
+    <ClInclude Include="inc\Core\Dui\DUIDropTargetDispatch.h" />
+    <ClInclude Include="inc\Core\Dui\DUIFocusMgr.h" />
+    <ClInclude Include="inc\Core\Dui\DUIFontPool.h" />
+    <ClInclude Include="inc\Core\Dui\DUISkinPool.h" />
+    <ClInclude Include="inc\Core\Dui\DUIStylePool.h" />
+    <ClInclude Include="inc\Core\Dui\DUITimer.h" />
+    <ClInclude Include="inc\Core\Dui\DUIWndPool.h" />
+    <ClInclude Include="inc\Core\Event\DMEventMgr.h" />
+    <ClInclude Include="inc\Core\Event\DMEvents.h" />
+    <ClInclude Include="inc\Core\Event\DMEventSubscriber.h" />
+    <ClInclude Include="inc\Core\Msg\DMEventCrack.h" />
+    <ClInclude Include="inc\Core\Msg\DMMsgCrack.h" />
+    <ClInclude Include="inc\Core\Msg\DMMsgLoop.h" />
+    <ClInclude Include="inc\Core\Msg\DMMsgThunk.h" />
+    <ClInclude Include="inc\Core\Msg\DMXmlCrack.h" />
+    <ClInclude Include="inc\Core\Msg\DUIMsgCrack.h" />
+    <ClInclude Include="inc\DmMainAfx.h" />
+    <ClInclude Include="inc\DmMainOutput.h" />
+    <ClInclude Include="inc\IDmMain\IDMAnimate.h" />
+    <ClInclude Include="inc\IDmMain\IDMAttribute.h" />
+    <ClInclude Include="inc\IDmMain\IDMContainer.h" />
+    <ClInclude Include="inc\IDmMain\IDMDraw.h" />
+    <ClInclude Include="inc\IDmMain\IDMImgDecoder.h" />
+    <ClInclude Include="inc\IDmMain\IDMLayout.h" />
+    <ClInclude Include="inc\IDmMain\IDMLog.h" />
+    <ClInclude Include="inc\IDmMain\IDMMsg.h" />
+    <ClInclude Include="inc\IDmMain\IDMPlugin.h" />
+    <ClInclude Include="inc\IDmMain\IDMRegT.h" />
+    <ClInclude Include="inc\IDmMain\IDMRender.h" />
+    <ClInclude Include="inc\IDmMain\IDMRes.h" />
+    <ClInclude Include="inc\IDmMain\IDMScript.h" />
+    <ClInclude Include="inc\IDmMain\IDMSkin.h" />
+    <ClInclude Include="inc\IDmMain\IDMStyle.h" />
+    <ClInclude Include="inc\IDmMain\IDMToolTip.h" />
+    <ClInclude Include="inc\Modules\DMAttributeImpl.h" />
+    <ClInclude Include="inc\Modules\DMDrawImpl.h" />
+    <ClInclude Include="inc\Modules\DMImgDecoderImpl.h" />
+    <ClInclude Include="inc\Modules\DMLayoutImpl.h" />
+    <ClInclude Include="inc\Modules\DMLogImpl.h" />
+    <ClInclude Include="inc\Modules\DMPluginImpl.h" />
+    <ClInclude Include="inc\Modules\DMResFolderImpl.h" />
+    <ClInclude Include="inc\Modules\DMResHelper.h" />
+    <ClInclude Include="inc\Modules\DMStyleImpl.h" />
+    <ClInclude Include="inc\Modules\DMTooltipImpl.h" />
+    <ClInclude Include="inc\Modules\Render\DMBitmapImpl.h" />
+    <ClInclude Include="inc\Modules\Render\DMBrushImpl.h" />
+    <ClInclude Include="inc\Modules\Render\DMCanvasImpl.h" />
+    <ClInclude Include="inc\Modules\Render\DMFontImpl.h" />
+    <ClInclude Include="inc\Modules\Render\DMPenImpl.h" />
+    <ClInclude Include="inc\Modules\Render\DMRegionImpl.h" />
+    <ClInclude Include="inc\Modules\Render\DMRenderImpl.h" />
+    <ClInclude Include="inc\Modules\Skin\DMImg9SkinImpl.h" />
+    <ClInclude Include="inc\Modules\Skin\DMImgListSkinImpl.h" />
+    <ClInclude Include="inc\Modules\Skin\DMScrollBarSkinImpl.h" />
+    <ClInclude Include="inc\Widgets\DMWidgetDef.h" />
+    <ClInclude Include="inc\Widgets\DUIActiveX.h" />
+    <ClInclude Include="inc\Widgets\DUIAnimate.h" />
+    <ClInclude Include="inc\Widgets\DUIAnimateHelper.h" />
+    <ClInclude Include="inc\Widgets\DUIButton.h" />
+    <ClInclude Include="inc\Widgets\DUICheckBox.h" />
+    <ClInclude Include="inc\Widgets\DUIComboBox.h" />
+    <ClInclude Include="inc\Widgets\DUIComboBoxHelper.h" />
+    <ClInclude Include="inc\Widgets\DUIEdit.h" />
+    <ClInclude Include="inc\Widgets\DUIEditHelper.h" />
+    <ClInclude Include="inc\Widgets\DUIFlash.h" />
+    <ClInclude Include="inc\Widgets\DUIFlowLayout.h" />
+    <ClInclude Include="inc\Widgets\DUIGif.h" />
+    <ClInclude Include="inc\Widgets\DUIGroup.h" />
+    <ClInclude Include="inc\Widgets\DUIHeaderCtrl.h" />
+    <ClInclude Include="inc\Widgets\DUIHotKeyCtrl.h" />
+    <ClInclude Include="inc\Widgets\DUIIE.h" />
+    <ClInclude Include="inc\Widgets\DUIItemPanel.h" />
+    <ClInclude Include="inc\Widgets\DUILink.h" />
+    <ClInclude Include="inc\Widgets\DUIListBox.h" />
+    <ClInclude Include="inc\Widgets\DUIListBoxEx.h" />
+    <ClInclude Include="inc\Widgets\DUIListCtrlEx.h" />
+    <ClInclude Include="inc\Widgets\DUIMenu.h" />
+    <ClInclude Include="inc\Widgets\DUIMenuHelper.h" />
+    <ClInclude Include="inc\Widgets\DUIPAddressCtrl.h" />
+    <ClInclude Include="inc\Widgets\DUIProcessCtrl.h" />
+    <ClInclude Include="inc\Widgets\DUIRadioButton.h" />
+    <ClInclude Include="inc\Widgets\DUIScrollBase.h" />
+    <ClInclude Include="inc\Widgets\DUISliderCtrl.h" />
+    <ClInclude Include="inc\Widgets\DUIStatic.h" />
+    <ClInclude Include="inc\Widgets\DUITabCtrl.h" />
+    <ClInclude Include="inc\Widgets\DUITreeCtrl.h" />
+    <ClInclude Include="inc\Widgets\DUITreeCtrlEx.h" />
+    <ClInclude Include="inc\Widgets\DUIWindow.h" />
+    <ClInclude Include="inc\Widgets\IDUIRealWnd.h" />
+    <ClInclude Include="inc\Widgets\IDUIWeb.h" />
+    <None Include="inc\Common\ActiveX\flash10t.tlh" />
+    <None Include="inc\Common\ActiveX\flash10t.tli" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

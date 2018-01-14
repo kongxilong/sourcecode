@@ -1,0 +1,9 @@
+# CMake generation dependency list for this directory.
+D:/Install/编程/开源库/DM/3rdParty/zlib/CMakeLists.txt
+D:/Software/Program/cmake/share/cmake-3.6/Modules/CheckTypeSize.cmake
+D:/Software/Program/cmake/share/cmake-3.6/Modules/CheckIncludeFile.cmake
+D:/Software/Program/cmake/share/cmake-3.6/Modules/CheckIncludeFileCXX.cmake
+D:/Software/Program/cmake/share/cmake-3.6/Modules/CheckFunctionExists.cmake
+D:/Software/Program/cmake/share/cmake-3.6/Modules/CheckIncludeFile.cmake
+D:/Software/Program/cmake/share/cmake-3.6/Modules/CheckCSourceCompiles.cmake
+D:/Install/编程/开源库/DM/3rdParty/zlib/zlib.pc.cmakein

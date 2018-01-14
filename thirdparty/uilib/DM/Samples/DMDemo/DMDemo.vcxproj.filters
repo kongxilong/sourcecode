@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\AttributeTestWnd.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DMDemo.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DMDemoAfx.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DUIRealWnd.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DUIWebkit.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\IEWnd.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MainWnd.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SkinWnd.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="inc\AttributeTestWnd.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\DMDemoAfx.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\DMWebkit.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\DUIRealWnd.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\DUIWebkit.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\IEWnd.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\MainWnd.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\SkinWnd.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\vld.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="inc">
+      <UniqueIdentifier>{89515D3E-0B70-38CD-B0D2-74D5106675BD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{2B364CF9-9FF7-33E6-A2E5-4278128C3E60}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

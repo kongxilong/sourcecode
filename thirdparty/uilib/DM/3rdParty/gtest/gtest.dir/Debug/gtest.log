@@ -1,0 +1,13 @@
+﻿生成启动时间为 2016/10/14 10:21:12。
+     1>项目“D:\Install\编程\开源库\DM\3rdParty\gtest\gtest.vcxproj”在节点 4 上(Build 个目标)。
+     1>ClCompile:
+         D:\Software\Program\VS2013\VC\bin\CL.exe /c /I"D:\Install\编程\开源库\DM\3rdParty\gtest\include" /I"D:\Install\编程\开源库\DM\3rdParty\gtest" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_DMMAIN /D _DMDesigner_ /D DMLOG_ON /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"gtest.dir\Debug\\" /Fd"gtest.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "D:\Install\编程\开源库\DM\3rdParty\gtest\src\gtest-all.cc"
+         gtest-all.cc
+       Lib:
+         D:\Software\Program\VS2013\VC\bin\Lib.exe /OUT:"D:\Install\编程\开源库\DM\bin\Debug\gtest_d.lib" /NOLOGO  /machine:X86 "gtest.dir\Debug\gtest-all.obj"
+         gtest.vcxproj -> D:\Install\编程\开源库\DM\bin\Debug\gtest_d.lib
+     1>已完成生成项目“D:\Install\编程\开源库\DM\3rdParty\gtest\gtest.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.48

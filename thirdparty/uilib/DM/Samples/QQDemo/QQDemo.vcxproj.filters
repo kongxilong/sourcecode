@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\script\DMScriptHelper.cpp">
+      <Filter>src\script</Filter>
+    </ClCompile>
+    <ClCompile Include="src\script\DMScriptImpl.cpp">
+      <Filter>src\script</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spy\SpyFindBtn.cpp">
+      <Filter>src\spy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spy\SpyWnd.cpp">
+      <Filter>src\spy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\widget\AttributeTestWnd.cpp">
+      <Filter>src\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\widget\ComboBox_Test.cpp">
+      <Filter>src\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\widget\DUIWebkit.cpp">
+      <Filter>src\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\widget\Gif_Test.cpp">
+      <Filter>src\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\widget\IE_Test.cpp">
+      <Filter>src\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\widget\IEWnd.cpp">
+      <Filter>src\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\widget\ListBox_Test.cpp">
+      <Filter>src\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\widget\TabCtrl_Test.cpp">
+      <Filter>src\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\widget\WidgetWnd.cpp">
+      <Filter>src\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DMTipsImpl.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\QQDemo.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\QQDemoAfx.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\QQMainWnd.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SkinPreview.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SkinWnd.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WndShadow.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="inc\DMResZipParam.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\DMTipsImpl.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\QQDemoAfx.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\QQMainWnd.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\SkinPreview.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\SkinWnd.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\vld.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\WndShadow.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\widget\AttributeTestWnd.h">
+      <Filter>inc\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\widget\ComboBox_Test.h">
+      <Filter>inc\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\widget\DMWebkit.h">
+      <Filter>inc\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\widget\DUISplitter.h">
+      <Filter>inc\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\widget\DUIWebkit.h">
+      <Filter>inc\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\widget\Gif_Test.h">
+      <Filter>inc\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\widget\IE_Test.h">
+      <Filter>inc\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\widget\IEWnd.h">
+      <Filter>inc\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\widget\ListBox_Test.h">
+      <Filter>inc\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\widget\TabCtrl_Test.h">
+      <Filter>inc\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\widget\WidgetWnd.h">
+      <Filter>inc\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\spy\SpyFindBtn.h">
+      <Filter>inc\spy</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\spy\SpyWnd.h">
+      <Filter>inc\spy</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\script\DMScriptHelper.h">
+      <Filter>inc\script</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\script\DMScriptImpl.h">
+      <Filter>inc\script</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>other</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="QQDemo.rc">
+      <Filter>other</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="inc\spy">
+      <UniqueIdentifier>{E636C1AF-0B0E-38DB-BF9C-FA8DFCD7F0CA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\script">
+      <UniqueIdentifier>{3FE49D37-9AA2-3F5F-8E02-1AFE429E39DE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\widget">
+      <UniqueIdentifier>{270850D8-E989-32E3-923A-FDA229C8A96B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\spy">
+      <UniqueIdentifier>{65BCA965-161F-37DB-85A0-D8B93292950E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\script">
+      <UniqueIdentifier>{68BEA97B-7447-3046-9647-2472F2A81CD4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\widget">
+      <UniqueIdentifier>{EF140FB4-40EE-3F28-9D7A-D8C1AF51C510}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other">
+      <UniqueIdentifier>{13E42CB2-D55B-3C5B-B590-4E21D3132AF7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc">
+      <UniqueIdentifier>{89515D3E-0B70-38CD-B0D2-74D5106675BD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{2B364CF9-9FF7-33E6-A2E5-4278128C3E60}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

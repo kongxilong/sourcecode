@@ -1,0 +1,1063 @@
+﻿  SkAAClip.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkAdvancedTypefaceMetrics.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkAlphaRuns.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkAnnotation.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkBBHFactory.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkBBoxHierarchyRecord.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkBBoxRecord.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkBitmap.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkBitmapCache.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkBitmapDevice.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkBitmapFilter.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkBitmapHeap.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkBitmapProcShader.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkBitmapProcState.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkBitmapProcState_matrixProcs.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkBitmapScaler.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkBitmap_scroll.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkBlitMask_D32.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkBlitRow_D16.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkBlitRow_D32.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  正在生成代码...
+  正在编译...
+  SkBlitter.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkBlitter_A8.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkBlitter_ARGB32.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkBlitter_RGB16.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkBlitter_Sprite.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkBuffer.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkCanvas.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+src\core\SkCanvas.cpp(1455): warning C4800: “SkCanvas::ClipEdgeStyle”: 将值强制为布尔值“true”或“false”(性能警告)
+  SkChunkAlloc.cpp
+  SkClipStack.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkColor.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkColorFilter.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkColorTable.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkComposeShader.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkConfig8888.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkConvolver.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkCubicClipper.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkData.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkDataTable.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkDebug.cpp
+  SkDeque.cpp
+  正在生成代码...
+  正在编译...
+  SkDevice.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkDeviceLooper.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkDeviceProfile.cpp
+  SkDistanceFieldGen.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkDither.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkDraw.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkDrawLooper.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkEdge.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+src\core\SkEdge.cpp(215): warning C4334: “<<”: 32 位移位的结果被隐式转换为 64 位(是否希望进行 64 位移位?)
+  SkEdgeBuilder.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkEdgeClipper.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkError.cpp
+  SkFilterProc.cpp
+  SkFilterShader.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkFlate.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkFlattenable.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkFlattenableSerialization.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkFloat.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkFloatBits.cpp
+  SkFont.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkFontDescriptor.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  正在生成代码...
+  正在编译...
+  SkFontHost.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+src\core\SkFontHost.cpp(219): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+  SkFontStream.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkForceCPlusPlusLinking.cpp
+  SkGeometry.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkGlyphCache.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkGraphics.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkImageFilter.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+src\core\SkImageFilter.cpp(335): warning C4244: “参数”: 从“int”转换到“SkScalar”，可能丢失数据
+  SkImageGenerator.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkImageInfo.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkInstCnt.cpp
+  SkLineClipper.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkLocalMatrixShader.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkMallocPixelRef.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkMask.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkMaskFilter.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkMaskGamma.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkMath.cpp
+G:\personalfiles\程序\ui库\DM\3rdParty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkMatrix.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+src\core\SkMatrix.cpp(1677): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+src\core\SkMatrix.cpp(1677): warning C4244: “初始化”: 从“int”转换到“const float”，可能丢失数据
+  SkMetaData.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkMipMap.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  正在生成代码...
+  正在编译...
+  SkMultiPictureDraw.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkPackBits.cpp
+  SkPaint.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkPaintPriv.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+src\core\SkPaintPriv.cpp(88): warning C4800: “SkImageFilter *”: 将值强制为布尔值“true”或“false”(性能警告)
+  SkPath.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+src\core\SkPath.cpp(2507): warning C4244: “=”: 从“int”转换到“SkScalar”，可能丢失数据
+  SkPathEffect.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkPathHeap.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkPathMeasure.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkPathRef.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkPicture.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+src\core\SkPicture.cpp(354): warning C4244: “参数”: 从“int”转换到“SkScalar”，可能丢失数据
+  SkPictureContentInfo.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+src\core\SkPictureContentInfo.cpp(85): warning C4800: “uint32_t”: 将值强制为布尔值“true”或“false”(性能警告)
+src\core\SkPictureContentInfo.cpp(108): warning C4800: “uint32_t”: 将值强制为布尔值“true”或“false”(性能警告)
+src\core\SkPictureContentInfo.cpp(121): warning C4800: “uint32_t”: 将值强制为布尔值“true”或“false”(性能警告)
+  SkPictureData.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkPictureFlat.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkPicturePlayback.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkPictureRangePlayback.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkPictureRecord.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkPictureRecorder.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkPictureReplacementPlayback.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+src\core\SkPictureReplacementPlayback.cpp(73): warning C4244: “参数”: 从“int”转换到“SkScalar”，可能丢失数据
+src\core\SkPictureReplacementPlayback.cpp(73): warning C4244: “参数”: 从“int32_t”转换到“SkScalar”，可能丢失数据
+  SkPictureShader.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkPictureStateTree.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  正在生成代码...
+  正在编译...
+  SkPixelRef.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkPoint.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkProcSpriteBlitter.cpp
+  SkPtrRecorder.cpp
+  SkQuadClipper.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkRasterClip.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkRasterizer.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkReadBuffer.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkRecordDraw.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+src\core\SkRecordDraw.cpp(288): warning C4244: “参数”: 从“int”转换到“SkScalar”，可能丢失数据
+src\core\SkRecordDraw.cpp(293): warning C4244: “参数”: 从“int”转换到“SkScalar”，可能丢失数据
+src\core\SkRecordDraw.cpp(324): warning C4244: “参数”: 从“int”转换到“SkScalar”，可能丢失数据
+  SkRecorder.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkRecordOpts.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkRect.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkRefDict.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkRegion.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkRegion_path.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkRRect.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkRTree.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkScalar.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkScaledImageCache.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkScalerContext.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  正在生成代码...
+  正在编译...
+  SkScan.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkScan_Antihair.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkScan_AntiPath.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkScan_Hairline.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkScan_Path.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkShader.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkSpriteBlitter_ARGB32.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkSpriteBlitter_RGB16.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkStream.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+src\core\SkStream.cpp(158): warning C4267: “=”: 从“size_t”转换到“uint8_t”，可能丢失数据
+src\core\SkStream.cpp(161): warning C4267: “初始化”: 从“size_t”转换到“uint16_t”，可能丢失数据
+src\core\SkStream.cpp(238): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+  SkString.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkStringUtils.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkStroke.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkStrokeRec.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkStrokerPriv.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkTextBlob.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkTileGrid.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkTLS.cpp
+  SkTSearch.cpp
+  SkTypeface.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkTypefaceCache.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  正在生成代码...
+  正在编译...
+  SkUnPreMultiply.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkUtils.cpp
+  SkUtilsArm.cpp
+  SkValidatingReadBuffer.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkVertState.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkWriteBuffer.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkWriter32.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkXfermode.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkDocument.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkClampRange.cpp
+  SkGradientBitmapCache.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkGradientShader.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkLinearGradient.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkRadialGradient.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkSweepGradient.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkTwoPointConicalGradient.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkTwoPointConicalGradient_gpu.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkTwoPointRadialGradient.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  Sk1DPathEffect.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  Sk2DPathEffect.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  正在生成代码...
+  正在编译...
+  SkAlphaThresholdFilter.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkArithmeticMode.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkAvoidXfermode.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkBitmapSource.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkBlurDrawLooper.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkBlurImageFilter.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkBlurMask.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkBlurMaskFilter.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkColorFilterImageFilter.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkColorFilters.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkColorMatrix.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkColorMatrixFilter.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkComposeImageFilter.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkCornerPathEffect.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkDashPathEffect.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkDiscretePathEffect.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkDisplacementMapEffect.cpp
+src\effects\SkDisplacementMapEffect.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkDropShadowImageFilter.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkEmbossMask.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkEmbossMaskFilter.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  正在生成代码...
+  正在编译...
+  SkGpuBlurUtils.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkLayerDrawLooper.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkLayerRasterizer.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkLerpXfermode.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkLightingImageFilter.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkLumaColorFilter.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkMagnifierImageFilter.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkMatrixConvolutionImageFilter.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkMatrixImageFilter.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkMergeImageFilter.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkMorphologyImageFilter.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkOffsetImageFilter.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkPaintFlagsDrawFilter.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkPerlinNoiseShader.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkPictureImageFilter.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkPixelXorXfermode.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkPorterDuff.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkRectShaderImageFilter.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkTableColorFilter.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkTableMaskFilter.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  正在生成代码...
+  正在编译...
+  SkTestImageFilters.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkTileImageFilter.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkTransparentShader.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkXfermodeImageFilter.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkFontMgr_indirect.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkGScalerContext.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkRemotableFontMgr.cpp
+  SkTestScalerContext.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrBezierEffect.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrBicubicEffect.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrConfigConversionEffect.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrConvexPolyEffect.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrConvolutionEffect.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrCustomCoordsTextureEffect.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrDashingEffect.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrDistanceFieldTextureEffect.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrDitherEffect.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrMatrixConvolutionEffect.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrOvalEffect.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrRRectEffect.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  正在生成代码...
+  正在编译...
+  GrSimpleTextureEffect.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrSingleTextureEffect.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrTextureDomain.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrTextureStripAtlas.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrYUVtoRGBEffect.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrGLFragmentShaderBuilder.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrGLGeometryShaderBuilder.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrGLProgramBuilder.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrGLShaderBuilder.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrGLShaderStringBuilder.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrGLSLPrettyPrint.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrGLVertexShaderBuilder.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrBufferObj.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrDebugGL.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrFrameBufferObj.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrGLCreateDebugInterface.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrProgramObj.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrShaderObj.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrTextureObj.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrTextureUnitObj.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  正在生成代码...
+  正在编译...
+  SkDebugGLContext.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrGLAssembleInterface.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrGLBufferImpl.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrGLCaps.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrGLContext.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrGLCreateNativeInterface_none.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrGLCreateNullInterface.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrGLDefaultInterface_native.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrGLDefaultInterface_none.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrGLExtensions.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrGLIndexBuffer.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrGLInterface.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrGLNameAllocator.cpp
+  GrGLNoOpInterface.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrGLPath.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrGLPathRange.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrGLPathRendering.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrGLProgram.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrGLProgramDataManager.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrGLProgramDesc.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  正在生成代码...
+  正在编译...
+  GrGLProgramEffects.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrGLRenderTarget.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrGLSL.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrGLStencilBuffer.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrGLTexture.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrGLUtil.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrGLVertexArray.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrGLVertexBuffer.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrGpuGL.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrGpuGL_program.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkGLContextHelper.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkNullGLContext.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrGLCreateNativeInterface_win.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkNativeGLContext_win.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrAAConvexPathRenderer.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrAAHairLinePathRenderer.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrAARectRenderer.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrAddPathRenderers_default.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrAllocPool.cpp
+  GrAtlas.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  正在生成代码...
+  正在编译...
+  GrBitmapTextContext.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrBlend.cpp
+  GrBufferAllocPool.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrCacheID.cpp
+  GrClipData.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrClipMaskCache.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrClipMaskManager.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrContext.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrDefaultPathRenderer.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrDistanceFieldTextContext.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrDrawState.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrDrawTarget.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrEffect.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrFontScaler.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrGpu.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrGpuFactory.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrGpuResource.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrInOrderDrawBuffer.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrLayerCache.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrMemoryPool.cpp
+  正在生成代码...
+  正在编译...
+  GrOvalRenderer.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrPaint.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrPath.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrPathRenderer.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrPathRendererChain.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrPathUtils.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrPictureUtils.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrRectanizer_pow2.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrRectanizer_skyline.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrReducedClip.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrRenderTarget.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrResourceCache.cpp
+  GrResourceCache2.cpp
+  GrRODrawState.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrSoftwarePathRenderer.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrStencil.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrStencilAndCoverPathRenderer.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrStencilAndCoverTextContext.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrStencilBuffer.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrSurface.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  正在生成代码...
+  正在编译...
+  GrSWMaskHelper.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrTest.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrTextContext.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrTextStrike.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrTexture.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrTextureAccess.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GrTraceMarker.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkGpuDevice.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkGr.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkGrPixelRef.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkGrTexturePixelRef.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  bmpdecoderhelper.cpp
+  SkDecodingImageGenerator.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkForceLinking.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkImageDecoder.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkImageDecoder_astc.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkImageDecoder_FactoryDefault.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkImageDecoder_FactoryRegistrar.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkImageDecoder_libbmp.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkImageDecoder_libico.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  正在生成代码...
+  正在编译...
+  SkImageDecoder_wbmp.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkImageEncoder.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkImageEncoder_argb.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkImageEncoder_Factory.cpp
+  SkMovie.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkPageFlipper.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkScaledBitmapSampler.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkImage.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkImagePriv.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkImage_Codec.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkImage_Gpu.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkImage_Raster.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkSurface.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkSurface_Gpu.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkSurface_Raster.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkCachingPixelRef.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkDiscardableMemoryPool.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkDiscardablePixelRef.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  opts_check_x86.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkBitmapFilter_opts_SSE2.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  正在生成代码...
+  正在编译...
+  SkBitmapProcState_opts_arm.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkBitmapProcState_opts_none.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkBitmapProcState_opts_SSE2.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkBitmapProcState_opts_SSSE3.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkBlitMask_opts_none.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkBlitRect_opts_SSE2.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkBlitRow_opts_none.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkBlitRow_opts_SSE2.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkBlurImage_opts_none.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkBlurImage_opts_SSE2.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkBlurImage_opts_SSE4.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkMorphology_opts_none.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkMorphology_opts_SSE2.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkTextureCompression_opts_none.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkUtils_opts_arm.cpp
+  SkUtils_opts_none.cpp
+  SkUtils_opts_SSE2.cpp
+  SkXfermode_opts_arm.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkXfermode_opts_none.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkXfermode_opts_SSE2.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  正在生成代码...
+  正在编译...
+  SkAddIntersections.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkDCubicIntersection.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkDCubicLineIntersection.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkDCubicToQuads.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkDLineIntersection.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkDQuadImplicit.cpp
+G:\personalfiles\程序\ui库\DM\3rdParty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkDQuadIntersection.cpp
+G:\personalfiles\程序\ui库\DM\3rdParty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkDQuadLineIntersection.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkIntersections.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkOpAngle.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+src\pathops\SkOpAngle.cpp(97): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+src\pathops\SkOpAngle.cpp(98): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+src\pathops\SkOpAngle.cpp(139): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+src\pathops\SkOpAngle.cpp(167): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+src\pathops\SkOpAngle.cpp(169): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+src\pathops\SkOpAngle.cpp(828): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+src\pathops\SkOpAngle.cpp(842): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+  SkOpContour.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkOpEdgeBuilder.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkOpSegment.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+src\pathops\SkOpSegment.cpp(2620): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+  SkPathOpsBounds.cpp
+G:\personalfiles\程序\ui库\DM\3rdParty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkPathOpsCommon.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkPathOpsCubic.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkPathOpsDebug.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkPathOpsLine.cpp
+G:\personalfiles\程序\ui库\DM\3rdParty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkPathOpsOp.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkPathOpsPoint.cpp
+G:\personalfiles\程序\ui库\DM\3rdParty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  正在生成代码...
+  正在编译...
+  SkPathOpsQuad.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkPathOpsRect.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkPathOpsSimplify.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkPathOpsTightBounds.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkPathOpsTriangle.cpp
+G:\personalfiles\程序\ui库\DM\3rdParty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkPathOpsTypes.cpp
+G:\personalfiles\程序\ui库\DM\3rdParty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+src\pathops\SkPathOpsTypes.cpp(106): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  SkPathWriter.cpp
+G:\personalfiles\程序\ui库\DM\3rdParty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkQuarticRoot.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkReduceOrder.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkDebug_stdio.cpp
+  SkDebug_win.cpp
+  SkDiscardableMemory_none.cpp
+  SkFontHost_none.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkFontHost_win.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkFontMgr_default_dw.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkFontMgr_default_gdi.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkGlobalInitialization_chromium.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkGlobalInitialization_default.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkImageDecoder_empty.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkImageDecoder_WIC.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  正在生成代码...
+  正在编译...
+  SkMemory_malloc.cpp
+  SkOSFile_none.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkOSFile_stdio.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkOSFile_win.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkTime_win.cpp
+  SkTLS_none.cpp
+  SkTLS_win.cpp
+  SkOTTable_name.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkOTUtils.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkBase64.cpp
+  SkBitmapHasher.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkBitSet.cpp
+  SkBoundaryPatch.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkCamera.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkCanvasStack.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkCanvasStateUtils.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkCondVar.cpp
+  SkCubicInterval.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkCullPoints.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkDashPath.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  正在生成代码...
+  正在编译...
+  SkDumpCanvas.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkEventTracer.cpp
+  SkFrontBufferedStream.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkGatherPixelRefsAndRects.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkInterpolator.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkLayer.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkMatrix22.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkMatrix44.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkMD5.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkMeshUtils.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkNinePatch.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkNullCanvas.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkNWayCanvas.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkOSFile.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkParse.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkParseColor.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkParsePath.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkPatchGrid.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkPatchUtils.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkPathUtils.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  正在生成代码...
+  正在编译...
+  SkPDFRasterizer.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkPictureUtils.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkProxyCanvas.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkRTConf.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkSHA1.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkTextureCompressor.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkTextureCompressor_ASTC.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkTextureCompressor_LATC.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkTextureCompressor_R11EAC.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkThreadUtils_pthread_other.cpp
+  SkThreadUtils_win.cpp
+  SkAutoCoInitialize.cpp
+  SkHRESULT.cpp
+  SkIStream.cpp
+g:\personalfiles\程序\ui库\dm\3rdparty\skia\inc\core\SkFloatingPoint.h(35): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  SkWGL_win.cpp
+  正在生成代码...
+SkThreadUtils_pthread_other.obj : warning LNK4006: "public: bool __thiscall SkThread::setProcessorAffinity(unsigned int)" (?setProcessorAffinity@SkThread@@QAE_NI@Z) 已在 SkThreadUtils_win.obj 中定义；已忽略第二个定义
+SkThreadUtils_pthread_other.obj : warning LNK4221: 此对象文件未定义任何之前未定义的公共符号，因此任何耗用此库的链接操作都不会使用此文件
+SkPDFRasterizer.obj : warning LNK4221: 此对象文件未定义任何之前未定义的公共符号，因此任何耗用此库的链接操作都不会使用此文件
+SkDumpCanvas.obj : warning LNK4221: 此对象文件未定义任何之前未定义的公共符号，因此任何耗用此库的链接操作都不会使用此文件
+SkTLS_none.obj : warning LNK4006: "private: static void * __cdecl SkTLS::PlatformGetSpecific(bool)" (?PlatformGetSpecific@SkTLS@@CAPAX_N@Z) 已在 SkTLS_win.obj 中定义；已忽略第二个定义
+SkTLS_none.obj : warning LNK4006: "private: static void __cdecl SkTLS::PlatformSetSpecific(void *)" (?PlatformSetSpecific@SkTLS@@CAXPAX@Z) 已在 SkTLS_win.obj 中定义；已忽略第二个定义
+SkTLS_none.obj : warning LNK4221: 此对象文件未定义任何之前未定义的公共符号，因此任何耗用此库的链接操作都不会使用此文件
+SkOSFile_none.obj : warning LNK4006: "void * __cdecl sk_fmmap(struct SkFILE *,unsigned int *)" (?sk_fmmap@@YAPAXPAUSkFILE@@PAI@Z) 已在 SkOSFile_win.obj 中定义；已忽略第二个定义
+SkOSFile_none.obj : warning LNK4006: "void * __cdecl sk_fdmmap(int,unsigned int *)" (?sk_fdmmap@@YAPAXHPAI@Z) 已在 SkOSFile_win.obj 中定义；已忽略第二个定义
+SkOSFile_none.obj : warning LNK4006: "void __cdecl sk_fmunmap(void const *,unsigned int)" (?sk_fmunmap@@YAXPBXI@Z) 已在 SkOSFile_win.obj 中定义；已忽略第二个定义
+SkOSFile_none.obj : warning LNK4006: "bool __cdecl sk_fidentical(struct SkFILE *,struct SkFILE *)" (?sk_fidentical@@YA_NPAUSkFILE@@0@Z) 已在 SkOSFile_win.obj 中定义；已忽略第二个定义
+SkOSFile_none.obj : warning LNK4006: "int __cdecl sk_fileno(struct SkFILE *)" (?sk_fileno@@YAHPAUSkFILE@@@Z) 已在 SkOSFile_win.obj 中定义；已忽略第二个定义
+SkOSFile_none.obj : warning LNK4006: "bool __cdecl sk_exists(char const *,enum SkFILE_Flags)" (?sk_exists@@YA_NPBDW4SkFILE_Flags@@@Z) 已在 SkOSFile_win.obj 中定义；已忽略第二个定义
+SkOSFile_none.obj : warning LNK4221: 此对象文件未定义任何之前未定义的公共符号，因此任何耗用此库的链接操作都不会使用此文件
+SkImageDecoder_empty.obj : warning LNK4006: "public: static class SkImageDecoder * __cdecl SkImageDecoder::Factory(class SkStreamRewindable *)" (?Factory@SkImageDecoder@@SAPAV1@PAVSkStreamRewindable@@@Z) 已在 SkImageDecoder_WIC.obj 中定义；已忽略第二个定义
+SkImageDecoder_empty.obj : warning LNK4006: "public: static class SkMovie * __cdecl SkMovie::DecodeStream(class SkStreamRewindable *)" (?DecodeStream@SkMovie@@SAPAV1@PAVSkStreamRewindable@@@Z) 已在 SkImageDecoder_WIC.obj 中定义；已忽略第二个定义
+SkGlobalInitialization_chromium.obj : warning LNK4006: "private: static void __cdecl SkFlattenable::InitializeFlattenablesIfNeeded(void)" (?InitializeFlattenablesIfNeeded@SkFlattenable@@CAXXZ) 已在 SkGlobalInitialization_default.obj 中定义；已忽略第二个定义
+SkGlobalInitialization_chromium.obj : warning LNK4221: 此对象文件未定义任何之前未定义的公共符号，因此任何耗用此库的链接操作都不会使用此文件
+SkFontMgr_default_dw.obj : warning LNK4006: "private: static class SkFontMgr * __cdecl SkFontMgr::Factory(void)" (?Factory@SkFontMgr@@CAPAV1@XZ) 已在 SkFontMgr_default_gdi.obj 中定义；已忽略第二个定义
+SkFontMgr_default_dw.obj : warning LNK4221: 此对象文件未定义任何之前未定义的公共符号，因此任何耗用此库的链接操作都不会使用此文件
+SkFontHost_none.obj : warning LNK4006: "private: static class SkFontMgr * __cdecl SkFontMgr::Factory(void)" (?Factory@SkFontMgr@@CAPAV1@XZ) 已在 SkFontMgr_default_gdi.obj 中定义；已忽略第二个定义
+SkFontHost_none.obj : warning LNK4221: 此对象文件未定义任何之前未定义的公共符号，因此任何耗用此库的链接操作都不会使用此文件
+SkDebug_stdio.obj : warning LNK4006: "void __cdecl SkDebugf(char const * const,...)" (?SkDebugf@@YAXQBDZZ) 已在 SkDebug_win.obj 中定义；已忽略第二个定义
+SkXfermode_opts_arm.obj : warning LNK4006: "class SkProcCoeffXfermode * __cdecl SkPlatformXfermodeFactory(struct ProcCoeff const &,enum SkXfermode::Mode)" (?SkPlatformXfermodeFactory@@YAPAVSkProcCoeffXfermode@@ABUProcCoeff@@W4Mode@SkXfermode@@@Z) 已在 SkXfermode_opts_none.obj 中定义；已忽略第二个定义
+SkXfermode_opts_arm.obj : warning LNK4006: "unsigned int (__cdecl*__cdecl SkPlatformXfermodeProcFactory(enum SkXfermode::Mode))(unsigned int,unsigned int)" (?SkPlatformXfermodeProcFactory@@YAP6AIII@ZW4Mode@SkXfermode@@@Z) 已在 SkXfermode_opts_none.obj 中定义；已忽略第二个定义
+SkUtils_opts_arm.obj : warning LNK4006: "void (__cdecl*__cdecl SkMemset16GetPlatformProc(void))(unsigned short * const,unsigned short,int)" (?SkMemset16GetPlatformProc@@YAP6AXQAGGH@ZXZ) 已在 SkUtils_opts_none.obj 中定义；已忽略第二个定义
+SkUtils_opts_arm.obj : warning LNK4006: "void (__cdecl*__cdecl SkMemset32GetPlatformProc(void))(unsigned int * const,unsigned int,int)" (?SkMemset32GetPlatformProc@@YAP6AXQAIIH@ZXZ) 已在 SkUtils_opts_none.obj 中定义；已忽略第二个定义
+SkUtils_opts_arm.obj : warning LNK4006: "void (__cdecl*__cdecl SkMemcpy32GetPlatformProc(void))(unsigned int * const,unsigned int const * const,int)" (?SkMemcpy32GetPlatformProc@@YAP6AXQAIQBIH@ZXZ) 已在 SkUtils_opts_none.obj 中定义；已忽略第二个定义
+SkUtils_opts_arm.obj : warning LNK4221: 此对象文件未定义任何之前未定义的公共符号，因此任何耗用此库的链接操作都不会使用此文件
+SkBitmapProcState_opts_arm.obj : warning LNK4006: "public: static void __cdecl SkBitmapScaler::PlatformConvolutionProcs(struct SkConvolutionProcs *)" (?PlatformConvolutionProcs@SkBitmapScaler@@SAXPAUSkConvolutionProcs@@@Z) 已在 SkBitmapProcState_opts_none.obj 中定义；已忽略第二个定义
+SkBitmapProcState_opts_arm.obj : warning LNK4006: "public: void __thiscall SkBitmapProcState::platformProcs(void)" (?platformProcs@SkBitmapProcState@@QAEXXZ) 已在 SkBitmapProcState_opts_none.obj 中定义；已忽略第二个定义
+opts_check_x86.obj : warning LNK4006: "public: void __thiscall SkBitmapProcState::platformProcs(void)" (?platformProcs@SkBitmapProcState@@QAEXXZ) 已在 SkBitmapProcState_opts_none.obj 中定义；已忽略第二个定义
+opts_check_x86.obj : warning LNK4006: "public: static void __cdecl SkBitmapScaler::PlatformConvolutionProcs(struct SkConvolutionProcs *)" (?PlatformConvolutionProcs@SkBitmapScaler@@SAXPAUSkConvolutionProcs@@@Z) 已在 SkBitmapProcState_opts_none.obj 中定义；已忽略第二个定义
+opts_check_x86.obj : warning LNK4006: "public: static void (__cdecl*__cdecl SkBlitMask::PlatformColorProcs(enum SkColorType,enum SkMask::Format,unsigned int))(void *,unsigned int,void const *,unsigned int,unsigned int,int,int)" (?PlatformColorProcs@SkBlitMask@@SAP6AXPAXIPBXIIHH@ZW4SkColorType@@W4Format@SkMask@@I@Z) 已在 SkBlitMask_opts_none.obj 中定义；已忽略第二个定义
+opts_check_x86.obj : warning LNK4006: "public: static void (__cdecl*__cdecl SkBlitMask::PlatformBlitRowProcs16(bool))(unsigned int * const,unsigned short const * const,unsigned int,int,unsigned int)" (?PlatformBlitRowProcs16@SkBlitMask@@SAP6AXQAIQBGIHI@Z_N@Z) 已在 SkBlitMask_opts_none.obj 中定义；已忽略第二个定义
+opts_check_x86.obj : warning LNK4006: "public: static void (__cdecl*__cdecl SkBlitMask::PlatformRowProcs(enum SkColorType,enum SkMask::Format,enum SkBlitMask::RowFlags))(void *,void const *,unsigned int const *,int)" (?PlatformRowProcs@SkBlitMask@@SAP6AXPAXPBXPBIH@ZW4SkColorType@@W4Format@SkMask@@W4RowFlags@1@@Z) 已在 SkBlitMask_opts_none.obj 中定义；已忽略第二个定义
+opts_check_x86.obj : warning LNK4006: "public: static void (__cdecl*__cdecl SkBlitRow::PlatformProcs32(unsigned int))(unsigned int *,unsigned int const *,int,unsigned int)" (?PlatformProcs32@SkBlitRow@@SAP6AXPAIPBIHI@ZI@Z) 已在 SkBlitRow_opts_none.obj 中定义；已忽略第二个定义
+opts_check_x86.obj : warning LNK4006: "public: static void (__cdecl*__cdecl SkBlitRow::PlatformProcs565(unsigned int))(unsigned short *,unsigned int const *,int,unsigned int,int,int)" (?PlatformProcs565@SkBlitRow@@SAP6AXPAGPBIHIHH@ZI@Z) 已在 SkBlitRow_opts_none.obj 中定义；已忽略第二个定义
+opts_check_x86.obj : warning LNK4006: "public: static void (__cdecl*__cdecl SkBlitRow::PlatformColorProc(void))(unsigned int *,unsigned int const *,int,unsigned int)" (?PlatformColorProc@SkBlitRow@@SAP6AXPAIPBIHI@ZXZ) 已在 SkBlitRow_opts_none.obj 中定义；已忽略第二个定义
+opts_check_x86.obj : warning LNK4006: "bool __cdecl SkBoxBlurGetPlatformProcs(void (__cdecl**)(unsigned int const *,int,unsigned int *,int,int,int,int,int),void (__cdecl**)(unsigned int const *,int,unsigned int *,int,int,int,int,int),void (__cdecl**)(unsigned int const *,int,unsigned int *,int,int,int,int,int),void (__cdecl**)(unsigned int const *,int,unsigned int *,int,int,int,int,int))" (?SkBoxBlurGetPlatformProcs@@YA_NPAP6AXPBIHPAIHHHHH@Z222@Z) 已在 SkBlurImage_opts_none.obj 中定义；已忽略第二个定义
+opts_check_x86.obj : warning LNK4006: "void (__cdecl*__cdecl SkMorphologyGetPlatformProc(enum SkMorphologyProcType))(unsigned int const *,unsigned int *,int,int,int,int,int)" (?SkMorphologyGetPlatformProc@@YAP6AXPBIPAIHHHHH@ZW4SkMorphologyProcType@@@Z) 已在 SkMorphology_opts_none.obj 中定义；已忽略第二个定义
+opts_check_x86.obj : warning LNK4006: "void (__cdecl*__cdecl SkMemset16GetPlatformProc(void))(unsigned short * const,unsigned short,int)" (?SkMemset16GetPlatformProc@@YAP6AXQAGGH@ZXZ) 已在 SkUtils_opts_none.obj 中定义；已忽略第二个定义
+opts_check_x86.obj : warning LNK4006: "void (__cdecl*__cdecl SkMemset32GetPlatformProc(void))(unsigned int * const,unsigned int,int)" (?SkMemset32GetPlatformProc@@YAP6AXQAIIH@ZXZ) 已在 SkUtils_opts_none.obj 中定义；已忽略第二个定义
+opts_check_x86.obj : warning LNK4006: "void (__cdecl*__cdecl SkMemcpy32GetPlatformProc(void))(unsigned int * const,unsigned int const * const,int)" (?SkMemcpy32GetPlatformProc@@YAP6AXQAIQBIH@ZXZ) 已在 SkUtils_opts_none.obj 中定义；已忽略第二个定义
+opts_check_x86.obj : warning LNK4006: "void (__cdecl*__cdecl PlatformColorRectProcFactory(void))(unsigned int *,int,int,unsigned int,unsigned int)" (?PlatformColorRectProcFactory@@YAP6AXPAIHHII@ZXZ) 已在 SkBlitRow_opts_none.obj 中定义；已忽略第二个定义
+opts_check_x86.obj : warning LNK4006: "class SkProcCoeffXfermode * __cdecl SkPlatformXfermodeFactory_impl(struct ProcCoeff const &,enum SkXfermode::Mode)" (?SkPlatformXfermodeFactory_impl@@YAPAVSkProcCoeffXfermode@@ABUProcCoeff@@W4Mode@SkXfermode@@@Z) 已在 SkXfermode_opts_arm.obj 中定义；已忽略第二个定义
+opts_check_x86.obj : warning LNK4006: "class SkProcCoeffXfermode * __cdecl SkPlatformXfermodeFactory(struct ProcCoeff const &,enum SkXfermode::Mode)" (?SkPlatformXfermodeFactory@@YAPAVSkProcCoeffXfermode@@ABUProcCoeff@@W4Mode@SkXfermode@@@Z) 已在 SkXfermode_opts_none.obj 中定义；已忽略第二个定义
+opts_check_x86.obj : warning LNK4006: "unsigned int (__cdecl*__cdecl SkPlatformXfermodeProcFactory(enum SkXfermode::Mode))(unsigned int,unsigned int)" (?SkPlatformXfermodeProcFactory@@YAP6AIII@ZW4Mode@SkXfermode@@@Z) 已在 SkXfermode_opts_none.obj 中定义；已忽略第二个定义
+opts_check_x86.obj : warning LNK4221: 此对象文件未定义任何之前未定义的公共符号，因此任何耗用此库的链接操作都不会使用此文件
+SkImageEncoder_Factory.obj : warning LNK4006: "public: static class SkImageEncoder * __cdecl SkImageEncoder::Create(enum SkImageEncoder::Type)" (?Create@SkImageEncoder@@SAPAV1@W4Type@1@@Z) 已在 SkImageDecoder_empty.obj 中定义；已忽略第二个定义
+SkImageEncoder.obj : warning LNK4006: "public: class SkData * __thiscall SkImageEncoder::encodeData(class SkBitmap const &,int)" (?encodeData@SkImageEncoder@@QAEPAVSkData@@ABVSkBitmap@@H@Z) 已在 SkImageDecoder_empty.obj 中定义；已忽略第二个定义
+SkImageEncoder.obj : warning LNK4006: "public: bool __thiscall SkImageEncoder::encodeFile(char const * const,class SkBitmap const &,int)" (?encodeFile@SkImageEncoder@@QAE_NQBDABVSkBitmap@@H@Z) 已在 SkImageDecoder_empty.obj 中定义；已忽略第二个定义
+SkImageEncoder.obj : warning LNK4006: "public: bool __thiscall SkImageEncoder::encodeStream(class SkWStream *,class SkBitmap const &,int)" (?encodeStream@SkImageEncoder@@QAE_NPAVSkWStream@@ABVSkBitmap@@H@Z) 已在 SkImageDecoder_empty.obj 中定义；已忽略第二个定义
+SkImageEncoder.obj : warning LNK4006: "public: static class SkData * __cdecl SkImageEncoder::EncodeData(class SkBitmap const &,enum SkImageEncoder::Type,int)" (?EncodeData@SkImageEncoder@@SAPAVSkData@@ABVSkBitmap@@W4Type@1@H@Z) 已在 SkImageDecoder_empty.obj 中定义；已忽略第二个定义
+SkImageEncoder.obj : warning LNK4006: "public: static bool __cdecl SkImageEncoder::EncodeFile(char const * const,class SkBitmap const &,enum SkImageEncoder::Type,int)" (?EncodeFile@SkImageEncoder@@SA_NQBDABVSkBitmap@@W4Type@1@H@Z) 已在 SkImageDecoder_empty.obj 中定义；已忽略第二个定义
+SkImageEncoder.obj : warning LNK4006: "public: static bool __cdecl SkImageEncoder::EncodeStream(class SkWStream *,class SkBitmap const &,enum SkImageEncoder::Type,int)" (?EncodeStream@SkImageEncoder@@SA_NPAVSkWStream@@ABVSkBitmap@@W4Type@1@H@Z) 已在 SkImageDecoder_empty.obj 中定义；已忽略第二个定义
+SkImageDecoder_FactoryRegistrar.obj : warning LNK4006: "public: static enum SkImageDecoder::Format __cdecl SkImageDecoder::GetStreamFormat(class SkStreamRewindable *)" (?GetStreamFormat@SkImageDecoder@@SA?AW4Format@1@PAVSkStreamRewindable@@@Z) 已在 SkImageDecoder_empty.obj 中定义；已忽略第二个定义
+SkImageDecoder_FactoryDefault.obj : warning LNK4006: "public: static class SkImageDecoder * __cdecl SkImageDecoder::Factory(class SkStreamRewindable *)" (?Factory@SkImageDecoder@@SAPAV1@PAVSkStreamRewindable@@@Z) 已在 SkImageDecoder_WIC.obj 中定义；已忽略第二个定义
+SkImageDecoder_FactoryDefault.obj : warning LNK4006: "public: static class SkMovie * __cdecl SkMovie::DecodeStream(class SkStreamRewindable *)" (?DecodeStream@SkMovie@@SAPAV1@PAVSkStreamRewindable@@@Z) 已在 SkImageDecoder_WIC.obj 中定义；已忽略第二个定义
+SkImageDecoder.obj : warning LNK4006: "public: virtual __thiscall SkImageDecoder::~SkImageDecoder(void)" (??1SkImageDecoder@@UAE@XZ) 已在 SkImageDecoder_empty.obj 中定义；已忽略第二个定义
+SkImageDecoder.obj : warning LNK4006: "public: virtual enum SkImageDecoder::Format __thiscall SkImageDecoder::getFormat(void)const " (?getFormat@SkImageDecoder@@UBE?AW4Format@1@XZ) 已在 SkImageDecoder_empty.obj 中定义；已忽略第二个定义
+SkImageDecoder.obj : warning LNK4006: "public: static char const * __cdecl SkImageDecoder::GetFormatName(enum SkImageDecoder::Format)" (?GetFormatName@SkImageDecoder@@SAPBDW4Format@1@@Z) 已在 SkImageDecoder_empty.obj 中定义；已忽略第二个定义
+SkImageDecoder.obj : warning LNK4006: "public: class SkImageDecoder::Peeker * __thiscall SkImageDecoder::setPeeker(class SkImageDecoder::Peeker *)" (?setPeeker@SkImageDecoder@@QAEPAVPeeker@1@PAV21@@Z) 已在 SkImageDecoder_empty.obj 中定义；已忽略第二个定义
+SkImageDecoder.obj : warning LNK4006: "public: class SkBitmap::Allocator * __thiscall SkImageDecoder::setAllocator(class SkBitmap::Allocator *)" (?setAllocator@SkImageDecoder@@QAEPAVAllocator@SkBitmap@@PAV23@@Z) 已在 SkImageDecoder_empty.obj 中定义；已忽略第二个定义
+SkImageDecoder.obj : warning LNK4006: "public: void __thiscall SkImageDecoder::setSampleSize(int)" (?setSampleSize@SkImageDecoder@@QAEXH@Z) 已在 SkImageDecoder_empty.obj 中定义；已忽略第二个定义
+SkImageDecoder.obj : warning LNK4006: "public: bool __thiscall SkImageDecoder::decode(class SkStream *,class SkBitmap *,enum SkColorType,enum SkImageDecoder::Mode)" (?decode@SkImageDecoder@@QAE_NPAVSkStream@@PAVSkBitmap@@W4SkColorType@@W4Mode@1@@Z) 已在 SkImageDecoder_empty.obj 中定义；已忽略第二个定义
+SkImageDecoder.obj : warning LNK4006: "public: bool __thiscall SkImageDecoder::buildTileIndex(class SkStreamRewindable *,int *,int *)" (?buildTileIndex@SkImageDecoder@@QAE_NPAVSkStreamRewindable@@PAH1@Z) 已在 SkImageDecoder_empty.obj 中定义；已忽略第二个定义
+SkImageDecoder.obj : warning LNK4006: "public: bool __thiscall SkImageDecoder::decodeSubset(class SkBitmap *,struct SkIRect const &,enum SkColorType)" (?decodeSubset@SkImageDecoder@@QAE_NPAVSkBitmap@@ABUSkIRect@@W4SkColorType@@@Z) 已在 SkImageDecoder_empty.obj 中定义；已忽略第二个定义
+SkImageDecoder.obj : warning LNK4006: "public: static bool __cdecl SkImageDecoder::DecodeFile(char const * const,class SkBitmap *,enum SkColorType,enum SkImageDecoder::Mode,enum SkImageDecoder::Format *)" (?DecodeFile@SkImageDecoder@@SA_NQBDPAVSkBitmap@@W4SkColorType@@W4Mode@1@PAW4Format@1@@Z) 已在 SkImageDecoder_empty.obj 中定义；已忽略第二个定义
+SkImageDecoder.obj : warning LNK4006: "public: static bool __cdecl SkImageDecoder::DecodeMemory(void const *,unsigned int,class SkBitmap *,enum SkColorType,enum SkImageDecoder::Mode,enum SkImageDecoder::Format *)" (?DecodeMemory@SkImageDecoder@@SA_NPBXIPAVSkBitmap@@W4SkColorType@@W4Mode@1@PAW4Format@1@@Z) 已在 SkImageDecoder_empty.obj 中定义；已忽略第二个定义
+SkImageDecoder.obj : warning LNK4006: "public: static bool __cdecl SkImageDecoder::DecodeStream(class SkStreamRewindable *,class SkBitmap *,enum SkColorType,enum SkImageDecoder::Mode,enum SkImageDecoder::Format *)" (?DecodeStream@SkImageDecoder@@SA_NPAVSkStreamRewindable@@PAVSkBitmap@@W4SkColorType@@W4Mode@1@PAW4Format@1@@Z) 已在 SkImageDecoder_empty.obj 中定义；已忽略第二个定义
+SkImageDecoder.obj : warning LNK4006: "protected: bool __thiscall SkImageDecoder::cropBitmap(class SkBitmap *,class SkBitmap *,int,int,int,int,int,int,int)" (?cropBitmap@SkImageDecoder@@IAE_NPAVSkBitmap@@0HHHHHHH@Z) 已在 SkImageDecoder_empty.obj 中定义；已忽略第二个定义
+SkImageDecoder.obj : warning LNK4006: "protected: void __thiscall SkImageDecoder::copyFieldsToOther(class SkImageDecoder *)" (?copyFieldsToOther@SkImageDecoder@@IAEXPAV1@@Z) 已在 SkImageDecoder_empty.obj 中定义；已忽略第二个定义
+SkImageDecoder.obj : warning LNK4006: "protected: __thiscall SkImageDecoder::SkImageDecoder(void)" (??0SkImageDecoder@@IAE@XZ) 已在 SkImageDecoder_empty.obj 中定义；已忽略第二个定义
+SkImageDecoder.obj : warning LNK4006: "protected: bool __thiscall SkImageDecoder::allocPixelRef(class SkBitmap *,class SkColorTable *)const " (?allocPixelRef@SkImageDecoder@@IBE_NPAVSkBitmap@@PAVSkColorTable@@@Z) 已在 SkImageDecoder_empty.obj 中定义；已忽略第二个定义
+SkGrTexturePixelRef.obj : warning LNK4221: 此对象文件未定义任何之前未定义的公共符号，因此任何耗用此库的链接操作都不会使用此文件
+GrGLDefaultInterface_native.obj : warning LNK4006: "struct GrGLInterface const * __cdecl GrGLDefaultInterface(void)" (?GrGLDefaultInterface@@YAPBUGrGLInterface@@XZ) 已在 GrGLDefaultInterface_none.obj 中定义；已忽略第二个定义
+GrGLDefaultInterface_native.obj : warning LNK4221: 此对象文件未定义任何之前未定义的公共符号，因此任何耗用此库的链接操作都不会使用此文件
+GrGLCreateNativeInterface_none.obj : warning LNK4006: "struct GrGLInterface const * __cdecl GrGLCreateNativeInterface(void)" (?GrGLCreateNativeInterface@@YAPBUGrGLInterface@@XZ) 已在 GrGLCreateNativeInterface_win.obj 中定义；已忽略第二个定义
+GrGLCreateNativeInterface_none.obj : warning LNK4221: 此对象文件未定义任何之前未定义的公共符号，因此任何耗用此库的链接操作都不会使用此文件
+SkUtilsArm.obj : warning LNK4221: 此对象文件未定义任何之前未定义的公共符号，因此任何耗用此库的链接操作都不会使用此文件
+  skia.vcxproj -> G:\personalfiles\程序\ui库\DM\bin\Debug\skia_d.lib

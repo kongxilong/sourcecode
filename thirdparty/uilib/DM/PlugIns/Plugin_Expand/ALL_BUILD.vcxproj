@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{036B2696-9831-3167-A8BE-A37CE8E119AE}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Animate;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Animate\3d;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Res;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Render;D:\Install\编程\开源库\DM\DmMain\inc;D:\Install\编程\开源库\DM\DmMain\inc\Common;D:\Install\编程\开源库\DM\DmMain\inc\Common\Template;D:\Install\编程\开源库\DM\DmMain\inc\Core;D:\Install\编程\开源库\DM\DmMain\inc\Core\Msg;D:\Install\编程\开源库\DM\DmMain\inc\Core\Dui;D:\Install\编程\开源库\DM\DmMain\inc\Core\Event;D:\Install\编程\开源库\DM\DmMain\inc\IDmMain;D:\Install\编程\开源库\DM\DmMain\inc\Modules;D:\Install\编程\开源库\DM\DmMain\inc\Widgets;D:\Install\编程\开源库\DM\3rdParty\zlib;D:\Install\编程\开源库\DM\3rdParty\skia;D:\Install\编程\开源库\DM\3rdParty\skia\inc\config;D:\Install\编程\开源库\DM\3rdParty\skia\inc;D:\Install\编程\开源库\DM\3rdParty\skia\inc\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Animate;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Animate\3d;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Res;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Render;D:\Install\编程\开源库\DM\DmMain\inc;D:\Install\编程\开源库\DM\DmMain\inc\Common;D:\Install\编程\开源库\DM\DmMain\inc\Common\Template;D:\Install\编程\开源库\DM\DmMain\inc\Core;D:\Install\编程\开源库\DM\DmMain\inc\Core\Msg;D:\Install\编程\开源库\DM\DmMain\inc\Core\Dui;D:\Install\编程\开源库\DM\DmMain\inc\Core\Event;D:\Install\编程\开源库\DM\DmMain\inc\IDmMain;D:\Install\编程\开源库\DM\DmMain\inc\Modules;D:\Install\编程\开源库\DM\DmMain\inc\Widgets;D:\Install\编程\开源库\DM\3rdParty\zlib;D:\Install\编程\开源库\DM\3rdParty\skia;D:\Install\编程\开源库\DM\3rdParty\skia\inc\config;D:\Install\编程\开源库\DM\3rdParty\skia\inc;D:\Install\编程\开源库\DM\3rdParty\skia\inc\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Animate;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Animate\3d;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Res;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Render;D:\Install\编程\开源库\DM\DmMain\inc;D:\Install\编程\开源库\DM\DmMain\inc\Common;D:\Install\编程\开源库\DM\DmMain\inc\Common\Template;D:\Install\编程\开源库\DM\DmMain\inc\Core;D:\Install\编程\开源库\DM\DmMain\inc\Core\Msg;D:\Install\编程\开源库\DM\DmMain\inc\Core\Dui;D:\Install\编程\开源库\DM\DmMain\inc\Core\Event;D:\Install\编程\开源库\DM\DmMain\inc\IDmMain;D:\Install\编程\开源库\DM\DmMain\inc\Modules;D:\Install\编程\开源库\DM\DmMain\inc\Widgets;D:\Install\编程\开源库\DM\3rdParty\zlib;D:\Install\编程\开源库\DM\3rdParty\skia;D:\Install\编程\开源库\DM\3rdParty\skia\inc\config;D:\Install\编程\开源库\DM\3rdParty\skia\inc;D:\Install\编程\开源库\DM\3rdParty\skia\inc\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Animate;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Animate\3d;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Res;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Render;D:\Install\编程\开源库\DM\DmMain\inc;D:\Install\编程\开源库\DM\DmMain\inc\Common;D:\Install\编程\开源库\DM\DmMain\inc\Common\Template;D:\Install\编程\开源库\DM\DmMain\inc\Core;D:\Install\编程\开源库\DM\DmMain\inc\Core\Msg;D:\Install\编程\开源库\DM\DmMain\inc\Core\Dui;D:\Install\编程\开源库\DM\DmMain\inc\Core\Event;D:\Install\编程\开源库\DM\DmMain\inc\IDmMain;D:\Install\编程\开源库\DM\DmMain\inc\Modules;D:\Install\编程\开源库\DM\DmMain\inc\Widgets;D:\Install\编程\开源库\DM\3rdParty\zlib;D:\Install\编程\开源库\DM\3rdParty\skia;D:\Install\编程\开源库\DM\3rdParty\skia\inc\config;D:\Install\编程\开源库\DM\3rdParty\skia\inc;D:\Install\编程\开源库\DM\3rdParty\skia\inc\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/Install/编程/开源库/DM/PlugIns/Plugin_Expand/Plugin_Expand.vcxproj">
+      <Project>E4086844-176F-3B54-965F-6F5A87464A41</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

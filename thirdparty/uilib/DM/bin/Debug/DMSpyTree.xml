@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<N duiwnd="1" level="0" bpanel="0" classname="window" bsee="1" id="0" name="mainWindow">
+	<N duiwnd="2" level="1" bpanel="0" classname="window" bsee="1" id="0" name="spywnd">
+		<N duiwnd="3" level="2" bpanel="0" classname="window" bsee="1" id="0" name="">
+			<N duiwnd="4" level="3" bpanel="0" classname="Button" bsee="1" id="0" name="btn_close" />
+			<N duiwnd="5" level="3" bpanel="0" classname="Button" bsee="1" id="0" name="btn_max" />
+			<N duiwnd="6" level="3" bpanel="0" classname="Button" bsee="0" id="10" name="" />
+			<N duiwnd="7" level="3" bpanel="0" classname="Button" bsee="1" id="0" name="btn_min" />
+			<N duiwnd="8" level="3" bpanel="0" classname="Button" bsee="1" id="0" name="btn_menu" />
+			<N duiwnd="9" level="3" bpanel="0" classname="Button" bsee="1" id="0" name="btn_skin" />
+		</N>
+	</N>
+	<N duiwnd="10" level="1" bpanel="0" classname="findbtn" bsee="1" id="0" name="findbtn" />
+	<N duiwnd="11" level="1" bpanel="0" classname="Static" bsee="1" id="0" name="search_sta" />
+	<N duiwnd="12" level="1" bpanel="0" classname="Static" bsee="1" id="0" name="" />
+	<N duiwnd="13" level="1" bpanel="0" classname="Static" bsee="1" id="0" name="" />
+	<N duiwnd="14" level="1" bpanel="0" classname="Static" bsee="1" id="0" name="" />
+	<N duiwnd="15" level="1" bpanel="0" classname="Edit" bsee="1" id="0" name="edithwnd">
+		<N duiwnd="16" level="2" bpanel="0" classname="window" bsee="0" id="0" name="" />
+	</N>
+	<N duiwnd="17" level="1" bpanel="0" classname="Edit" bsee="1" id="0" name="editpid">
+		<N duiwnd="18" level="2" bpanel="0" classname="window" bsee="0" id="0" name="" />
+	</N>
+	<N duiwnd="19" level="1" bpanel="0" classname="Edit" bsee="1" id="0" name="editpath">
+		<N duiwnd="20" level="2" bpanel="0" classname="window" bsee="0" id="0" name="" />
+	</N>
+	<N duiwnd="21" level="1" bpanel="0" classname="TreeCtrl" bsee="1" id="0" name="wnd_tree" />
+	<N duiwnd="22" level="1" bpanel="0" classname="RichEdit" bsee="1" id="0" name="rich_edit">
+		<N duiwnd="23" level="2" bpanel="0" classname="window" bsee="1" id="0" name="" />
+	</N>
+</N>

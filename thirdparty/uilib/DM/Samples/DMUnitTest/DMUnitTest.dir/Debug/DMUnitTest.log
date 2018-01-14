@@ -1,0 +1,143 @@
+﻿生成启动时间为 2016/10/14 10:24:02。
+     1>项目“D:\Install\编程\开源库\DM\Samples\DMUnitTest\DMUnitTest.vcxproj”在节点 5 上(Build 个目标)。
+     1>PreBuildEvent:
+         setlocal
+         call D:/Install/编程/开源库/DM/Tools/CMake/PreBuild-ut.cmd D:\Install\编程\开源库\DM\bin\Debug\
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+         hgy copy dbghelp.dll start---------------------------------
+         hgy delete UTRes folder begin------------------------------
+         hgy delete UTRes folder end--------------------------------
+         hgy copy dbghelp.dll begin---------------------------------
+         已复制         1 个文件。
+         hgy copy dbghelp.dll end-----------------------------------
+         hgy copy UTRes folder begin--------------------------------
+         已复制         1 个文件。
+         已复制         1 个文件。
+         ..\..\Docs\TestData\UTRes\layout\dmindex.xml
+         ..\..\Docs\TestData\UTRes\layout\xml\dui_dlg_main.xml
+         ..\..\Docs\TestData\UTRes\layout\xml\dui_page_widget.xml
+         ..\..\Docs\TestData\UTRes\layout\xml\global.xml
+         ..\..\Docs\TestData\UTRes\themes\dmindex.xml
+         ..\..\Docs\TestData\UTRes\themes\default\dmindex.xml
+         ..\..\Docs\TestData\UTRes\themes\default\image\border.png
+         ..\..\Docs\TestData\UTRes\themes\default\image\btn_close.png
+         ..\..\Docs\TestData\UTRes\themes\default\image\btn_max.png
+         ..\..\Docs\TestData\UTRes\themes\default\image\btn_menu.png
+         ..\..\Docs\TestData\UTRes\themes\default\image\btn_min.png
+         ..\..\Docs\TestData\UTRes\themes\default\image\btn_restore.png
+         ..\..\Docs\TestData\UTRes\themes\default\image\scrollbar.png
+         ..\..\Docs\TestData\UTRes\themes\theme1\dmindex.xml
+         ..\..\Docs\TestData\UTRes\themes\theme1\image\btn_close.png
+         ..\..\Docs\TestData\UTRes\themes\theme1\image\btn_max.png
+         ..\..\Docs\TestData\UTRes\themes\theme1\image\btn_menu.png
+         ..\..\Docs\TestData\UTRes\themes\theme1\image\btn_min.png
+         ..\..\Docs\TestData\UTRes\themes\theme2\dmindex.xml
+         ..\..\Docs\TestData\UTRes\themes\theme2\image\btn_close.png
+         ..\..\Docs\TestData\UTRes\themes\theme2\image\btn_max.png
+         ..\..\Docs\TestData\UTRes\themes\theme2\image\btn_menu.png
+         ..\..\Docs\TestData\UTRes\themes\theme2\image\btn_min.png
+         ..\..\Docs\TestData\UTRes\UTTest\1.bmp
+         ..\..\Docs\TestData\UTRes\UTTest\1.gif
+         ..\..\Docs\TestData\UTRes\UTTest\1.jpg
+         ..\..\Docs\TestData\UTRes\UTTest\1.png
+         ..\..\Docs\TestData\UTRes\UTTest\canvas-1.png
+         ..\..\Docs\TestData\UTRes\UTTest\canvas-9.png
+         ..\..\Docs\TestData\UTRes\UTTest\gre-alpha50.png
+         ..\..\Docs\TestData\UTRes\UTTest\red-alpha50.png
+         ..\..\Docs\TestData\UTRes\UTTest\scroll.psd
+         ..\..\Docs\TestData\UTRes\UTTest\SkinTest.xml
+         ..\..\Docs\TestData\UTRes\UTTest\UTXmlParse.xml
+         ..\..\Docs\TestData\UTRes\UTTest\lua\sample1.lua
+         ..\..\Docs\TestData\UTRes\UTTest\lua\sample2.lua
+         ..\..\Docs\TestData\UTRes\UTTest\lua\sample3.lua
+         ..\..\Docs\TestData\UTRes\UTTest\lua\sample4.lua
+         ..\..\Docs\TestData\UTRes\UTTest\lua\sample5.lua
+         ..\..\Docs\TestData\UTRes\UTTest\lua\sample6.lua
+         ..\..\Docs\TestData\UTRes\UTTest\lua\sample7.lua
+         复制了 41 个文件
+         hgy copy UTRes folder end----------------------------------
+       Link:
+         D:\Software\Program\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Install\编程\开源库\DM\bin\Debug\DMUnitTest.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:/Install/编程/开源库/DM/bin" /LIBPATH:"D:/Install/编程/开源库/DM/bin/Debug" /LIBPATH:"D:/Install/编程/开源库/DM/3rdParty/lib" /LIBPATH:"D:/Install/编程/开源库/DM/3rdParty/lib/Debug" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Install/编程/开源库/DM/bin/Debug/DMUnitTest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Install/编程/开源库/DM/bin/Debug/DMUnitTest.lib" /MACHINE:X86 /SAFESEH  /machine:X86 DMUnitTest.dir\Debug\DMUintTestAfx.obj
+         DMUnitTest.dir\Debug\main.obj
+         DMUnitTest.dir\Debug\DMCanvas_Test.obj
+         DMUnitTest.dir\Debug\DMColor_Test.obj
+         DMUnitTest.dir\Debug\DMDIBHelper_Test.obj
+         DMUnitTest.dir\Debug\DMDelegate_Test.obj
+         DMUnitTest.dir\Debug\DMFontPool_Test.obj
+         DMUnitTest.dir\Debug\DMGifParse_Test.obj
+         DMUnitTest.dir\Debug\DMImgDecoder_Test.obj
+         DMUnitTest.dir\Debug\DMLua_Test.obj
+         DMUnitTest.dir\Debug\DMPlugin_Test.obj
+         DMUnitTest.dir\Debug\DMRegister_Test.obj
+         DMUnitTest.dir\Debug\DMRes_Test.obj
+         DMUnitTest.dir\Debug\DMSkinPool_Test.obj
+         DMUnitTest.dir\Debug\DMSkin_Test.obj
+         DMUnitTest.dir\Debug\DMStyle_Test.obj
+         DMUnitTest.dir\Debug\DMTemplate_Test.obj
+         DMUnitTest.dir\Debug\DMXmlParse_Test.obj
+         DMUnitTest.vcxproj -> D:\Install\编程\开源库\DM\bin\Debug\DMUnitTest.exe
+       PostBuildEvent:
+         setlocal
+         call D:/Install/编程/开源库/DM/Tools/CMake/PostBuild.cmd D:\Install\编程\开源库\DM\bin\Debug\
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+         hgy copy dbghelp.dll start---------------------------------
+         hgy clear  output start------------------------------------
+         找不到 D:\Install\编程\开源库\DM\bin\Debug\*.aps
+         找不到 D:\Install\编程\开源库\DM\bin\Debug\*.ncb
+         找不到 D:\Install\编程\开源库\DM\bin\Debug\*.suo
+         找不到 D:\Install\编程\开源库\DM\bin\Debug\*.vcproj.*.user
+         找不到 D:\Install\编程\开源库\DM\bin\Debug\*.plg
+         找不到 D:\Install\编程\开源库\DM\bin\Debug\*.opt
+         找不到 D:\Install\编程\开源库\DM\bin\Debug\*.pch
+         找不到 D:\Install\编程\开源库\DM\bin\Debug\*.idb
+         找不到 D:\Install\编程\开源库\DM\bin\Debug\*.ilk
+         找不到 D:\Install\编程\开源库\DM\bin\Debug\*.obj
+         找不到 D:\Install\编程\开源库\DM\bin\Debug\*.dep
+         找不到 D:\Install\编程\开源库\DM\bin\Debug\*.DPbcd
+         找不到 D:\Install\编程\开源库\DM\bin\Debug\*.manifest
+         找不到 D:\Install\编程\开源库\DM\bin\Debug\*.ib_tag
+         找不到 D:\Install\编程\开源库\DM\bin\Debug\*.res
+         找不到 D:\Install\编程\开源库\DM\bin\Debug\*.ib_pdb_index
+         找不到 D:\Install\编程\开源库\DM\bin\Debug\*.exp
+         找不到 D:\Install\编程\开源库\DM\bin\Debug\*.bak
+         hgy clear  output end------------------------------------
+         hgy clear  plugin start------------------------------------
+         找不到 D:\Install\编程\开源库\DM\bin\plugins\*.aps
+         找不到 D:\Install\编程\开源库\DM\bin\plugins\*.ncb
+         找不到 D:\Install\编程\开源库\DM\bin\plugins\*.suo
+         找不到 D:\Install\编程\开源库\DM\bin\plugins\*.vcproj.*.user
+         找不到 D:\Install\编程\开源库\DM\bin\plugins\*.plg
+         找不到 D:\Install\编程\开源库\DM\bin\plugins\*.opt
+         找不到 D:\Install\编程\开源库\DM\bin\plugins\*.pch
+         找不到 D:\Install\编程\开源库\DM\bin\plugins\*.idb
+         找不到 D:\Install\编程\开源库\DM\bin\plugins\*.ilk
+         找不到 D:\Install\编程\开源库\DM\bin\plugins\*.obj
+         找不到 D:\Install\编程\开源库\DM\bin\plugins\*.htm
+         找不到 D:\Install\编程\开源库\DM\bin\plugins\*.dep
+         找不到 D:\Install\编程\开源库\DM\bin\plugins\*.DPbcd
+         找不到 D:\Install\编程\开源库\DM\bin\plugins\*.manifest
+         找不到 D:\Install\编程\开源库\DM\bin\plugins\*.ib_tag
+         找不到 D:\Install\编程\开源库\DM\bin\plugins\*.res
+         找不到 D:\Install\编程\开源库\DM\bin\plugins\*.ib_pdb_index
+         找不到 D:\Install\编程\开源库\DM\bin\plugins\*.exp
+         找不到 D:\Install\编程\开源库\DM\bin\plugins\*.bak
+         hgy clear  plugin end------------------------------------
+     1>已完成生成项目“D:\Install\编程\开源库\DM\Samples\DMUnitTest\DMUnitTest.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.92

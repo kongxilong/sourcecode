@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<resource>
+	<group>
+		<item objid="967" name="ControlBase" />
+	</group>
+	<int>
+		<item objid="968" name="@Object_Id" data="964" />
+	</int>
+	<string>
+		<item objid="969" name="@Object_Type" counts="1" defaultarea="1" area0="1" data0="WindowTitleBar" />
+	</string>
+	<string>
+		<item objid="970" name="@Object_Name" counts="1" defaultarea="1" area0="1" data0="WndTitle" />
+	</string>
+	<bool>
+		<item objid="971" name="Lock" data="0" />
+	</bool>
+	<bool>
+		<item objid="972" name="Visible" data="1" />
+	</bool>
+	<bool>
+		<item objid="973" name="Enable" data="1" />
+	</bool>
+	<bool>
+		<item objid="974" name="ReceiveMouseMessage" data="1" />
+	</bool>
+	<int>
+		<item objid="975" name="TabOrder" data="0" />
+	</int>
+	<bool>
+		<item objid="976" name="DefaultEnterCtrl" data="0" />
+	</bool>
+	<group>
+		<item objid="977" name="Draw" />
+	</group>
+	<group>
+		<item objid="977" name="Draw" />
+	</group>
+	<bool>
+		<item objid="978" name="NoDrawControl" data="1" />
+	</bool>
+	<bool>
+		<item objid="979" name="AlphaBlendDraw" data="1" />
+	</bool>
+	<int>
+		<item objid="980" name="DrawAlpha" data="255" />
+	</int>
+	<bool>
+		<item objid="981" name="TempDrawMem" data="1" />
+	</bool>
+	<group>
+		<item objid="982" name="Layout" />
+	</group>
+	<group>
+		<item objid="982" name="Layout" />
+	</group>
+	<int>
+		<item objid="983" name="@Width" data="400" />
+	</int>
+	<int>
+		<item objid="984" name="@Height" data="31" />
+	</int>
+	<combobox>
+		<item objid="985" name="@Layout_Type" counts="16" select="6" />
+	</combobox>
+	<int>
+		<item objid="986" name="@LeftSpace" data="0" />
+	</int>
+	<int>
+		<item objid="987" name="@RightSpace" data="0" />
+	</int>
+	<int>
+		<item objid="988" name="@TopSpace" data="0" />
+	</int>
+	<int>
+		<item objid="989" name="@BottomSpace" data="129" />
+	</int>
+	<group>
+		<item objid="990" name="Animation" />
+	</group>
+	<group>
+		<item objid="990" name="Animation" />
+	</group>
+	<combobox>
+		<item objid="991" name="AnimationType" counts="82" select="0" />
+	</combobox>
+	<int>
+		<item objid="992" name="FrameTime" data="20" />
+	</int>
+	<combobox>
+		<item objid="993" name="AnimationDirection" counts="2" select="0" />
+	</combobox>
+	<group>
+		<item objid="994" name="ControlPropetry" />
+	</group>
+	<bool>
+		<item objid="995" name="NoMinimizeButton" data="0" />
+	</bool>
+	<bool>
+		<item objid="996" name="NoMaximizeButton" data="0" />
+	</bool>
+	<string>
+		<item objid="997" name="WndBasePanelName" counts="1" defaultarea="1" area0="1" data0="MsgDlg" />
+	</string>
+	<bool>
+		<item objid="998" name="UseDefaultRgn" data="1" />
+	</bool>
+</resource>

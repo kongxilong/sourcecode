@@ -1,0 +1,9 @@
+LIBRARY "UIFeatureEffect"
+
+EXPORTS
+
+	GetAnimation				PRIVATE
+	ReleaseAnimation			PRIVATE
+	GetSurportAnimationType		PRIVATE
+	GetImageProcess				PRIVATE
+	ReleaseImageProcess			PRIVATE

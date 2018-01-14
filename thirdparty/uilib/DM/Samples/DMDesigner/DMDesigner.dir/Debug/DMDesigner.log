@@ -1,0 +1,239 @@
+﻿生成启动时间为 2016/10/14 10:24:02。
+     1>项目“D:\Install\编程\开源库\DM\Samples\DMDesigner\DMDesigner.vcxproj”在节点 4 上(Build 个目标)。
+     1>PreBuildEvent:
+         setlocal
+         call D:/Install/编程/开源库/DM/Tools/CMake/PreBuild-Designer.cmd D:\Install\编程\开源库\DM\bin\Debug\
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+         hgy copy dbghelp.dll start---------------------------------
+         hgy delete DesignerRes folder begin------------------------------
+         hgy delete DesignerRes folder end--------------------------------
+         hgy copy dbghelp.dll begin---------------------------------
+         已复制         1 个文件。
+         hgy copy dbghelp.dll end-----------------------------------
+         hgy copy DesignerRes folder begin--------------------------------
+         已复制         1 个文件。
+         已复制         1 个文件。
+         ..\..\Docs\TestData\DesignerRes\DM.bat
+         ..\..\Docs\TestData\DesignerRes\DMAdd.xml
+         ..\..\Docs\TestData\DesignerRes\DMAttr.xml
+         ..\..\Docs\TestData\DesignerRes\DMCls.xml
+         ..\..\Docs\TestData\DesignerRes\DMH.dll
+         ..\..\Docs\TestData\DesignerRes\DMNewRes\layout\dmindex.xml
+         ..\..\Docs\TestData\DesignerRes\DMNewRes\layout\xml\global.xml
+         ..\..\Docs\TestData\DesignerRes\DMNewRes\layout\xml\main.xml
+         ..\..\Docs\TestData\DesignerRes\DMNewRes\themes\dmindex.xml
+         ..\..\Docs\TestData\DesignerRes\DMNewRes\themes\theme0\dmindex.xml
+         ..\..\Docs\TestData\DesignerRes\DMNewRes\themes\theme0\image\closebutton.png
+         ..\..\Docs\TestData\DesignerRes\DMNewRes\themes\theme0\image\custombutton.png
+         ..\..\Docs\TestData\DesignerRes\DMNewRes\themes\theme0\image\maxbutton.png
+         ..\..\Docs\TestData\DesignerRes\DMNewRes\themes\theme0\image\minbutton.png
+         ..\..\Docs\TestData\DesignerRes\DMNewRes\themes\theme0\image\restorebutton.png
+         ..\..\Docs\TestData\DesignerRes\layout\dmindex.xml
+         ..\..\Docs\TestData\DesignerRes\layout\xml\ds_addtips.xml
+         ..\..\Docs\TestData\DesignerRes\layout\xml\ds_add_dlg.xml
+         ..\..\Docs\TestData\DesignerRes\layout\xml\ds_attrtips.xml
+         ..\..\Docs\TestData\DesignerRes\layout\xml\ds_expandwnd.xml
+         ..\..\Docs\TestData\DesignerRes\layout\xml\ds_global.xml
+         ..\..\Docs\TestData\DesignerRes\layout\xml\ds_imgdlg.xml
+         ..\..\Docs\TestData\DesignerRes\layout\xml\ds_layoutdlg.xml
+         ..\..\Docs\TestData\DesignerRes\layout\xml\ds_leftworkspace.xml
+         ..\..\Docs\TestData\DesignerRes\layout\xml\ds_mainwnd.xml
+         ..\..\Docs\TestData\DesignerRes\layout\xml\ds_midworkspace.xml
+         ..\..\Docs\TestData\DesignerRes\layout\xml\ds_msgbox.xml
+         ..\..\Docs\TestData\DesignerRes\layout\xml\ds_newdlg.xml
+         ..\..\Docs\TestData\DesignerRes\layout\xml\ds_pooldlg.xml
+         ..\..\Docs\TestData\DesignerRes\layout\xml\ds_rightworkspace.xml
+         ..\..\Docs\TestData\DesignerRes\layout\xml\ds_scandlg.xml
+         ..\..\Docs\TestData\DesignerRes\layout\xml\ds_skindlg.xml
+         ..\..\Docs\TestData\DesignerRes\layout\xml\ds_styledlg.xml
+         ..\..\Docs\TestData\DesignerRes\layout\xml\ds_themedlg.xml
+         ..\..\Docs\TestData\DesignerRes\layout\xml\ds_toolbar.xml
+         ..\..\Docs\TestData\DesignerRes\layout\xml\ds_workspace.xml
+         ..\..\Docs\TestData\DesignerRes\layout\xml\menu\ds_menu_proj.xml
+         ..\..\Docs\TestData\DesignerRes\layout\xml\rightxml\ds_attr_host_panel.xml
+         ..\..\Docs\TestData\DesignerRes\layout\xml\rightxml\ds_attr_name_panel.xml
+         ..\..\Docs\TestData\DesignerRes\layout\xml\rightxml\ds_attr_pos_panel.xml
+         ..\..\Docs\TestData\DesignerRes\layout\xml\rightxml\ds_attr_widget_panel.xml
+         ..\..\Docs\TestData\DesignerRes\outdata\dui_addwnd.xml
+         ..\..\Docs\TestData\DesignerRes\themes\dmindex.xml
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\dmindex.xml
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\cur\ds_add.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\cur\ds_splith.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\cur\ds_splitv.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\gif\scan.gif
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\image\ds_addframe.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\image\ds_attreditframe.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\image\ds_attrname.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\image\ds_checkbox.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\image\ds_closebutton.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\image\ds_comboxbtn.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\image\ds_custombutton.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\image\ds_databutton.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\image\ds_defbutton.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\image\ds_designbg.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\image\ds_drag_move.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\image\ds_expand.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\image\ds_hoverframe.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\image\ds_imgeditbg.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\image\ds_listarr.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\image\ds_listbg.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\image\ds_lockeye.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\image\ds_maxbutton.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\image\ds_menubg.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\image\ds_menuselbg.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\image\ds_menustep.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\image\ds_minbutton.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\image\ds_opendir.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\image\ds_preview.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\image\ds_propcomboxbtn.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\image\ds_restorebutton.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\image\ds_save.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\image\ds_scrollbar.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\image\ds_selframe.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\image\ds_showeye.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\image\ds_toggle.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\image\ds_toolexpand.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\image\tools\ds_tool_add.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\image\tools\ds_tool_drag.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\image\tools\ds_tool_move.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\image\tools\ds_tool_selbk.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\image\tools\ds_tool_selection.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\image\widget\ds_w_Button.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\image\widget\ds_w_checkbox.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\image\widget\ds_w_Combobox.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\image\widget\ds_w_Edit.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\image\widget\ds_w_Gif.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\image\widget\ds_w_Group.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\image\widget\ds_w_HeaderCtrl.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\image\widget\ds_w_HotKey.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\image\widget\ds_w_IPAddress.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\image\widget\ds_w_Link.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\image\widget\ds_w_ListBox.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\image\widget\ds_w_ListCtrlEx.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\image\widget\ds_w_ProcessCtrl.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\image\widget\ds_w_RadioButton.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\image\widget\ds_w_RichEdit.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\image\widget\ds_w_ScrollBar.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\image\widget\ds_w_SliderCtrl.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\image\widget\ds_w_Static.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\image\widget\ds_w_TabCtrl.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\image\widget\ds_w_TreeCtrl.png
+         ..\..\Docs\TestData\DesignerRes\themes\theme0\image\widget\ds_w_window.png
+         复制了 106 个文件
+         hgy copy DesignerRes folder end----------------------------------
+       Link:
+         D:\Software\Program\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Install\编程\开源库\DM\bin\Debug\DMDesigner.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:/Install/编程/开源库/DM/bin" /LIBPATH:"D:/Install/编程/开源库/DM/bin/Debug" /LIBPATH:"D:/Install/编程/开源库/DM/3rdParty/lib" /LIBPATH:"D:/Install/编程/开源库/DM/3rdParty/lib/Debug" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Install/编程/开源库/DM/bin/Debug/DMDesigner.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Install/编程/开源库/DM/bin/Debug/DMDesigner.lib" /MACHINE:X86 /SAFESEH  /machine:X86 DMDesigner.dir\Debug\DMDesigner.obj
+         DMDesigner.dir\Debug\DMDesignerAfx.obj
+         DMDesigner.dir\Debug\DMDesignerWnd.obj
+         DMDesigner.dir\Debug\Data.obj
+         DMDesigner.dir\Debug\Helper.obj
+         DMDesigner.dir\Debug\AddXml.obj
+         DMDesigner.dir\Debug\AttrBase.obj
+         DMDesigner.dir\Debug\HostAttr.obj
+         DMDesigner.dir\Debug\NameAttr.obj
+         DMDesigner.dir\Debug\ObjXml.obj
+         DMDesigner.dir\Debug\PosAttr.obj
+         DMDesigner.dir\Debug\ProjXml.obj
+         DMDesigner.dir\Debug\RightXml.obj
+         DMDesigner.dir\Debug\WidgetAttr.obj
+         DMDesigner.dir\Debug\Draw.obj
+         DMDesigner.dir\Debug\Layout.obj
+         DMDesigner.dir\Debug\Plugin.obj
+         DMDesigner.dir\Debug\ResFolder.obj
+         DMDesigner.dir\Debug\ResHelper.obj
+         DMDesigner.dir\Debug\ResMultFolder.obj
+         DMDesigner.dir\Debug\TipsImpl.obj
+         DMDesigner.dir\Debug\AddExpandWnd.obj
+         DMDesigner.dir\Debug\AttrExpandWnd.obj
+         DMDesigner.dir\Debug\DUIDragFrame.obj
+         DMDesigner.dir\Debug\DUILimitEdit.obj
+         DMDesigner.dir\Debug\DUIList.obj
+         DMDesigner.dir\Debug\DUIObjEditor.obj
+         DMDesigner.dir\Debug\DUIPos.obj
+         DMDesigner.dir\Debug\DUIPropCtrl.obj
+         DMDesigner.dir\Debug\DUIPropCtrlHelper.obj
+         DMDesigner.dir\Debug\DUIRect.obj
+         DMDesigner.dir\Debug\DUIRoot.obj
+         DMDesigner.dir\Debug\DUISize.obj
+         DMDesigner.dir\Debug\DUITreeEx.obj
+         DMDesigner.dir\Debug\DUImgEditor.obj
+         DMDesigner.dir\Debug\ImgDlg.obj
+         DMDesigner.dir\Debug\ImgTypeDlg.obj
+         DMDesigner.dir\Debug\LayoutDlg.obj
+         DMDesigner.dir\Debug\MsgBox.obj
+         DMDesigner.dir\Debug\NewResDlg.obj
+         DMDesigner.dir\Debug\ObjTree.obj
+         DMDesigner.dir\Debug\PoolDlg.obj
+         DMDesigner.dir\Debug\PreHWnd.obj
+         DMDesigner.dir\Debug\ProjTree.obj
+         DMDesigner.dir\Debug\ScanDlg.obj
+         DMDesigner.dir\Debug\SkinDlg.obj
+         DMDesigner.dir\Debug\StyleDlg.obj
+         DMDesigner.dir\Debug\ThemeDlg.obj
+         DMDesigner.dir\Debug\TipWnd.obj
+         DMDesigner.vcxproj -> D:\Install\编程\开源库\DM\bin\Debug\DMDesigner.exe
+       PostBuildEvent:
+         setlocal
+         call D:/Install/编程/开源库/DM/Tools/CMake/PostBuild.cmd D:\Install\编程\开源库\DM\bin\Debug\
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+         hgy copy dbghelp.dll start---------------------------------
+         hgy clear  output start------------------------------------
+         找不到 D:\Install\编程\开源库\DM\bin\Debug\*.aps
+         找不到 D:\Install\编程\开源库\DM\bin\Debug\*.ncb
+         找不到 D:\Install\编程\开源库\DM\bin\Debug\*.suo
+         找不到 D:\Install\编程\开源库\DM\bin\Debug\*.vcproj.*.user
+         找不到 D:\Install\编程\开源库\DM\bin\Debug\*.plg
+         找不到 D:\Install\编程\开源库\DM\bin\Debug\*.opt
+         找不到 D:\Install\编程\开源库\DM\bin\Debug\*.pch
+         找不到 D:\Install\编程\开源库\DM\bin\Debug\*.idb
+         找不到 D:\Install\编程\开源库\DM\bin\Debug\*.ilk
+         找不到 D:\Install\编程\开源库\DM\bin\Debug\*.obj
+         找不到 D:\Install\编程\开源库\DM\bin\Debug\*.dep
+         找不到 D:\Install\编程\开源库\DM\bin\Debug\*.DPbcd
+         找不到 D:\Install\编程\开源库\DM\bin\Debug\*.manifest
+         找不到 D:\Install\编程\开源库\DM\bin\Debug\*.ib_tag
+         找不到 D:\Install\编程\开源库\DM\bin\Debug\*.res
+         找不到 D:\Install\编程\开源库\DM\bin\Debug\*.ib_pdb_index
+         找不到 D:\Install\编程\开源库\DM\bin\Debug\*.exp
+         找不到 D:\Install\编程\开源库\DM\bin\Debug\*.bak
+         hgy clear  output end------------------------------------
+         hgy clear  plugin start------------------------------------
+         找不到 D:\Install\编程\开源库\DM\bin\plugins\*.aps
+         找不到 D:\Install\编程\开源库\DM\bin\plugins\*.ncb
+         找不到 D:\Install\编程\开源库\DM\bin\plugins\*.suo
+         找不到 D:\Install\编程\开源库\DM\bin\plugins\*.vcproj.*.user
+         找不到 D:\Install\编程\开源库\DM\bin\plugins\*.plg
+         找不到 D:\Install\编程\开源库\DM\bin\plugins\*.opt
+         找不到 D:\Install\编程\开源库\DM\bin\plugins\*.pch
+         找不到 D:\Install\编程\开源库\DM\bin\plugins\*.idb
+         找不到 D:\Install\编程\开源库\DM\bin\plugins\*.ilk
+         找不到 D:\Install\编程\开源库\DM\bin\plugins\*.obj
+         找不到 D:\Install\编程\开源库\DM\bin\plugins\*.htm
+         找不到 D:\Install\编程\开源库\DM\bin\plugins\*.dep
+         找不到 D:\Install\编程\开源库\DM\bin\plugins\*.DPbcd
+         找不到 D:\Install\编程\开源库\DM\bin\plugins\*.manifest
+         找不到 D:\Install\编程\开源库\DM\bin\plugins\*.ib_tag
+         找不到 D:\Install\编程\开源库\DM\bin\plugins\*.res
+         找不到 D:\Install\编程\开源库\DM\bin\plugins\*.ib_pdb_index
+         找不到 D:\Install\编程\开源库\DM\bin\plugins\*.exp
+         找不到 D:\Install\编程\开源库\DM\bin\plugins\*.bak
+         hgy clear  plugin end------------------------------------
+     1>已完成生成项目“D:\Install\编程\开源库\DM\Samples\DMDesigner\DMDesigner.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.93

@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{036B2696-9831-3167-A8BE-A37CE8E119AE}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Install\编程\开源库\DM\3rdParty\skia\inc\config;D:\Install\编程\开源库\DM\3rdParty\skia\inc\core;D:\Install\编程\开源库\DM\3rdParty\skia\inc\gpu;D:\Install\编程\开源库\DM\3rdParty\skia\inc\images;D:\Install\编程\开源库\DM\3rdParty\skia\inc\utils;D:\Install\编程\开源库\DM\3rdParty\skia\inc\utils\win;D:\Install\编程\开源库\DM\3rdParty\skia\inc\ports;D:\Install\编程\开源库\DM\3rdParty\skia\inc\text;D:\Install\编程\开源库\DM\3rdParty\skia\inc\effects;D:\Install\编程\开源库\DM\3rdParty\skia\inc\pathops;D:\Install\编程\开源库\DM\3rdParty\skia\src\gpu;D:\Install\编程\开源库\DM\3rdParty\skia\src\utils;D:\Install\编程\开源库\DM\3rdParty\skia\src\ports;D:\Install\编程\开源库\DM\3rdParty\skia\src\sfnt;D:\Install\编程\开源库\DM\3rdParty\skia\src\core;D:\Install\编程\开源库\DM\3rdParty\skia\src\image;D:\Install\编程\开源库\DM\3rdParty\skia\src\opts;D:\Install\编程\开源库\DM\3rdParty\skia\src\lazy;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Install\编程\开源库\DM\3rdParty\skia\inc\config;D:\Install\编程\开源库\DM\3rdParty\skia\inc\core;D:\Install\编程\开源库\DM\3rdParty\skia\inc\gpu;D:\Install\编程\开源库\DM\3rdParty\skia\inc\images;D:\Install\编程\开源库\DM\3rdParty\skia\inc\utils;D:\Install\编程\开源库\DM\3rdParty\skia\inc\utils\win;D:\Install\编程\开源库\DM\3rdParty\skia\inc\ports;D:\Install\编程\开源库\DM\3rdParty\skia\inc\text;D:\Install\编程\开源库\DM\3rdParty\skia\inc\effects;D:\Install\编程\开源库\DM\3rdParty\skia\inc\pathops;D:\Install\编程\开源库\DM\3rdParty\skia\src\gpu;D:\Install\编程\开源库\DM\3rdParty\skia\src\utils;D:\Install\编程\开源库\DM\3rdParty\skia\src\ports;D:\Install\编程\开源库\DM\3rdParty\skia\src\sfnt;D:\Install\编程\开源库\DM\3rdParty\skia\src\core;D:\Install\编程\开源库\DM\3rdParty\skia\src\image;D:\Install\编程\开源库\DM\3rdParty\skia\src\opts;D:\Install\编程\开源库\DM\3rdParty\skia\src\lazy;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Install\编程\开源库\DM\3rdParty\skia\inc\config;D:\Install\编程\开源库\DM\3rdParty\skia\inc\core;D:\Install\编程\开源库\DM\3rdParty\skia\inc\gpu;D:\Install\编程\开源库\DM\3rdParty\skia\inc\images;D:\Install\编程\开源库\DM\3rdParty\skia\inc\utils;D:\Install\编程\开源库\DM\3rdParty\skia\inc\utils\win;D:\Install\编程\开源库\DM\3rdParty\skia\inc\ports;D:\Install\编程\开源库\DM\3rdParty\skia\inc\text;D:\Install\编程\开源库\DM\3rdParty\skia\inc\effects;D:\Install\编程\开源库\DM\3rdParty\skia\inc\pathops;D:\Install\编程\开源库\DM\3rdParty\skia\src\gpu;D:\Install\编程\开源库\DM\3rdParty\skia\src\utils;D:\Install\编程\开源库\DM\3rdParty\skia\src\ports;D:\Install\编程\开源库\DM\3rdParty\skia\src\sfnt;D:\Install\编程\开源库\DM\3rdParty\skia\src\core;D:\Install\编程\开源库\DM\3rdParty\skia\src\image;D:\Install\编程\开源库\DM\3rdParty\skia\src\opts;D:\Install\编程\开源库\DM\3rdParty\skia\src\lazy;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Install\编程\开源库\DM\3rdParty\skia\inc\config;D:\Install\编程\开源库\DM\3rdParty\skia\inc\core;D:\Install\编程\开源库\DM\3rdParty\skia\inc\gpu;D:\Install\编程\开源库\DM\3rdParty\skia\inc\images;D:\Install\编程\开源库\DM\3rdParty\skia\inc\utils;D:\Install\编程\开源库\DM\3rdParty\skia\inc\utils\win;D:\Install\编程\开源库\DM\3rdParty\skia\inc\ports;D:\Install\编程\开源库\DM\3rdParty\skia\inc\text;D:\Install\编程\开源库\DM\3rdParty\skia\inc\effects;D:\Install\编程\开源库\DM\3rdParty\skia\inc\pathops;D:\Install\编程\开源库\DM\3rdParty\skia\src\gpu;D:\Install\编程\开源库\DM\3rdParty\skia\src\utils;D:\Install\编程\开源库\DM\3rdParty\skia\src\ports;D:\Install\编程\开源库\DM\3rdParty\skia\src\sfnt;D:\Install\编程\开源库\DM\3rdParty\skia\src\core;D:\Install\编程\开源库\DM\3rdParty\skia\src\image;D:\Install\编程\开源库\DM\3rdParty\skia\src\opts;D:\Install\编程\开源库\DM\3rdParty\skia\src\lazy;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/Install/编程/开源库/DM/3rdParty/skia/skia.vcxproj">
+      <Project>1D149C77-C7CD-37BB-B609-4C9D2CCFE3E6</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

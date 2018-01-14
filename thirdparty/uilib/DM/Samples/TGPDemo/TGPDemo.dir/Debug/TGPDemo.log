@@ -1,0 +1,131 @@
+﻿生成启动时间为 2016/10/14 10:24:41。
+     1>项目“D:\Install\编程\开源库\DM\Samples\TGPDemo\TGPDemo.vcxproj”在节点 2 上(Build 个目标)。
+     1>PreBuildEvent:
+         setlocal
+         call D:/Install/编程/开源库/DM/Tools/CMake/PreBuild-TGPDemo.cmd D:\Install\编程\开源库\DM\bin\Debug\
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+         hgy copy dbghelp.dll start---------------------------------
+         hgy delete TGPRes folder begin------------------------------
+         hgy delete TGPRes folder end--------------------------------
+         hgy copy dbghelp.dll begin---------------------------------
+         已复制         1 个文件。
+         hgy copy dbghelp.dll end-----------------------------------
+         hgy copy TGPRes folder begin--------------------------------
+         已复制         1 个文件。
+         已复制         1 个文件。
+         已复制         1 个文件。
+         已复制         1 个文件。
+         ..\..\Docs\TestData\TGPRes\layout\dmindex.xml
+         ..\..\Docs\TestData\TGPRes\layout\xml\dui_mainmenu.xml
+         ..\..\Docs\TestData\TGPRes\layout\xml\dui_mainwnd.xml
+         ..\..\Docs\TestData\TGPRes\layout\xml\dui_tab_game.xml
+         ..\..\Docs\TestData\TGPRes\layout\xml\global.xml
+         ..\..\Docs\TestData\TGPRes\layout\xml\menu\dui_cfmenu.xml
+         ..\..\Docs\TestData\TGPRes\layout\xml\tips\dui_cftips1.xml
+         ..\..\Docs\TestData\TGPRes\themes\dmindex.xml
+         ..\..\Docs\TestData\TGPRes\themes\theme0\dmindex.xml
+         ..\..\Docs\TestData\TGPRes\themes\theme0\image\button_close.png
+         ..\..\Docs\TestData\TGPRes\themes\theme0\image\button_mini.png
+         ..\..\Docs\TestData\TGPRes\themes\theme0\image\comboxbtn.png
+         ..\..\Docs\TestData\TGPRes\themes\theme0\image\logo.png
+         ..\..\Docs\TestData\TGPRes\themes\theme0\image\main.png
+         ..\..\Docs\TestData\TGPRes\themes\theme0\image\menu.png
+         ..\..\Docs\TestData\TGPRes\themes\theme0\image\scrollbar.png
+         ..\..\Docs\TestData\TGPRes\themes\theme0\image\tips_bg-bak.png
+         ..\..\Docs\TestData\TGPRes\themes\theme0\image\tips_bg.png
+         ..\..\Docs\TestData\TGPRes\themes\theme0\image\listboxex\lbx_arr.png
+         ..\..\Docs\TestData\TGPRes\themes\theme0\image\listboxex\lbx_bnsbg.png
+         ..\..\Docs\TestData\TGPRes\themes\theme0\image\listboxex\lbx_cfbg.png
+         ..\..\Docs\TestData\TGPRes\themes\theme0\image\listboxex\lbx_cflog.png
+         ..\..\Docs\TestData\TGPRes\themes\theme0\image\listboxex\lbx_itembg.png
+         ..\..\Docs\TestData\TGPRes\themes\theme0\image\listboxex\lbx_lcbg.png
+         ..\..\Docs\TestData\TGPRes\themes\theme0\image\listboxex\lbx_lcshowbg.png
+         ..\..\Docs\TestData\TGPRes\themes\theme0\image\listboxex\lbx_startgame.png
+         ..\..\Docs\TestData\TGPRes\themes\theme0\image\menu\main_menue_bg.png
+         ..\..\Docs\TestData\TGPRes\themes\theme0\image\menu\meue_item_bk.png
+         ..\..\Docs\TestData\TGPRes\themes\theme0\image\menu\meue_item_hold.png
+         ..\..\Docs\TestData\TGPRes\themes\theme0\image\tab\tab_friend.png
+         ..\..\Docs\TestData\TGPRes\themes\theme0\image\tab\tab_game.png
+         ..\..\Docs\TestData\TGPRes\themes\theme0\image\tab\tab_group.png
+         ..\..\Docs\TestData\TGPRes\themes\theme0\image\tab\tab_mainbg.png
+         ..\..\Docs\TestData\TGPRes\zips\zip_login.zip
+         ..\..\Docs\TestData\TGPRes\zips\zip_main.zip
+         复制了 35 个文件
+         hgy copy TGPRes folder end----------------------------------
+       Link:
+         D:\Software\Program\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Install\编程\开源库\DM\bin\Debug\TGPDemo.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:/Install/编程/开源库/DM/bin" /LIBPATH:"D:/Install/编程/开源库/DM/bin/Debug" /LIBPATH:"D:/Install/编程/开源库/DM/3rdParty/lib" /LIBPATH:"D:/Install/编程/开源库/DM/3rdParty/lib/Debug" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Install/编程/开源库/DM/bin/Debug/TGPDemo.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Install/编程/开源库/DM/bin/Debug/TGPDemo.lib" /MACHINE:X86 /SAFESEH  /machine:X86 TGPDemo.dir\Debug\TGPDemo.res
+         TGPDemo.dir\Debug\TGPComboboxEx.obj
+         TGPDemo.dir\Debug\TGPDemo.obj
+         TGPDemo.dir\Debug\TGPDemoAfx.obj
+         TGPDemo.dir\Debug\TGPListBoxEx.obj
+         TGPDemo.dir\Debug\TGPLoginWnd.obj
+         TGPDemo.dir\Debug\TGPMainWnd.obj
+         TGPDemo.dir\Debug\TGPTipsImpl.obj
+         TGPDemo.dir\Debug\TGPMenu.obj
+         TGPDemo.vcxproj -> D:\Install\编程\开源库\DM\bin\Debug\TGPDemo.exe
+       PostBuildEvent:
+         setlocal
+         call D:/Install/编程/开源库/DM/Tools/CMake/PostBuild.cmd D:\Install\编程\开源库\DM\bin\Debug\
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+         hgy copy dbghelp.dll start---------------------------------
+         hgy clear  output start------------------------------------
+         找不到 D:\Install\编程\开源库\DM\bin\Debug\*.aps
+         找不到 D:\Install\编程\开源库\DM\bin\Debug\*.ncb
+         找不到 D:\Install\编程\开源库\DM\bin\Debug\*.suo
+         找不到 D:\Install\编程\开源库\DM\bin\Debug\*.vcproj.*.user
+         找不到 D:\Install\编程\开源库\DM\bin\Debug\*.plg
+         找不到 D:\Install\编程\开源库\DM\bin\Debug\*.opt
+         找不到 D:\Install\编程\开源库\DM\bin\Debug\*.pch
+         找不到 D:\Install\编程\开源库\DM\bin\Debug\*.idb
+         删除文件 - D:\Install\编程\开源库\DM\bin\Debug\DmMain_d.ilk
+         删除文件 - D:\Install\编程\开源库\DM\bin\Debug\TGPDemo.ilk
+         找不到 D:\Install\编程\开源库\DM\bin\Debug\*.obj
+         找不到 D:\Install\编程\开源库\DM\bin\Debug\*.dep
+         找不到 D:\Install\编程\开源库\DM\bin\Debug\*.DPbcd
+         找不到 D:\Install\编程\开源库\DM\bin\Debug\*.manifest
+         找不到 D:\Install\编程\开源库\DM\bin\Debug\*.ib_tag
+         找不到 D:\Install\编程\开源库\DM\bin\Debug\*.res
+         找不到 D:\Install\编程\开源库\DM\bin\Debug\*.ib_pdb_index
+         删除文件 - D:\Install\编程\开源库\DM\bin\Debug\DmMain_d.exp
+         找不到 D:\Install\编程\开源库\DM\bin\Debug\*.bak
+         hgy clear  output end------------------------------------
+         hgy clear  plugin start------------------------------------
+         找不到 D:\Install\编程\开源库\DM\bin\plugins\*.aps
+         找不到 D:\Install\编程\开源库\DM\bin\plugins\*.ncb
+         找不到 D:\Install\编程\开源库\DM\bin\plugins\*.suo
+         找不到 D:\Install\编程\开源库\DM\bin\plugins\*.vcproj.*.user
+         找不到 D:\Install\编程\开源库\DM\bin\plugins\*.plg
+         找不到 D:\Install\编程\开源库\DM\bin\plugins\*.opt
+         找不到 D:\Install\编程\开源库\DM\bin\plugins\*.pch
+         找不到 D:\Install\编程\开源库\DM\bin\plugins\*.idb
+         删除文件 - D:\Install\编程\开源库\DM\bin\plugins\Plugin_Expand_d.ilk
+         找不到 D:\Install\编程\开源库\DM\bin\plugins\*.obj
+         找不到 D:\Install\编程\开源库\DM\bin\plugins\*.htm
+         找不到 D:\Install\编程\开源库\DM\bin\plugins\*.dep
+         找不到 D:\Install\编程\开源库\DM\bin\plugins\*.DPbcd
+         找不到 D:\Install\编程\开源库\DM\bin\plugins\*.manifest
+         找不到 D:\Install\编程\开源库\DM\bin\plugins\*.ib_tag
+         找不到 D:\Install\编程\开源库\DM\bin\plugins\*.res
+         找不到 D:\Install\编程\开源库\DM\bin\plugins\*.ib_pdb_index
+         删除文件 - D:\Install\编程\开源库\DM\bin\plugins\Plugin_Expand_d.exp
+         找不到 D:\Install\编程\开源库\DM\bin\plugins\*.bak
+         hgy clear  plugin end------------------------------------
+     1>已完成生成项目“D:\Install\编程\开源库\DM\Samples\TGPDemo\TGPDemo.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.62

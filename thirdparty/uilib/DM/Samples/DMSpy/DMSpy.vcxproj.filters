@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\DMSpy.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DMSpyAfx.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DUIFindBtn.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MainWnd.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SkinWnd.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="inc\DMSpyAfx.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\DUIFindBtn.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\MainWnd.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\SkinWnd.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>other</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\eye.cur">
+      <Filter>src</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="inc">
+      <UniqueIdentifier>{89515D3E-0B70-38CD-B0D2-74D5106675BD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{2B364CF9-9FF7-33E6-A2E5-4278128C3E60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other">
+      <UniqueIdentifier>{13E42CB2-D55B-3C5B-B590-4E21D3132AF7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DMSpy.rc">
+      <Filter>other</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,797 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\Common\DMColor.cpp">
+      <Filter>src\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Common\DMDC.cpp">
+      <Filter>src\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Common\DMDIBHelper.cpp">
+      <Filter>src\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Common\DMGifParse.cpp">
+      <Filter>src\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Common\DMHWndHelper.cpp">
+      <Filter>src\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Common\DMMemDispatch.cpp">
+      <Filter>src\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Common\DMSpyTool.cpp">
+      <Filter>src\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Common\DMXmlParse.cpp">
+      <Filter>src\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Common\DUIWindowHelper.cpp">
+      <Filter>src\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Common\pugixml.cpp">
+      <Filter>src\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Common\Plugins\DMDynLib.cpp">
+      <Filter>src\Common\Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Common\Plugins\DMDynLibMgr.cpp">
+      <Filter>src\Common\Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Common\Plugins\DMPluginsTool.cpp">
+      <Filter>src\Common\Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Common\ActiveX\DMActiveXBase.cpp">
+      <Filter>src\Common\ActiveX</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Common\ActiveX\DMActiveXHelper.cpp">
+      <Filter>src\Common\ActiveX</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Dui\DUIAccel.cpp">
+      <Filter>src\Core\Dui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Dui\DUIDropTargetDispatch.cpp">
+      <Filter>src\Core\Dui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Dui\DUIFocusMgr.cpp">
+      <Filter>src\Core\Dui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Dui\DUIFontPool.cpp">
+      <Filter>src\Core\Dui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Dui\DUISkinPool.cpp">
+      <Filter>src\Core\Dui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Dui\DUIStylePool.cpp">
+      <Filter>src\Core\Dui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Dui\DUITimer.cpp">
+      <Filter>src\Core\Dui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Dui\DUIWndPool.cpp">
+      <Filter>src\Core\Dui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Event\DMEventMgr.cpp">
+      <Filter>src\Core\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Event\DMEvents.cpp">
+      <Filter>src\Core\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Event\DMEventSubscriber.cpp">
+      <Filter>src\Core\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Msg\DMMsgLoop.cpp">
+      <Filter>src\Core\Msg</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Msg\DMMsgThunk.cpp">
+      <Filter>src\Core\Msg</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\DMApp.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\DMAppData.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\DMBase.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\DMContainerImpl.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\DMCWnd.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\DMCWndBase.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\DMDispatch.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\DMDragWnd.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\DMDropWnd.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\DMHDialog.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\DMHelper.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\DMHWnd.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\DMRegMgr.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\DMThreadMgr.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\DMTips.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Modules\DMAttributeImpl.cpp">
+      <Filter>src\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Modules\DMDrawImpl.cpp">
+      <Filter>src\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Modules\DMImgDecoderImpl.cpp">
+      <Filter>src\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Modules\DMLayoutImpl.cpp">
+      <Filter>src\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Modules\DMLogImpl.cpp">
+      <Filter>src\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Modules\DMPluginImpl.cpp">
+      <Filter>src\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Modules\DMResFolderImpl.cpp">
+      <Filter>src\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Modules\DMResHelper.cpp">
+      <Filter>src\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Modules\DMStyleImpl.cpp">
+      <Filter>src\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Modules\DMTooltipImpl.cpp">
+      <Filter>src\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Modules\Render\DMBitmapImpl.cpp">
+      <Filter>src\Modules\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Modules\Render\DMBrushImpl.cpp">
+      <Filter>src\Modules\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Modules\Render\DMCanvasImpl.cpp">
+      <Filter>src\Modules\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Modules\Render\DMFontImpl.cpp">
+      <Filter>src\Modules\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Modules\Render\DMPenImpl.cpp">
+      <Filter>src\Modules\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Modules\Render\DMRegionImpl.cpp">
+      <Filter>src\Modules\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Modules\Render\DMRenderImpl.cpp">
+      <Filter>src\Modules\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Modules\Skin\DMImg9SkinImpl.cpp">
+      <Filter>src\Modules\Skin</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Modules\Skin\DMImgListSkinImpl.cpp">
+      <Filter>src\Modules\Skin</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Modules\Skin\DMScrollBarSkinImpl.cpp">
+      <Filter>src\Modules\Skin</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Widgets\DUIActiveX.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Widgets\DUIAnimate.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Widgets\DUIAnimateHelper.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Widgets\DUIButton.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Widgets\DUICheckBox.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Widgets\DUIComboBox.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Widgets\DUIComboBoxHelper.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Widgets\DUIEdit.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Widgets\DUIEditHelper.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Widgets\DUIFlash.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Widgets\DUIFlowLayout.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Widgets\DUIGif.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Widgets\DUIGroup.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Widgets\DUIHeaderCtrl.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Widgets\DUIHotKeyCtrl.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Widgets\DUIIE.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Widgets\DUIItemPanel.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Widgets\DUILink.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Widgets\DUIListBox.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Widgets\DUIListBoxEx.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Widgets\DUIListCtrlEx.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Widgets\DUIMenu.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Widgets\DUIMenuHelper.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Widgets\DUIPAddressCtrl.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Widgets\DUIProcessCtrl.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Widgets\DUIRadioButton.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Widgets\DUIScrollBase.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Widgets\DUISliderCtrl.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Widgets\DUIStatic.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Widgets\DUITabCtrl.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Widgets\DUITreeCtrl.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Widgets\DUITreeCtrlEx.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Widgets\DUIWindow.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Widgets\IDUIRealWnd.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DmMainAfx.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="inc\Common\DMColor.h">
+      <Filter>inc\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Common\DMDC.h">
+      <Filter>inc\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Common\DMDef.h">
+      <Filter>inc\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Common\DMDelegate.h">
+      <Filter>inc\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Common\DMDIBHelper.h">
+      <Filter>inc\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Common\DMError.h">
+      <Filter>inc\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Common\DMGifParse.h">
+      <Filter>inc\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Common\DMHelper.h">
+      <Filter>inc\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Common\DMHWndHelper.h">
+      <Filter>inc\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Common\DMMemDispatch.h">
+      <Filter>inc\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Common\DMMisc.h">
+      <Filter>inc\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Common\DMRefNum.h">
+      <Filter>inc\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Common\DMSpyTool.h">
+      <Filter>inc\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Common\DMXmlParse.h">
+      <Filter>inc\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Common\DUIWindowHelper.h">
+      <Filter>inc\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Common\pugiconfig.hpp">
+      <Filter>inc\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Common\pugixml.hpp">
+      <Filter>inc\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Common\Template\DMAllocT.h">
+      <Filter>inc\Common\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Common\Template\DMArrayT.h">
+      <Filter>inc\Common\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Common\Template\DMAutoResetT.h">
+      <Filter>inc\Common\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Common\Template\DMLock.h">
+      <Filter>inc\Common\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Common\Template\DMMapT.h">
+      <Filter>inc\Common\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Common\Template\DMSingletonT.h">
+      <Filter>inc\Common\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Common\Template\DMSmartPtrT.h">
+      <Filter>inc\Common\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Common\Template\DMStringT.h">
+      <Filter>inc\Common\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Common\Template\DMTreeT.h">
+      <Filter>inc\Common\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Common\Plugins\DMDynLib.h">
+      <Filter>inc\Common\Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Common\Plugins\DMDynLibMgr.h">
+      <Filter>inc\Common\Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Common\Plugins\DMPluginsTool.h">
+      <Filter>inc\Common\Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Common\ActiveX\DMActiveXBase.h">
+      <Filter>inc\Common\ActiveX</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Common\ActiveX\DMActiveXHelper.h">
+      <Filter>inc\Common\ActiveX</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Core\DMApp.h">
+      <Filter>inc\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Core\DMAppData.h">
+      <Filter>inc\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Core\DMBase.h">
+      <Filter>inc\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Core\DMContainerImpl.h">
+      <Filter>inc\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Core\DMCWnd.h">
+      <Filter>inc\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Core\DMCWndBase.h">
+      <Filter>inc\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Core\DMDispatch.h">
+      <Filter>inc\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Core\DMDragWnd.h">
+      <Filter>inc\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Core\DMDropWnd.h">
+      <Filter>inc\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Core\DMHDialog.h">
+      <Filter>inc\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Core\DMHWnd.h">
+      <Filter>inc\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Core\DMRegMgr.h">
+      <Filter>inc\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Core\DMThreadMgr.h">
+      <Filter>inc\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Core\DMTips.h">
+      <Filter>inc\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Core\Msg\DMEventCrack.h">
+      <Filter>inc\Core\Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Core\Msg\DMMsgCrack.h">
+      <Filter>inc\Core\Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Core\Msg\DMMsgLoop.h">
+      <Filter>inc\Core\Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Core\Msg\DMMsgThunk.h">
+      <Filter>inc\Core\Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Core\Msg\DMXmlCrack.h">
+      <Filter>inc\Core\Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Core\Msg\DUIMsgCrack.h">
+      <Filter>inc\Core\Msg</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Core\Event\DMEventMgr.h">
+      <Filter>inc\Core\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Core\Event\DMEvents.h">
+      <Filter>inc\Core\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Core\Event\DMEventSubscriber.h">
+      <Filter>inc\Core\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Core\Dui\DUIAccel.h">
+      <Filter>inc\Core\Dui</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Core\Dui\DUIDropTargetDispatch.h">
+      <Filter>inc\Core\Dui</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Core\Dui\DUIFocusMgr.h">
+      <Filter>inc\Core\Dui</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Core\Dui\DUIFontPool.h">
+      <Filter>inc\Core\Dui</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Core\Dui\DUISkinPool.h">
+      <Filter>inc\Core\Dui</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Core\Dui\DUIStylePool.h">
+      <Filter>inc\Core\Dui</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Core\Dui\DUITimer.h">
+      <Filter>inc\Core\Dui</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Core\Dui\DUIWndPool.h">
+      <Filter>inc\Core\Dui</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\IDmMain\IDMAnimate.h">
+      <Filter>inc\IDmMain</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\IDmMain\IDMAttribute.h">
+      <Filter>inc\IDmMain</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\IDmMain\IDMContainer.h">
+      <Filter>inc\IDmMain</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\IDmMain\IDMDraw.h">
+      <Filter>inc\IDmMain</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\IDmMain\IDMImgDecoder.h">
+      <Filter>inc\IDmMain</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\IDmMain\IDMLayout.h">
+      <Filter>inc\IDmMain</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\IDmMain\IDMLog.h">
+      <Filter>inc\IDmMain</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\IDmMain\IDMMsg.h">
+      <Filter>inc\IDmMain</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\IDmMain\IDMPlugin.h">
+      <Filter>inc\IDmMain</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\IDmMain\IDMRegT.h">
+      <Filter>inc\IDmMain</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\IDmMain\IDMRender.h">
+      <Filter>inc\IDmMain</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\IDmMain\IDMRes.h">
+      <Filter>inc\IDmMain</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\IDmMain\IDMScript.h">
+      <Filter>inc\IDmMain</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\IDmMain\IDMSkin.h">
+      <Filter>inc\IDmMain</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\IDmMain\IDMStyle.h">
+      <Filter>inc\IDmMain</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\IDmMain\IDMToolTip.h">
+      <Filter>inc\IDmMain</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Modules\DMAttributeImpl.h">
+      <Filter>inc\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Modules\DMDrawImpl.h">
+      <Filter>inc\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Modules\DMImgDecoderImpl.h">
+      <Filter>inc\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Modules\DMLayoutImpl.h">
+      <Filter>inc\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Modules\DMLogImpl.h">
+      <Filter>inc\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Modules\DMPluginImpl.h">
+      <Filter>inc\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Modules\DMResFolderImpl.h">
+      <Filter>inc\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Modules\DMResHelper.h">
+      <Filter>inc\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Modules\DMStyleImpl.h">
+      <Filter>inc\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Modules\DMTooltipImpl.h">
+      <Filter>inc\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Modules\Skin\DMImg9SkinImpl.h">
+      <Filter>inc\Modules\Skin</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Modules\Skin\DMImgListSkinImpl.h">
+      <Filter>inc\Modules\Skin</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Modules\Skin\DMScrollBarSkinImpl.h">
+      <Filter>inc\Modules\Skin</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Modules\Render\DMBitmapImpl.h">
+      <Filter>inc\Modules\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Modules\Render\DMBrushImpl.h">
+      <Filter>inc\Modules\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Modules\Render\DMCanvasImpl.h">
+      <Filter>inc\Modules\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Modules\Render\DMFontImpl.h">
+      <Filter>inc\Modules\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Modules\Render\DMPenImpl.h">
+      <Filter>inc\Modules\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Modules\Render\DMRegionImpl.h">
+      <Filter>inc\Modules\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Modules\Render\DMRenderImpl.h">
+      <Filter>inc\Modules\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\DmMainAfx.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\DmMainOutput.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Widgets\DMWidgetDef.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Widgets\DUIActiveX.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Widgets\DUIAnimate.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Widgets\DUIAnimateHelper.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Widgets\DUIButton.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Widgets\DUICheckBox.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Widgets\DUIComboBox.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Widgets\DUIComboBoxHelper.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Widgets\DUIEdit.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Widgets\DUIEditHelper.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Widgets\DUIFlash.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Widgets\DUIFlowLayout.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Widgets\DUIGif.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Widgets\DUIGroup.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Widgets\DUIHeaderCtrl.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Widgets\DUIHotKeyCtrl.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Widgets\DUIIE.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Widgets\DUIItemPanel.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Widgets\DUILink.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Widgets\DUIListBox.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Widgets\DUIListBoxEx.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Widgets\DUIListCtrlEx.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Widgets\DUIMenu.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Widgets\DUIMenuHelper.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Widgets\DUIPAddressCtrl.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Widgets\DUIProcessCtrl.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Widgets\DUIRadioButton.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Widgets\DUIScrollBase.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Widgets\DUISliderCtrl.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Widgets\DUIStatic.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Widgets\DUITabCtrl.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Widgets\DUITreeCtrl.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Widgets\DUITreeCtrlEx.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Widgets\DUIWindow.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Widgets\IDUIRealWnd.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Widgets\IDUIWeb.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="inc\Common\ActiveX\flash10t.tlh">
+      <Filter>inc\Common\ActiveX</Filter>
+    </None>
+    <None Include="inc\Common\ActiveX\flash10t.tli">
+      <Filter>inc\Common\ActiveX</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src\Modules\Render">
+      <UniqueIdentifier>{65DDD892-3D77-3CFE-A8F8-2823675BB82D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Modules\Skin">
+      <UniqueIdentifier>{7887465F-EA68-3D04-8DE6-01065120643C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Common\Plugins">
+      <UniqueIdentifier>{E944E414-7E0D-30B4-8628-FC5D7721C22E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Common\ActiveX">
+      <UniqueIdentifier>{384A39B0-3570-3B6E-9F4C-5159827DC455}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\Modules\Render">
+      <UniqueIdentifier>{DA581167-EA96-36C9-AE11-0DD56A0A7B2F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\Modules\Skin">
+      <UniqueIdentifier>{5519499C-1E8C-3A1E-B450-361A56AD0DCB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\Common">
+      <UniqueIdentifier>{724EA116-A3DD-353E-A911-7C05DCA01C63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\Core">
+      <UniqueIdentifier>{0740B9DC-6FDF-3650-AE9F-3C25F4C4A1AC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\IDmMain">
+      <UniqueIdentifier>{50686249-3655-3879-9FB3-3C5E482C24BD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\Modules">
+      <UniqueIdentifier>{E7AE7721-9124-3DF1-A524-E22A25B6DAEA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Common">
+      <UniqueIdentifier>{B1CDC3D5-74E2-340B-94C0-0096D100DD9A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Core">
+      <UniqueIdentifier>{CEABB1CD-D692-349E-9CF8-4270D9E6D494}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Modules">
+      <UniqueIdentifier>{3DDC2A63-02C4-3CE6-902B-8DCB11A9089E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Widgets">
+      <UniqueIdentifier>{79FAF07F-5623-3244-AC8D-4A7DB3364AA6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Core\Msg">
+      <UniqueIdentifier>{CDA8D4A3-C940-3AE8-8857-818EE0C5C792}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Core\Dui">
+      <UniqueIdentifier>{E70E3CD7-C93E-3146-9E97-23C463BD85D1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Core\Event">
+      <UniqueIdentifier>{B7A7CB60-09A4-379B-8849-52D7521320F8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\Core\Msg">
+      <UniqueIdentifier>{5E6F357C-03CE-3A44-B721-CFB04F59A242}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\Core\Dui">
+      <UniqueIdentifier>{05C38CAE-6836-3744-965A-54E5CF3ACC28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\Core\Event">
+      <UniqueIdentifier>{97250C3F-9AB7-3E3E-816C-836F0D9F2743}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\Common\Template">
+      <UniqueIdentifier>{A96142B4-7727-3B4D-8959-14C782C084E9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\Common\Plugins">
+      <UniqueIdentifier>{72C25753-233C-3153-B666-E77879E10228}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\Common\ActiveX">
+      <UniqueIdentifier>{077D6728-64DE-33C1-9C0A-8B3F76D6B202}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc">
+      <UniqueIdentifier>{89515D3E-0B70-38CD-B0D2-74D5106675BD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{2B364CF9-9FF7-33E6-A2E5-4278128C3E60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\Widgets">
+      <UniqueIdentifier>{1e2a1fc1-c495-433a-9835-0f3545e39cf6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

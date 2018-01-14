@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>UiAssistLib</ProjectName>
+    <ProjectGuid>{1EAFE2F7-FE2A-4271-A2E9-BCC236412A25}</ProjectGuid>
+    <RootNamespace>UiAssistLib</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v90</PlatformToolset>
+    <UseOfAtl>Static</UseOfAtl>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v90</PlatformToolset>
+    <UseOfAtl>Static</UseOfAtl>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.50727.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\..\Lib\$(Configuration)\</OutDir>
+    <IntDir>..\..\Temp\$(ProjectName)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\..\Lib\$(Configuration)\</OutDir>
+    <IntDir>..\..\Temp\$(ProjectName)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;UiAssistLib_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <StructMemberAlignment>8Bytes</StructMemberAlignment>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;UiAssistLib_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <StructMemberAlignment>8Bytes</StructMemberAlignment>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="..\..\Inc\CUiXmlWrite.h" />
+    <ClInclude Include="..\..\Inc\IPropertyBase.h" />
+    <ClInclude Include="..\..\Inc\IPropertyBool.h" />
+    <ClInclude Include="..\..\Inc\IPropertyBuilderCtrl.h" />
+    <ClInclude Include="..\..\Inc\IPropertyColor.h" />
+    <ClInclude Include="..\..\Inc\IPropertyComboBox.h" />
+    <ClInclude Include="..\..\Inc\IPropertyControl.h" />
+    <ClInclude Include="..\..\Inc\IPropertyCursor.h" />
+    <ClInclude Include="..\..\Inc\IPropertyCursorBase.h" />
+    <ClInclude Include="..\..\Inc\IPropertyFont.h" />
+    <ClInclude Include="..\..\Inc\IPropertyFontBase.h" />
+    <ClInclude Include="..\..\Inc\IPropertyGroup.h" />
+    <ClInclude Include="..\..\Inc\IPropertyImage.h" />
+    <ClInclude Include="..\..\Inc\IPropertyImageBase.h" />
+    <ClInclude Include="..\..\Inc\IPropertyInt.h" />
+    <ClInclude Include="..\..\Inc\IPropertyString.h" />
+    <ClInclude Include="..\..\Inc\IPropertyWindow.h" />
+    <ClInclude Include="..\..\Inc\CDrawingBoard.h" />
+    <ClInclude Include="..\..\Inc\CDrawingImage.h" />
+    <ClInclude Include="..\..\Inc\CA2W_W2A.h" />
+    <ClInclude Include="..\..\Inc\ICommonFun.h" />
+    <ClInclude Include="..\..\Inc\CHighAccuracyTimer.h" />
+    <ClInclude Include="MmxBase.h" />
+    <ClInclude Include="..\..\Inc\CTList.h" />
+    <ClInclude Include="..\..\Inc\CStringObjList.h" />
+    <ClInclude Include="..\..\Inc\CStringMap.h" />
+    <ClInclude Include="..\..\Inc\CDWORDMap.h" />
+    <ClInclude Include="..\..\Inc\IFeatureObject.h" />
+    <ClInclude Include="..\..\Inc\IControlBase.h" />
+    <ClInclude Include="..\..\Inc\ICtrlInterface.h" />
+    <ClInclude Include="..\..\Inc\UiFeatureDefs.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="IPropertyBase.cpp" />
+    <ClCompile Include="CDrawingBoard.cpp" />
+    <ClCompile Include="CDrawingImage.cpp" />
+    <ClCompile Include="CA2W_W2A.cpp" />
+    <ClCompile Include="ICommonFun.cpp" />
+    <ClCompile Include="CHighAccuracyTimer.cpp" />
+    <ClCompile Include="MmxBase.cpp" />
+    <ClCompile Include="CTList.cpp" />
+    <ClCompile Include="CStringObjList.cpp" />
+    <ClCompile Include="CStringMap.cpp" />
+    <ClCompile Include="CDWORDMap.cpp" />
+    <ClCompile Include="IFeatureObject.cpp" />
+    <ClCompile Include="IControlBase.cpp" />
+    <ClCompile Include="IControlBase_Message.cpp" />
+    <ClCompile Include="IControlBase_Propetry.cpp" />
+    <ClCompile Include="ICtrlInterface.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="UiAssistLib.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

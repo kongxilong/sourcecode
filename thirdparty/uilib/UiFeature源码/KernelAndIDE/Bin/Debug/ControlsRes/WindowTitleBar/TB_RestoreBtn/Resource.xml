@@ -1,0 +1,219 @@
+<?xml version="1.0"?>
+<resource>
+	<group>
+		<item objid="1110" name="ControlBase" />
+	</group>
+	<int>
+		<item objid="1111" name="@Object_Id" data="1107" />
+	</int>
+	<string>
+		<item objid="1112" name="@Object_Type" counts="1" defaultarea="1" area0="1" data0="ShadowButton" />
+	</string>
+	<string>
+		<item objid="1113" name="@Object_Name" counts="1" defaultarea="1" area0="1" data0="TB_RestoreBtn" />
+	</string>
+	<bool>
+		<item objid="1114" name="Lock" data="1" />
+	</bool>
+	<bool>
+		<item objid="1115" name="Visible" data="0" />
+	</bool>
+	<bool>
+		<item objid="1116" name="Enable" data="1" />
+	</bool>
+	<bool>
+		<item objid="1117" name="ReceiveMouseMessage" data="1" />
+	</bool>
+	<int>
+		<item objid="1118" name="TabOrder" data="0" />
+	</int>
+	<bool>
+		<item objid="1119" name="DefaultEnterCtrl" data="0" />
+	</bool>
+	<group>
+		<item objid="1120" name="SystemTips" />
+	</group>
+	<group>
+		<item objid="1120" name="SystemTips" />
+	</group>
+	<bool>
+		<item objid="1121" name="ShowInUserDefPos" data="0" />
+	</bool>
+	<bool>
+		<item objid="1122" name="Baloon" data="0" />
+	</bool>
+	<string />
+	<int>
+		<item objid="1124" name="ShowTime" data="0" />
+	</int>
+	<group>
+		<item objid="1125" name="Draw" />
+	</group>
+	<group>
+		<item objid="1125" name="Draw" />
+	</group>
+	<bool>
+		<item objid="1126" name="NoDrawControl" data="0" />
+	</bool>
+	<bool>
+		<item objid="1127" name="AlphaBlendDraw" data="1" />
+	</bool>
+	<int>
+		<item objid="1128" name="DrawAlpha" data="255" />
+	</int>
+	<bool>
+		<item objid="1129" name="TempDrawMem" data="1" />
+	</bool>
+	<group>
+		<item objid="1130" name="Layout" />
+	</group>
+	<group>
+		<item objid="1130" name="Layout" />
+	</group>
+	<int>
+		<item objid="1131" name="@Width" data="23" />
+	</int>
+	<int>
+		<item objid="1132" name="@Height" data="23" />
+	</int>
+	<combobox>
+		<item objid="1133" name="@Layout_Type" counts="16" select="2" />
+	</combobox>
+	<int>
+		<item objid="1134" name="@LeftSpace" data="345" />
+	</int>
+	<int>
+		<item objid="1135" name="@RightSpace" data="32" />
+	</int>
+	<int>
+		<item objid="1136" name="@TopSpace" data="1" />
+	</int>
+	<int>
+		<item objid="1137" name="@BottomSpace" data="7" />
+	</int>
+	<group>
+		<item objid="1138" name="Animation" />
+	</group>
+	<group>
+		<item objid="1138" name="Animation" />
+	</group>
+	<combobox>
+		<item objid="1139" name="AnimationType" counts="82" select="0" />
+	</combobox>
+	<int>
+		<item objid="1140" name="FrameTime" data="20" />
+	</int>
+	<combobox>
+		<item objid="1141" name="AnimationDirection" counts="2" select="0" />
+	</combobox>
+	<group>
+		<item objid="1142" name="ControlPropetry" />
+	</group>
+	<combobox>
+		<item objid="1143" name="ButtonType" counts="3" select="0" />
+	</combobox>
+	<group>
+		<item objid="1144" name="ButtonImage" />
+	</group>
+	<group>
+		<item objid="1144" name="ButtonImage" />
+	</group>
+	<image>
+		<item objid="1145" name="NormalImage" imagebasename="UFD_BtnRestore.N" />
+	</image>
+	<imagebase>
+		<item objid="1404" name="UFD_BtnRestore.N" imageinzip="UFD_BtnRestore.png" showtype="1">
+			<rectinimage left="0" top="0" right="23" bottom="23" />
+			<jgg left="0" top="0" right="0" bottom="0" drawmid="0" />
+			<animation playtype="0" looptype="0" bofangtype="0" />
+		</item>
+	</imagebase>
+	<image>
+		<item objid="1146" name="HoverImage" imagebasename="UFD_BtnRestore.H" />
+	</image>
+	<imagebase>
+		<item objid="1405" name="UFD_BtnRestore.H" imageinzip="UFD_BtnRestore.png" showtype="1">
+			<rectinimage left="23" top="0" right="46" bottom="23" />
+			<jgg left="0" top="0" right="0" bottom="0" drawmid="0" />
+			<animation playtype="0" looptype="0" bofangtype="0" />
+		</item>
+	</imagebase>
+	<image>
+		<item objid="1147" name="LButtonDownImage" imagebasename="UFD_BtnRestore.Down" />
+	</image>
+	<imagebase>
+		<item objid="1406" name="UFD_BtnRestore.Down" imageinzip="UFD_BtnRestore.png" showtype="1">
+			<rectinimage left="46" top="0" right="69" bottom="23" />
+			<jgg left="0" top="0" right="0" bottom="0" drawmid="0" />
+			<animation playtype="0" looptype="0" bofangtype="0" />
+		</item>
+	</imagebase>
+	<image />
+	<image />
+	<group>
+		<item objid="1150" name="ButtonFont" />
+	</group>
+	<group>
+		<item objid="1150" name="ButtonFont" />
+	</group>
+	<font>
+		<item objid="1151" name="NormalFont" fontbasename="SystemDefaultFont" />
+	</font>
+	<fontbase>
+		<item objid="197" name="SystemDefaultFont">
+			<logfont lfFaceName="宋体" lfHeight="12" lfWidth="0" lfEscapement="0" lfOrientation="0" lfWeight="400" lfItalic="0" lfUnderline="0" lfStrikeOut="0" lfCharSet="134" lfOutPrecision="0" lfClipPrecision="0" lfQuality="2" lfPitchAndFamily="18" />
+			<mode color="0" VAligning="1" HAligning="0" ShowMode="0" Effect="0" />
+		</item>
+	</fontbase>
+	<font>
+		<item objid="1152" name="HoverFont" fontbasename="SystemDefaultFont" />
+	</font>
+	<fontbase>
+		<item objid="197" name="SystemDefaultFont">
+			<logfont lfFaceName="宋体" lfHeight="12" lfWidth="0" lfEscapement="0" lfOrientation="0" lfWeight="400" lfItalic="0" lfUnderline="0" lfStrikeOut="0" lfCharSet="134" lfOutPrecision="0" lfClipPrecision="0" lfQuality="2" lfPitchAndFamily="18" />
+			<mode color="0" VAligning="1" HAligning="0" ShowMode="0" Effect="0" />
+		</item>
+	</fontbase>
+	<font>
+		<item objid="1153" name="LButtonDownFont" fontbasename="SystemDefaultFont" />
+	</font>
+	<fontbase>
+		<item objid="197" name="SystemDefaultFont">
+			<logfont lfFaceName="宋体" lfHeight="12" lfWidth="0" lfEscapement="0" lfOrientation="0" lfWeight="400" lfItalic="0" lfUnderline="0" lfStrikeOut="0" lfCharSet="134" lfOutPrecision="0" lfClipPrecision="0" lfQuality="2" lfPitchAndFamily="18" />
+			<mode color="0" VAligning="1" HAligning="0" ShowMode="0" Effect="0" />
+		</item>
+	</fontbase>
+	<font>
+		<item objid="1154" name="FocusFont" fontbasename="SystemDefaultFont" />
+	</font>
+	<fontbase>
+		<item objid="197" name="SystemDefaultFont">
+			<logfont lfFaceName="宋体" lfHeight="12" lfWidth="0" lfEscapement="0" lfOrientation="0" lfWeight="400" lfItalic="0" lfUnderline="0" lfStrikeOut="0" lfCharSet="134" lfOutPrecision="0" lfClipPrecision="0" lfQuality="2" lfPitchAndFamily="18" />
+			<mode color="0" VAligning="1" HAligning="0" ShowMode="0" Effect="0" />
+		</item>
+	</fontbase>
+	<font>
+		<item objid="1155" name="DisableFont" fontbasename="SystemDefaultFont" />
+	</font>
+	<fontbase>
+		<item objid="197" name="SystemDefaultFont">
+			<logfont lfFaceName="宋体" lfHeight="12" lfWidth="0" lfEscapement="0" lfOrientation="0" lfWeight="400" lfItalic="0" lfUnderline="0" lfStrikeOut="0" lfCharSet="134" lfOutPrecision="0" lfClipPrecision="0" lfQuality="2" lfPitchAndFamily="18" />
+			<mode color="0" VAligning="1" HAligning="0" ShowMode="0" Effect="0" />
+		</item>
+	</fontbase>
+	<string />
+	<group>
+		<item objid="1157" name="RgnButton" />
+	</group>
+	<group>
+		<item objid="1157" name="RgnButton" />
+	</group>
+	<image />
+	<group>
+		<item objid="1159" name="CheckButton" />
+	</group>
+	<group>
+		<item objid="1159" name="CheckButton" />
+	</group>
+	<string />
+</resource>

@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\Animate\3d\3dlib.cpp">
+      <Filter>src\Animate\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Animate\3d\3dmatrix.cpp">
+      <Filter>src\Animate\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Animate\3d\3dtransform.cpp">
+      <Filter>src\Animate\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Animate\DM3dAnimate.cpp">
+      <Filter>src\Animate</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Render\DMSkiaBitmapImpl.cpp">
+      <Filter>src\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Render\DMSkiaBrushImpl.cpp">
+      <Filter>src\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Render\DMSkiaCanvasImpl.cpp">
+      <Filter>src\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Render\DMSkiaFontImpl.cpp">
+      <Filter>src\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Render\DMSkiaHelper.cpp">
+      <Filter>src\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Render\DMSkiaPenImpl.cpp">
+      <Filter>src\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Render\DMSkiaRegionImpl.cpp">
+      <Filter>src\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Render\DMSkiaRenderImpl.cpp">
+      <Filter>src\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Res\DMResMultZipImpl.cpp">
+      <Filter>src\Res</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Res\DMResZipHelper.cpp">
+      <Filter>src\Res</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Res\DMResZipImpl.cpp">
+      <Filter>src\Res</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Res\DMZipHelper.cpp">
+      <Filter>src\Res</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DMAnimateWndBase.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DMLineAnimate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DMScreenAnimate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Plugin_Expand.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Plugin_ExpandAfx.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Plugin_ExpandExp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="inc\Animate\3d\3dlib.h">
+      <Filter>inc\Animate\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Animate\3d\3dmatrix.h">
+      <Filter>inc\Animate\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Animate\3d\3dTransform.h">
+      <Filter>inc\Animate\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Animate\3d\PerspectiveTransform.h">
+      <Filter>inc\Animate\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Animate\DM3dAnimate.h">
+      <Filter>inc\Animate</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Animate\DMAnimateWndBase.h">
+      <Filter>inc\Animate</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Animate\DMLineAnimate.h">
+      <Filter>inc\Animate</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Animate\DMScreenAnimate.h">
+      <Filter>inc\Animate</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Render\DMSkiaBitmapImpl.h">
+      <Filter>inc\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Render\DMSkiaBrushImpl.h">
+      <Filter>inc\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Render\DMSkiaCanvasImpl.h">
+      <Filter>inc\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Render\DMSkiaFontImpl.h">
+      <Filter>inc\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Render\DMSkiaHelper.h">
+      <Filter>inc\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Render\DMSkiaPenImpl.h">
+      <Filter>inc\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Render\DMSkiaRegionImpl.h">
+      <Filter>inc\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Render\DMSkiaRenderImpl.h">
+      <Filter>inc\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Res\DMResMultZipImpl.h">
+      <Filter>inc\Res</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Res\DMResZipHelper.h">
+      <Filter>inc\Res</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Res\DMResZipImpl.h">
+      <Filter>inc\Res</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Res\DMResZipParam.h">
+      <Filter>inc\Res</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Res\DMZipHelper.h">
+      <Filter>inc\Res</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Plugin_Expand.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Plugin_ExpandAfx.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="inc\Res">
+      <UniqueIdentifier>{B1EA7571-1042-3EB6-9884-16B7F1224113}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\Animate">
+      <UniqueIdentifier>{1FAB76C6-80BD-3D87-821A-50E338BA3D58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\Render">
+      <UniqueIdentifier>{CAD127E1-37E8-308F-9E6A-D7FD65BA93FC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Res">
+      <UniqueIdentifier>{6838E4DA-9BD2-3E7C-9BC9-9207BB4E4CC5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Animate">
+      <UniqueIdentifier>{31970573-2DA9-3108-8348-8A85EAEC3885}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Render">
+      <UniqueIdentifier>{F94E4F09-7D86-331C-A78D-16DC8855E986}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc">
+      <UniqueIdentifier>{89515D3E-0B70-38CD-B0D2-74D5106675BD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{2B364CF9-9FF7-33E6-A2E5-4278128C3E60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\Animate\3d">
+      <UniqueIdentifier>{3B26ED4B-33EA-394C-BDE2-BDA478E0F1F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Animate\3d">
+      <UniqueIdentifier>{71AC41DE-E9DD-3F59-BF53-F1D883AC4115}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

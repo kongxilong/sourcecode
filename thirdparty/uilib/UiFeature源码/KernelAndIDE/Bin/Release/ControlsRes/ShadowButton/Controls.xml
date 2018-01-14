@@ -1,0 +1,28 @@
+<controls>
+<ShadowButton objid="6695AECBC69342768E82BBAE5C7C0EA5">
+<group objid="6695AECBC69342768E82BBAE5C7C0EA5" name="ControlPropetry">
+<combobox objid="4A4620F3883A4EB4A4D92146AAF68AA6" name="ButtonType"/>
+<group objid="D99F642D2D634F829EA1550EB0D35B60" name="ButtonImage">
+<image objid="160C2619BF3E4C9CA2E12A77CFE9D59C" name="NormalImage"/>
+<image objid="CDA5421924EA4A7B954A900018762C19" name="HoverImage"/>
+<image objid="EA7D36E2F4F042BA980E8187BCC06275" name="LButtonDownImage"/>
+<image objid="57E2A2F20C2B4DFE98891C236BF7C322" name="FocusImage"/>
+<image objid="78564CA4FB794C96BAD89ECCAB1C1A25" name="DisableImage"/>
+</group>
+<group objid="4EB6202C188F4766A0E0FF4F18278A24" name="ButtonFont">
+<font objid="3FA03019B86340A28589A91B289228C1" name="NormalFont"/>
+<font objid="94188726523A44C1827E4FC9ACC00169" name="HoverFont"/>
+<font objid="1268BB84DD024A7989C86598179B00FF" name="LButtonDownFont"/>
+<font objid="1A91DF3D489A4FC7B0172247B38D9AED" name="FocusFont"/>
+<font objid="68D94253C4394C99A34CAE653B8DB3DC" name="DisableFont"/>
+</group>
+<string objid="2341D1A9E95D4E01B4B20EC8BC1E321D" name="Text"/>
+<group objid="317FD1226AB2409687B0A2E4221E75C1" name="RgnButton">
+<image objid="C4BD3AF373D241EFAD83561DF731E0ED" name="MaskImage"/>
+</group>
+<group objid="0A055FCCCBE94B83BD22625B57A35F4B" name="CheckButton">
+<string objid="E8725452928948228818FC0AF72D0454" name="ShowPanelName"/>
+</group>
+</group>
+</ShadowButton>
+</controls>

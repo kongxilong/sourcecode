@@ -1,0 +1,14 @@
+<controls>
+<Link objid="07C8649DC0324E12B111F14C8AE68FED">
+<group objid="07C8649DC0324E12B111F14C8AE68FED" name="ControlPropetry">
+<string objid="9A3D6290684B46F5B72246384FDA7880" name="LinkText"/>
+<string objid="8AD41C58404E422D9A535978BC47DBBC" name="LinkUrl"/>
+<cursor objid="D42CB4372D3E49068842C3891735DF87" name="CursorStyle"/>
+<group objid="3A9AC1E8EE454F4FACFE5A60914CC716" name="FontGroup">
+<font objid="B6FA284D39DC4B4C8D4EB1927B64CAC9" name="Normal"/>
+<font objid="BAA4C7534C944D51AEAD8DF25B0AE779" name="MouseHover"/>
+<font objid="0C16C99C8BC3448E85B7D205AAD38D48" name="MouseDown"/>
+</group>
+</group>
+</Link>
+</controls>

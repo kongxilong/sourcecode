@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{E4086844-176F-3B54-965F-6F5A87464A41}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>Plugin_Expand</ProjectName>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)bin\plugins\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Plugin_Expand.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(MSBuildProjectName)_d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Install\编程\开源库\DM\bin\plugins\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Plugin_Expand.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Plugin_Expand</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Install\编程\开源库\DM\bin\plugins\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Plugin_Expand.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Plugin_Expand</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Install\编程\开源库\DM\bin\plugins\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Plugin_Expand.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Plugin_Expand</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)PlugIns\Plugin_Expand\inc;$(SolutionDir)PlugIns\Plugin_Expand\inc\Animate;$(SolutionDir)PlugIns\Plugin_Expand\inc\Animate\3d;$(SolutionDir)PlugIns\Plugin_Expand\inc\Res;$(SolutionDir)PlugIns\Plugin_Expand\inc\Render;$(SolutionDir)DmMain\inc;$(SolutionDir)DmMain\inc\Common;$(SolutionDir)DmMain\inc\Common\Template;$(SolutionDir)DmMain\inc\Core;$(SolutionDir)DmMain\inc\Core\Msg;$(SolutionDir)DmMain\inc\Core\Dui;$(SolutionDir)DmMain\inc\Core\Event;$(SolutionDir)DmMain\inc\IDmMain;$(SolutionDir)DmMain\inc\Modules;$(SolutionDir)DmMain\inc\Widgets;$(SolutionDir)3rdParty\zlib;$(SolutionDir)3rdParty\skia;$(SolutionDir)3rdParty\skia\inc\config;$(SolutionDir)3rdParty\skia\inc;$(SolutionDir)3rdParty\skia\inc\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>Plugin_ExpandAfx.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;DLL_DMMAIN;_DMDesigner_;DMLOG_ON;USE_DMSKIA_RENDER_;UNICODE;_UNICODE;CMAKE_INTDIR="Debug";Plugin_Expand_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;DLL_DMMAIN;_DMDesigner_;DMLOG_ON;USE_DMSKIA_RENDER_;UNICODE;_UNICODE;CMAKE_INTDIR=\"Debug\";Plugin_Expand_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Animate;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Animate\3d;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Res;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Render;D:\Install\编程\开源库\DM\DmMain\inc;D:\Install\编程\开源库\DM\DmMain\inc\Common;D:\Install\编程\开源库\DM\DmMain\inc\Common\Template;D:\Install\编程\开源库\DM\DmMain\inc\Core;D:\Install\编程\开源库\DM\DmMain\inc\Core\Msg;D:\Install\编程\开源库\DM\DmMain\inc\Core\Dui;D:\Install\编程\开源库\DM\DmMain\inc\Core\Event;D:\Install\编程\开源库\DM\DmMain\inc\IDmMain;D:\Install\编程\开源库\DM\DmMain\inc\Modules;D:\Install\编程\开源库\DM\DmMain\inc\Widgets;D:\Install\编程\开源库\DM\3rdParty\zlib;D:\Install\编程\开源库\DM\3rdParty\skia;D:\Install\编程\开源库\DM\3rdParty\skia\inc\config;D:\Install\编程\开源库\DM\3rdParty\skia\inc;D:\Install\编程\开源库\DM\3rdParty\skia\inc\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Animate;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Animate\3d;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Res;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Render;D:\Install\编程\开源库\DM\DmMain\inc;D:\Install\编程\开源库\DM\DmMain\inc\Common;D:\Install\编程\开源库\DM\DmMain\inc\Common\Template;D:\Install\编程\开源库\DM\DmMain\inc\Core;D:\Install\编程\开源库\DM\DmMain\inc\Core\Msg;D:\Install\编程\开源库\DM\DmMain\inc\Core\Dui;D:\Install\编程\开源库\DM\DmMain\inc\Core\Event;D:\Install\编程\开源库\DM\DmMain\inc\IDmMain;D:\Install\编程\开源库\DM\DmMain\inc\Modules;D:\Install\编程\开源库\DM\DmMain\inc\Widgets;D:\Install\编程\开源库\DM\3rdParty\zlib;D:\Install\编程\开源库\DM\3rdParty\skia;D:\Install\编程\开源库\DM\3rdParty\skia\inc\config;D:\Install\编程\开源库\DM\3rdParty\skia\inc;D:\Install\编程\开源库\DM\3rdParty\skia\inc\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;Usp10.lib;Opengl32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)bin;$(SolutionDir)bin\$(Configuration);$(SolutionDir)3rdParty\lib;$(SolutionDir)3rdParty\lib\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>$(SolutionDir)bin\plugins\$(MSBuildProjectName)_d.lib</ImportLibrary>
+      <ProgramDataBaseFile>$(SolutionDir)bin\plugins\$(MSBuildProjectName)_d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Animate;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Animate\3d;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Res;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Render;D:\Install\编程\开源库\DM\DmMain\inc;D:\Install\编程\开源库\DM\DmMain\inc\Common;D:\Install\编程\开源库\DM\DmMain\inc\Common\Template;D:\Install\编程\开源库\DM\DmMain\inc\Core;D:\Install\编程\开源库\DM\DmMain\inc\Core\Msg;D:\Install\编程\开源库\DM\DmMain\inc\Core\Dui;D:\Install\编程\开源库\DM\DmMain\inc\Core\Event;D:\Install\编程\开源库\DM\DmMain\inc\IDmMain;D:\Install\编程\开源库\DM\DmMain\inc\Modules;D:\Install\编程\开源库\DM\DmMain\inc\Widgets;D:\Install\编程\开源库\DM\3rdParty\zlib;D:\Install\编程\开源库\DM\3rdParty\skia;D:\Install\编程\开源库\DM\3rdParty\skia\inc\config;D:\Install\编程\开源库\DM\3rdParty\skia\inc;D:\Install\编程\开源库\DM\3rdParty\skia\inc\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Plugin_ExpandAfx.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DLL_DMMAIN;_DMDesigner_;DMLOG_ON;USE_DMSKIA_RENDER_;UNICODE;_UNICODE;CMAKE_INTDIR="Release";Plugin_Expand_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DLL_DMMAIN;_DMDesigner_;DMLOG_ON;USE_DMSKIA_RENDER_;UNICODE;_UNICODE;CMAKE_INTDIR=\"Release\";Plugin_Expand_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Animate;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Animate\3d;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Res;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Render;D:\Install\编程\开源库\DM\DmMain\inc;D:\Install\编程\开源库\DM\DmMain\inc\Common;D:\Install\编程\开源库\DM\DmMain\inc\Common\Template;D:\Install\编程\开源库\DM\DmMain\inc\Core;D:\Install\编程\开源库\DM\DmMain\inc\Core\Msg;D:\Install\编程\开源库\DM\DmMain\inc\Core\Dui;D:\Install\编程\开源库\DM\DmMain\inc\Core\Event;D:\Install\编程\开源库\DM\DmMain\inc\IDmMain;D:\Install\编程\开源库\DM\DmMain\inc\Modules;D:\Install\编程\开源库\DM\DmMain\inc\Widgets;D:\Install\编程\开源库\DM\3rdParty\zlib;D:\Install\编程\开源库\DM\3rdParty\skia;D:\Install\编程\开源库\DM\3rdParty\skia\inc\config;D:\Install\编程\开源库\DM\3rdParty\skia\inc;D:\Install\编程\开源库\DM\3rdParty\skia\inc\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Animate;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Animate\3d;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Res;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Render;D:\Install\编程\开源库\DM\DmMain\inc;D:\Install\编程\开源库\DM\DmMain\inc\Common;D:\Install\编程\开源库\DM\DmMain\inc\Common\Template;D:\Install\编程\开源库\DM\DmMain\inc\Core;D:\Install\编程\开源库\DM\DmMain\inc\Core\Msg;D:\Install\编程\开源库\DM\DmMain\inc\Core\Dui;D:\Install\编程\开源库\DM\DmMain\inc\Core\Event;D:\Install\编程\开源库\DM\DmMain\inc\IDmMain;D:\Install\编程\开源库\DM\DmMain\inc\Modules;D:\Install\编程\开源库\DM\DmMain\inc\Widgets;D:\Install\编程\开源库\DM\3rdParty\zlib;D:\Install\编程\开源库\DM\3rdParty\skia;D:\Install\编程\开源库\DM\3rdParty\skia\inc\config;D:\Install\编程\开源库\DM\3rdParty\skia\inc;D:\Install\编程\开源库\DM\3rdParty\skia\inc\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;Usp10.lib;Opengl32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/Install/编程/开源库/DM/bin;D:/Install/编程/开源库/DM/bin/$(Configuration);D:/Install/编程/开源库/DM/3rdParty/lib;D:/Install/编程/开源库/DM/3rdParty/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Install/编程/开源库/DM/bin/plugins/Plugin_Expand.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Install/编程/开源库/DM/bin/plugins/Plugin_Expand.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Animate;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Animate\3d;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Res;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Render;D:\Install\编程\开源库\DM\DmMain\inc;D:\Install\编程\开源库\DM\DmMain\inc\Common;D:\Install\编程\开源库\DM\DmMain\inc\Common\Template;D:\Install\编程\开源库\DM\DmMain\inc\Core;D:\Install\编程\开源库\DM\DmMain\inc\Core\Msg;D:\Install\编程\开源库\DM\DmMain\inc\Core\Dui;D:\Install\编程\开源库\DM\DmMain\inc\Core\Event;D:\Install\编程\开源库\DM\DmMain\inc\IDmMain;D:\Install\编程\开源库\DM\DmMain\inc\Modules;D:\Install\编程\开源库\DM\DmMain\inc\Widgets;D:\Install\编程\开源库\DM\3rdParty\zlib;D:\Install\编程\开源库\DM\3rdParty\skia;D:\Install\编程\开源库\DM\3rdParty\skia\inc\config;D:\Install\编程\开源库\DM\3rdParty\skia\inc;D:\Install\编程\开源库\DM\3rdParty\skia\inc\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Plugin_ExpandAfx.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DLL_DMMAIN;_DMDesigner_;DMLOG_ON;USE_DMSKIA_RENDER_;UNICODE;_UNICODE;CMAKE_INTDIR="MinSizeRel";Plugin_Expand_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DLL_DMMAIN;_DMDesigner_;DMLOG_ON;USE_DMSKIA_RENDER_;UNICODE;_UNICODE;CMAKE_INTDIR=\"MinSizeRel\";Plugin_Expand_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Animate;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Animate\3d;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Res;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Render;D:\Install\编程\开源库\DM\DmMain\inc;D:\Install\编程\开源库\DM\DmMain\inc\Common;D:\Install\编程\开源库\DM\DmMain\inc\Common\Template;D:\Install\编程\开源库\DM\DmMain\inc\Core;D:\Install\编程\开源库\DM\DmMain\inc\Core\Msg;D:\Install\编程\开源库\DM\DmMain\inc\Core\Dui;D:\Install\编程\开源库\DM\DmMain\inc\Core\Event;D:\Install\编程\开源库\DM\DmMain\inc\IDmMain;D:\Install\编程\开源库\DM\DmMain\inc\Modules;D:\Install\编程\开源库\DM\DmMain\inc\Widgets;D:\Install\编程\开源库\DM\3rdParty\zlib;D:\Install\编程\开源库\DM\3rdParty\skia;D:\Install\编程\开源库\DM\3rdParty\skia\inc\config;D:\Install\编程\开源库\DM\3rdParty\skia\inc;D:\Install\编程\开源库\DM\3rdParty\skia\inc\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Animate;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Animate\3d;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Res;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Render;D:\Install\编程\开源库\DM\DmMain\inc;D:\Install\编程\开源库\DM\DmMain\inc\Common;D:\Install\编程\开源库\DM\DmMain\inc\Common\Template;D:\Install\编程\开源库\DM\DmMain\inc\Core;D:\Install\编程\开源库\DM\DmMain\inc\Core\Msg;D:\Install\编程\开源库\DM\DmMain\inc\Core\Dui;D:\Install\编程\开源库\DM\DmMain\inc\Core\Event;D:\Install\编程\开源库\DM\DmMain\inc\IDmMain;D:\Install\编程\开源库\DM\DmMain\inc\Modules;D:\Install\编程\开源库\DM\DmMain\inc\Widgets;D:\Install\编程\开源库\DM\3rdParty\zlib;D:\Install\编程\开源库\DM\3rdParty\skia;D:\Install\编程\开源库\DM\3rdParty\skia\inc\config;D:\Install\编程\开源库\DM\3rdParty\skia\inc;D:\Install\编程\开源库\DM\3rdParty\skia\inc\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;Usp10.lib;Opengl32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/Install/编程/开源库/DM/bin;D:/Install/编程/开源库/DM/bin/$(Configuration);D:/Install/编程/开源库/DM/3rdParty/lib;D:/Install/编程/开源库/DM/3rdParty/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Install/编程/开源库/DM/bin/plugins/Plugin_Expand.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Install/编程/开源库/DM/bin/plugins/Plugin_Expand.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Animate;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Animate\3d;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Res;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Render;D:\Install\编程\开源库\DM\DmMain\inc;D:\Install\编程\开源库\DM\DmMain\inc\Common;D:\Install\编程\开源库\DM\DmMain\inc\Common\Template;D:\Install\编程\开源库\DM\DmMain\inc\Core;D:\Install\编程\开源库\DM\DmMain\inc\Core\Msg;D:\Install\编程\开源库\DM\DmMain\inc\Core\Dui;D:\Install\编程\开源库\DM\DmMain\inc\Core\Event;D:\Install\编程\开源库\DM\DmMain\inc\IDmMain;D:\Install\编程\开源库\DM\DmMain\inc\Modules;D:\Install\编程\开源库\DM\DmMain\inc\Widgets;D:\Install\编程\开源库\DM\3rdParty\zlib;D:\Install\编程\开源库\DM\3rdParty\skia;D:\Install\编程\开源库\DM\3rdParty\skia\inc\config;D:\Install\编程\开源库\DM\3rdParty\skia\inc;D:\Install\编程\开源库\DM\3rdParty\skia\inc\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Plugin_ExpandAfx.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DLL_DMMAIN;_DMDesigner_;DMLOG_ON;USE_DMSKIA_RENDER_;UNICODE;_UNICODE;CMAKE_INTDIR="RelWithDebInfo";Plugin_Expand_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DLL_DMMAIN;_DMDesigner_;DMLOG_ON;USE_DMSKIA_RENDER_;UNICODE;_UNICODE;CMAKE_INTDIR=\"RelWithDebInfo\";Plugin_Expand_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Animate;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Animate\3d;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Res;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Render;D:\Install\编程\开源库\DM\DmMain\inc;D:\Install\编程\开源库\DM\DmMain\inc\Common;D:\Install\编程\开源库\DM\DmMain\inc\Common\Template;D:\Install\编程\开源库\DM\DmMain\inc\Core;D:\Install\编程\开源库\DM\DmMain\inc\Core\Msg;D:\Install\编程\开源库\DM\DmMain\inc\Core\Dui;D:\Install\编程\开源库\DM\DmMain\inc\Core\Event;D:\Install\编程\开源库\DM\DmMain\inc\IDmMain;D:\Install\编程\开源库\DM\DmMain\inc\Modules;D:\Install\编程\开源库\DM\DmMain\inc\Widgets;D:\Install\编程\开源库\DM\3rdParty\zlib;D:\Install\编程\开源库\DM\3rdParty\skia;D:\Install\编程\开源库\DM\3rdParty\skia\inc\config;D:\Install\编程\开源库\DM\3rdParty\skia\inc;D:\Install\编程\开源库\DM\3rdParty\skia\inc\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Animate;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Animate\3d;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Res;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc\Render;D:\Install\编程\开源库\DM\DmMain\inc;D:\Install\编程\开源库\DM\DmMain\inc\Common;D:\Install\编程\开源库\DM\DmMain\inc\Common\Template;D:\Install\编程\开源库\DM\DmMain\inc\Core;D:\Install\编程\开源库\DM\DmMain\inc\Core\Msg;D:\Install\编程\开源库\DM\DmMain\inc\Core\Dui;D:\Install\编程\开源库\DM\DmMain\inc\Core\Event;D:\Install\编程\开源库\DM\DmMain\inc\IDmMain;D:\Install\编程\开源库\DM\DmMain\inc\Modules;D:\Install\编程\开源库\DM\DmMain\inc\Widgets;D:\Install\编程\开源库\DM\3rdParty\zlib;D:\Install\编程\开源库\DM\3rdParty\skia;D:\Install\编程\开源库\DM\3rdParty\skia\inc\config;D:\Install\编程\开源库\DM\3rdParty\skia\inc;D:\Install\编程\开源库\DM\3rdParty\skia\inc\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;Usp10.lib;Opengl32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/Install/编程/开源库/DM/bin;D:/Install/编程/开源库/DM/bin/$(Configuration);D:/Install/编程/开源库/DM/3rdParty/lib;D:/Install/编程/开源库/DM/3rdParty/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Install/编程/开源库/DM/bin/plugins/Plugin_Expand.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Install/编程/开源库/DM/bin/plugins/Plugin_Expand.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Animate\3d\3dlib.cpp" />
+    <ClCompile Include="src\Animate\3d\3dmatrix.cpp" />
+    <ClCompile Include="src\Animate\3d\3dtransform.cpp" />
+    <ClCompile Include="src\Animate\DM3dAnimate.cpp" />
+    <ClCompile Include="src\DMAnimateWndBase.cpp" />
+    <ClCompile Include="src\DMLineAnimate.cpp" />
+    <ClCompile Include="src\DMScreenAnimate.cpp" />
+    <ClCompile Include="src\Plugin_Expand.cpp" />
+    <ClCompile Include="src\Plugin_ExpandAfx.cpp" />
+    <ClCompile Include="src\Plugin_ExpandExp.cpp" />
+    <ClCompile Include="src\Render\DMSkiaBitmapImpl.cpp" />
+    <ClCompile Include="src\Render\DMSkiaBrushImpl.cpp" />
+    <ClCompile Include="src\Render\DMSkiaCanvasImpl.cpp" />
+    <ClCompile Include="src\Render\DMSkiaFontImpl.cpp" />
+    <ClCompile Include="src\Render\DMSkiaHelper.cpp" />
+    <ClCompile Include="src\Render\DMSkiaPenImpl.cpp" />
+    <ClCompile Include="src\Render\DMSkiaRegionImpl.cpp" />
+    <ClCompile Include="src\Render\DMSkiaRenderImpl.cpp" />
+    <ClCompile Include="src\Res\DMResMultZipImpl.cpp" />
+    <ClCompile Include="src\Res\DMResZipHelper.cpp" />
+    <ClCompile Include="src\Res\DMResZipImpl.cpp" />
+    <ClCompile Include="src\Res\DMZipHelper.cpp" />
+    <ClInclude Include="inc\Animate\3d\3dlib.h" />
+    <ClInclude Include="inc\Animate\3d\3dmatrix.h" />
+    <ClInclude Include="inc\Animate\3d\3dTransform.h" />
+    <ClInclude Include="inc\Animate\3d\PerspectiveTransform.h" />
+    <ClInclude Include="inc\Animate\DM3dAnimate.h" />
+    <ClInclude Include="inc\Animate\DMAnimateWndBase.h" />
+    <ClInclude Include="inc\Animate\DMLineAnimate.h" />
+    <ClInclude Include="inc\Animate\DMScreenAnimate.h" />
+    <ClInclude Include="inc\Plugin_Expand.h" />
+    <ClInclude Include="inc\Plugin_ExpandAfx.h" />
+    <ClInclude Include="inc\Render\DMSkiaBitmapImpl.h" />
+    <ClInclude Include="inc\Render\DMSkiaBrushImpl.h" />
+    <ClInclude Include="inc\Render\DMSkiaCanvasImpl.h" />
+    <ClInclude Include="inc\Render\DMSkiaFontImpl.h" />
+    <ClInclude Include="inc\Render\DMSkiaHelper.h" />
+    <ClInclude Include="inc\Render\DMSkiaPenImpl.h" />
+    <ClInclude Include="inc\Render\DMSkiaRegionImpl.h" />
+    <ClInclude Include="inc\Render\DMSkiaRenderImpl.h" />
+    <ClInclude Include="inc\Res\DMResMultZipImpl.h" />
+    <ClInclude Include="inc\Res\DMResZipHelper.h" />
+    <ClInclude Include="inc\Res\DMResZipImpl.h" />
+    <ClInclude Include="inc\Res\DMResZipParam.h" />
+    <ClInclude Include="inc\Res\DMZipHelper.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\3rdParty\zlib\zlib.vcxproj">
+      <Project>{f4d93aa2-2a03-3889-b99c-4a47d313fe15}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\DmMain\DmMain.vcxproj">
+      <Project>{795f1257-ca62-390c-b9e5-6f106eaea8bb}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

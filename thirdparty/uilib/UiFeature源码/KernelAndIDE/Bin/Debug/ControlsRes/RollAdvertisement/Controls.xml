@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<controls>
+	<RollAdvertisement objid="828">
+		<group objid="828" name="ControlPropetry">
+			<int objid="802" name="@Object_Id" />
+			<string objid="803" name="@Object_Type" />
+			<string objid="804" name="@Object_Name" />
+			<bool objid="805" name="Lock" />
+			<bool objid="806" name="Visible" />
+			<bool objid="807" name="Enable" />
+			<bool objid="808" name="ReceiveMouseMessage" />
+			<int objid="809" name="TabOrder" />
+			<bool objid="810" name="DefaultEnterCtrl" />
+			<group objid="811" name="Draw">
+				<bool objid="812" name="NoDrawControl" />
+				<bool objid="813" name="AlphaBlendDraw" />
+				<int objid="814" name="DrawAlpha" />
+				<bool objid="815" name="TempDrawMem" />
+			</group>
+			<group objid="816" name="Layout">
+				<int objid="817" name="@Width" />
+				<int objid="818" name="@Height" />
+				<combobox objid="819" name="@Layout_Type" />
+				<int objid="820" name="@LeftSpace" />
+				<int objid="821" name="@RightSpace" />
+				<int objid="822" name="@TopSpace" />
+				<int objid="823" name="@BottomSpace" />
+			</group>
+			<group objid="824" name="Animation">
+				<combobox objid="825" name="AnimationType" />
+				<int objid="826" name="FrameTime" />
+				<combobox objid="827" name="AnimationDirection" />
+			</group>
+			<font objid="830" name="NormalFont" />
+			<font objid="831" name="HoverFont" />
+			<font objid="832" name="DownFont" />
+			<int objid="833" name="ShowTime" />
+			<cursor objid="1096" name="CursorStyle" />
+		</group>
+	</RollAdvertisement>
+</controls>

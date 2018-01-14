@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>UiFeatureBuilder</ProjectName>
+    <ProjectGuid>{DD4AAEDF-0E9B-48B4-9E69-1B25D343A299}</ProjectGuid>
+    <RootNamespace>UiFeatureBuilder</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v90</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <UseOfAtl>Static</UseOfAtl>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v90</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <UseOfAtl>Static</UseOfAtl>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.50727.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\..\..\Bin\$(Configuration)\</OutDir>
+    <IntDir>..\..\Temp\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\..\..\Bin\$(Configuration)\</OutDir>
+    <IntDir>..\..\Temp\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\Inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <StructMemberAlignment>8Bytes</StructMemberAlignment>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>UiAssistLib.lib;imagehlp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\Lib\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(IntDir)$(ProjectName).pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command />
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>..\..\Inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <StructMemberAlignment>8Bytes</StructMemberAlignment>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>UiAssistLib.lib;imagehlp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\Lib\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>..\..\Pdb\$(ProjectName).pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="UiFeatureBuilder.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="MainFrmEx.cpp" />
+    <ClCompile Include="UiFeatureBuilderDoc.cpp" />
+    <ClCompile Include="UiFeatureBuilderView.cpp" />
+    <ClCompile Include="ControlsWnd.cpp" />
+    <ClCompile Include="FeatureControlList.cpp" />
+    <ClCompile Include="FeatureBaseList.cpp" />
+    <ClCompile Include="PropertiesWnd.cpp" />
+    <ClCompile Include="PropertyViewCtrl.cpp" />
+    <ClCompile Include="UiFeaturePropertyGrid.cpp" />
+    <ClCompile Include="PropetryDialogGridProperty.cpp" />
+    <ClCompile Include="ImageBasePropEditDlg.cpp" />
+    <ClCompile Include="ImageBaseNameList.cpp" />
+    <ClCompile Include="LocalImageList.cpp" />
+    <ClCompile Include="DialogViewBase.cpp" />
+    <ClCompile Include="ImageBaseView.cpp" />
+    <ClCompile Include="ImageAnimationSettingDlg.cpp" />
+    <ClCompile Include="FontBaseNameList.cpp" />
+    <ClCompile Include="FontProViewStatic.cpp" />
+    <ClCompile Include="ModifyFontBaseDlg.cpp" />
+    <ClCompile Include="ModifyMouseStyleDlg.cpp" />
+    <ClCompile Include="MouseStyleList.cpp" />
+    <ClCompile Include="ModifyPropBaseNameDlg.cpp" />
+    <ClCompile Include="WindowsView.cpp" />
+    <ClCompile Include="WindowsViewTree.cpp" />
+    <ClCompile Include="WindowTreeToolBar.cpp" />
+    <ClCompile Include="FileView.cpp" />
+    <ClCompile Include="CreateNewSkinProject.cpp" />
+    <ClCompile Include="PasswordDlg.cpp" />
+    <ClCompile Include="PasswordVerDlg.cpp" />
+    <ClCompile Include="Dump\msjexhnd.cpp" />
+    <ClCompile Include="..\UiFeatureKernel\CGifImage.cpp" />
+    <ClCompile Include="..\UiFeatureKernel\IPropertyImageBaseImpl.cpp" />
+    <ClCompile Include="..\UiFeatureKernel\IPropertyImageImpl.cpp" />
+    <ClCompile Include="Function.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="UiFeatureBuilder.h" />
+    <ClInclude Include="..\..\Inc\UiFeatureDefs.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="UiFeatureBuilderDoc.h" />
+    <ClInclude Include="UiFeatureBuilderView.h" />
+    <ClInclude Include="ControlsWnd.h" />
+    <ClInclude Include="FeatureControlList.h" />
+    <ClInclude Include="FeatureBaseList.h" />
+    <ClInclude Include="..\..\Inc\IPropertyBuilderCtrl.h" />
+    <ClInclude Include="PropertiesWnd.h" />
+    <ClInclude Include="PropertyViewCtrl.h" />
+    <ClInclude Include="UiFeaturePropertyGrid.h" />
+    <ClInclude Include="PropetryDialogGridProperty.h" />
+    <ClInclude Include="ImageBasePropEditDlg.h" />
+    <ClInclude Include="ImageBaseNameList.h" />
+    <ClInclude Include="LocalImageList.h" />
+    <ClInclude Include="DialogViewBase.h" />
+    <ClInclude Include="ImageBaseView.h" />
+    <ClInclude Include="ImageAnimationSettingDlg.h" />
+    <ClInclude Include="FontBaseNameList.h" />
+    <ClInclude Include="FontProViewStatic.h" />
+    <ClInclude Include="ModifyFontBaseDlg.h" />
+    <ClInclude Include="ModifyMouseStyleDlg.h" />
+    <ClInclude Include="MouseStyleList.h" />
+    <ClInclude Include="ModifyPropBaseNameDlg.h" />
+    <ClInclude Include="WindowsView.h" />
+    <ClInclude Include="WindowsViewTree.h" />
+    <ClInclude Include="WindowTreeToolBar.h" />
+    <ClInclude Include="FileView.h" />
+    <ClInclude Include="CreateNewSkinProject.h" />
+    <ClInclude Include="PasswordDlg.h" />
+    <ClInclude Include="PasswordVerDlg.h" />
+    <ClInclude Include="Dump\DbgHelp.h" />
+    <ClInclude Include="Dump\detours.h" />
+    <ClInclude Include="Dump\msjexhnd.h" />
+    <ClInclude Include="..\UiFeatureKernel\CGifImage.h" />
+    <ClInclude Include="..\..\Inc\IPropertyImage.h" />
+    <ClInclude Include="..\..\Inc\IPropertyImageBase.h" />
+    <ClInclude Include="..\UiFeatureKernel\IPropertyImageBaseImpl.h" />
+    <ClInclude Include="..\UiFeatureKernel\IPropertyImageImpl.h" />
+    <ClInclude Include="Function.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\..\..\..\..\03.360\03.Infomation\测试图片\360.bmp" />
+    <Image Include="res\bitmap1.bmp" />
+    <Image Include="res\bitmap2.bmp" />
+    <Image Include="res\class_view.ico" />
+    <Image Include="res\class_view_hc.ico" />
+    <Image Include="res\classview.bmp" />
+    <Image Include="res\classview_hc.bmp" />
+    <Image Include="res\Customers.bmp" />
+    <Image Include="res\DefaultCursor256.bmp" />
+    <Image Include="res\explorer.bmp" />
+    <Image Include="res\explorer_hc.bmp" />
+    <Image Include="res\file_view.ico" />
+    <Image Include="res\file_view_hc.ico" />
+    <Image Include="res\fileview.bmp" />
+    <Image Include="res\fileview_hc.bmp" />
+    <Image Include="X:\工作存储\Logo\L1-1.bmp" />
+    <Image Include="res\Logo.bmp" />
+    <Image Include="res\menuimages.bmp" />
+    <Image Include="res\menuimages_hc.bmp" />
+    <Image Include="res\output_wnd.ico" />
+    <Image Include="res\output_wnd_hc.ico" />
+    <Image Include="res\properties.bmp" />
+    <Image Include="res\properties_hc.bmp" />
+    <Image Include="res\properties_wnd.ico" />
+    <Image Include="res\properties_wnd_hc.ico" />
+    <Image Include="res\Run_Toolbar256.bmp" />
+    <Image Include="res\sort.bmp" />
+    <Image Include="res\sort_hc.bmp" />
+    <Image Include="res\Toolbar.bmp" />
+    <Image Include="res\toolbar1.bmp" />
+    <Image Include="res\Toolbar256.bmp" />
+    <Image Include="res\UiFeatureBuilder.ico" />
+    <Image Include="res\UiFeatureBuilderDoc.ico" />
+    <Image Include="UserImages.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\UiFeatureBuilder.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="UiFeatureBuilder.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="UiFeatureBuilder.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

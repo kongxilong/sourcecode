@@ -1,0 +1,4 @@
+LIBRARY	"UiFeatureStomach"
+
+EXPORTS
+	GetControlManager			@1

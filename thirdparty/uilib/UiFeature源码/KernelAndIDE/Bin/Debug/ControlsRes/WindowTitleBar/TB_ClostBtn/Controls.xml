@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<controls>
+	<ShadowButton objid="1196">
+		<group objid="1196" name="ControlPropetry">
+			<int objid="1165" name="@Object_Id" />
+			<string objid="1166" name="@Object_Type" />
+			<string objid="1167" name="@Object_Name" />
+			<bool objid="1168" name="Lock" />
+			<bool objid="1169" name="Visible" />
+			<bool objid="1170" name="Enable" />
+			<bool objid="1171" name="ReceiveMouseMessage" />
+			<int objid="1172" name="TabOrder" />
+			<bool objid="1173" name="DefaultEnterCtrl" />
+			<group objid="1174" name="SystemTips">
+				<bool objid="1175" name="ShowInUserDefPos" />
+				<bool objid="1176" name="Baloon" />
+				<string objid="1177" name="TipsData" />
+				<int objid="1178" name="ShowTime" />
+			</group>
+			<group objid="1179" name="Draw">
+				<bool objid="1180" name="NoDrawControl" />
+				<bool objid="1181" name="AlphaBlendDraw" />
+				<int objid="1182" name="DrawAlpha" />
+				<bool objid="1183" name="TempDrawMem" />
+			</group>
+			<group objid="1184" name="Layout">
+				<int objid="1185" name="@Width" />
+				<int objid="1186" name="@Height" />
+				<combobox objid="1187" name="@Layout_Type" />
+				<int objid="1188" name="@LeftSpace" />
+				<int objid="1189" name="@RightSpace" />
+				<int objid="1190" name="@TopSpace" />
+				<int objid="1191" name="@BottomSpace" />
+			</group>
+			<group objid="1192" name="Animation">
+				<combobox objid="1193" name="AnimationType" />
+				<int objid="1194" name="FrameTime" />
+				<combobox objid="1195" name="AnimationDirection" />
+			</group>
+			<combobox objid="1197" name="ButtonType" />
+			<group objid="1198" name="ButtonImage">
+				<image objid="1199" name="NormalImage" />
+				<image objid="1200" name="HoverImage" />
+				<image objid="1201" name="LButtonDownImage" />
+				<image objid="1202" name="FocusImage" />
+				<image objid="1203" name="DisableImage" />
+			</group>
+			<group objid="1204" name="ButtonFont">
+				<font objid="1205" name="NormalFont" />
+				<font objid="1206" name="HoverFont" />
+				<font objid="1207" name="LButtonDownFont" />
+				<font objid="1208" name="FocusFont" />
+				<font objid="1209" name="DisableFont" />
+			</group>
+			<string objid="1210" name="Text" />
+			<group objid="1211" name="RgnButton">
+				<image objid="1212" name="MaskImage" />
+			</group>
+			<group objid="1213" name="CheckButton">
+				<string objid="1214" name="ShowPanelName" />
+			</group>
+		</group>
+	</ShadowButton>
+</controls>

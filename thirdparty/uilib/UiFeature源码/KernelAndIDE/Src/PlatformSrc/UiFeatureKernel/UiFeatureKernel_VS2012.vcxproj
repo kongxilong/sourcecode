@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>UiFeatureKernel</ProjectName>
+    <ProjectGuid>{1EAFE2F7-FE3A-4270-A2C9-BAA23648AA21}</ProjectGuid>
+    <RootNamespace>UiFeatureKernel</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v90</PlatformToolset>
+    <UseOfAtl>Static</UseOfAtl>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v90</PlatformToolset>
+    <UseOfAtl>Static</UseOfAtl>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.50727.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\..\..\Bin\$(Configuration)\</OutDir>
+    <IntDir>..\..\Temp\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\..\..\Bin\$(Configuration)\</OutDir>
+    <IntDir>..\..\Temp\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;UiFeatureKernel_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <StructMemberAlignment>8Bytes</StructMemberAlignment>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>UiAssistLib.lib;shlwapi.lib;comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)UiFeatureKernel.dll</OutputFile>
+      <AdditionalLibraryDirectories>..\..\Lib\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>MSVCRTD.lib;MSVCRT.lib;MSVCPRTD.lib;MSVCPRT.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ModuleDefinitionFile>UiFeatureKernel.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(IntDir)$(ProjectName).pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <ImportLibrary>$(IntDir)$(TargetName).lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;UiFeatureKernel_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <StructMemberAlignment>8Bytes</StructMemberAlignment>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>UiAssistLib.lib;shlwapi.lib;comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)UiFeatureKernel.dll</OutputFile>
+      <AdditionalLibraryDirectories>..\..\Lib\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>MSVCRTD.lib;MSVCRT.lib;MSVCPRTD.lib;MSVCPRT.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ModuleDefinitionFile>UiFeatureKernel.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>..\..\Pdb\$(ProjectName).pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <ImportLibrary>$(IntDir)$(TargetName).lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Inc\IUiFeatureKernel.h" />
+    <ClInclude Include="IUiFeatureKernelImpl.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="..\..\Inc\IWindowBase.h" />
+    <ClInclude Include="IWindowBaseImpl.h" />
+    <ClInclude Include="WindowResize.h" />
+    <ClInclude Include="SystemTips.h" />
+    <ClInclude Include="..\..\Inc\IUiEngine.h" />
+    <ClInclude Include="IUiEngineImpl.h" />
+    <ClInclude Include="..\..\Inc\IPropertySkinManager.h" />
+    <ClInclude Include="IPropertySkinManagerImpl.h" />
+    <ClInclude Include="SkinFileManager.h" />
+    <ClInclude Include="..\..\Inc\IPropertyComboBox.h" />
+    <ClInclude Include="IPropertyComboBoxImpl.h" />
+    <ClInclude Include="..\..\Inc\IPropertyString.h" />
+    <ClInclude Include="IPropertyStringImpl.h" />
+    <ClInclude Include="..\..\Inc\IPropertyGroup.h" />
+    <ClInclude Include="IPropertyGroupImpl.h" />
+    <ClInclude Include="..\..\Inc\IPropertyControl.h" />
+    <ClInclude Include="IPropertyControlImpl.h" />
+    <ClInclude Include="..\..\Inc\IPropertyWindow.h" />
+    <ClInclude Include="IPropertyWindowImpl.h" />
+    <ClInclude Include="..\..\Inc\IPropertyBool.h" />
+    <ClInclude Include="IPropertyBoolImpl.h" />
+    <ClInclude Include="CGifImage.h" />
+    <ClInclude Include="..\..\Inc\IPropertyImage.h" />
+    <ClInclude Include="..\..\Inc\IPropertyImageBase.h" />
+    <ClInclude Include="IPropertyImageBaseImpl.h" />
+    <ClInclude Include="IPropertyImageImpl.h" />
+    <ClInclude Include="..\..\Inc\IPropertyColor.h" />
+    <ClInclude Include="IPropertyColorImpl.h" />
+    <ClInclude Include="..\..\Inc\IPropertyInt.h" />
+    <ClInclude Include="IPropertyIntImpl.h" />
+    <ClInclude Include="..\..\Inc\IPropertyFont.h" />
+    <ClInclude Include="..\..\Inc\IPropertyFontBase.h" />
+    <ClInclude Include="IPropertyFontBaseImpl.h" />
+    <ClInclude Include="IPropertyFontImpl.h" />
+    <ClInclude Include="..\..\Inc\IPropertyCursor.h" />
+    <ClInclude Include="..\..\Inc\IPropertyCursorBase.h" />
+    <ClInclude Include="IPropertyCursorBaseImpl.h" />
+    <ClInclude Include="IPropertyCursorImpl.h" />
+    <ClInclude Include="..\..\Inc\IUIEffect.h" />
+    <ClInclude Include="IUiEffectManagerImpl.h" />
+    <ClInclude Include="CriSec.h" />
+    <ClInclude Include="ControlImpl.h" />
+    <ClInclude Include="..\..\Inc\IControlManager.h" />
+    <ClInclude Include="WindowSubclass.h" />
+    <ClInclude Include="..\..\Inc\IZipFile.h" />
+    <ClInclude Include="IZipFileImpl.h" />
+    <ClInclude Include="..\..\..\3rd\AES\AES.h" />
+    <ClInclude Include="UiFeatureAes.h" />
+    <ClInclude Include="..\..\Inc\UiFeatureDefs.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="IUiFeatureKernelImpl.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="IWindowBaseImpl.cpp" />
+    <ClCompile Include="IWindowBaseImpl_Propetry.cpp" />
+    <ClCompile Include="WindowResize.cpp" />
+    <ClCompile Include="SystemTips.cpp" />
+    <ClCompile Include="IUiEngineImpl.cpp" />
+    <ClCompile Include="IPropertySkinManagerImpl.cpp" />
+    <ClCompile Include="SkinFileManager.cpp" />
+    <ClCompile Include="SkinFileManager_Save.cpp" />
+    <ClCompile Include="IPropertyComboBoxImpl.cpp" />
+    <ClCompile Include="IPropertyStringImpl.cpp" />
+    <ClCompile Include="IPropertyGroupImpl.cpp" />
+    <ClCompile Include="IPropertyControlImpl.cpp" />
+    <ClCompile Include="IPropertyWindowImpl.cpp" />
+    <ClCompile Include="IPropertyBoolImpl.cpp" />
+    <ClCompile Include="CGifImage.cpp" />
+    <ClCompile Include="IPropertyImageBaseImpl.cpp" />
+    <ClCompile Include="IPropertyImageImpl.cpp" />
+    <ClCompile Include="IPropertyColorImpl.cpp" />
+    <ClCompile Include="IPropertyIntImpl.cpp" />
+    <ClCompile Include="IPropertyFontBaseImpl.cpp" />
+    <ClCompile Include="IPropertyFontImpl.cpp" />
+    <ClCompile Include="IPropertyCursorBaseImpl.cpp" />
+    <ClCompile Include="IPropertyCursorImpl.cpp" />
+    <ClCompile Include="IUiEffectManagerImpl.cpp" />
+    <ClCompile Include="ControlImpl.cpp" />
+    <ClCompile Include="WindowSubclass.cpp" />
+    <ClCompile Include="IZipFileImpl.cpp" />
+    <ClCompile Include="..\..\..\3rd\AES\AES.cpp" />
+    <ClCompile Include="UiFeatureAes.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="UiFeatureKernel.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="UiFeatureKernel.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

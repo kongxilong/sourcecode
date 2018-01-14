@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMUnitTest\DMUintTestAfx.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMUnitTest\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMUnitTest\TestCase\DMCanvas_Test.cpp">
+      <Filter>src\TestCase</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMUnitTest\TestCase\DMColor_Test.cpp">
+      <Filter>src\TestCase</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMUnitTest\TestCase\DMDIBHelper_Test.cpp">
+      <Filter>src\TestCase</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMUnitTest\TestCase\DMDelegate_Test.cpp">
+      <Filter>src\TestCase</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMUnitTest\TestCase\DMFontPool_Test.cpp">
+      <Filter>src\TestCase</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMUnitTest\TestCase\DMGifParse_Test.cpp">
+      <Filter>src\TestCase</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMUnitTest\TestCase\DMImgDecoder_Test.cpp">
+      <Filter>src\TestCase</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMUnitTest\TestCase\DMLua_Test.cpp">
+      <Filter>src\TestCase</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMUnitTest\TestCase\DMPlugin_Test.cpp">
+      <Filter>src\TestCase</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMUnitTest\TestCase\DMRegister_Test.cpp">
+      <Filter>src\TestCase</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMUnitTest\TestCase\DMRes_Test.cpp">
+      <Filter>src\TestCase</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMUnitTest\TestCase\DMSkinPool_Test.cpp">
+      <Filter>src\TestCase</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMUnitTest\TestCase\DMSkin_Test.cpp">
+      <Filter>src\TestCase</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMUnitTest\TestCase\DMStyle_Test.cpp">
+      <Filter>src\TestCase</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMUnitTest\TestCase\DMTemplate_Test.cpp">
+      <Filter>src\TestCase</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMUnitTest\TestCase\DMXmlParse_Test.cpp">
+      <Filter>src\TestCase</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\DMUnitTest\DMUintTestAfx.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\DMUnitTest\main.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="inc">
+      <UniqueIdentifier>{89515D3E-0B70-38CD-B0D2-74D5106675BD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{2B364CF9-9FF7-33E6-A2E5-4278128C3E60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\TestCase">
+      <UniqueIdentifier>{CB6EFEDA-2BE4-301E-971F-C12CBB12B127}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

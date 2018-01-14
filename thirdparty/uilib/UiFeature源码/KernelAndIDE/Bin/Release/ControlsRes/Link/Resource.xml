@@ -1,0 +1,50 @@
+<resource>
+<group>
+<item objid="07C8649DC0324E12B111F14C8AE68FED" name="ControlPropetry"/>
+</group>
+<string>
+<item objid="9A3D6290684B46F5B72246384FDA7880" name="LinkText" counts="1" defaultarea="1" area0="1" data0="文本超链接"/>
+</string>
+<string>
+<item objid="8AD41C58404E422D9A535978BC47DBBC" name="LinkUrl" counts="1" defaultarea="1" area0="1" data0="http://www.UiFeature.com"/>
+</string>
+<cursor>
+<item objid="D42CB4372D3E49068842C3891735DF87" name="CursorStyle" cursorbasename="HAND"/>
+</cursor>
+<cursorbase>
+<item objid="25F052C17F3A41E98140F8CAD359118A" name="HAND" issyscursor="1" cursorid="32649"/>
+</cursorbase>
+<group>
+<item objid="3A9AC1E8EE454F4FACFE5A60914CC716" name="FontGroup"/>
+</group>
+<group>
+<item objid="3A9AC1E8EE454F4FACFE5A60914CC716" name="FontGroup"/>
+</group>
+<font>
+<item objid="B6FA284D39DC4B4C8D4EB1927B64CAC9" name="Normal" fontbasename="Dft.Link.Font.Normal"/>
+</font>
+<fontbase>
+<item objid="D524FBEA6C5C4C5D9972938A5B5CCF82" name="Dft.Link.Font.Normal">
+<logfont lfFaceName="宋体" lfHeight="-12" lfWidth="0" lfEscapement="0" lfOrientation="0" lfWeight="400" lfItalic="0" lfUnderline="1" lfStrikeOut="0" lfCharSet="134" lfOutPrecision="3" lfClipPrecision="2" lfQuality="1" lfPitchAndFamily="2"/>
+<mode color="16711680" VAligning="1" HAligning="0" ShowMode="1" Effect="0"/>
+</item>
+</fontbase>
+<font>
+<item objid="BAA4C7534C944D51AEAD8DF25B0AE779" name="MouseHover" fontbasename="Dft.Link.Font.Hover"/>
+</font>
+<fontbase>
+<item objid="7A18CB32F4E24F749B0F90BF8AC26D5B" name="Dft.Link.Font.Hover">
+<logfont lfFaceName="宋体" lfHeight="-12" lfWidth="0" lfEscapement="0" lfOrientation="0" lfWeight="400" lfItalic="0" lfUnderline="1" lfStrikeOut="0" lfCharSet="134" lfOutPrecision="3" lfClipPrecision="2" lfQuality="1" lfPitchAndFamily="2"/>
+<mode color="255" VAligning="1" HAligning="0" ShowMode="0" Effect="0"/>
+</item>
+</fontbase>
+<font>
+<item objid="0C16C99C8BC3448E85B7D205AAD38D48" name="MouseDown" fontbasename="Dft.Link.Font.Down"/>
+</font>
+<fontbase>
+<item objid="60AEDF9D2E6843C69C55635BD9C2F71E" name="Dft.Link.Font.Down">
+<logfont lfFaceName="宋体" lfHeight="-12" lfWidth="0" lfEscapement="0" lfOrientation="0" lfWeight="400" lfItalic="0" lfUnderline="1" lfStrikeOut="0" lfCharSet="134" lfOutPrecision="3" lfClipPrecision="2" lfQuality="1" lfPitchAndFamily="2"/>
+<mode color="16711935" VAligning="1" HAligning="0" ShowMode="0" Effect="0"/>
+</item>
+</fontbase>
+</resource>

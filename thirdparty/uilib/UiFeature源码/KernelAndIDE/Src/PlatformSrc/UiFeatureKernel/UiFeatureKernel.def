@@ -1,0 +1,4 @@
+LIBRARY	"UiFeatureKernel"
+
+EXPORTS
+	GetUiKernelInterface			@1

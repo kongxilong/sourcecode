@@ -1,0 +1,182 @@
+﻿  hgy copy dbghelp.dll start---------------------------------
+  hgy delete DMRes folder begin------------------------------
+  hgy delete DMRes folder end--------------------------------
+  hgy copy dbghelp.dll begin---------------------------------
+  已复制         1 个文件。
+  hgy copy dbghelp.dll end-----------------------------------
+  hgy copy DMRes folder begin--------------------------------
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  ..\..\Docs\TestData\DMRes\内置思路.txt
+  ..\..\Docs\TestData\DMRes\layout\dmindex.xml
+  ..\..\Docs\TestData\DMRes\layout\xml\dui_dlg_attrtest.xml
+  ..\..\Docs\TestData\DMRes\layout\xml\dui_dlg_dlgtest.xml
+  ..\..\Docs\TestData\DMRes\layout\xml\dui_dlg_ie.xml
+  ..\..\Docs\TestData\DMRes\layout\xml\dui_dlg_main.xml
+  ..\..\Docs\TestData\DMRes\layout\xml\dui_dlg_skin.xml
+  ..\..\Docs\TestData\DMRes\layout\xml\dui_dlg_spy.xml
+  ..\..\Docs\TestData\DMRes\layout\xml\dui_menu.xml
+  ..\..\Docs\TestData\DMRes\layout\xml\dui_page_activex.xml
+  ..\..\Docs\TestData\DMRes\layout\xml\dui_page_animate.xml
+  ..\..\Docs\TestData\DMRes\layout\xml\dui_page_gif.xml
+  ..\..\Docs\TestData\DMRes\layout\xml\dui_page_ie.xml
+  ..\..\Docs\TestData\DMRes\layout\xml\dui_page_layout.xml
+  ..\..\Docs\TestData\DMRes\layout\xml\dui_page_webkit.xml
+  ..\..\Docs\TestData\DMRes\layout\xml\dui_page_widget.xml
+  ..\..\Docs\TestData\DMRes\layout\xml\dui_page_widgetex.xml
+  ..\..\Docs\TestData\DMRes\layout\xml\global.xml
+  ..\..\Docs\TestData\DMRes\themes\dmindex.xml
+  ..\..\Docs\TestData\DMRes\themes\default\dmindex.xml
+  ..\..\Docs\TestData\DMRes\themes\default\animate\1.gif
+  ..\..\Docs\TestData\DMRes\themes\default\animate\2.gif
+  ..\..\Docs\TestData\DMRes\themes\default\animate\3.gif
+  ..\..\Docs\TestData\DMRes\themes\default\animate\4.gif
+  ..\..\Docs\TestData\DMRes\themes\default\flash\1.swf
+  ..\..\Docs\TestData\DMRes\themes\default\flash\2.swf
+  ..\..\Docs\TestData\DMRes\themes\default\image\1.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\bg.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\btn_close.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\btn_custom.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\btn_max.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\btn_menu.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\btn_min.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\btn_restore.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\btn_skin.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\canvas-1.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\channel_hz.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\channel_vz.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\checkbox.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\combox_btn.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\duiwnd_frame.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\dui_border.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\dui_border1.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\icon.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\iconbtn.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\list_header.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\logo.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\nc_border.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\process_channel.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\process_sel_hz.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\process_sel_vz.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\radiobutton.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\scanbutton.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\scrollbar.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\skin1.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\skin2.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\tabctrl_itembg.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\thumb_hz.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\thumb_vz.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\tranbg.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\tree_check.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\tree_toggle.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\webback.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\webfront.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\webicon.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\webrefresh.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\white_bg.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\menu\Menu_BigSkin.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\menu\menu_check.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\menu\menu_icons.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\menu\menu_itembg.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\menu\menu_sep.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\spy\drag.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\spy\spydrag.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\spy\spyicon.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\tab\tabbar_1.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\tab\tabbar_2.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\tab\tabbar_3.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\tab\tabbar_4.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\tab\tabbar_5.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\tab\tabbar_6.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\tab\tab_item.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\tab\tab_pagebg.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\异形图\direct-login-panel-bkg.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\异形图\LoginFrameBkg.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\异形图\logon_bg.png
+  ..\..\Docs\TestData\DMRes\themes\default\image\异形图\quick-login-panel-bkg.png
+  ..\..\Docs\TestData\DMRes\themes\theme1\dmindex.xml
+  ..\..\Docs\TestData\DMRes\themes\theme1\image\bg.png
+  ..\..\Docs\TestData\DMRes\themes\theme1\image\btn_close.png
+  ..\..\Docs\TestData\DMRes\themes\theme1\image\btn_custom.png
+  ..\..\Docs\TestData\DMRes\themes\theme1\image\btn_max.png
+  ..\..\Docs\TestData\DMRes\themes\theme1\image\btn_menu.png
+  ..\..\Docs\TestData\DMRes\themes\theme1\image\btn_min.png
+  ..\..\Docs\TestData\DMRes\themes\theme1\image\btn_restore.png
+  ..\..\Docs\TestData\DMRes\themes\theme1\image\btn_skin.png
+  ..\..\Docs\TestData\DMRes\themes\theme1\image\checkbox.png
+  ..\..\Docs\TestData\DMRes\themes\theme1\image\dui_border.png
+  ..\..\Docs\TestData\DMRes\themes\theme1\image\iconbtn.png
+  ..\..\Docs\TestData\DMRes\themes\theme1\image\scrollbar.png
+  ..\..\Docs\TestData\DMRes\themes\theme1\image\tranbg.png
+  ..\..\Docs\TestData\DMRes\themes\theme1\image\menu\Menu_BigSkin.png
+  ..\..\Docs\TestData\DMRes\themes\theme1\image\menu\menu_check.png
+  ..\..\Docs\TestData\DMRes\themes\theme1\image\menu\menu_icons.png
+  ..\..\Docs\TestData\DMRes\themes\theme1\image\menu\menu_itembg.png
+  ..\..\Docs\TestData\DMRes\themes\theme1\image\menu\menu_sep.png
+  ..\..\Docs\TestData\DMRes\themes\theme2\dmindex.xml
+  ..\..\Docs\TestData\DMRes\themes\theme2\image\bg.png
+  ..\..\Docs\TestData\DMRes\themes\theme2\image\btn_close.png
+  ..\..\Docs\TestData\DMRes\themes\theme2\image\btn_custom.png
+  ..\..\Docs\TestData\DMRes\themes\theme2\image\btn_max.png
+  ..\..\Docs\TestData\DMRes\themes\theme2\image\btn_menu.png
+  ..\..\Docs\TestData\DMRes\themes\theme2\image\btn_min.png
+  ..\..\Docs\TestData\DMRes\themes\theme2\image\btn_restore.png
+  ..\..\Docs\TestData\DMRes\themes\theme2\image\btn_skin.png
+  ..\..\Docs\TestData\DMRes\themes\theme2\image\checkbox.png
+  ..\..\Docs\TestData\DMRes\themes\theme2\image\dui_border.png
+  ..\..\Docs\TestData\DMRes\themes\theme2\image\iconbtn.png
+  ..\..\Docs\TestData\DMRes\themes\theme2\image\scrollbar.png
+  ..\..\Docs\TestData\DMRes\themes\theme2\image\tranbg.png
+  ..\..\Docs\TestData\DMRes\themes\theme2\image\menu\Menu_BigSkin.png
+  ..\..\Docs\TestData\DMRes\themes\theme2\image\menu\menu_check.png
+  ..\..\Docs\TestData\DMRes\themes\theme2\image\menu\menu_icons.png
+  ..\..\Docs\TestData\DMRes\themes\theme2\image\menu\menu_itembg.png
+  ..\..\Docs\TestData\DMRes\themes\theme2\image\menu\menu_sep.png
+  复制了 125 个文件
+  hgy copy DMRes folder end----------------------------------
+  DMDemo.vcxproj -> G:\personalfiles\程序\ui库\DM\bin\Debug\DMDemo.exe
+  hgy copy dbghelp.dll start---------------------------------
+  hgy clear  output start------------------------------------
+  找不到 G:\personalfiles\程序\ui库\DM\bin\Debug\*.aps
+  找不到 G:\personalfiles\程序\ui库\DM\bin\Debug\*.ncb
+  找不到 G:\personalfiles\程序\ui库\DM\bin\Debug\*.suo
+  找不到 G:\personalfiles\程序\ui库\DM\bin\Debug\*.vcproj.*.user
+  找不到 G:\personalfiles\程序\ui库\DM\bin\Debug\*.plg
+  找不到 G:\personalfiles\程序\ui库\DM\bin\Debug\*.opt
+  找不到 G:\personalfiles\程序\ui库\DM\bin\Debug\*.pch
+  找不到 G:\personalfiles\程序\ui库\DM\bin\Debug\*.idb
+  删除文件 - G:\personalfiles\程序\ui库\DM\bin\Debug\DMDemo.ilk
+  删除文件 - G:\personalfiles\程序\ui库\DM\bin\Debug\DmMain_d.ilk
+  找不到 G:\personalfiles\程序\ui库\DM\bin\Debug\*.obj
+  找不到 G:\personalfiles\程序\ui库\DM\bin\Debug\*.dep
+  找不到 G:\personalfiles\程序\ui库\DM\bin\Debug\*.DPbcd
+  找不到 G:\personalfiles\程序\ui库\DM\bin\Debug\*.manifest
+  找不到 G:\personalfiles\程序\ui库\DM\bin\Debug\*.ib_tag
+  找不到 G:\personalfiles\程序\ui库\DM\bin\Debug\*.res
+  找不到 G:\personalfiles\程序\ui库\DM\bin\Debug\*.ib_pdb_index
+  删除文件 - G:\personalfiles\程序\ui库\DM\bin\Debug\DmMain_d.exp
+  找不到 G:\personalfiles\程序\ui库\DM\bin\Debug\*.bak
+  hgy clear  output end------------------------------------
+  hgy clear  plugin start------------------------------------
+  找不到 G:\personalfiles\程序\ui库\DM\bin\plugins\*.aps
+  找不到 G:\personalfiles\程序\ui库\DM\bin\plugins\*.ncb
+  找不到 G:\personalfiles\程序\ui库\DM\bin\plugins\*.suo
+  找不到 G:\personalfiles\程序\ui库\DM\bin\plugins\*.vcproj.*.user
+  找不到 G:\personalfiles\程序\ui库\DM\bin\plugins\*.plg
+  找不到 G:\personalfiles\程序\ui库\DM\bin\plugins\*.opt
+  找不到 G:\personalfiles\程序\ui库\DM\bin\plugins\*.pch
+  找不到 G:\personalfiles\程序\ui库\DM\bin\plugins\*.idb
+  删除文件 - G:\personalfiles\程序\ui库\DM\bin\plugins\Plugin_Expand_d.ilk
+  找不到 G:\personalfiles\程序\ui库\DM\bin\plugins\*.obj
+  找不到 G:\personalfiles\程序\ui库\DM\bin\plugins\*.htm
+  找不到 G:\personalfiles\程序\ui库\DM\bin\plugins\*.dep
+  找不到 G:\personalfiles\程序\ui库\DM\bin\plugins\*.DPbcd
+  找不到 G:\personalfiles\程序\ui库\DM\bin\plugins\*.manifest
+  找不到 G:\personalfiles\程序\ui库\DM\bin\plugins\*.ib_tag
+  找不到 G:\personalfiles\程序\ui库\DM\bin\plugins\*.res
+  找不到 G:\personalfiles\程序\ui库\DM\bin\plugins\*.ib_pdb_index
+  删除文件 - G:\personalfiles\程序\ui库\DM\bin\plugins\Plugin_Expand_d.exp
+  找不到 G:\personalfiles\程序\ui库\DM\bin\plugins\*.bak
+  hgy clear  plugin end------------------------------------

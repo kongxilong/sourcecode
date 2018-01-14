@@ -1,0 +1,353 @@
+﻿  hgy copy dbghelp.dll start---------------------------------
+  hgy delete QQRes folder begin------------------------------
+  hgy delete QQRes folder end--------------------------------
+  hgy copy dbghelp.dll begin---------------------------------
+  已复制         1 个文件。
+  hgy copy dbghelp.dll end-----------------------------------
+  hgy copy QQRes folder begin--------------------------------
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  ..\..\Docs\TestData\QQRes\layout\dmindex.xml
+  ..\..\Docs\TestData\QQRes\layout\js\DMJsTest.html
+  ..\..\Docs\TestData\QQRes\layout\lua\test.lua
+  ..\..\Docs\TestData\QQRes\layout\xml\dui_contacts.xml
+  ..\..\Docs\TestData\QQRes\layout\xml\dui_ie.xml
+  ..\..\Docs\TestData\QQRes\layout\xml\dui_mainwnd.xml
+  ..\..\Docs\TestData\QQRes\layout\xml\dui_menu.xml
+  ..\..\Docs\TestData\QQRes\layout\xml\dui_skin.xml
+  ..\..\Docs\TestData\QQRes\layout\xml\dui_speak.xml
+  ..\..\Docs\TestData\QQRes\layout\xml\dui_spy.xml
+  ..\..\Docs\TestData\QQRes\layout\xml\dui_widget.xml
+  ..\..\Docs\TestData\QQRes\layout\xml\global.xml
+  ..\..\Docs\TestData\QQRes\layout\xml\tips\dui_tips1.xml
+  ..\..\Docs\TestData\QQRes\layout\xml\tips\dui_tips2.xml
+  ..\..\Docs\TestData\QQRes\layout\xml\widget\dui_attrtest.xml
+  ..\..\Docs\TestData\QQRes\layout\xml\widget\dui_page_activex.xml
+  ..\..\Docs\TestData\QQRes\layout\xml\widget\dui_page_gif.xml
+  ..\..\Docs\TestData\QQRes\layout\xml\widget\dui_page_ie.xml
+  ..\..\Docs\TestData\QQRes\layout\xml\widget\dui_page_layout.xml
+  ..\..\Docs\TestData\QQRes\layout\xml\widget\dui_page_script.xml
+  ..\..\Docs\TestData\QQRes\layout\xml\widget\dui_page_webkit.xml
+  ..\..\Docs\TestData\QQRes\layout\xml\widget\dui_page_widget.xml
+  ..\..\Docs\TestData\QQRes\layout\xml\widget\dui_page_widgetex.xml
+  ..\..\Docs\TestData\QQRes\layout\xml\widget\control\widget_button.xml
+  ..\..\Docs\TestData\QQRes\layout\xml\widget\control\widget_checkbox.xml
+  ..\..\Docs\TestData\QQRes\layout\xml\widget\control\widget_combobox.xml
+  ..\..\Docs\TestData\QQRes\layout\xml\widget\control\widget_edit.xml
+  ..\..\Docs\TestData\QQRes\layout\xml\widget\control\widget_headerctrl.xml
+  ..\..\Docs\TestData\QQRes\layout\xml\widget\control\widget_hotkeyctrl.xml
+  ..\..\Docs\TestData\QQRes\layout\xml\widget\control\widget_IPAddressCtrl.xml
+  ..\..\Docs\TestData\QQRes\layout\xml\widget\control\widget_listbox.xml
+  ..\..\Docs\TestData\QQRes\layout\xml\widget\control\widget_processctrl.xml
+  ..\..\Docs\TestData\QQRes\layout\xml\widget\control\widget_radiobutton.xml
+  ..\..\Docs\TestData\QQRes\layout\xml\widget\control\widget_sliderctrl.xml
+  ..\..\Docs\TestData\QQRes\layout\xml\widget\control\widget_splitter.xml
+  ..\..\Docs\TestData\QQRes\layout\xml\widget\control\widget_tabctrl.xml
+  ..\..\Docs\TestData\QQRes\layout\xml\widget\control\widget_treectrl.xml
+  ..\..\Docs\TestData\QQRes\layout\xml\widget\control\widget_window.xml
+  ..\..\Docs\TestData\QQRes\outskin\1.png
+  ..\..\Docs\TestData\QQRes\outskin\10.png
+  ..\..\Docs\TestData\QQRes\outskin\11.png
+  ..\..\Docs\TestData\QQRes\outskin\12.png
+  ..\..\Docs\TestData\QQRes\outskin\13.png
+  ..\..\Docs\TestData\QQRes\outskin\14.png
+  ..\..\Docs\TestData\QQRes\outskin\15.png
+  ..\..\Docs\TestData\QQRes\outskin\17.png
+  ..\..\Docs\TestData\QQRes\outskin\18.png
+  ..\..\Docs\TestData\QQRes\outskin\19.png
+  ..\..\Docs\TestData\QQRes\outskin\2.png
+  ..\..\Docs\TestData\QQRes\outskin\20.png
+  ..\..\Docs\TestData\QQRes\outskin\21.png
+  ..\..\Docs\TestData\QQRes\outskin\22.png
+  ..\..\Docs\TestData\QQRes\outskin\23.png
+  ..\..\Docs\TestData\QQRes\outskin\24.png
+  ..\..\Docs\TestData\QQRes\outskin\25.png
+  ..\..\Docs\TestData\QQRes\outskin\26.png
+  ..\..\Docs\TestData\QQRes\outskin\27.png
+  ..\..\Docs\TestData\QQRes\outskin\29.png
+  ..\..\Docs\TestData\QQRes\outskin\3.png
+  ..\..\Docs\TestData\QQRes\outskin\30.png
+  ..\..\Docs\TestData\QQRes\outskin\31.png
+  ..\..\Docs\TestData\QQRes\outskin\32.png
+  ..\..\Docs\TestData\QQRes\outskin\33.png
+  ..\..\Docs\TestData\QQRes\outskin\34.png
+  ..\..\Docs\TestData\QQRes\outskin\35.png
+  ..\..\Docs\TestData\QQRes\outskin\36.png
+  ..\..\Docs\TestData\QQRes\outskin\37.png
+  ..\..\Docs\TestData\QQRes\outskin\38.png
+  ..\..\Docs\TestData\QQRes\outskin\39.png
+  ..\..\Docs\TestData\QQRes\outskin\4.png
+  ..\..\Docs\TestData\QQRes\outskin\40.png
+  ..\..\Docs\TestData\QQRes\outskin\41.png
+  ..\..\Docs\TestData\QQRes\outskin\42.png
+  ..\..\Docs\TestData\QQRes\outskin\43.png
+  ..\..\Docs\TestData\QQRes\outskin\44.png
+  ..\..\Docs\TestData\QQRes\outskin\45.png
+  ..\..\Docs\TestData\QQRes\outskin\46.png
+  ..\..\Docs\TestData\QQRes\outskin\47.png
+  ..\..\Docs\TestData\QQRes\outskin\48.png
+  ..\..\Docs\TestData\QQRes\outskin\49.png
+  ..\..\Docs\TestData\QQRes\outskin\5.png
+  ..\..\Docs\TestData\QQRes\outskin\50.png
+  ..\..\Docs\TestData\QQRes\outskin\51.png
+  ..\..\Docs\TestData\QQRes\outskin\52.png
+  ..\..\Docs\TestData\QQRes\outskin\53.png
+  ..\..\Docs\TestData\QQRes\outskin\54.png
+  ..\..\Docs\TestData\QQRes\outskin\55.png
+  ..\..\Docs\TestData\QQRes\outskin\56.png
+  ..\..\Docs\TestData\QQRes\outskin\57.png
+  ..\..\Docs\TestData\QQRes\outskin\58.png
+  ..\..\Docs\TestData\QQRes\outskin\59.png
+  ..\..\Docs\TestData\QQRes\outskin\6.png
+  ..\..\Docs\TestData\QQRes\outskin\60.png
+  ..\..\Docs\TestData\QQRes\outskin\61.png
+  ..\..\Docs\TestData\QQRes\outskin\62.png
+  ..\..\Docs\TestData\QQRes\outskin\63.png
+  ..\..\Docs\TestData\QQRes\outskin\64.png
+  ..\..\Docs\TestData\QQRes\outskin\65.png
+  ..\..\Docs\TestData\QQRes\outskin\66.png
+  ..\..\Docs\TestData\QQRes\outskin\67.png
+  ..\..\Docs\TestData\QQRes\outskin\68.png
+  ..\..\Docs\TestData\QQRes\outskin\69.png
+  ..\..\Docs\TestData\QQRes\outskin\7.png
+  ..\..\Docs\TestData\QQRes\outskin\70.png
+  ..\..\Docs\TestData\QQRes\outskin\71.png
+  ..\..\Docs\TestData\QQRes\outskin\72.png
+  ..\..\Docs\TestData\QQRes\outskin\73.png
+  ..\..\Docs\TestData\QQRes\outskin\74.png
+  ..\..\Docs\TestData\QQRes\outskin\75.png
+  ..\..\Docs\TestData\QQRes\outskin\76.png
+  ..\..\Docs\TestData\QQRes\outskin\8.png
+  ..\..\Docs\TestData\QQRes\outskin\9.png
+  ..\..\Docs\TestData\QQRes\outskin\a0.png
+  ..\..\Docs\TestData\QQRes\outskin\a1.png
+  ..\..\Docs\TestData\QQRes\outskin\a2.png
+  ..\..\Docs\TestData\QQRes\outskin\a3.png
+  ..\..\Docs\TestData\QQRes\outskin\a4.png
+  ..\..\Docs\TestData\QQRes\outskin\a5.png
+  ..\..\Docs\TestData\QQRes\themes\dmindex.xml
+  ..\..\Docs\TestData\QQRes\themes\theme0\dmindex.xml
+  ..\..\Docs\TestData\QQRes\themes\theme0\animate\1.gif
+  ..\..\Docs\TestData\QQRes\themes\theme0\animate\2.gif
+  ..\..\Docs\TestData\QQRes\themes\theme0\animate\3.gif
+  ..\..\Docs\TestData\QQRes\themes\theme0\animate\4.gif
+  ..\..\Docs\TestData\QQRes\themes\theme0\flash\1.swf
+  ..\..\Docs\TestData\QQRes\themes\theme0\flash\noon.swf
+  ..\..\Docs\TestData\QQRes\themes\theme0\flash\sun.swf
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\bg.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\btn_custom.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\btn_edit.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\btn_MedalWall.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\btn_skin.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\closebutton.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\dui_frame.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\head.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\logo-QQ.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\minbutton.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\preview.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\scrollbar.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\surface_search.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\tipframe.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\list\listbox_icon.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\list\listbox_selicon.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\list\list_bg.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\list\list_header.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\list\list_icon1.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\list\list_icon2.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\list\list_icon3.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\list\list_icon4.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\list\list_icon5.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\list\list_icon6.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\list\list_icon7.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\list\list_qqvip.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\list\list_scroll.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\list\list_selicon1.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\list\list_selicon2.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\list\list_selicon3.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\list\list_selicon4.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\list\list_selicon5.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\list\list_selicon6.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\list\list_selicon7.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\menu\Menu_BigSkin.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\menu\menu_check.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\menu\menu_icons.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\menu\menu_itembg.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\menu\menu_itemselbg.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\menu\menu_sep.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\skin\skin_midbg.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\skin\skin_outbtn.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\skin\skin_setbtn.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\spy\drag.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\spy\spydrag.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\spy\spyicon.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\tab\tab_1.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\tab\tab_2.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\tab\tab_3.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\tab\tab_4.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\tab\tab_5.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\tab\tab_bg.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\tree\tree_check.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\tree\tree_toggle.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\web\webback.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\web\webfront.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\web\webicon.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\web\webrefresh.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\widget\360icon.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\widget\360logo.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\widget\bord.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\widget\btn_close.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\widget\btn_max.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\widget\btn_menu.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\widget\btn_min.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\widget\btn_restore.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\widget\channel_hz.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\widget\channel_vz.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\widget\checkbox.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\widget\comboxbtn.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\widget\iconbtn.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\widget\process_channel.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\widget\process_sel_hz.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\widget\process_sel_vz.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\widget\radiobutton.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\widget\splith.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\widget\splitv.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\widget\thumb_hz.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\widget\thumb_vz.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\widget\tab\tabbar_1.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\widget\tab\tabbar_2.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\widget\tab\tabbar_3.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\widget\tab\tabbar_4.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\widget\tab\tabbar_5.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\widget\tab\tabbar_6.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\widget\tab\tab_item.png
+  ..\..\Docs\TestData\QQRes\themes\theme0\image\widget\tab\tab_pagebg.png
+  ..\..\Docs\TestData\QQRes\themes\theme1\dmindex.xml
+  ..\..\Docs\TestData\QQRes\themes\theme1\image\bg.png
+  ..\..\Docs\TestData\QQRes\themes\theme1\image\preview.png
+  ..\..\Docs\TestData\QQRes\themes\theme10\dmindex.xml
+  ..\..\Docs\TestData\QQRes\themes\theme10\image\bg.png
+  ..\..\Docs\TestData\QQRes\themes\theme10\image\preview.png
+  ..\..\Docs\TestData\QQRes\themes\theme11\dmindex.xml
+  ..\..\Docs\TestData\QQRes\themes\theme11\image\bg.png
+  ..\..\Docs\TestData\QQRes\themes\theme11\image\preview.png
+  ..\..\Docs\TestData\QQRes\themes\theme12\dmindex.xml
+  ..\..\Docs\TestData\QQRes\themes\theme12\image\bg.png
+  ..\..\Docs\TestData\QQRes\themes\theme12\image\preview.png
+  ..\..\Docs\TestData\QQRes\themes\theme13\dmindex.xml
+  ..\..\Docs\TestData\QQRes\themes\theme13\image\bg.png
+  ..\..\Docs\TestData\QQRes\themes\theme13\image\preview.png
+  ..\..\Docs\TestData\QQRes\themes\theme14\dmindex.xml
+  ..\..\Docs\TestData\QQRes\themes\theme14\image\bg.png
+  ..\..\Docs\TestData\QQRes\themes\theme14\image\preview.png
+  ..\..\Docs\TestData\QQRes\themes\theme15\dmindex.xml
+  ..\..\Docs\TestData\QQRes\themes\theme15\image\bg.png
+  ..\..\Docs\TestData\QQRes\themes\theme15\image\preview.png
+  ..\..\Docs\TestData\QQRes\themes\theme16\dmindex.xml
+  ..\..\Docs\TestData\QQRes\themes\theme16\image\bg.png
+  ..\..\Docs\TestData\QQRes\themes\theme16\image\preview.png
+  ..\..\Docs\TestData\QQRes\themes\theme17\dmindex.xml
+  ..\..\Docs\TestData\QQRes\themes\theme17\image\bg.png
+  ..\..\Docs\TestData\QQRes\themes\theme17\image\preview.png
+  ..\..\Docs\TestData\QQRes\themes\theme2\dmindex.xml
+  ..\..\Docs\TestData\QQRes\themes\theme2\image\bg.png
+  ..\..\Docs\TestData\QQRes\themes\theme2\image\preview.png
+  ..\..\Docs\TestData\QQRes\themes\theme3\dmindex.xml
+  ..\..\Docs\TestData\QQRes\themes\theme3\image\bg.png
+  ..\..\Docs\TestData\QQRes\themes\theme3\image\preview.png
+  ..\..\Docs\TestData\QQRes\themes\theme4\dmindex.xml
+  ..\..\Docs\TestData\QQRes\themes\theme4\image\bg.png
+  ..\..\Docs\TestData\QQRes\themes\theme4\image\preview.png
+  ..\..\Docs\TestData\QQRes\themes\theme5\dmindex.xml
+  ..\..\Docs\TestData\QQRes\themes\theme5\image\bg.png
+  ..\..\Docs\TestData\QQRes\themes\theme5\image\preview.png
+  ..\..\Docs\TestData\QQRes\themes\theme6\dmindex.xml
+  ..\..\Docs\TestData\QQRes\themes\theme6\image\bg.png
+  ..\..\Docs\TestData\QQRes\themes\theme6\image\preview.png
+  ..\..\Docs\TestData\QQRes\themes\theme7\dmindex.xml
+  ..\..\Docs\TestData\QQRes\themes\theme7\image\bg.png
+  ..\..\Docs\TestData\QQRes\themes\theme7\image\preview.png
+  ..\..\Docs\TestData\QQRes\themes\theme8\dmindex.xml
+  ..\..\Docs\TestData\QQRes\themes\theme8\image\bg.png
+  ..\..\Docs\TestData\QQRes\themes\theme8\image\preview.png
+  ..\..\Docs\TestData\QQRes\themes\theme9\dmindex.xml
+  ..\..\Docs\TestData\QQRes\themes\theme9\image\bg.png
+  ..\..\Docs\TestData\QQRes\themes\theme9\image\preview.png
+  复制了 265 个文件
+  hgy copy QQRes folder end----------------------------------
+  QQDemo.cpp
+  DmMain使用dll版本
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\dbghelp.h(1544): warning C4091: “typedef ”: 没有声明变量时忽略“”的左侧
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\dbghelp.h(3190): warning C4091: “typedef ”: 没有声明变量时忽略“”的左侧
+src\QQDemo.cpp(41): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(505): note: 参见“localtime”的声明
+  DMScriptHelper.cpp
+  DmMain使用dll版本
+  DMScriptImpl.cpp
+  DmMain使用dll版本
+  正在生成代码...
+DMScriptImpl.obj : error LNK2019: 无法解析的外部符号 _lua_gettop，该符号在函数 "bool __cdecl DMLUA::call<bool,class DM::DMEventArgs *>(struct lua_State *,char const *,class DM::DMEventArgs *)" (??$call@_NPAVDMEventArgs@DM@@@DMLUA@@YA_NPAUlua_State@@PBDPAVDMEventArgs@DM@@@Z) 中被引用
+lua_d.lib(DMLua.obj) : error LNK2001: 无法解析的外部符号 _lua_gettop
+DMScriptImpl.obj : error LNK2019: 无法解析的外部符号 _lua_settop，该符号在函数 "bool __cdecl DMLUA::call<bool,class DM::DMEventArgs *>(struct lua_State *,char const *,class DM::DMEventArgs *)" (??$call@_NPAVDMEventArgs@DM@@@DMLUA@@YA_NPAUlua_State@@PBDPAVDMEventArgs@DM@@@Z) 中被引用
+lua_d.lib(DMLua.obj) : error LNK2001: 无法解析的外部符号 _lua_settop
+DMScriptImpl.obj : error LNK2019: 无法解析的外部符号 _lua_remove，该符号在函数 "bool __cdecl DMLUA::call<bool,class DM::DMEventArgs *>(struct lua_State *,char const *,class DM::DMEventArgs *)" (??$call@_NPAVDMEventArgs@DM@@@DMLUA@@YA_NPAUlua_State@@PBDPAVDMEventArgs@DM@@@Z) 中被引用
+lua_d.lib(DMLua.obj) : error LNK2001: 无法解析的外部符号 _lua_remove
+DMScriptImpl.obj : error LNK2019: 无法解析的外部符号 _lua_isuserdata，该符号在函数 "public: static long volatile __cdecl DMLUA::lua2object<long volatile >::invoke(struct lua_State *,int)" (?invoke@?$lua2object@$$CCJ@DMLUA@@SA?CJPAUlua_State@@H@Z) 中被引用
+lua_d.lib(DMLua.obj) : error LNK2001: 无法解析的外部符号 _lua_isuserdata
+DMScriptImpl.obj : error LNK2019: 无法解析的外部符号 _lua_type，该符号在函数 "bool __cdecl DMLUA::call<bool,class DM::DMEventArgs *>(struct lua_State *,char const *,class DM::DMEventArgs *)" (??$call@_NPAVDMEventArgs@DM@@@DMLUA@@YA_NPAUlua_State@@PBDPAVDMEventArgs@DM@@@Z) 中被引用
+lua_d.lib(DMLua.obj) : error LNK2001: 无法解析的外部符号 _lua_type
+DMScriptImpl.obj : error LNK2019: 无法解析的外部符号 _lua_tonumberx，该符号在函数 "public: static wchar_t __cdecl DMLUA::lua2enum<wchar_t>::invoke(struct lua_State *,int)" (?invoke@?$lua2enum@_W@DMLUA@@SA_WPAUlua_State@@H@Z) 中被引用
+lua_d.lib(DMLua.obj) : error LNK2001: 无法解析的外部符号 _lua_tonumberx
+DMScriptImpl.obj : error LNK2019: 无法解析的外部符号 _lua_touserdata，该符号在函数 "int __cdecl DMLUA::destroyer<struct tagPOINT>(struct lua_State *)" (??$destroyer@UtagPOINT@@@DMLUA@@YAHPAUlua_State@@@Z) 中被引用
+lua_d.lib(DMLua.obj) : error LNK2001: 无法解析的外部符号 _lua_touserdata
+DMScriptImpl.obj : error LNK2019: 无法解析的外部符号 _lua_pushnil，该符号在函数 "public: static void __cdecl DMLUA::ptr2lua<wchar_t const >::invoke(struct lua_State *,wchar_t const *)" (?invoke@?$ptr2lua@$$CB_W@DMLUA@@SAXPAUlua_State@@PB_W@Z) 中被引用
+lua_d.lib(DMLua.obj) : error LNK2001: 无法解析的外部符号 _lua_pushnil
+DMScriptImpl.obj : error LNK2019: 无法解析的外部符号 _lua_pushnumber，该符号在函数 "public: static void __cdecl DMLUA::enum2lua<wchar_t>::invoke(struct lua_State *,wchar_t)" (?invoke@?$enum2lua@_W@DMLUA@@SAXPAUlua_State@@_W@Z) 中被引用
+lua_d.lib(DMLua.obj) : error LNK2001: 无法解析的外部符号 _lua_pushnumber
+DMScriptImpl.obj : error LNK2019: 无法解析的外部符号 _lua_pushstring，该符号在函数 "void __cdecl DMLUA::class_add<struct tagPOINT>(struct lua_State *,char const *)" (??$class_add@UtagPOINT@@@DMLUA@@YAXPAUlua_State@@PBD@Z) 中被引用
+lua_d.lib(DMLua.obj) : error LNK2001: 无法解析的外部符号 _lua_pushstring
+DMScriptImpl.obj : error LNK2019: 无法解析的外部符号 _lua_pushcclosure，该符号在函数 "bool __cdecl DMLUA::call<bool,class DM::DMEventArgs *>(struct lua_State *,char const *,class DM::DMEventArgs *)" (??$call@_NPAVDMEventArgs@DM@@@DMLUA@@YA_NPAUlua_State@@PBDPAVDMEventArgs@DM@@@Z) 中被引用
+lua_d.lib(DMLua.obj) : error LNK2001: 无法解析的外部符号 _lua_pushcclosure
+DMScriptImpl.obj : error LNK2019: 无法解析的外部符号 _lua_pushlightuserdata，该符号在函数 "void __cdecl DMLUA::def<class DM::DMStringT<char,struct DM::char_traits> (__cdecl*)(class DM::DMStringT<char,struct DM::char_traits> const &,unsigned int,unsigned int)>(struct lua_State *,char const *,class DM::DMStringT<char,struct DM::char_traits> (__cdecl*)(class DM::DMStringT<char,struct DM::char_traits> const &,unsigned int,unsigned int))" (??$def@P6A?AV?$DMStringT@DUchar_traits@DM@@@DM@@ABV12@II@Z@DMLUA@@YAXPAUlua_State@@PBDP6A?AV?$DMStringT@DUchar_traits@DM@@@DM@@ABV23@II@Z@Z) 中被引用
+DMScriptImpl.obj : error LNK2019: 无法解析的外部符号 _lua_getglobal，该符号在函数 "bool __cdecl DMLUA::call<bool,class DM::DMEventArgs *>(struct lua_State *,char const *,class DM::DMEventArgs *)" (??$call@_NPAVDMEventArgs@DM@@@DMLUA@@YA_NPAUlua_State@@PBDPAVDMEventArgs@DM@@@Z) 中被引用
+lua_d.lib(DMLua.obj) : error LNK2001: 无法解析的外部符号 _lua_getglobal
+DMScriptImpl.obj : error LNK2019: 无法解析的外部符号 _lua_createtable，该符号在函数 "void __cdecl DMLUA::class_add<struct tagPOINT>(struct lua_State *,char const *)" (??$class_add@UtagPOINT@@@DMLUA@@YAXPAUlua_State@@PBD@Z) 中被引用
+lua_d.lib(DMLua.obj) : error LNK2001: 无法解析的外部符号 _lua_createtable
+DMScriptImpl.obj : error LNK2019: 无法解析的外部符号 _lua_newuserdata，该符号在函数 "void __cdecl DMLUA::class_def<class DM::DMStringT<char,struct DM::char_traits>,class DM::DMStringT<char,struct DM::char_traits> & (__thiscall DM::DMStringT<char,struct DM::char_traits>::*)(char)>(struct lua_State *,char const *,class DM::DMStringT<char,struct DM::char_traits> & (__thiscall DM::DMStringT<char,struct DM::char_traits>::*)(char))" (??$class_def@V?$DMStringT@DUchar_traits@DM@@@DM@@P812@AEAAV12@D@Z@DMLUA@@YAXPAUlua_State@@PBDP8?$DMStringT@DUchar_traits@DM@@@DM@@AEAAV23@D@Z@Z) 中被引用
+lua_d.lib(DMLua.obj) : error LNK2001: 无法解析的外部符号 _lua_newuserdata
+DMScriptImpl.obj : error LNK2019: 无法解析的外部符号 _lua_setglobal，该符号在函数 "void __cdecl DMLUA::class_add<struct tagPOINT>(struct lua_State *,char const *)" (??$class_add@UtagPOINT@@@DMLUA@@YAXPAUlua_State@@PBD@Z) 中被引用
+lua_d.lib(DMLua.obj) : error LNK2001: 无法解析的外部符号 _lua_setglobal
+DMScriptImpl.obj : error LNK2019: 无法解析的外部符号 _lua_rawset，该符号在函数 "void __cdecl DMLUA::class_add<struct tagPOINT>(struct lua_State *,char const *)" (??$class_add@UtagPOINT@@@DMLUA@@YAXPAUlua_State@@PBD@Z) 中被引用
+lua_d.lib(DMLua.obj) : error LNK2001: 无法解析的外部符号 _lua_rawset
+DMScriptImpl.obj : error LNK2019: 无法解析的外部符号 _lua_setmetatable，该符号在函数 "void __cdecl DMLUA::class_con<class DM::DMStringT<char,struct DM::char_traits>,int (__cdecl*)(struct lua_State *)>(struct lua_State *,int (__cdecl*)(struct lua_State *))" (??$class_con@V?$DMStringT@DUchar_traits@DM@@@DM@@P6AHPAUlua_State@@@Z@DMLUA@@YAXPAUlua_State@@P6AH0@Z@Z) 中被引用
+lua_d.lib(DMLua.obj) : error LNK2001: 无法解析的外部符号 _lua_setmetatable
+DMScriptImpl.obj : error LNK2019: 无法解析的外部符号 _lua_pcallk，该符号在函数 "bool __cdecl DMLUA::call<bool,class DM::DMEventArgs *>(struct lua_State *,char const *,class DM::DMEventArgs *)" (??$call@_NPAVDMEventArgs@DM@@@DMLUA@@YA_NPAUlua_State@@PBDPAVDMEventArgs@DM@@@Z) 中被引用
+lua_d.lib(DMLua.obj) : error LNK2001: 无法解析的外部符号 _lua_pcallk
+DMScriptImpl.obj : error LNK2019: 无法解析的外部符号 _lua_error，该符号在函数 "public: static long volatile __cdecl DMLUA::lua2object<long volatile >::invoke(struct lua_State *,int)" (?invoke@?$lua2object@$$CCJ@DMLUA@@SA?CJPAUlua_State@@H@Z) 中被引用
+lua_d.lib(DMLua.obj) : error LNK2001: 无法解析的外部符号 _lua_error
+DMScriptImpl.obj : error LNK2019: 无法解析的外部符号 _luaL_openlibs，该符号在函数 "public: virtual int __thiscall DMScriptImpl::InitScript(void)" (?InitScript@DMScriptImpl@@UAEHXZ) 中被引用
+lua_d.lib(DMLua.obj) : error LNK2019: 无法解析的外部符号 _lua_close，该符号在函数 "void __cdecl DMLUA::close(struct lua_State *)" (?close@DMLUA@@YAXPAUlua_State@@@Z) 中被引用
+lua_d.lib(DMLua.obj) : error LNK2019: 无法解析的外部符号 _lua_pushvalue，该符号在函数 "void __cdecl DMLUA::push<struct DMLUA::table>(struct lua_State *,struct DMLUA::table)" (??$push@Utable@DMLUA@@@DMLUA@@YAXPAUlua_State@@Utable@0@@Z) 中被引用
+lua_d.lib(DMLua.obj) : error LNK2019: 无法解析的外部符号 _lua_isnumber，该符号在函数 "__int64 __cdecl DMLUA::read<__int64>(struct lua_State *,int)" (??$read@_J@DMLUA@@YA_JPAUlua_State@@H@Z) 中被引用
+lua_d.lib(DMLua.obj) : error LNK2019: 无法解析的外部符号 _lua_typename，该符号在函数 "void __cdecl DMLUA::enum_stack(struct lua_State *)" (?enum_stack@DMLUA@@YAXPAUlua_State@@@Z) 中被引用
+lua_d.lib(DMLua.obj) : error LNK2019: 无法解析的外部符号 _lua_toboolean，该符号在函数 "void __cdecl DMLUA::enum_stack(struct lua_State *)" (?enum_stack@DMLUA@@YAXPAUlua_State@@@Z) 中被引用
+lua_d.lib(DMLua.obj) : error LNK2019: 无法解析的外部符号 _lua_tolstring，该符号在函数 "void __cdecl DMLUA::dofile(struct lua_State *,char const *)" (?dofile@DMLUA@@YAXPAUlua_State@@PBD@Z) 中被引用
+lua_d.lib(DMLua.obj) : error LNK2019: 无法解析的外部符号 _lua_topointer，该符号在函数 "void __cdecl DMLUA::enum_stack(struct lua_State *)" (?enum_stack@DMLUA@@YAXPAUlua_State@@@Z) 中被引用
+lua_d.lib(DMLua.obj) : error LNK2019: 无法解析的外部符号 _lua_pushfstring，该符号在函数 "int __cdecl DMLUA::meta_get(struct lua_State *)" (?meta_get@DMLUA@@YAHPAUlua_State@@@Z) 中被引用
+lua_d.lib(DMLua.obj) : error LNK2019: 无法解析的外部符号 _lua_pushboolean，该符号在函数 "void __cdecl DMLUA::push<bool>(struct lua_State *,bool)" (??$push@_N@DMLUA@@YAXPAUlua_State@@_N@Z) 中被引用
+lua_d.lib(DMLua.obj) : error LNK2019: 无法解析的外部符号 _lua_rawget，该符号在函数 "int __cdecl DMLUA::meta_get(struct lua_State *)" (?meta_get@DMLUA@@YAHPAUlua_State@@@Z) 中被引用
+lua_d.lib(DMLua.obj) : error LNK2019: 无法解析的外部符号 _lua_getmetatable，该符号在函数 "int __cdecl DMLUA::meta_get(struct lua_State *)" (?meta_get@DMLUA@@YAHPAUlua_State@@@Z) 中被引用
+lua_d.lib(DMLua.obj) : error LNK2019: 无法解析的外部符号 _lua_callk，该符号在函数 "void __cdecl DMLUA::print_error(struct lua_State *,char const *,...)" (?print_error@DMLUA@@YAXPAUlua_State@@PBDZZ) 中被引用
+lua_d.lib(DMLua.obj) : error LNK2019: 无法解析的外部符号 _lua_getstack，该符号在函数 "void __cdecl DMLUA::call_stack(struct lua_State *,int)" (?call_stack@DMLUA@@YAXPAUlua_State@@H@Z) 中被引用
+lua_d.lib(DMLua.obj) : error LNK2019: 无法解析的外部符号 _lua_getinfo，该符号在函数 "void __cdecl DMLUA::call_stack(struct lua_State *,int)" (?call_stack@DMLUA@@YAXPAUlua_State@@H@Z) 中被引用
+lua_d.lib(DMLua.obj) : error LNK2019: 无法解析的外部符号 _luaopen_base，该符号在函数 "void __cdecl DMLUA::open_base(struct lua_State *)" (?open_base@DMLUA@@YAXPAUlua_State@@@Z) 中被引用
+lua_d.lib(DMLua.obj) : error LNK2019: 无法解析的外部符号 _luaopen_coroutine，该符号在函数 "void __cdecl DMLUA::open_coroutine(struct lua_State *)" (?open_coroutine@DMLUA@@YAXPAUlua_State@@@Z) 中被引用
+lua_d.lib(DMLua.obj) : error LNK2019: 无法解析的外部符号 _luaopen_os，该符号在函数 "void __cdecl DMLUA::open_os(struct lua_State *)" (?open_os@DMLUA@@YAXPAUlua_State@@@Z) 中被引用
+lua_d.lib(DMLua.obj) : error LNK2019: 无法解析的外部符号 _luaopen_string，该符号在函数 "void __cdecl DMLUA::open_string(struct lua_State *)" (?open_string@DMLUA@@YAXPAUlua_State@@@Z) 中被引用
+lua_d.lib(DMLua.obj) : error LNK2019: 无法解析的外部符号 _luaopen_math，该符号在函数 "void __cdecl DMLUA::open_math(struct lua_State *)" (?open_math@DMLUA@@YAXPAUlua_State@@@Z) 中被引用
+lua_d.lib(DMLua.obj) : error LNK2019: 无法解析的外部符号 _luaL_loadfilex，该符号在函数 "void __cdecl DMLUA::dofile(struct lua_State *,char const *)" (?dofile@DMLUA@@YAXPAUlua_State@@PBD@Z) 中被引用
+lua_d.lib(DMLua.obj) : error LNK2019: 无法解析的外部符号 _luaL_loadbufferx，该符号在函数 "void __cdecl DMLUA::dobuffer(struct lua_State *,char const *,unsigned int)" (?dobuffer@DMLUA@@YAXPAUlua_State@@PBDI@Z) 中被引用
+lua_d.lib(DMLua.obj) : error LNK2019: 无法解析的外部符号 _luaL_newstate，该符号在函数 "struct lua_State * __cdecl DMLUA::open(void)" (?open@DMLUA@@YAPAUlua_State@@XZ) 中被引用
+lua_d.lib(DMLua.obj) : error LNK2019: 无法解析的外部符号 _luaL_requiref，该符号在函数 "void __cdecl DMLUA::open_base(struct lua_State *)" (?open_base@DMLUA@@YAXPAUlua_State@@@Z) 中被引用
+G:\personalfiles\程序\ui库\DM\bin\Debug\QQDemo.exe : fatal error LNK1120: 44 个无法解析的外部命令

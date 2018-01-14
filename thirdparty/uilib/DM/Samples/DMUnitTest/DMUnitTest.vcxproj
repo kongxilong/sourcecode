@@ -1,0 +1,413 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{FB5C4E70-7EE1-3795-A5BF-B61EFC49728B}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>DMUnitTest</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Install\编程\开源库\DM\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">DMUnitTest.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">DMUnitTest</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Install\编程\开源库\DM\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">DMUnitTest.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">DMUnitTest</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Install\编程\开源库\DM\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">DMUnitTest.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">DMUnitTest</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Install\编程\开源库\DM\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">DMUnitTest.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">DMUnitTest</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Install\编程\开源库\DM\Samples\DMUnitTest;D:\Install\编程\开源库\DM\Samples\DMUnitTest\TestCase;D:\Install\编程\开源库\DM\Samples\DMUnitTest\GtestInc;D:\Install\编程\开源库\DM\DmMain\inc;D:\Install\编程\开源库\DM\DmMain\inc\Common;D:\Install\编程\开源库\DM\DmMain\inc\Common\Template;D:\Install\编程\开源库\DM\DmMain\inc\Core;D:\Install\编程\开源库\DM\DmMain\inc\Core\Msg;D:\Install\编程\开源库\DM\DmMain\inc\Core\Dui;D:\Install\编程\开源库\DM\DmMain\inc\Core\Event;D:\Install\编程\开源库\DM\DmMain\inc\IDmMain;D:\Install\编程\开源库\DM\DmMain\inc\Modules;D:\Install\编程\开源库\DM\DmMain\inc\Widgets;D:\Install\编程\开源库\DM\3rdParty\lua;D:\Install\编程\开源库\DM\3rdParty\lua\wrapper;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>DMUintTestAfx.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;DLL_DMMAIN;_DMDesigner_;DMLOG_ON;UNICODE;_UNICODE;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;DLL_DMMAIN;_DMDesigner_;DMLOG_ON;UNICODE;_UNICODE;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Install\编程\开源库\DM\Samples\DMUnitTest;D:\Install\编程\开源库\DM\Samples\DMUnitTest\TestCase;D:\Install\编程\开源库\DM\Samples\DMUnitTest\GtestInc;D:\Install\编程\开源库\DM\DmMain\inc;D:\Install\编程\开源库\DM\DmMain\inc\Common;D:\Install\编程\开源库\DM\DmMain\inc\Common\Template;D:\Install\编程\开源库\DM\DmMain\inc\Core;D:\Install\编程\开源库\DM\DmMain\inc\Core\Msg;D:\Install\编程\开源库\DM\DmMain\inc\Core\Dui;D:\Install\编程\开源库\DM\DmMain\inc\Core\Event;D:\Install\编程\开源库\DM\DmMain\inc\IDmMain;D:\Install\编程\开源库\DM\DmMain\inc\Modules;D:\Install\编程\开源库\DM\DmMain\inc\Widgets;D:\Install\编程\开源库\DM\3rdParty\lua;D:\Install\编程\开源库\DM\3rdParty\lua\wrapper;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Install\编程\开源库\DM\Samples\DMUnitTest;D:\Install\编程\开源库\DM\Samples\DMUnitTest\TestCase;D:\Install\编程\开源库\DM\Samples\DMUnitTest\GtestInc;D:\Install\编程\开源库\DM\DmMain\inc;D:\Install\编程\开源库\DM\DmMain\inc\Common;D:\Install\编程\开源库\DM\DmMain\inc\Common\Template;D:\Install\编程\开源库\DM\DmMain\inc\Core;D:\Install\编程\开源库\DM\DmMain\inc\Core\Msg;D:\Install\编程\开源库\DM\DmMain\inc\Core\Dui;D:\Install\编程\开源库\DM\DmMain\inc\Core\Event;D:\Install\编程\开源库\DM\DmMain\inc\IDmMain;D:\Install\编程\开源库\DM\DmMain\inc\Modules;D:\Install\编程\开源库\DM\DmMain\inc\Widgets;D:\Install\编程\开源库\DM\3rdParty\lua;D:\Install\编程\开源库\DM\3rdParty\lua\wrapper;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>This command will be executed before build target DMUnitTest</Message>
+      <Command>setlocal
+call D:/Install/编程/开源库/DM/Tools/CMake/PreBuild-ut.cmd $(TargetDir)
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message>This command will be executed after build target DMUnitTest</Message>
+      <Command>setlocal
+call D:/Install/编程/开源库/DM/Tools/CMake/PostBuild.cmd $(TargetDir)
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/Install/编程/开源库/DM/bin;D:/Install/编程/开源库/DM/bin/$(Configuration);D:/Install/编程/开源库/DM/3rdParty/lib;D:/Install/编程/开源库/DM/3rdParty/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Install/编程/开源库/DM/bin/Debug/DMUnitTest.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Install/编程/开源库/DM/bin/Debug/DMUnitTest.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Install\编程\开源库\DM\Samples\DMUnitTest;D:\Install\编程\开源库\DM\Samples\DMUnitTest\TestCase;D:\Install\编程\开源库\DM\Samples\DMUnitTest\GtestInc;D:\Install\编程\开源库\DM\DmMain\inc;D:\Install\编程\开源库\DM\DmMain\inc\Common;D:\Install\编程\开源库\DM\DmMain\inc\Common\Template;D:\Install\编程\开源库\DM\DmMain\inc\Core;D:\Install\编程\开源库\DM\DmMain\inc\Core\Msg;D:\Install\编程\开源库\DM\DmMain\inc\Core\Dui;D:\Install\编程\开源库\DM\DmMain\inc\Core\Event;D:\Install\编程\开源库\DM\DmMain\inc\IDmMain;D:\Install\编程\开源库\DM\DmMain\inc\Modules;D:\Install\编程\开源库\DM\DmMain\inc\Widgets;D:\Install\编程\开源库\DM\3rdParty\lua;D:\Install\编程\开源库\DM\3rdParty\lua\wrapper;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>DMUintTestAfx.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DLL_DMMAIN;_DMDesigner_;DMLOG_ON;UNICODE;_UNICODE;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DLL_DMMAIN;_DMDesigner_;DMLOG_ON;UNICODE;_UNICODE;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Install\编程\开源库\DM\Samples\DMUnitTest;D:\Install\编程\开源库\DM\Samples\DMUnitTest\TestCase;D:\Install\编程\开源库\DM\Samples\DMUnitTest\GtestInc;D:\Install\编程\开源库\DM\DmMain\inc;D:\Install\编程\开源库\DM\DmMain\inc\Common;D:\Install\编程\开源库\DM\DmMain\inc\Common\Template;D:\Install\编程\开源库\DM\DmMain\inc\Core;D:\Install\编程\开源库\DM\DmMain\inc\Core\Msg;D:\Install\编程\开源库\DM\DmMain\inc\Core\Dui;D:\Install\编程\开源库\DM\DmMain\inc\Core\Event;D:\Install\编程\开源库\DM\DmMain\inc\IDmMain;D:\Install\编程\开源库\DM\DmMain\inc\Modules;D:\Install\编程\开源库\DM\DmMain\inc\Widgets;D:\Install\编程\开源库\DM\3rdParty\lua;D:\Install\编程\开源库\DM\3rdParty\lua\wrapper;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Install\编程\开源库\DM\Samples\DMUnitTest;D:\Install\编程\开源库\DM\Samples\DMUnitTest\TestCase;D:\Install\编程\开源库\DM\Samples\DMUnitTest\GtestInc;D:\Install\编程\开源库\DM\DmMain\inc;D:\Install\编程\开源库\DM\DmMain\inc\Common;D:\Install\编程\开源库\DM\DmMain\inc\Common\Template;D:\Install\编程\开源库\DM\DmMain\inc\Core;D:\Install\编程\开源库\DM\DmMain\inc\Core\Msg;D:\Install\编程\开源库\DM\DmMain\inc\Core\Dui;D:\Install\编程\开源库\DM\DmMain\inc\Core\Event;D:\Install\编程\开源库\DM\DmMain\inc\IDmMain;D:\Install\编程\开源库\DM\DmMain\inc\Modules;D:\Install\编程\开源库\DM\DmMain\inc\Widgets;D:\Install\编程\开源库\DM\3rdParty\lua;D:\Install\编程\开源库\DM\3rdParty\lua\wrapper;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>This command will be executed before build target DMUnitTest</Message>
+      <Command>setlocal
+call D:/Install/编程/开源库/DM/Tools/CMake/PreBuild-ut.cmd $(TargetDir)
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message>This command will be executed after build target DMUnitTest</Message>
+      <Command>setlocal
+call D:/Install/编程/开源库/DM/Tools/CMake/PostBuild.cmd $(TargetDir)
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/Install/编程/开源库/DM/bin;D:/Install/编程/开源库/DM/bin/$(Configuration);D:/Install/编程/开源库/DM/3rdParty/lib;D:/Install/编程/开源库/DM/3rdParty/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Install/编程/开源库/DM/bin/Release/DMUnitTest.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Install/编程/开源库/DM/bin/Release/DMUnitTest.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Install\编程\开源库\DM\Samples\DMUnitTest;D:\Install\编程\开源库\DM\Samples\DMUnitTest\TestCase;D:\Install\编程\开源库\DM\Samples\DMUnitTest\GtestInc;D:\Install\编程\开源库\DM\DmMain\inc;D:\Install\编程\开源库\DM\DmMain\inc\Common;D:\Install\编程\开源库\DM\DmMain\inc\Common\Template;D:\Install\编程\开源库\DM\DmMain\inc\Core;D:\Install\编程\开源库\DM\DmMain\inc\Core\Msg;D:\Install\编程\开源库\DM\DmMain\inc\Core\Dui;D:\Install\编程\开源库\DM\DmMain\inc\Core\Event;D:\Install\编程\开源库\DM\DmMain\inc\IDmMain;D:\Install\编程\开源库\DM\DmMain\inc\Modules;D:\Install\编程\开源库\DM\DmMain\inc\Widgets;D:\Install\编程\开源库\DM\3rdParty\lua;D:\Install\编程\开源库\DM\3rdParty\lua\wrapper;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>DMUintTestAfx.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DLL_DMMAIN;_DMDesigner_;DMLOG_ON;UNICODE;_UNICODE;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DLL_DMMAIN;_DMDesigner_;DMLOG_ON;UNICODE;_UNICODE;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Install\编程\开源库\DM\Samples\DMUnitTest;D:\Install\编程\开源库\DM\Samples\DMUnitTest\TestCase;D:\Install\编程\开源库\DM\Samples\DMUnitTest\GtestInc;D:\Install\编程\开源库\DM\DmMain\inc;D:\Install\编程\开源库\DM\DmMain\inc\Common;D:\Install\编程\开源库\DM\DmMain\inc\Common\Template;D:\Install\编程\开源库\DM\DmMain\inc\Core;D:\Install\编程\开源库\DM\DmMain\inc\Core\Msg;D:\Install\编程\开源库\DM\DmMain\inc\Core\Dui;D:\Install\编程\开源库\DM\DmMain\inc\Core\Event;D:\Install\编程\开源库\DM\DmMain\inc\IDmMain;D:\Install\编程\开源库\DM\DmMain\inc\Modules;D:\Install\编程\开源库\DM\DmMain\inc\Widgets;D:\Install\编程\开源库\DM\3rdParty\lua;D:\Install\编程\开源库\DM\3rdParty\lua\wrapper;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Install\编程\开源库\DM\Samples\DMUnitTest;D:\Install\编程\开源库\DM\Samples\DMUnitTest\TestCase;D:\Install\编程\开源库\DM\Samples\DMUnitTest\GtestInc;D:\Install\编程\开源库\DM\DmMain\inc;D:\Install\编程\开源库\DM\DmMain\inc\Common;D:\Install\编程\开源库\DM\DmMain\inc\Common\Template;D:\Install\编程\开源库\DM\DmMain\inc\Core;D:\Install\编程\开源库\DM\DmMain\inc\Core\Msg;D:\Install\编程\开源库\DM\DmMain\inc\Core\Dui;D:\Install\编程\开源库\DM\DmMain\inc\Core\Event;D:\Install\编程\开源库\DM\DmMain\inc\IDmMain;D:\Install\编程\开源库\DM\DmMain\inc\Modules;D:\Install\编程\开源库\DM\DmMain\inc\Widgets;D:\Install\编程\开源库\DM\3rdParty\lua;D:\Install\编程\开源库\DM\3rdParty\lua\wrapper;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>This command will be executed before build target DMUnitTest</Message>
+      <Command>setlocal
+call D:/Install/编程/开源库/DM/Tools/CMake/PreBuild-ut.cmd $(TargetDir)
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message>This command will be executed after build target DMUnitTest</Message>
+      <Command>setlocal
+call D:/Install/编程/开源库/DM/Tools/CMake/PostBuild.cmd $(TargetDir)
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/Install/编程/开源库/DM/bin;D:/Install/编程/开源库/DM/bin/$(Configuration);D:/Install/编程/开源库/DM/3rdParty/lib;D:/Install/编程/开源库/DM/3rdParty/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Install/编程/开源库/DM/bin/MinSizeRel/DMUnitTest.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Install/编程/开源库/DM/bin/MinSizeRel/DMUnitTest.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Install\编程\开源库\DM\Samples\DMUnitTest;D:\Install\编程\开源库\DM\Samples\DMUnitTest\TestCase;D:\Install\编程\开源库\DM\Samples\DMUnitTest\GtestInc;D:\Install\编程\开源库\DM\DmMain\inc;D:\Install\编程\开源库\DM\DmMain\inc\Common;D:\Install\编程\开源库\DM\DmMain\inc\Common\Template;D:\Install\编程\开源库\DM\DmMain\inc\Core;D:\Install\编程\开源库\DM\DmMain\inc\Core\Msg;D:\Install\编程\开源库\DM\DmMain\inc\Core\Dui;D:\Install\编程\开源库\DM\DmMain\inc\Core\Event;D:\Install\编程\开源库\DM\DmMain\inc\IDmMain;D:\Install\编程\开源库\DM\DmMain\inc\Modules;D:\Install\编程\开源库\DM\DmMain\inc\Widgets;D:\Install\编程\开源库\DM\3rdParty\lua;D:\Install\编程\开源库\DM\3rdParty\lua\wrapper;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>DMUintTestAfx.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DLL_DMMAIN;_DMDesigner_;DMLOG_ON;UNICODE;_UNICODE;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DLL_DMMAIN;_DMDesigner_;DMLOG_ON;UNICODE;_UNICODE;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Install\编程\开源库\DM\Samples\DMUnitTest;D:\Install\编程\开源库\DM\Samples\DMUnitTest\TestCase;D:\Install\编程\开源库\DM\Samples\DMUnitTest\GtestInc;D:\Install\编程\开源库\DM\DmMain\inc;D:\Install\编程\开源库\DM\DmMain\inc\Common;D:\Install\编程\开源库\DM\DmMain\inc\Common\Template;D:\Install\编程\开源库\DM\DmMain\inc\Core;D:\Install\编程\开源库\DM\DmMain\inc\Core\Msg;D:\Install\编程\开源库\DM\DmMain\inc\Core\Dui;D:\Install\编程\开源库\DM\DmMain\inc\Core\Event;D:\Install\编程\开源库\DM\DmMain\inc\IDmMain;D:\Install\编程\开源库\DM\DmMain\inc\Modules;D:\Install\编程\开源库\DM\DmMain\inc\Widgets;D:\Install\编程\开源库\DM\3rdParty\lua;D:\Install\编程\开源库\DM\3rdParty\lua\wrapper;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Install\编程\开源库\DM\Samples\DMUnitTest;D:\Install\编程\开源库\DM\Samples\DMUnitTest\TestCase;D:\Install\编程\开源库\DM\Samples\DMUnitTest\GtestInc;D:\Install\编程\开源库\DM\DmMain\inc;D:\Install\编程\开源库\DM\DmMain\inc\Common;D:\Install\编程\开源库\DM\DmMain\inc\Common\Template;D:\Install\编程\开源库\DM\DmMain\inc\Core;D:\Install\编程\开源库\DM\DmMain\inc\Core\Msg;D:\Install\编程\开源库\DM\DmMain\inc\Core\Dui;D:\Install\编程\开源库\DM\DmMain\inc\Core\Event;D:\Install\编程\开源库\DM\DmMain\inc\IDmMain;D:\Install\编程\开源库\DM\DmMain\inc\Modules;D:\Install\编程\开源库\DM\DmMain\inc\Widgets;D:\Install\编程\开源库\DM\3rdParty\lua;D:\Install\编程\开源库\DM\3rdParty\lua\wrapper;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>This command will be executed before build target DMUnitTest</Message>
+      <Command>setlocal
+call D:/Install/编程/开源库/DM/Tools/CMake/PreBuild-ut.cmd $(TargetDir)
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message>This command will be executed after build target DMUnitTest</Message>
+      <Command>setlocal
+call D:/Install/编程/开源库/DM/Tools/CMake/PostBuild.cmd $(TargetDir)
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/Install/编程/开源库/DM/bin;D:/Install/编程/开源库/DM/bin/$(Configuration);D:/Install/编程/开源库/DM/3rdParty/lib;D:/Install/编程/开源库/DM/3rdParty/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Install/编程/开源库/DM/bin/RelWithDebInfo/DMUnitTest.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Install/编程/开源库/DM/bin/RelWithDebInfo/DMUnitTest.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\DMUnitTest\DMUintTestAfx.h" />
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\DMUnitTest\main.h" />
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMUnitTest\DMUintTestAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">DMUintTestAfx.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">DMUintTestAfx.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">DMUintTestAfx.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">DMUintTestAfx.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMUnitTest\main.cpp" />
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMUnitTest\TestCase\DMCanvas_Test.cpp" />
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMUnitTest\TestCase\DMColor_Test.cpp" />
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMUnitTest\TestCase\DMDIBHelper_Test.cpp" />
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMUnitTest\TestCase\DMDelegate_Test.cpp" />
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMUnitTest\TestCase\DMFontPool_Test.cpp" />
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMUnitTest\TestCase\DMGifParse_Test.cpp" />
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMUnitTest\TestCase\DMImgDecoder_Test.cpp" />
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMUnitTest\TestCase\DMLua_Test.cpp" />
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMUnitTest\TestCase\DMPlugin_Test.cpp" />
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMUnitTest\TestCase\DMRegister_Test.cpp" />
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMUnitTest\TestCase\DMRes_Test.cpp" />
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMUnitTest\TestCase\DMSkinPool_Test.cpp" />
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMUnitTest\TestCase\DMSkin_Test.cpp" />
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMUnitTest\TestCase\DMStyle_Test.cpp" />
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMUnitTest\TestCase\DMTemplate_Test.cpp" />
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMUnitTest\TestCase\DMXmlParse_Test.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/Install/编程/开源库/DM/DmMain/DmMain.vcxproj">
+      <Project>795F1257-CA62-390C-B9E5-6F106EAEA8BB</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Install/编程/开源库/DM/PlugIns/Plugin_Expand/Plugin_Expand.vcxproj">
+      <Project>E4086844-176F-3B54-965F-6F5A87464A41</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Install/编程/开源库/DM/3rdParty/gtest/gtest.vcxproj">
+      <Project>B66E4632-16D2-3F6E-B166-4AF3069B7949</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Install/编程/开源库/DM/3rdParty/lua/lua.vcxproj">
+      <Project>38626A23-0FEA-30D2-B37F-F2ED383B5AF3</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

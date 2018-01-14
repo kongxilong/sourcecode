@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\TGPDemo\src\TGPComboboxEx.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\TGPDemo\src\TGPDemo.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\TGPDemo\src\TGPDemoAfx.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\TGPDemo\src\TGPListBoxEx.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\TGPDemo\src\TGPLoginWnd.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\TGPDemo\src\TGPMainWnd.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\TGPDemo\src\TGPTipsImpl.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\TGPDemo\src\Menu\TGPMenu.cpp">
+      <Filter>src\Menu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\TGPDemo\resource.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\TGPDemo\inc\TGPComboboxEx.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\TGPDemo\inc\TGPDemoAfx.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\TGPDemo\inc\TGPListBoxEx.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\TGPDemo\inc\TGPLoginWnd.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\TGPDemo\inc\TGPMainWnd.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\TGPDemo\inc\TGPTipsImpl.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\TGPDemo\inc\Res\DMResZipParam.h">
+      <Filter>inc\Res</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\TGPDemo\inc\Menu\TGPMenu.h">
+      <Filter>inc\Menu</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\Install\编程\开源库\DM\Samples\TGPDemo\TGPDemo.rc">
+      <Filter>other</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="inc\Res">
+      <UniqueIdentifier>{B1EA7571-1042-3EB6-9884-16B7F1224113}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\Menu">
+      <UniqueIdentifier>{15BF69E3-0113-384B-8885-5DD6BFA54CF7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Menu">
+      <UniqueIdentifier>{66429929-8823-3D4A-A322-B769A4DEC6F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other">
+      <UniqueIdentifier>{13E42CB2-D55B-3C5B-B590-4E21D3132AF7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc">
+      <UniqueIdentifier>{89515D3E-0B70-38CD-B0D2-74D5106675BD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{2B364CF9-9FF7-33E6-A2E5-4278128C3E60}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

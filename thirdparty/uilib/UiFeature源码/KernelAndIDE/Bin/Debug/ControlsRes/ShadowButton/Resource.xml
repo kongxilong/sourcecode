@@ -1,0 +1,245 @@
+<?xml version="1.0"?>
+<resource>
+	<group>
+		<item objid="430" name="ControlBase" />
+	</group>
+	<string>
+		<item objid="431" name="@Object_Type" counts="1" defaultarea="1" area0="1" data0="ShadowButton" />
+	</string>
+	<int>
+		<item objid="432" name="@Object_Id" data="427" />
+	</int>
+	<string>
+		<item objid="433" name="@Object_Name" counts="1" defaultarea="1" area0="1" data0="新建控件" />
+	</string>
+	<bool>
+		<item objid="434" name="Lock" data="0" />
+	</bool>
+	<bool>
+		<item objid="435" name="Visible" data="1" />
+	</bool>
+	<bool>
+		<item objid="436" name="Enable" data="1" />
+	</bool>
+	<bool>
+		<item objid="437" name="ReceiveMouseMessage" data="1" />
+	</bool>
+	<int>
+		<item objid="438" name="TabOrder" data="0" />
+	</int>
+	<bool>
+		<item objid="439" name="DefaultEnterCtrl" data="0" />
+	</bool>
+	<group>
+		<item objid="440" name="SystemTips" />
+	</group>
+	<group>
+		<item objid="440" name="SystemTips" />
+	</group>
+	<bool>
+		<item objid="441" name="ShowInUserDefPos" data="0" />
+	</bool>
+	<bool>
+		<item objid="442" name="Baloon" data="0" />
+	</bool>
+	<string>
+		<item objid="443" name="TipsData" counts="0" defaultarea="1" />
+	</string>
+	<int>
+		<item objid="444" name="ShowTime" data="0" />
+	</int>
+	<group>
+		<item objid="445" name="Draw" />
+	</group>
+	<group>
+		<item objid="445" name="Draw" />
+	</group>
+	<bool>
+		<item objid="446" name="NoDrawControl" data="0" />
+	</bool>
+	<bool>
+		<item objid="447" name="AlphaBlendDraw" data="1" />
+	</bool>
+	<int>
+		<item objid="448" name="DrawAlpha" data="255" />
+	</int>
+	<bool>
+		<item objid="449" name="TempDrawMem" data="1" />
+	</bool>
+	<group>
+		<item objid="450" name="Layout" />
+	</group>
+	<group>
+		<item objid="450" name="Layout" />
+	</group>
+	<int>
+		<item objid="451" name="@Width" data="167" />
+	</int>
+	<int>
+		<item objid="452" name="@Height" data="55" />
+	</int>
+	<combobox>
+		<item objid="453" name="@Layout_Type" counts="16" select="0" />
+	</combobox>
+	<int>
+		<item objid="454" name="@LeftSpace" data="170" />
+	</int>
+	<int>
+		<item objid="455" name="@RightSpace" data="163" />
+	</int>
+	<int>
+		<item objid="456" name="@TopSpace" data="374" />
+	</int>
+	<int>
+		<item objid="457" name="@BottomSpace" data="71" />
+	</int>
+	<group>
+		<item objid="458" name="Animation" />
+	</group>
+	<group>
+		<item objid="458" name="Animation" />
+	</group>
+	<combobox>
+		<item objid="459" name="AnimationType" counts="74" select="0" />
+	</combobox>
+	<int>
+		<item objid="460" name="FrameTime" data="20" />
+	</int>
+	<combobox>
+		<item objid="461" name="AnimationDirection" counts="2" select="0" />
+	</combobox>
+	<group>
+		<item objid="462" name="ControlPropetry" />
+	</group>
+	<combobox>
+		<item objid="463" name="ButtonType" counts="3" select="0" />
+	</combobox>
+	<group>
+		<item objid="464" name="ButtonImage" />
+	</group>
+	<group>
+		<item objid="464" name="ButtonImage" />
+	</group>
+	<image>
+		<item objid="465" name="NormalImage" imagebasename="UFD_BtnNormal.N" />
+	</image>
+	<imagebase>
+		<item objid="142" name="UFD_BtnNormal.N" imageinzip="UFD_BtnNormal.png" showtype="2">
+			<rectinimage left="0" top="0" right="51" bottom="25" />
+			<jgg left="6" top="6" right="6" bottom="6" drawmid="1" />
+			<animation playtype="0" looptype="0" bofangtype="0" />
+		</item>
+	</imagebase>
+	<image>
+		<item objid="466" name="HoverImage" imagebasename="UFD_BtnNormal.H" />
+	</image>
+	<imagebase>
+		<item objid="143" name="UFD_BtnNormal.H" imageinzip="UFD_BtnNormal.png" showtype="2">
+			<rectinimage left="51" top="0" right="102" bottom="25" />
+			<jgg left="6" top="6" right="6" bottom="6" drawmid="1" />
+			<animation playtype="0" looptype="0" bofangtype="0" />
+		</item>
+	</imagebase>
+	<image>
+		<item objid="467" name="LButtonDownImage" imagebasename="UFD_BtnNormal.Down" />
+	</image>
+	<imagebase>
+		<item objid="144" name="UFD_BtnNormal.Down" imageinzip="UFD_BtnNormal.png" showtype="2">
+			<rectinimage left="102" top="0" right="153" bottom="25" />
+			<jgg left="6" top="6" right="6" bottom="6" drawmid="1" />
+			<animation playtype="0" looptype="0" bofangtype="0" />
+		</item>
+	</imagebase>
+	<image>
+		<item objid="468" name="FocusImage" imagebasename="UFD_BtnNormal.H" />
+	</image>
+	<imagebase>
+		<item objid="143" name="UFD_BtnNormal.H" imageinzip="UFD_BtnNormal.png" showtype="2">
+			<rectinimage left="51" top="0" right="102" bottom="25" />
+			<jgg left="6" top="6" right="6" bottom="6" drawmid="1" />
+			<animation playtype="0" looptype="0" bofangtype="0" />
+		</item>
+	</imagebase>
+	<image>
+		<item objid="469" name="DisableImage" imagebasename="UFD_BtnNormal.Dis" />
+	</image>
+	<imagebase>
+		<item objid="145" name="UFD_BtnNormal.Dis" imageinzip="UFD_BtnNormal.png" showtype="2">
+			<rectinimage left="153" top="0" right="204" bottom="25" />
+			<jgg left="6" top="6" right="6" bottom="6" drawmid="1" />
+			<animation playtype="0" looptype="0" bofangtype="0" />
+		</item>
+	</imagebase>
+	<group>
+		<item objid="470" name="ButtonFont" />
+	</group>
+	<group>
+		<item objid="470" name="ButtonFont" />
+	</group>
+	<font>
+		<item objid="471" name="NormalFont" fontbasename="SystemDefaultFont" />
+	</font>
+	<fontbase>
+		<item objid="132" name="SystemDefaultFont">
+			<logfont lfFaceName="宋体" lfHeight="12" lfWidth="0" lfEscapement="0" lfOrientation="0" lfWeight="400" lfItalic="0" lfUnderline="0" lfStrikeOut="0" lfCharSet="134" lfOutPrecision="0" lfClipPrecision="0" lfQuality="2" lfPitchAndFamily="18" />
+			<mode color="0" VAligning="1" HAligning="0" ShowMode="0" Effect="0" />
+		</item>
+	</fontbase>
+	<font>
+		<item objid="472" name="HoverFont" fontbasename="SystemDefaultFont" />
+	</font>
+	<fontbase>
+		<item objid="132" name="SystemDefaultFont">
+			<logfont lfFaceName="宋体" lfHeight="12" lfWidth="0" lfEscapement="0" lfOrientation="0" lfWeight="400" lfItalic="0" lfUnderline="0" lfStrikeOut="0" lfCharSet="134" lfOutPrecision="0" lfClipPrecision="0" lfQuality="2" lfPitchAndFamily="18" />
+			<mode color="0" VAligning="1" HAligning="0" ShowMode="0" Effect="0" />
+		</item>
+	</fontbase>
+	<font>
+		<item objid="473" name="LButtonDownFont" fontbasename="SystemDefaultFont" />
+	</font>
+	<fontbase>
+		<item objid="132" name="SystemDefaultFont">
+			<logfont lfFaceName="宋体" lfHeight="12" lfWidth="0" lfEscapement="0" lfOrientation="0" lfWeight="400" lfItalic="0" lfUnderline="0" lfStrikeOut="0" lfCharSet="134" lfOutPrecision="0" lfClipPrecision="0" lfQuality="2" lfPitchAndFamily="18" />
+			<mode color="0" VAligning="1" HAligning="0" ShowMode="0" Effect="0" />
+		</item>
+	</fontbase>
+	<font>
+		<item objid="474" name="FocusFont" fontbasename="SystemDefaultFont" />
+	</font>
+	<fontbase>
+		<item objid="132" name="SystemDefaultFont">
+			<logfont lfFaceName="宋体" lfHeight="12" lfWidth="0" lfEscapement="0" lfOrientation="0" lfWeight="400" lfItalic="0" lfUnderline="0" lfStrikeOut="0" lfCharSet="134" lfOutPrecision="0" lfClipPrecision="0" lfQuality="2" lfPitchAndFamily="18" />
+			<mode color="0" VAligning="1" HAligning="0" ShowMode="0" Effect="0" />
+		</item>
+	</fontbase>
+	<font>
+		<item objid="475" name="DisableFont" fontbasename="SystemDefaultFont" />
+	</font>
+	<fontbase>
+		<item objid="132" name="SystemDefaultFont">
+			<logfont lfFaceName="宋体" lfHeight="12" lfWidth="0" lfEscapement="0" lfOrientation="0" lfWeight="400" lfItalic="0" lfUnderline="0" lfStrikeOut="0" lfCharSet="134" lfOutPrecision="0" lfClipPrecision="0" lfQuality="2" lfPitchAndFamily="18" />
+			<mode color="0" VAligning="1" HAligning="0" ShowMode="0" Effect="0" />
+		</item>
+	</fontbase>
+	<string>
+		<item objid="476" name="Text" counts="1" defaultarea="1" area0="1" data0="显示第二个皮肤包中的窗口" />
+	</string>
+	<group>
+		<item objid="477" name="RgnButton" />
+	</group>
+	<group>
+		<item objid="477" name="RgnButton" />
+	</group>
+	<image>
+		<item objid="478" name="MaskImage" imagebasename="" />
+	</image>
+	<group>
+		<item objid="479" name="CheckButton" />
+	</group>
+	<group>
+		<item objid="479" name="CheckButton" />
+	</group>
+	<string>
+		<item objid="480" name="ShowPanelName" counts="0" defaultarea="1" />
+	</string>
+</resource>

@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<controls>
+	<WindowTitleBar objid="994">
+		<group objid="994" name="ControlPropetry">
+			<int objid="968" name="@Object_Id" />
+			<string objid="969" name="@Object_Type" />
+			<string objid="970" name="@Object_Name" />
+			<bool objid="971" name="Lock" />
+			<bool objid="972" name="Visible" />
+			<bool objid="973" name="Enable" />
+			<bool objid="974" name="ReceiveMouseMessage" />
+			<int objid="975" name="TabOrder" />
+			<bool objid="976" name="DefaultEnterCtrl" />
+			<group objid="977" name="Draw">
+				<bool objid="978" name="NoDrawControl" />
+				<bool objid="979" name="AlphaBlendDraw" />
+				<int objid="980" name="DrawAlpha" />
+				<bool objid="981" name="TempDrawMem" />
+			</group>
+			<group objid="982" name="Layout">
+				<int objid="983" name="@Width" />
+				<int objid="984" name="@Height" />
+				<combobox objid="985" name="@Layout_Type" />
+				<int objid="986" name="@LeftSpace" />
+				<int objid="987" name="@RightSpace" />
+				<int objid="988" name="@TopSpace" />
+				<int objid="989" name="@BottomSpace" />
+			</group>
+			<group objid="990" name="Animation">
+				<combobox objid="991" name="AnimationType" />
+				<int objid="992" name="FrameTime" />
+				<combobox objid="993" name="AnimationDirection" />
+			</group>
+			<bool objid="995" name="NoMinimizeButton" />
+			<bool objid="996" name="NoMaximizeButton" />
+			<string objid="997" name="WndBasePanelName" />
+			<bool objid="998" name="UseDefaultRgn" />
+		</group>
+	</WindowTitleBar>
+</controls>

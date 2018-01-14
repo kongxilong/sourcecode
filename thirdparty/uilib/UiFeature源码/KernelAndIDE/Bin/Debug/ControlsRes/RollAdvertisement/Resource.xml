@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<resource>
+	<group>
+		<item objid="801" name="ControlBase" />
+	</group>
+	<int>
+		<item objid="802" name="@Object_Id" data="798" />
+	</int>
+	<string>
+		<item objid="803" name="@Object_Type" counts="1" defaultarea="1" area0="1" data0="RollAdvertisement" />
+	</string>
+	<string>
+		<item objid="804" name="@Object_Name" counts="1" defaultarea="1" area0="1" data0="RollAdver" />
+	</string>
+	<bool>
+		<item objid="805" name="Lock" data="1" />
+	</bool>
+	<bool>
+		<item objid="806" name="Visible" data="1" />
+	</bool>
+	<bool>
+		<item objid="807" name="Enable" data="1" />
+	</bool>
+	<bool>
+		<item objid="808" name="ReceiveMouseMessage" data="1" />
+	</bool>
+	<int>
+		<item objid="809" name="TabOrder" data="0" />
+	</int>
+	<bool>
+		<item objid="810" name="DefaultEnterCtrl" data="0" />
+	</bool>
+	<group>
+		<item objid="811" name="Draw" />
+	</group>
+	<group>
+		<item objid="811" name="Draw" />
+	</group>
+	<bool>
+		<item objid="812" name="NoDrawControl" data="0" />
+	</bool>
+	<bool>
+		<item objid="813" name="AlphaBlendDraw" data="1" />
+	</bool>
+	<int>
+		<item objid="814" name="DrawAlpha" data="255" />
+	</int>
+	<bool>
+		<item objid="815" name="TempDrawMem" data="1" />
+	</bool>
+	<group>
+		<item objid="816" name="Layout" />
+	</group>
+	<group>
+		<item objid="816" name="Layout" />
+	</group>
+	<int>
+		<item objid="817" name="@Width" data="445" />
+	</int>
+	<int>
+		<item objid="818" name="@Height" data="19" />
+	</int>
+	<combobox>
+		<item objid="819" name="@Layout_Type" counts="16" select="0" />
+	</combobox>
+	<int>
+		<item objid="820" name="@LeftSpace" data="13" />
+	</int>
+	<int>
+		<item objid="821" name="@RightSpace" data="42" />
+	</int>
+	<int>
+		<item objid="822" name="@TopSpace" data="473" />
+	</int>
+	<int>
+		<item objid="823" name="@BottomSpace" data="8" />
+	</int>
+	<group>
+		<item objid="824" name="Animation" />
+	</group>
+	<group>
+		<item objid="824" name="Animation" />
+	</group>
+	<combobox>
+		<item objid="825" name="AnimationType" counts="82" select="0" />
+	</combobox>
+	<int>
+		<item objid="826" name="FrameTime" data="20" />
+	</int>
+	<combobox>
+		<item objid="827" name="AnimationDirection" counts="2" select="0" />
+	</combobox>
+	<group>
+		<item objid="828" name="ControlPropetry" />
+	</group>
+	<font>
+		<item objid="830" name="NormalFont" fontbasename="UFD_RollAdver_Font.N" />
+	</font>
+	<fontbase>
+		<item objid="933" name="UFD_RollAdver_Font.N">
+			<logfont lfFaceName="宋体" lfHeight="-12" lfWidth="0" lfEscapement="0" lfOrientation="0" lfWeight="400" lfItalic="0" lfUnderline="0" lfStrikeOut="0" lfCharSet="134" lfOutPrecision="3" lfClipPrecision="2" lfQuality="1" lfPitchAndFamily="2" />
+			<mode color="0" VAligning="1" HAligning="0" ShowMode="1" Effect="0" />
+		</item>
+	</fontbase>
+	<font>
+		<item objid="831" name="HoverFont" fontbasename="UFD_RollAdver_Font.H" />
+	</font>
+	<fontbase>
+		<item objid="934" name="UFD_RollAdver_Font.H">
+			<logfont lfFaceName="宋体" lfHeight="-12" lfWidth="0" lfEscapement="0" lfOrientation="0" lfWeight="400" lfItalic="0" lfUnderline="1" lfStrikeOut="0" lfCharSet="134" lfOutPrecision="3" lfClipPrecision="2" lfQuality="1" lfPitchAndFamily="2" />
+			<mode color="16711680" VAligning="1" HAligning="0" ShowMode="0" Effect="0" />
+		</item>
+	</fontbase>
+	<font>
+		<item objid="832" name="DownFont" fontbasename="UFD_RollAdver_Font.D" />
+	</font>
+	<fontbase>
+		<item objid="935" name="UFD_RollAdver_Font.D">
+			<logfont lfFaceName="宋体" lfHeight="-12" lfWidth="0" lfEscapement="0" lfOrientation="0" lfWeight="400" lfItalic="0" lfUnderline="1" lfStrikeOut="0" lfCharSet="134" lfOutPrecision="3" lfClipPrecision="2" lfQuality="1" lfPitchAndFamily="2" />
+			<mode color="16711680" VAligning="1" HAligning="0" ShowMode="0" Effect="0" />
+		</item>
+	</fontbase>
+	<int>
+		<item objid="833" name="ShowTime" data="8" />
+	</int>
+	<cursor>
+		<item objid="1096" name="CursorStyle" cursorbasename="HAND" />
+	</cursor>
+	<cursorbase>
+		<item objid="14" name="HAND" issyscursor="1" cursorid="32649" />
+	</cursorbase>
+</resource>

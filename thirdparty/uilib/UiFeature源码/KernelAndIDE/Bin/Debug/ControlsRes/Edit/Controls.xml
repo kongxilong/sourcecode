@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<controls>
+	<Edit objid="599">
+		<group objid="599" name="ControlPropetry">
+			<int objid="568" name="@Object_Id" />
+			<string objid="569" name="@Object_Type" />
+			<string objid="570" name="@Object_Name" />
+			<bool objid="571" name="Lock" />
+			<bool objid="572" name="Visible" />
+			<bool objid="573" name="Enable" />
+			<bool objid="574" name="ReceiveMouseMessage" />
+			<int objid="575" name="TabOrder" />
+			<bool objid="576" name="DefaultEnterCtrl" />
+			<group objid="577" name="SystemTips">
+				<bool objid="578" name="ShowInUserDefPos" />
+				<bool objid="579" name="Baloon" />
+				<string objid="580" name="TipsData" />
+				<int objid="581" name="ShowTime" />
+			</group>
+			<group objid="582" name="Draw">
+				<bool objid="583" name="NoDrawControl" />
+				<bool objid="584" name="AlphaBlendDraw" />
+				<int objid="585" name="DrawAlpha" />
+				<bool objid="586" name="TempDrawMem" />
+			</group>
+			<group objid="587" name="Layout">
+				<int objid="588" name="@Width" />
+				<int objid="589" name="@Height" />
+				<combobox objid="590" name="@Layout_Type" />
+				<int objid="591" name="@LeftSpace" />
+				<int objid="592" name="@RightSpace" />
+				<int objid="593" name="@TopSpace" />
+				<int objid="594" name="@BottomSpace" />
+			</group>
+			<group objid="595" name="Animation">
+				<combobox objid="596" name="AnimationType" />
+				<int objid="597" name="FrameTime" />
+				<combobox objid="598" name="AnimationDirection" />
+			</group>
+			<image objid="600" name="EditBackgroundImage" />
+			<group objid="601" name="Margins">
+				<int objid="602" name="Left" />
+				<int objid="603" name="Top" />
+				<int objid="604" name="Right" />
+				<int objid="605" name="Bottom" />
+			</group>
+			<group objid="606" name="EditWindow">
+				<font objid="607" name="EditFont" />
+				<string objid="608" name="RemindInfo" />
+				<font objid="609" name="RemindFont" />
+				<group objid="610" name="BkColor">
+					<bool objid="611" name="ShowBkColor" />
+					<int objid="612" name="BkColor_R" />
+					<int objid="613" name="BkColor_G" />
+					<int objid="614" name="BkColor_B" />
+				</group>
+				<bool objid="615" name="ReadOnly" />
+				<font objid="616" name="ReadOnlyEditFont" />
+				<group objid="617" name="ReadOnlyBkColor">
+					<bool objid="618" name="ReadOnlyShowBkColor" />
+					<int objid="619" name="ReadOnlyBkColor_R" />
+					<int objid="620" name="ReadOnlyBkColor_G" />
+					<int objid="621" name="ReadOnlyBkColor_B" />
+				</group>
+			</group>
+		</group>
+	</Edit>
+</controls>

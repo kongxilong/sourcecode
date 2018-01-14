@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{BA9A772F-883F-37BA-9B28-8216EDEAD00C}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>DMDemo</ProjectName>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">DMDemo.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(MSBuildProjectName)</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Install\编程\开源库\DM\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">DMDemo.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">DMDemo</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Install\编程\开源库\DM\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">DMDemo.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">DMDemo</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Install\编程\开源库\DM\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">DMDemo.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">DMDemo</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)Samples\DMDemo\inc;$(SolutionDir)DmMain\inc;$(SolutionDir)DmMain\inc\Common;$(SolutionDir)DmMain\inc\Common\Template;$(SolutionDir)DmMain\inc\Core;$(SolutionDir)DmMain\inc\Core\Msg;$(SolutionDir)DmMain\inc\Core\Dui;$(SolutionDir)DmMain\inc\Core\Event;$(SolutionDir)DmMain\inc\IDmMain;$(SolutionDir)DmMain\inc\Modules;$(SolutionDir)DmMain\inc\Widgets;$(SolutionDir)PlugIns\Plugin_Expand\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>DMDemoAfx.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;DLL_DMMAIN;_DMDesigner_;DMLOG_ON;UNICODE;_UNICODE;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;DLL_DMMAIN;_DMDesigner_;DMLOG_ON;UNICODE;_UNICODE;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Install\编程\开源库\DM\Samples\DMDemo\inc;D:\Install\编程\开源库\DM\DmMain\inc;D:\Install\编程\开源库\DM\DmMain\inc\Common;D:\Install\编程\开源库\DM\DmMain\inc\Common\Template;D:\Install\编程\开源库\DM\DmMain\inc\Core;D:\Install\编程\开源库\DM\DmMain\inc\Core\Msg;D:\Install\编程\开源库\DM\DmMain\inc\Core\Dui;D:\Install\编程\开源库\DM\DmMain\inc\Core\Event;D:\Install\编程\开源库\DM\DmMain\inc\IDmMain;D:\Install\编程\开源库\DM\DmMain\inc\Modules;D:\Install\编程\开源库\DM\DmMain\inc\Widgets;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Install\编程\开源库\DM\Samples\DMDemo\inc;D:\Install\编程\开源库\DM\DmMain\inc;D:\Install\编程\开源库\DM\DmMain\inc\Common;D:\Install\编程\开源库\DM\DmMain\inc\Common\Template;D:\Install\编程\开源库\DM\DmMain\inc\Core;D:\Install\编程\开源库\DM\DmMain\inc\Core\Msg;D:\Install\编程\开源库\DM\DmMain\inc\Core\Dui;D:\Install\编程\开源库\DM\DmMain\inc\Core\Event;D:\Install\编程\开源库\DM\DmMain\inc\IDmMain;D:\Install\编程\开源库\DM\DmMain\inc\Modules;D:\Install\编程\开源库\DM\DmMain\inc\Widgets;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>This command will be executed before build target dmdemo</Message>
+      <Command>setlocal
+call $(SolutionDir)Tools\CMake\PreBuild.cmd $(TargetDir)
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message>This command will be executed after build target dmdemo</Message>
+      <Command>setlocal
+call $(SolutionDir)Tools\CMake\PostBuild.cmd $(TargetDir)
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)bin;$(SolutionDir)bin\$(Configuration);$(SolutionDir)3rdParty\lib;$(SolutionDir)3rdParty\lib\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>$(SolutionDir)bin\Debug\$(MSBuildProjectName).lib</ImportLibrary>
+      <ProgramDataBaseFile>$(SolutionDir)bin\Debug\$(MSBuildProjectName).pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Install\编程\开源库\DM\Samples\DMDemo\inc;D:\Install\编程\开源库\DM\DmMain\inc;D:\Install\编程\开源库\DM\DmMain\inc\Common;D:\Install\编程\开源库\DM\DmMain\inc\Common\Template;D:\Install\编程\开源库\DM\DmMain\inc\Core;D:\Install\编程\开源库\DM\DmMain\inc\Core\Msg;D:\Install\编程\开源库\DM\DmMain\inc\Core\Dui;D:\Install\编程\开源库\DM\DmMain\inc\Core\Event;D:\Install\编程\开源库\DM\DmMain\inc\IDmMain;D:\Install\编程\开源库\DM\DmMain\inc\Modules;D:\Install\编程\开源库\DM\DmMain\inc\Widgets;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>DMDemoAfx.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DLL_DMMAIN;_DMDesigner_;DMLOG_ON;UNICODE;_UNICODE;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DLL_DMMAIN;_DMDesigner_;DMLOG_ON;UNICODE;_UNICODE;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Install\编程\开源库\DM\Samples\DMDemo\inc;D:\Install\编程\开源库\DM\DmMain\inc;D:\Install\编程\开源库\DM\DmMain\inc\Common;D:\Install\编程\开源库\DM\DmMain\inc\Common\Template;D:\Install\编程\开源库\DM\DmMain\inc\Core;D:\Install\编程\开源库\DM\DmMain\inc\Core\Msg;D:\Install\编程\开源库\DM\DmMain\inc\Core\Dui;D:\Install\编程\开源库\DM\DmMain\inc\Core\Event;D:\Install\编程\开源库\DM\DmMain\inc\IDmMain;D:\Install\编程\开源库\DM\DmMain\inc\Modules;D:\Install\编程\开源库\DM\DmMain\inc\Widgets;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Install\编程\开源库\DM\Samples\DMDemo\inc;D:\Install\编程\开源库\DM\DmMain\inc;D:\Install\编程\开源库\DM\DmMain\inc\Common;D:\Install\编程\开源库\DM\DmMain\inc\Common\Template;D:\Install\编程\开源库\DM\DmMain\inc\Core;D:\Install\编程\开源库\DM\DmMain\inc\Core\Msg;D:\Install\编程\开源库\DM\DmMain\inc\Core\Dui;D:\Install\编程\开源库\DM\DmMain\inc\Core\Event;D:\Install\编程\开源库\DM\DmMain\inc\IDmMain;D:\Install\编程\开源库\DM\DmMain\inc\Modules;D:\Install\编程\开源库\DM\DmMain\inc\Widgets;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>This command will be executed before build target dmdemo</Message>
+      <Command>setlocal
+call D:/Install/编程/开源库/DM/Tools/CMake/PreBuild.cmd $(TargetDir)
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message>This command will be executed after build target dmdemo</Message>
+      <Command>setlocal
+call D:/Install/编程/开源库/DM/Tools/CMake/PostBuild.cmd $(TargetDir)
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/Install/编程/开源库/DM/bin;D:/Install/编程/开源库/DM/bin/$(Configuration);D:/Install/编程/开源库/DM/3rdParty/lib;D:/Install/编程/开源库/DM/3rdParty/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Install/编程/开源库/DM/bin/Release/DMDemo.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Install/编程/开源库/DM/bin/Release/DMDemo.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Install\编程\开源库\DM\Samples\DMDemo\inc;D:\Install\编程\开源库\DM\DmMain\inc;D:\Install\编程\开源库\DM\DmMain\inc\Common;D:\Install\编程\开源库\DM\DmMain\inc\Common\Template;D:\Install\编程\开源库\DM\DmMain\inc\Core;D:\Install\编程\开源库\DM\DmMain\inc\Core\Msg;D:\Install\编程\开源库\DM\DmMain\inc\Core\Dui;D:\Install\编程\开源库\DM\DmMain\inc\Core\Event;D:\Install\编程\开源库\DM\DmMain\inc\IDmMain;D:\Install\编程\开源库\DM\DmMain\inc\Modules;D:\Install\编程\开源库\DM\DmMain\inc\Widgets;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>DMDemoAfx.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DLL_DMMAIN;_DMDesigner_;DMLOG_ON;UNICODE;_UNICODE;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DLL_DMMAIN;_DMDesigner_;DMLOG_ON;UNICODE;_UNICODE;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Install\编程\开源库\DM\Samples\DMDemo\inc;D:\Install\编程\开源库\DM\DmMain\inc;D:\Install\编程\开源库\DM\DmMain\inc\Common;D:\Install\编程\开源库\DM\DmMain\inc\Common\Template;D:\Install\编程\开源库\DM\DmMain\inc\Core;D:\Install\编程\开源库\DM\DmMain\inc\Core\Msg;D:\Install\编程\开源库\DM\DmMain\inc\Core\Dui;D:\Install\编程\开源库\DM\DmMain\inc\Core\Event;D:\Install\编程\开源库\DM\DmMain\inc\IDmMain;D:\Install\编程\开源库\DM\DmMain\inc\Modules;D:\Install\编程\开源库\DM\DmMain\inc\Widgets;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Install\编程\开源库\DM\Samples\DMDemo\inc;D:\Install\编程\开源库\DM\DmMain\inc;D:\Install\编程\开源库\DM\DmMain\inc\Common;D:\Install\编程\开源库\DM\DmMain\inc\Common\Template;D:\Install\编程\开源库\DM\DmMain\inc\Core;D:\Install\编程\开源库\DM\DmMain\inc\Core\Msg;D:\Install\编程\开源库\DM\DmMain\inc\Core\Dui;D:\Install\编程\开源库\DM\DmMain\inc\Core\Event;D:\Install\编程\开源库\DM\DmMain\inc\IDmMain;D:\Install\编程\开源库\DM\DmMain\inc\Modules;D:\Install\编程\开源库\DM\DmMain\inc\Widgets;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>This command will be executed before build target dmdemo</Message>
+      <Command>setlocal
+call D:/Install/编程/开源库/DM/Tools/CMake/PreBuild.cmd $(TargetDir)
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message>This command will be executed after build target dmdemo</Message>
+      <Command>setlocal
+call D:/Install/编程/开源库/DM/Tools/CMake/PostBuild.cmd $(TargetDir)
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/Install/编程/开源库/DM/bin;D:/Install/编程/开源库/DM/bin/$(Configuration);D:/Install/编程/开源库/DM/3rdParty/lib;D:/Install/编程/开源库/DM/3rdParty/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Install/编程/开源库/DM/bin/MinSizeRel/DMDemo.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Install/编程/开源库/DM/bin/MinSizeRel/DMDemo.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Install\编程\开源库\DM\Samples\DMDemo\inc;D:\Install\编程\开源库\DM\DmMain\inc;D:\Install\编程\开源库\DM\DmMain\inc\Common;D:\Install\编程\开源库\DM\DmMain\inc\Common\Template;D:\Install\编程\开源库\DM\DmMain\inc\Core;D:\Install\编程\开源库\DM\DmMain\inc\Core\Msg;D:\Install\编程\开源库\DM\DmMain\inc\Core\Dui;D:\Install\编程\开源库\DM\DmMain\inc\Core\Event;D:\Install\编程\开源库\DM\DmMain\inc\IDmMain;D:\Install\编程\开源库\DM\DmMain\inc\Modules;D:\Install\编程\开源库\DM\DmMain\inc\Widgets;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>DMDemoAfx.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DLL_DMMAIN;_DMDesigner_;DMLOG_ON;UNICODE;_UNICODE;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DLL_DMMAIN;_DMDesigner_;DMLOG_ON;UNICODE;_UNICODE;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Install\编程\开源库\DM\Samples\DMDemo\inc;D:\Install\编程\开源库\DM\DmMain\inc;D:\Install\编程\开源库\DM\DmMain\inc\Common;D:\Install\编程\开源库\DM\DmMain\inc\Common\Template;D:\Install\编程\开源库\DM\DmMain\inc\Core;D:\Install\编程\开源库\DM\DmMain\inc\Core\Msg;D:\Install\编程\开源库\DM\DmMain\inc\Core\Dui;D:\Install\编程\开源库\DM\DmMain\inc\Core\Event;D:\Install\编程\开源库\DM\DmMain\inc\IDmMain;D:\Install\编程\开源库\DM\DmMain\inc\Modules;D:\Install\编程\开源库\DM\DmMain\inc\Widgets;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Install\编程\开源库\DM\Samples\DMDemo\inc;D:\Install\编程\开源库\DM\DmMain\inc;D:\Install\编程\开源库\DM\DmMain\inc\Common;D:\Install\编程\开源库\DM\DmMain\inc\Common\Template;D:\Install\编程\开源库\DM\DmMain\inc\Core;D:\Install\编程\开源库\DM\DmMain\inc\Core\Msg;D:\Install\编程\开源库\DM\DmMain\inc\Core\Dui;D:\Install\编程\开源库\DM\DmMain\inc\Core\Event;D:\Install\编程\开源库\DM\DmMain\inc\IDmMain;D:\Install\编程\开源库\DM\DmMain\inc\Modules;D:\Install\编程\开源库\DM\DmMain\inc\Widgets;D:\Install\编程\开源库\DM\PlugIns\Plugin_Expand\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>This command will be executed before build target dmdemo</Message>
+      <Command>setlocal
+call D:/Install/编程/开源库/DM/Tools/CMake/PreBuild.cmd $(TargetDir)
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message>This command will be executed after build target dmdemo</Message>
+      <Command>setlocal
+call D:/Install/编程/开源库/DM/Tools/CMake/PostBuild.cmd $(TargetDir)
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/Install/编程/开源库/DM/bin;D:/Install/编程/开源库/DM/bin/$(Configuration);D:/Install/编程/开源库/DM/3rdParty/lib;D:/Install/编程/开源库/DM/3rdParty/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Install/编程/开源库/DM/bin/RelWithDebInfo/DMDemo.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Install/编程/开源库/DM/bin/RelWithDebInfo/DMDemo.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="src\AttributeTestWnd.cpp" />
+    <ClCompile Include="src\DMDemo.cpp" />
+    <ClCompile Include="src\DMDemoAfx.cpp" />
+    <ClCompile Include="src\DUIRealWnd.cpp" />
+    <ClCompile Include="src\DUIWebkit.cpp" />
+    <ClCompile Include="src\IEWnd.cpp" />
+    <ClCompile Include="src\MainWnd.cpp" />
+    <ClCompile Include="src\SkinWnd.cpp" />
+    <ClInclude Include="inc\AttributeTestWnd.h" />
+    <ClInclude Include="inc\DMDemoAfx.h" />
+    <ClInclude Include="inc\DMWebkit.h" />
+    <ClInclude Include="inc\DUIRealWnd.h" />
+    <ClInclude Include="inc\DUIWebkit.h" />
+    <ClInclude Include="inc\IEWnd.h" />
+    <ClInclude Include="inc\MainWnd.h" />
+    <ClInclude Include="inc\SkinWnd.h" />
+    <ClInclude Include="inc\vld.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\DmMain\DmMain.vcxproj">
+      <Project>{795f1257-ca62-390c-b9e5-6f106eaea8bb}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\PlugIns\Plugin_Expand\Plugin_Expand.vcxproj">
+      <Project>{e4086844-176f-3b54-965f-6f5a87464a41}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

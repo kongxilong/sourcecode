@@ -1,0 +1,136 @@
+<resource>
+<group>
+<item objid="6695AECBC69342768E82BBAE5C7C0EA5" name="ControlPropetry"/>
+</group>
+<combobox>
+<item objid="4A4620F3883A4EB4A4D92146AAF68AA6" name="ButtonType" counts="3" select="0"/>
+</combobox>
+<group>
+<item objid="D99F642D2D634F829EA1550EB0D35B60" name="ButtonImage"/>
+</group>
+<group>
+<item objid="D99F642D2D634F829EA1550EB0D35B60" name="ButtonImage"/>
+</group>
+<image>
+<item objid="160C2619BF3E4C9CA2E12A77CFE9D59C" name="NormalImage" imagebasename="Dft.Button.Normal"/>
+</image>
+<imagebase>
+<item objid="C84DB6A51DFB4AD2BFFE5E4BD8218C98" name="Dft.Button.Normal" imageinzip="Dft_Button_Skin.png" showtype="2">
+<rectinimage left="0" top="0" right="51" bottom="25"/>
+<jgg left="4" top="4" right="4" bottom="8" drawmid="1"/>
+<animation playtype="0" looptype="0" bofangtype="0"/>
+</item>
+</imagebase>
+<image>
+<item objid="CDA5421924EA4A7B954A900018762C19" name="HoverImage" imagebasename="Dft.Button.Hover"/>
+</image>
+<imagebase>
+<item objid="1241142A31174B03B06DD55F4A4E98A0" name="Dft.Button.Hover" imageinzip="Dft_Button_Skin.png" showtype="2">
+<rectinimage left="51" top="0" right="102" bottom="25"/>
+<jgg left="4" top="4" right="4" bottom="8" drawmid="1"/>
+<animation playtype="0" looptype="0" bofangtype="0"/>
+</item>
+</imagebase>
+<image>
+<item objid="EA7D36E2F4F042BA980E8187BCC06275" name="LButtonDownImage" imagebasename="Dft.Button.Down"/>
+</image>
+<imagebase>
+<item objid="5ACE954C78E84773A3ADF9101AF32C6E" name="Dft.Button.Down" imageinzip="Dft_Button_Skin.png" showtype="2">
+<rectinimage left="102" top="0" right="153" bottom="25"/>
+<jgg left="4" top="4" right="4" bottom="8" drawmid="1"/>
+<animation playtype="0" looptype="0" bofangtype="0"/>
+</item>
+</imagebase>
+<image>
+<item objid="57E2A2F20C2B4DFE98891C236BF7C322" name="FocusImage" imagebasename="Dft.Button.Hover"/>
+</image>
+<imagebase>
+<item objid="1241142A31174B03B06DD55F4A4E98A0" name="Dft.Button.Hover" imageinzip="Dft_Button_Skin.png" showtype="2">
+<rectinimage left="51" top="0" right="102" bottom="25"/>
+<jgg left="4" top="4" right="4" bottom="8" drawmid="1"/>
+<animation playtype="0" looptype="0" bofangtype="0"/>
+</item>
+</imagebase>
+<image>
+<item objid="78564CA4FB794C96BAD89ECCAB1C1A25" name="DisableImage" imagebasename="Dft.Button.Disable"/>
+</image>
+<imagebase>
+<item objid="D09EC9E925D44CD1BB03919951E5E9A9" name="Dft.Button.Disable" imageinzip="Dft_Button_Skin.png" showtype="2">
+<rectinimage left="153" top="0" right="204" bottom="25"/>
+<jgg left="4" top="4" right="4" bottom="8" drawmid="1"/>
+<animation playtype="0" looptype="0" bofangtype="0"/>
+</item>
+</imagebase>
+<group>
+<item objid="4EB6202C188F4766A0E0FF4F18278A24" name="ButtonFont"/>
+</group>
+<group>
+<item objid="4EB6202C188F4766A0E0FF4F18278A24" name="ButtonFont"/>
+</group>
+<font>
+<item objid="3FA03019B86340A28589A91B289228C1" name="NormalFont" fontbasename="Dft.Button.Normal"/>
+</font>
+<fontbase>
+<item objid="EEB102F925C145BB9B1138CCF1EED1EC" name="Dft.Button.Normal">
+<logfont lfFaceName="宋体" lfHeight="12" lfWidth="0" lfEscapement="0" lfOrientation="0" lfWeight="400" lfItalic="0" lfUnderline="0" lfStrikeOut="0" lfCharSet="1" lfOutPrecision="0" lfClipPrecision="0" lfQuality="2" lfPitchAndFamily="18"/>
+<mode color="4325631" VAligning="1" HAligning="1" ShowMode="2" Effect="0"/>
+</item>
+</fontbase>
+<font>
+<item objid="94188726523A44C1827E4FC9ACC00169" name="HoverFont" fontbasename="Dft.Button.Hover"/>
+</font>
+<fontbase>
+<item objid="40ECC9352DF44EEAA15A70E17B3A914D" name="Dft.Button.Hover">
+<logfont lfFaceName="宋体" lfHeight="12" lfWidth="0" lfEscapement="0" lfOrientation="0" lfWeight="400" lfItalic="0" lfUnderline="0" lfStrikeOut="0" lfCharSet="1" lfOutPrecision="0" lfClipPrecision="0" lfQuality="2" lfPitchAndFamily="18"/>
+<mode color="16711702" VAligning="1" HAligning="1" ShowMode="2" Effect="0"/>
+</item>
+</fontbase>
+<font>
+<item objid="1268BB84DD024A7989C86598179B00FF" name="LButtonDownFont" fontbasename="Dft.Button.Down"/>
+</font>
+<fontbase>
+<item objid="BBCFCFD25F14477C911551FDD1DAFE96" name="Dft.Button.Down">
+<logfont lfFaceName="宋体" lfHeight="12" lfWidth="0" lfEscapement="0" lfOrientation="0" lfWeight="400" lfItalic="0" lfUnderline="0" lfStrikeOut="0" lfCharSet="1" lfOutPrecision="0" lfClipPrecision="0" lfQuality="2" lfPitchAndFamily="18"/>
+<mode color="2326528" VAligning="1" HAligning="1" ShowMode="2" Effect="0"/>
+</item>
+</fontbase>
+<font>
+<item objid="1A91DF3D489A4FC7B0172247B38D9AED" name="FocusFont" fontbasename="Dft.Button.Normal"/>
+</font>
+<fontbase>
+<item objid="EEB102F925C145BB9B1138CCF1EED1EC" name="Dft.Button.Normal">
+<logfont lfFaceName="宋体" lfHeight="12" lfWidth="0" lfEscapement="0" lfOrientation="0" lfWeight="400" lfItalic="0" lfUnderline="0" lfStrikeOut="0" lfCharSet="1" lfOutPrecision="0" lfClipPrecision="0" lfQuality="2" lfPitchAndFamily="18"/>
+<mode color="4325631" VAligning="1" HAligning="1" ShowMode="2" Effect="0"/>
+</item>
+</fontbase>
+<font>
+<item objid="68D94253C4394C99A34CAE653B8DB3DC" name="DisableFont" fontbasename="Dft.Button.Disable"/>
+</font>
+<fontbase>
+<item objid="8CD3AADBAA14425D98616700B07FE4FE" name="Dft.Button.Disable">
+<logfont lfFaceName="宋体" lfHeight="12" lfWidth="0" lfEscapement="0" lfOrientation="0" lfWeight="400" lfItalic="0" lfUnderline="0" lfStrikeOut="0" lfCharSet="1" lfOutPrecision="0" lfClipPrecision="0" lfQuality="2" lfPitchAndFamily="18"/>
+<mode color="8388736" VAligning="1" HAligning="1" ShowMode="2" Effect="0"/>
+</item>
+</fontbase>
+<string>
+<item objid="2341D1A9E95D4E01B4B20EC8BC1E321D" name="Text" counts="1" defaultarea="1" area0="1" data0="按钮文字"/>
+</string>
+<group>
+<item objid="317FD1226AB2409687B0A2E4221E75C1" name="RgnButton"/>
+</group>
+<group>
+<item objid="317FD1226AB2409687B0A2E4221E75C1" name="RgnButton"/>
+</group>
+<image>
+<item objid="C4BD3AF373D241EFAD83561DF731E0ED" name="MaskImage" imagebasename=""/>
+</image>
+<group>
+<item objid="0A055FCCCBE94B83BD22625B57A35F4B" name="CheckButton"/>
+</group>
+<group>
+<item objid="0A055FCCCBE94B83BD22625B57A35F4B" name="CheckButton"/>
+</group>
+<string>
+<item objid="E8725452928948228818FC0AF72D0454" name="ShowPanelName" counts="0" defaultarea="1"/>
+</string>
+</resource>

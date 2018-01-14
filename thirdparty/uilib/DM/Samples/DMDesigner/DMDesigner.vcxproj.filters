@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\src\DMDesigner.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\src\DMDesignerAfx.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\src\DMDesignerWnd.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\src\Common\Data.cpp">
+      <Filter>src\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\src\Common\Helper.cpp">
+      <Filter>src\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\src\Core\AddXml.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\src\Core\AttrBase.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\src\Core\HostAttr.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\src\Core\NameAttr.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\src\Core\ObjXml.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\src\Core\PosAttr.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\src\Core\ProjXml.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\src\Core\RightXml.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\src\Core\WidgetAttr.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\src\Modules\Draw.cpp">
+      <Filter>src\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\src\Modules\Layout.cpp">
+      <Filter>src\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\src\Modules\Plugin.cpp">
+      <Filter>src\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\src\Modules\ResFolder.cpp">
+      <Filter>src\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\src\Modules\ResHelper.cpp">
+      <Filter>src\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\src\Modules\ResMultFolder.cpp">
+      <Filter>src\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\src\Modules\TipsImpl.cpp">
+      <Filter>src\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\src\Widgets\AddExpandWnd.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\src\Widgets\AttrExpandWnd.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\src\Widgets\DUIDragFrame.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\src\Widgets\DUILimitEdit.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\src\Widgets\DUIList.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\src\Widgets\DUIObjEditor.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\src\Widgets\DUIPos.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\src\Widgets\DUIPropCtrl.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\src\Widgets\DUIPropCtrlHelper.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\src\Widgets\DUIRect.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\src\Widgets\DUIRoot.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\src\Widgets\DUISize.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\src\Widgets\DUITreeEx.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\src\Widgets\DUImgEditor.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\src\Widgets\ImgDlg.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\src\Widgets\ImgTypeDlg.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\src\Widgets\LayoutDlg.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\src\Widgets\MsgBox.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\src\Widgets\NewResDlg.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\src\Widgets\ObjTree.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\src\Widgets\PoolDlg.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\src\Widgets\PreHWnd.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\src\Widgets\ProjTree.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\src\Widgets\ScanDlg.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\src\Widgets\SkinDlg.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\src\Widgets\StyleDlg.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\src\Widgets\ThemeDlg.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\src\Widgets\TipWnd.cpp">
+      <Filter>src\Widgets</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\inc\DMDesignerAfx.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\inc\DMDesignerWnd.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\inc\vld.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\inc\Common\Data.h">
+      <Filter>inc\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\inc\Common\Define.h">
+      <Filter>inc\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\inc\Common\Events.h">
+      <Filter>inc\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\inc\Common\Helper.h">
+      <Filter>inc\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\inc\Core\AddXml.h">
+      <Filter>inc\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\inc\Core\AttrBase.h">
+      <Filter>inc\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\inc\Core\HostAttr.h">
+      <Filter>inc\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\inc\Core\NameAttr.h">
+      <Filter>inc\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\inc\Core\ObjXml.h">
+      <Filter>inc\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\inc\Core\PosAttr.h">
+      <Filter>inc\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\inc\Core\ProjXml.h">
+      <Filter>inc\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\inc\Core\RightXml.h">
+      <Filter>inc\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\inc\Core\WidgetAttr.h">
+      <Filter>inc\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\inc\Modules\Draw.h">
+      <Filter>inc\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\inc\Modules\Layout.h">
+      <Filter>inc\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\inc\Modules\Plugin.h">
+      <Filter>inc\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\inc\Modules\ResFolder.h">
+      <Filter>inc\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\inc\Modules\ResHelper.h">
+      <Filter>inc\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\inc\Modules\ResMultFolder.h">
+      <Filter>inc\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\inc\Modules\TipsImpl.h">
+      <Filter>inc\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\inc\Widgets\AddExpandWnd.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\inc\Widgets\AttrExpandWnd.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\inc\Widgets\DUIDragFrame.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\inc\Widgets\DUILimitEdit.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\inc\Widgets\DUIList.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\inc\Widgets\DUIObjEditor.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\inc\Widgets\DUIPos.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\inc\Widgets\DUIPropCtrl.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\inc\Widgets\DUIPropCtrlHelper.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\inc\Widgets\DUIRect.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\inc\Widgets\DUIRoot.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\inc\Widgets\DUISize.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\inc\Widgets\DUITreeEx.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\inc\Widgets\DUImgEditor.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\inc\Widgets\IProp.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\inc\Widgets\ImgDlg.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\inc\Widgets\ImgTypeDlg.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\inc\Widgets\LayoutDlg.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\inc\Widgets\MsgBox.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\inc\Widgets\NewResDlg.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\inc\Widgets\ObjTree.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\inc\Widgets\PoolDlg.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\inc\Widgets\PreHWnd.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\inc\Widgets\ProjTree.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\inc\Widgets\ScanDlg.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\inc\Widgets\SkinDlg.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\inc\Widgets\StyleDlg.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\inc\Widgets\ThemeDlg.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Install\编程\开源库\DM\Samples\DMDesigner\inc\Widgets\TipWnd.h">
+      <Filter>inc\Widgets</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src\Common">
+      <UniqueIdentifier>{B1CDC3D5-74E2-340B-94C0-0096D100DD9A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Core">
+      <UniqueIdentifier>{CEABB1CD-D692-349E-9CF8-4270D9E6D494}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Modules">
+      <UniqueIdentifier>{3DDC2A63-02C4-3CE6-902B-8DCB11A9089E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Widgets">
+      <UniqueIdentifier>{79FAF07F-5623-3244-AC8D-4A7DB3364AA6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc">
+      <UniqueIdentifier>{89515D3E-0B70-38CD-B0D2-74D5106675BD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{2B364CF9-9FF7-33E6-A2E5-4278128C3E60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\Common">
+      <UniqueIdentifier>{724EA116-A3DD-353E-A911-7C05DCA01C63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\Core">
+      <UniqueIdentifier>{0740B9DC-6FDF-3650-AE9F-3C25F4C4A1AC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\Modules">
+      <UniqueIdentifier>{E7AE7721-9124-3DF1-A524-E22A25B6DAEA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\Widgets">
+      <UniqueIdentifier>{45B6C751-B0FC-384A-BCBF-09D69F3BAC14}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,42 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CMakePredefinedTargets", "CMakePredefinedTargets", "{2573411C-87A5-3A8A-A1DC-45E7F38A7FF7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxproj", "{036B2696-9831-3167-A8BE-A37CE8E119AE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1D149C77-C7CD-37BB-B609-4C9D2CCFE3E6} = {1D149C77-C7CD-37BB-B609-4C9D2CCFE3E6}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "skia", "skia.vcxproj", "{1D149C77-C7CD-37BB-B609-4C9D2CCFE3E6}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		MinSizeRel|Win32 = MinSizeRel|Win32
+		RelWithDebInfo|Win32 = RelWithDebInfo|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{036B2696-9831-3167-A8BE-A37CE8E119AE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{036B2696-9831-3167-A8BE-A37CE8E119AE}.Release|Win32.ActiveCfg = Release|Win32
+		{036B2696-9831-3167-A8BE-A37CE8E119AE}.MinSizeRel|Win32.ActiveCfg = MinSizeRel|Win32
+		{036B2696-9831-3167-A8BE-A37CE8E119AE}.RelWithDebInfo|Win32.ActiveCfg = RelWithDebInfo|Win32
+		{1D149C77-C7CD-37BB-B609-4C9D2CCFE3E6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1D149C77-C7CD-37BB-B609-4C9D2CCFE3E6}.Debug|Win32.Build.0 = Debug|Win32
+		{1D149C77-C7CD-37BB-B609-4C9D2CCFE3E6}.Release|Win32.ActiveCfg = Release|Win32
+		{1D149C77-C7CD-37BB-B609-4C9D2CCFE3E6}.Release|Win32.Build.0 = Release|Win32
+		{1D149C77-C7CD-37BB-B609-4C9D2CCFE3E6}.MinSizeRel|Win32.ActiveCfg = MinSizeRel|Win32
+		{1D149C77-C7CD-37BB-B609-4C9D2CCFE3E6}.MinSizeRel|Win32.Build.0 = MinSizeRel|Win32
+		{1D149C77-C7CD-37BB-B609-4C9D2CCFE3E6}.RelWithDebInfo|Win32.ActiveCfg = RelWithDebInfo|Win32
+		{1D149C77-C7CD-37BB-B609-4C9D2CCFE3E6}.RelWithDebInfo|Win32.Build.0 = RelWithDebInfo|Win32
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{036B2696-9831-3167-A8BE-A37CE8E119AE} = {2573411C-87A5-3A8A-A1DC-45E7F38A7FF7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
