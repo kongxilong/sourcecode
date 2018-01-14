@@ -1,0 +1,282 @@
+﻿
+#calendar ul li a 
+{
+	clear:both;
+	color: #136654;
+	text-decoration:none;
+    display:block;
+	padding:0px;
+	margin :0px;
+	width:30px;
+	height:30px;
+	border-width:0px;
+}
+#calendar ul li a:link {
+	color: #136654;
+	padding:0px;
+	width:30px;
+	height:30px;
+}
+#calendar ul li a:visited {
+	color: #136654;
+	padding:0px;
+	width:30px;
+	height:30px;
+}
+#calendar ul li a:hover {
+	color:red;
+	background-color:#BDEBEE;
+	padding:0px;
+	font-weight:bold;
+}
+#calendar ul li a:active {
+	color: #339933;
+	padding:0px;
+}
+/* 日历选择器 */
+#calendar 
+{
+position:absolute; 
+left:-999em; 
+width:390px;
+/*height:243px; */
+height:245px;
+z-index:1;
+border-style:solid ;
+border-width:1px;
+border-color:#787;    /*日历边框色 需修改*/
+background-color:#eee;/*日历背景色 需修改*/
+font-size:18px;
+clear:both;
+overflow:visible;
+float:left;
+}
+/*  日历选择器日期部分样式 */
+/**********************************************************************/
+#calendar ul
+{
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+	overflow :hidden;
+}
+#calendar ul li
+{
+	width:30px;
+	height:30px;
+	line-height:30px;
+	background-color:#EDFBFB;/*日历日期背景色 需修改*/
+	color:#136654;           /*日历日期前景色 需修改*/
+	float:left;
+	text-align :center;
+	vertical-align :middle;
+	padding:0px;
+
+}
+/*  日历选择器日期部分当前选择的日期样式 */
+/*#calendar ul li#current_selection a*/
+li.current_selection a
+{
+	color: #006633;             /* 需修改*/
+	background-color:#BDEBEE;  /* 需修改*/
+	font-weight:bold;
+}
+
+/*  日历选择器周部分样式 */
+/**********************************************************************/
+#calendar ul#calendar_week
+{
+	margin-top:2px;
+	margin-bottom:0px;
+	overflow :hidden;
+}
+#calendar ul#calendar_week li
+{
+	background-color:#BDEBEE; /*星期显示条 需修改*/
+	color:#256680;            /*星期显示条 需修改*/
+	font-weight:bold ;
+	height:30px;
+	line-height :30px;
+	text-align:center;
+		
+}
+/*  日历选择器年月部分样式 */
+/**********************************************************************/
+#calendar div#calendar_ym
+{
+	background-color:#BDEBEE;
+	color:#29868C;  
+	height:30px;
+	line-height:30px;
+	overflow :hidden;
+	
+}
+#calendar div a#calendar_y_pre
+{
+	float:left;
+	height:30px;
+	width:20px;
+	display:block;
+	padding-top:7px;
+	padding-bottom:5px;
+} 
+
+#calendar div a#calendar_m_pre
+{
+	float:left;
+	height:30px;
+	width:20px;
+	display:block;
+		padding-top:7px;
+		padding-bottom:5px;
+	
+} 	
+#calendar div a#calendar_y_next
+{
+	float:right;
+	height:30px;
+	width:20px;
+	display:block;
+	padding-top:7px;
+	padding-bottom:5px;
+   padding-right:0px;
+   text-align :right;
+	
+} 
+#calendar div a#calendar_m_next
+{
+	float:right;
+	height:30px;
+	width:20px;
+	display:block;
+		padding-top:7px;
+		padding-bottom:5px;
+		 text-align :right;
+		
+} 
+
+
+/************年菜单***********/	
+#calendar div ul#calendar_y
+{
+	margin-left:10px;
+	width:60px;
+	height:auto; 
+	overflow:visible  ; 
+	float:left;
+	
+}
+#calendar div ul#calendar_y li.calendar_header
+{
+    background-color:#BDEBEE;
+	color:#29868C; 
+	cursor:pointer; 
+	font-weight :bold;
+	width:60px; 
+	height:auto; 
+	display:block;
+	text-align :center;
+	overflow :visible;
+}
+#calendar div ul#calendar_y ul
+{
+	clear:both;
+	margin-top:26px;*margin-top:0px;
+	margin-left:0px;
+	padding :0px;
+	position :absolute ;
+	width:98px;
+	height:auto;
+	border-style:solid ;
+	border-color:#787;
+	border-width:1px;
+	float:left;
+	background-color:#EDFBFB;
+
+}
+#calendar div ul#calendar_y ul li
+{
+	float:left;
+	height:25px;
+	line-height :25px;
+	width:49px;
+    background-color:#EDFBFB;/*和日历日期背景色一样 需修改*/
+	color:#136654;           /*和日历日期前景色一样 需修改*/
+	font-weight:normal;
+
+}
+#calendar div ul#calendar_y ul li a
+{
+	display:block;
+	width:49px;
+	height:25px;
+	}
+	
+#calendar div ul#calendar_y ul li a
+{
+	display:block;
+	width:49px;
+	height:25px;
+	}
+/***************月菜单***********************/
+#calendar div ul#calendar_m
+{
+	background-color:#BDEBEE;
+	margin-left:0px;
+	width:60px;
+	height:auto; 
+	overflow:visible  ; 
+	float:left;
+}
+#calendar div ul#calendar_m li.calendar_header
+{
+    background-color:#BDEBEE;
+	color:#29868C; 
+	cursor:pointer; 
+	font-weight :bold;
+	width:60px; 
+	height:auto; 
+	display:block;
+	text-align :center;
+	overflow :visible;
+}
+#calendar div ul#calendar_m ul
+{
+	clear:both;
+	margin-top:26px;*margin-top:0px;
+	margin-left:0px;
+	padding :0px;
+	position :absolute ;
+	width:98px;
+	height:auto;
+	border-style:solid ;
+	border-color:#787;
+	border-width:1px;
+	float:left;
+	background-color:#EDFBFB;
+}
+#calendar div ul#calendar_m ul li
+{
+	float:left;
+	height:25px;
+	line-height :25px;
+	width:49px;
+    background-color:#EDFBFB;/*和日历日期背景色一样 需修改*/
+	color:#136654;           /*和日历日期前景色一样 需修改*/
+	font-weight:normal;
+
+}
+#calendar div ul#calendar_m ul li a
+{
+	display:block;
+	width:49px;
+	height:25px;
+	
+	}
+	
+#calendar div ul#calendar_m ul li a
+{
+	display:block;
+	width:49px;
+	height:25px;
+	}

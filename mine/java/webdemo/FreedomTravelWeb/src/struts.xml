@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+    <constant name="struts.devMode" value="true" />
+    <constant name="struts.multipart.maxSize" value="102400000000"/>  
+   <package name="user" extends="struts-default">
+   		<action name="listUser" class="listUserAction" method="listUser">  <!-- class指的是spring中的id -->
+   			<result>/list.jsp</result>
+   		</action>
+   		<action name="checkUser" class="checkUserAction" method="checkUserExists">  <!-- class指的是spring中的id -->
+   			<result type="redirect">/register_success.jsp</result>
+   			<result name="error">/register.jsp</result>	
+   		</action>
+   		<action name="saveUser" class="saveUserAction" method="saveUser">  <!-- class指的是spring中的id -->
+   			<result type="redirect">/register_success.jsp</result>
+   			<result name="error">/register_fail.jsp</result>	
+   		</action>
+   		<action name="loginUser" class="loginUserAction" method="loginUser">  <!-- class指的是spring中的id -->
+   			<result name="success" type="redirect">/login_success.jsp</result>
+   			<result name="fail">/login_failure.jsp</result>
+   		</action>
+   		<action name="passwordEdit" class="passwordEditAction" method="passwordEdit">  <!-- class指的是spring中的id -->
+   			<result name="success" type="redirect">/dataEdit_success.jsp</result>
+   			<result name="error">/dataEdit_failure.jsp</result>
+   		</action>
+   		<action name="imageUpdate" class="imageUpdateAction" method="imageUpdate">  <!-- class指的是spring中的id -->
+   			<param name="savePath">/imageUpload</param>  
+   			<interceptor-ref name="fileUpload">
+                 <param name="maximumSize">10240000000</param>
+             </interceptor-ref>
+             <interceptor-ref name="defaultStack"/>
+   			<result name="success" type="redirectAction">showPersonalData</result> 
+   			
+   		</action>
+   		<action name="showMyZone" class="showMyZoneAction" method="showMyZone">  <!-- class指的是spring中的id -->
+   			<result name="success">myzone.jsp</result>
+   		</action>
+   		<action name="dataUpdate" class="dataUpdateAction" method="dataUpdate">  <!-- class指的是spring中的id -->
+   			<result name="success">dataUpdate_success.jsp</result>
+   		</action>
+   		<action name="showPersonalData" class="showPersonalDataAction" method="showPersonalData">  <!-- class指的是spring中的id -->
+   			<result name="success">personalDataEdit.jsp</result>
+   		</action>
+   		
+   		<action name="addRoute" class="addRouteAction" method="saveRoute">  <!-- class指的是spring中的id -->
+   			<param name="savePath">/imageUpload</param>  
+   			<interceptor-ref name="fileUpload">
+                 <param name="maximumSize">10240000000</param>
+             </interceptor-ref>
+             <interceptor-ref name="defaultStack"/>
+   			<result name="success">/addRoute_success.jsp</result>
+   			<result name="error">/addRoute_failure.jsp</result>
+   			
+   		</action>
+   		<action name="addRouteComments" class="addRouteCommentsAction" method="addRouteComments">  <!-- class指的是spring中的id -->
+   			<result name="success">/addComments_success.jsp</result>
+   		</action>
+   		<action name="openComments" class="openCommentsAction" method="openComments">  <!-- class指的是spring中的id -->
+   			<result name="success">/comments.jsp</result>
+   		</action>
+   		
+   		<action name="searchKeywords" class="searchRouteAction" method="searchRouteByKeywords">  <!-- class指的是spring中的id -->
+   			<result name="success">/searchRoute.jsp</result>
+   			<result name="error">/searchNoneRoute.jsp</result> 
+   		</action>
+   		<action name="showRouteAdd" class="showRouteAddAction" method="searchRouteAddByUsername">  <!-- class指的是spring中的id -->
+   			<result name="success">/showRouteAdd.jsp</result>
+   			<result name="error">/searchNoneRoute.jsp</result> 
+   		</action>
+   		<action name="routeDetail" class="detailRouteAction" method="findRouteByID">  <!-- class指的是spring中的id -->
+   			<result name="success">/detailRoute.jsp</result>
+   		</action>
+   		<action name="goMain" class="goMainAction" method="findRouteByTime">  <!-- class指的是spring中的id -->
+   			<result name="success">/main.jsp</result>
+   		</action>
+   		<action name="addToDeal" class="addToDealAction" method="addToDeal">  <!-- class指的是spring中的id -->
+   			<result name="success">/addToDeal_success.jsp</result>
+   			<result name="error">/addToDeal_error.jsp</result>
+   		</action>
+
+   		<action name="showMyDeal" class="showMyDealAction" method="listMyDeal">  <!-- class指的是spring中的id -->
+   			<result name="success">/mydeal.jsp</result>
+   			<result name="error">/showMyDeal_error.jsp</result>
+   		</action>
+   		<action name="submitDeal" class="submitDealAction" method="submitDeal">  <!-- class指的是spring中的id -->
+   			<result name="success">/pay.jsp</result>
+   		</action>
+   		<action name="payDeal" class="payDealAction" method="payDeal">  <!-- class指的是spring中的id -->
+   			<result name="success" type="redirectAction">showDeal</result>
+   			<result name="error">/payDeal_error.jsp</result>
+   		</action>
+   		<action name="deleteDeal" class="deleteDealAction" method="deleteDeal">  <!-- class指的是spring中的id -->
+   			<result name="success" type="redirectAction">showDeal</result>
+   		</action>
+   		<action name="showDeal" class="showDealAction" method="showDeal">  <!-- class指的是spring中的id -->
+   			<result name="success">/deal.jsp</result>
+   		</action>
+   		<action name="dealConfirm" class="dealConfirmAction" method="dealConfirm">  <!-- class指的是spring中的id -->
+   			<result name="success">/dealConfirm.jsp</result>
+   		</action>
+   		<action name="finishDeal" class="finishDealAction" method="finishDeal">  <!-- class指的是spring中的id -->
+   			<result name="success" type="redirectAction">showDeal</result>
+   			<result name="error" >/finishDeal_error.jsp</result>
+   		</action>
+   		
+   		
+   		<action name="addToCollect" class="addToCollectAction" method="addToCollect">  <!-- class指的是spring中的id -->
+   			<result name="success" type="redirectAction">showMyCollect</result>
+   			<result name="error">/addToCollect_error.jsp</result>
+   		</action>
+   		<action name="showMyCollect" class="showMyCollectAction" method="listCollect">  <!-- class指的是spring中的id -->
+   			<result name="success">routeCollect.jsp</result>
+   		</action>
+   		
+   		<!-- suggestion action -->
+   		<action name="fuctionSuggest" class="addFSuggestAction" method="addFSuggestion">  <!-- class指的是spring中的id -->
+   			<result name="success">/suggest_fuction_success.jsp</result>
+   			<result name="error">/suggest_fuction_fail.jsp</result>
+   		</action>
+   		<action name="complaintSuggest" class="addCSuggestAction" method="addCSuggestion">  <!-- class指的是spring中的id -->
+   			<result name="success">/suggest_complaint_success.jsp</result>
+   			<result name="error">/suggest_complaint_fail.jsp</result>
+   		</action>
+   		
+   		<!-- admin action -->
+   		<action name="adminLogin" class="adminLoginAction" method="adminLogin">  <!-- class指的是spring中的id -->
+   			<result name="success">/admin_home.jsp</result>
+   			<result name="fail">/admin_login_fail.jsp</result>
+   		</action>
+   		<action name="seeSuggestionList" class="suggestListAction" method="findAllSuggestions">  <!-- class指的是spring中的id -->
+   			<result name="success">/admin_suggestionList.jsp</result>
+   			<result name="fail">/admin_operateFailed.jsp</result>
+   		</action>
+   		
+   		<action name="admin_suggestHandle" class="suggestHandleAction" method="dealSuggestion">  <!-- class指的是spring中的id -->
+   			<result name="success">/admin_suggestionList.jsp</result>
+   			<result name="fail">/admin_operateFailed.jsp</result>
+   		</action>
+   		<action name="admin_suggestDelete" class="suggestDeleteAction" method="deleteSuggestion">  <!-- class指的是spring中的id -->
+   			<result name="success">/admin_suggestionList.jsp</result>
+   			<result name="fail">/admin_operateFailed.jsp</result>
+   		</action>
+   		
+   		<action name="seeUserList" class="userListAction" method="findAllUsers">  <!-- class指的是spring中的id -->
+   			<result name="success">/admin_userList.jsp</result>
+   			<result name="fail">/admin_operateFailed.jsp</result>
+   		</action>
+   		<action name="admin_userDelete" class="userDeleteAction" method="deleteUser">  <!-- class指的是spring中的id -->
+   			<result name="success">/admin_userList.jsp</result>
+   			<result name="fail">/admin_operateFailed.jsp</result>
+   		</action>
+   		
+   		<action name="seeRouteList" class="routeListAction" method="findAllRoutes">  <!-- class指的是spring中的id -->
+   			<result name="success">/admin_routeList.jsp</result>
+   			<result name="fail">/admin_operateFailed.jsp</result>
+   		</action>
+   		<action name="admin_routeDelete" class="routeDeleteAction" method="deleteRoute">  <!-- class指的是spring中的id -->
+   			<result name="success">/admin_routeList.jsp</result>
+   			<result name="fail">/admin_operateFailed.jsp</result>
+   		</action>
+   		
+   		<action name="seeDealList" class="dealListAction" method="findAllDeals">  <!-- class指的是spring中的id -->
+   			<result name="success">/admin_dealList.jsp</result>
+   			<result name="fail">/admin_operateFailed.jsp</result>
+   		</action>
+   		<action name="admin_dealDelete" class="dealDeleteAction" method="deleteDeal">  <!-- class指的是spring中的id -->
+   			<result name="success">/admin_dealList.jsp</result>
+   			<result name="fail">/admin_operateFailed.jsp</result>
+   		</action>
+   </package>
+</struts>

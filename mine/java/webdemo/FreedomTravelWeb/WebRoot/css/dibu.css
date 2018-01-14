@@ -1,0 +1,177 @@
+
+.help {
+	background: url('file:///D|/ÎÒµÄÎÄµµ/Documents/images/bg-help.png') no-repeat scroll center bottom transparent;
+	width: 930px;
+	border: 1px solid #CCF;
+	margin: auto;
+	height: 150px;
+}
+body {
+	font-family: Verdana;
+	font-size: 12px;
+	line-height: 1.5;
+	height: 162px;
+	width: 183px;
+}
+a {
+	color: #999;
+	text-decoration: none;
+}
+a:hover {
+	color: #006;
+}
+#menu {
+	width: 185px;
+	float: left;
+	height: 150px;
+	background-color: #FFF;
+	font-size: 14px;
+	background-image: url(xiaoyaoimg/xinshouzhinan.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #CCC;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #CCC;
+}
+
+#menu ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+#menu ul li {
+	padding: 0px 8px;
+	height: 26px;
+	line-height: 26px;
+}
+#menu2 {
+	width: 185px;
+	float: left;
+	height: 150px;
+	background-color: #FFF;
+	font-size: 14px;
+	background-image: url(xiaoyaoimg/caigoufuwu.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #CCC;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #CCC;
+}
+
+#menu2 ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+#menu2 ul li {
+	padding: 0px 8px;
+	height: 26px;
+	line-height: 26px;
+}
+#menu3 {
+	width: 185px;
+	float: left;
+	height: 150px;
+	background-color: #FFF;
+	font-size: 14px;
+	background-image: url(xiaoyaoimg/gongyingshangfuwu.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #CCC;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #CCC;
+}
+
+#menu3 ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+#menu3 ul li {
+	padding: 0px 8px;
+	height: 26px;
+	line-height: 26px;
+}
+#menu4 {
+	width: 185px;
+	float: left;
+	height: 150px;
+	background-color: #FFF;
+	font-size: 14px;
+	background-image: url(xiaoyaoimg/jiaoyianquan.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #CCC;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #CCC;
+}
+
+#menu4 ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+#menu4 ul li {
+	padding: 0px 8px;
+	height: 26px;
+	line-height: 26px;
+}
+#menu5 {
+	width: 185px;
+	border: 0px none #CCC;
+	float: left;
+	height: 150px;
+	background-color: #FFF;
+	font-size: 14px;
+	background-image: url(xiaoyaoimg/pingtaifuwu.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+
+#menu5 ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+#menu5 ul li {
+	padding: 0px 8px;
+	height: 26px;
+	line-height: 26px;
+}
+

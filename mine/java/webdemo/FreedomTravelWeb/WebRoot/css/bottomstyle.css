@@ -1,0 +1,46 @@
+/* dock - top */
+.dock {
+	height: 50px;
+	text-align: center;
+	margin-top: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+.dock-container { position: absolute; height: 50px; background: url(images/dock-bg2.jpg); padding-left: 20px; }
+a.dock-item {
+	display: block;
+	width: 40px;
+	color: #000;
+	top: 0px;
+	text-align: center;
+	text-decoration: none;
+	font: bold 12px Arial, Helvetica, sans-serif;
+}
+.dock-item img { border: none; margin: 5px 10px 0px; width: 100%; }
+.dock-item span { display: none; padding-left: 20px; }
+/* dock2 - bottom */
+#dock2 {
+	width: 100%;
+	bottom: 0px;
+	left: 0px;
+	margin-top: 60px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+.dock-container2 { position: absolute; height: 50px; background: url(images/dock-bg.jpg); padding-left: 20px; }
+a.dock-item2 {
+	display: block;
+	font: bold 12px Arial, Helvetica, sans-serif;
+	width: 40px;
+	color: #000;
+	bottom: 0px;
+	position: absolute;
+	text-decoration: none;
+}
+.dock-item2 span { display: none; padding-left: 20px; }
+.dock-item2 img {
+	border: none;
+	width: 100%;
+}

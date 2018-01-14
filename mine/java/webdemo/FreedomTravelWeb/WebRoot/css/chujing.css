@@ -1,0 +1,20 @@
+.chujing{width:1187px;height:650px;margin:15px auto;border:#fff solid 1px;}
+.chujingleft{width:210px;height:593px;float:left}
+.chujing_pic img {display: block;width: 210px;height:200px;}
+.chujing_pic xiaoimg {display: block;width: 210px;height:45px;}
+.chujingleftxiao{width:210px;height:191px;}
+.chujingleft a {display: block;border-bottom: 1px solid #FFFDF9;;overflow: hidden;}
+.chujingleftxiao a:hover {border: 1px solid #0065BB;text-decoration: none;padding: 2px 8px 3px;}
+.chujingright{width:970px;margin:0 0 0 5px;height:595px;border:#fff solid 1px;float:left}
+
+.chujingright	.domestic_product {width: 920px;height: 620px;
+	    font-size: 12px;line-height: 1.5;font-family: "Î¢ÈíÑÅºÚ";margin-left:15px; }
+.chujingright  .domestic_product li {width: 214px;height: 174px;border: 2px solid #fff;list-style: none;margin:5px 0 0 8px;float: left;}
+.chujingright  .domestic_product li:hover {border: 2px solid #0065BB;background-color: #FFFCF4;}
+ .chujingright .domestic_product  .big_pic {width: 442px;height: 356px;overflow: hidden;float: left;}
+	-webkit-margin-start: 0px;-webkit-margin-end: 0px;font-weight: bold;}
+.chujingright  .price {color: #f60;font-size: 18px;line-height: 20px;height: 20px;float: left;}
+ .chujingright .price:hover {text-decoration: none;}
+ .chujingright .product_location {float: right;color: #999;line-height: 20px;height: 20px;}
+.chujingright  .price em {font-style: normal;font-size: 12px;}
+.chujingright  h4{font-size:15px}

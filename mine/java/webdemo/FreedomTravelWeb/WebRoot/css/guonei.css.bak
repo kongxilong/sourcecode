@@ -1,0 +1,7 @@
+.guonei{width:1187px;height:650px;margin:15px auto ; border:red solid 1px;}
+.guoneileft{width:210px;height:593px;border:red solid 1px;}
+.guonei_pic img {display: block;width: 210px;height:200px;}
+.guonei_pic xiaoimg {display: block;width: 210px;height:45px;}
+.guoneileftxiao{width:210px;height:191px;}
+.guoneileft a {display: block;border-bottom: 1px solid #FFFDF9;;overflow: hidden;}
+.guoneileftxiao a:hover {border: 1px solid #F0D192;text-decoration: none;padding: 2px 8px 3px;}

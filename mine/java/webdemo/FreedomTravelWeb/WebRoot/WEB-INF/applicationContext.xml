@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+	xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd">
+
+<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">  <!-- 配置连接池 -->
+	<property name="driverClassName" value="com.mysql.jdbc.Driver"></property>
+	<property name="url" value="jdbc:mysql://localhost:3306/freedomtravelweb"></property>
+	<property name="username" value="root"></property>
+	<property name="password" value=""></property>
+	<property name="maxActive" value="100"></property>
+	<property name="maxIdle" value="30"></property>
+	<property name="maxWait" value="500"></property>
+	<property name="defaultAutoCommit" value="true"></property> <!-- 数据库事务自动连接的作用 -->
+</bean>
+
+<bean id="sessionFactory" class="org.springframework.orm.hibernate3.LocalSessionFactoryBean">
+	<property name="dataSource" ref="dataSource"></property>
+	<property name="hibernateProperties">
+		<props>
+			<prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
+			<prop key="hibernate.show_sql">true</prop> <!-- 后台显示数据库sql语句 -->
+		</props>
+	</property>
+	<property name="mappingResources">
+		<list>
+			<value>com/freedomtravelweb/bean/User.hbm.xml</value>
+			<value>com/freedomtravelweb/bean/Route.hbm.xml</value>
+			<value>com/freedomtravelweb/bean/Deal.hbm.xml</value>
+			<value>com/freedomtravelweb/bean/Admin.hbm.xml</value>
+			<value>com/freedomtravelweb/bean/Collect.hbm.xml</value>
+			<value>com/freedomtravelweb/bean/Suggestion.hbm.xml</value>
+			<value>com/freedomtravelweb/bean/RouteComments.hbm.xml</value>
+		</list>
+	</property>
+</bean>
+<!-- 无状态设置为单例 此处为每个ioc容器只对应一个spring实例-->
+<bean id="userDao" class="com.freedomtravelweb.dao.impl.UserDAOImpl" scope="singleton"> 
+	<property name="sessionFactory">
+		<ref bean="sessionFactory"/>
+	</property>
+</bean>
+<bean id="userService" class="com.freedomtravelweb.service.impl.UserServiceImpl">
+	<property name="userDAO" ref="userDao"></property>
+</bean>
+<bean id="listUserAction" class="com.freedomtravelweb.action.UserAction" scope="prototype">
+	<property name="service" ref="userService"></property>
+</bean>
+<bean id="checkUserAction" class="com.freedomtravelweb.action.UserAction" scope="prototype">
+	<property name="service" ref="userService"></property>
+</bean>
+<bean id="saveUserAction" class="com.freedomtravelweb.action.UserAction" scope="prototype">
+	<property name="service" ref="userService"></property>
+</bean>
+<bean id="loginUserAction" class="com.freedomtravelweb.action.UserAction" scope="prototype">
+	<property name="service" ref="userService"></property>
+</bean>
+<bean id="passwordEditAction" class="com.freedomtravelweb.action.UserAction" scope="prototype">
+	<property name="service" ref="userService"></property>
+</bean>
+<bean id="imageUpdateAction" class="com.freedomtravelweb.action.UserAction" scope="prototype">
+	<property name="service" ref="userService"></property>
+</bean>
+<bean id="dataUpdateAction" class="com.freedomtravelweb.action.UserAction" scope="prototype">
+	<property name="service" ref="userService"></property>
+</bean>
+
+<bean id="showPersonalDataAction" class="com.freedomtravelweb.action.UserAction" scope="prototype">
+	<property name="service" ref="userService"></property>
+</bean>
+<bean id="showMyZoneAction" class="com.freedomtravelweb.action.UserAction" scope="prototype">
+	<property name="service" ref="userService"></property>
+</bean>
+
+
+<bean id="routeDAO" class="com.freedomtravelweb.dao.impl.RouteDAOImpl" scope="singleton"> 
+	<property name="sessionFactory">
+		<ref bean="sessionFactory"/>
+	</property>
+</bean>
+<bean id="routeService" class="com.freedomtravelweb.service.impl.RouteServiceImpl">
+	<property name="routeDAO" ref="routeDAO"></property>
+</bean>
+
+<bean id="addRouteAction" class="com.freedomtravelweb.action.RouteAction">
+	<property name="service" ref="routeService"></property>
+</bean>
+<bean id="addRouteCommentsAction" class="com.freedomtravelweb.action.RouteAction">
+	<property name="service" ref="routeService"></property>
+</bean>
+<bean id="openCommentsAction" class="com.freedomtravelweb.action.RouteAction">
+	<property name="service" ref="routeService"></property>
+</bean>
+
+<bean id="searchRouteAction" class="com.freedomtravelweb.action.RouteAction" scope="prototype">
+	<property name="service" ref="routeService"></property>
+</bean>
+<bean id="showRouteAddAction" class="com.freedomtravelweb.action.RouteAction" scope="prototype">
+	<property name="service" ref="routeService"></property>
+</bean>
+<bean id="detailRouteAction" class="com.freedomtravelweb.action.RouteAction" scope="prototype">
+	<property name="service" ref="routeService"></property>
+</bean>
+<bean id="goMainAction" class="com.freedomtravelweb.action.RouteAction" scope="prototype">
+	<property name="service" ref="routeService"></property>
+</bean>
+<bean id="dealDao" class="com.freedomtravelweb.dao.impl.DealDAOImpl" > 
+	<property name="sessionFactory">
+		<ref bean="sessionFactory"/>
+	</property>
+</bean>
+<bean id="dealService" class="com.freedomtravelweb.service.impl.DealServiceImpl">
+	<property name="dealDAO" ref="dealDao"></property>
+</bean>
+<bean id="addToDealAction" class="com.freedomtravelweb.action.DealAction" scope="prototype">
+	<property name="service" ref="dealService"></property>
+</bean>
+<bean id="showMyDealAction" class="com.freedomtravelweb.action.DealAction" scope="prototype">
+	<property name="service" ref="dealService"></property>
+</bean>
+<bean id="submitDealAction" class="com.freedomtravelweb.action.DealAction" scope="prototype">
+	<property name="service" ref="dealService"></property>
+</bean>
+<bean id="payDealAction" class="com.freedomtravelweb.action.DealAction" scope="prototype">
+	<property name="service" ref="dealService"></property>
+</bean>
+<bean id="showDealAction" class="com.freedomtravelweb.action.DealAction" scope="prototype">
+	<property name="service" ref="dealService"></property>
+</bean>
+<bean id="dealConfirmAction" class="com.freedomtravelweb.action.DealAction" scope="prototype">
+	<property name="service" ref="dealService"></property>
+</bean>
+<bean id="finishDealAction" class="com.freedomtravelweb.action.DealAction" scope="prototype">
+	<property name="service" ref="dealService"></property>
+</bean>
+<bean id="deleteDealAction" class="com.freedomtravelweb.action.DealAction" scope="prototype">
+	<property name="service" ref="dealService"></property>
+</bean>
+
+
+<!-- Collect 模块 -->
+<bean id="collectDao" class="com.freedomtravelweb.dao.impl.CollectDAOImpl" > 
+	<property name="sessionFactory">
+		<ref bean="sessionFactory"/>
+	</property>
+</bean>
+<bean id="collectService" class="com.freedomtravelweb.service.impl.CollectServiceImpl">
+	<property name="collectDAO" ref="collectDao"></property>
+</bean>
+<bean id="addToCollectAction" class="com.freedomtravelweb.action.CollectAction" scope="prototype">
+	<property name="service" ref="collectService"></property>
+</bean>
+<bean id="showMyCollectAction" class="com.freedomtravelweb.action.CollectAction" scope="prototype">
+	<property name="service" ref="collectService"></property>
+</bean>
+
+<!-- Suggestion -->
+
+<bean id="SuggestionDAO" class="com.freedomtravelweb.dao.impl.SuggestionDAOImpl" scope="singleton"> 
+	<property name="sessionFactory">
+		<ref bean="sessionFactory"/>
+	</property>
+</bean>
+<bean id="SuggestionService" class="com.freedomtravelweb.service.impl.SuggestionServiceImpl">
+	<property name="suggestionDAO" ref="SuggestionDAO"></property>
+</bean>
+
+<bean id="addFSuggestAction" class="com.freedomtravelweb.action.SuggestionAction" scope="prototype">
+	<property name="service" ref="SuggestionService"></property>
+</bean>
+<bean id="addCSuggestAction" class="com.freedomtravelweb.action.SuggestionAction" scope="prototype">
+	<property name="service" ref="SuggestionService"></property>
+</bean>
+
+
+<!-- Admin -->
+
+<bean id="AdminDAO" class="com.freedomtravelweb.dao.impl.AdminDAOImpl" scope="singleton"> 
+	<property name="sessionFactory">
+		<ref bean="sessionFactory"/>
+	</property>
+</bean>
+<bean id="AdminService" class="com.freedomtravelweb.service.impl.AdminServiceImpl">
+	<property name="adminDAO" ref="AdminDAO"></property>
+</bean>
+
+<bean id="adminLoginAction" class="com.freedomtravelweb.action.AdminAction" scope="prototype">
+	<property name="service" ref="AdminService"></property>
+</bean>
+
+<bean id="suggestListAction" class="com.freedomtravelweb.action.AdminAction" scope="prototype">
+	<property name="service" ref="AdminService"></property>
+</bean>
+
+<bean id="suggestHandleAction" class="com.freedomtravelweb.action.AdminAction" scope="prototype">
+	<property name="service" ref="AdminService"></property>
+</bean>
+
+<bean id="suggestDeleteAction" class="com.freedomtravelweb.action.AdminAction" scope="prototype">
+	<property name="service" ref="AdminService"></property>
+</bean>
+
+<bean id="userListAction" class="com.freedomtravelweb.action.AdminAction" scope="prototype">
+	<property name="service" ref="AdminService"></property>
+</bean>
+
+<bean id="userDeleteAction" class="com.freedomtravelweb.action.AdminAction" scope="prototype">
+	<property name="service" ref="AdminService"></property>
+</bean>
+
+<bean id="routeListAction" class="com.freedomtravelweb.action.AdminAction" scope="prototype">
+	<property name="service" ref="AdminService"></property>
+</bean>
+
+<bean id="routeDeleteAction" class="com.freedomtravelweb.action.AdminAction" scope="prototype">
+	<property name="service" ref="AdminService"></property>
+</bean>
+
+<bean id="dealListAction" class="com.freedomtravelweb.action.AdminAction" scope="prototype">
+	<property name="service" ref="AdminService"></property>
+</bean>
+
+<bean id="dealDeleteAction" class="com.freedomtravelweb.action.AdminAction" scope="prototype">
+	<property name="service" ref="AdminService"></property>
+</bean>
+</beans>

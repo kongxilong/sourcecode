@@ -1,0 +1,6 @@
+* { margin:0; padding:0;  font-weight:normal; }
+#tab01 {font:16px/20px Arial,Sans-serif,"Î¢ÈíÑÅºÚ"; position:relative; width:957px; height:585px;border:solid 1px #fff; padding-top:0px; margin:5px; overflow:hidden; }
+#tab01 h3 { position:relative;  z-index:2;float:left; height:14px; padding:0px 7px 0 8px; margin-left:-1px; border-left:solid 1px #ccc; border-right:solid 1px #fff; text-align:center; background:#fff; cursor:pointer; }
+#tab01 div { display:none; position:absolute; left:0; top:20px; z-index:1; width:957px; height:565px; padding:5px; border:solid 1px #fff; color:#666; }
+#tab01 div.up { display:block; }
+

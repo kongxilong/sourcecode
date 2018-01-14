@@ -1,0 +1,18 @@
+*{margin:0px; padding:0px;}
+.box2 ul, li { list-style:none;}
+.box2 a:hover{ text-decoration:underline;}
+
+#movie_rank { height:300px; width:380px;float:left}
+.box2 { border:1px solid #ADDFF2; font-size:14px;font-family:simsun; text-align:left; overflow:hidden; color:#9C9C9C; text-align:left;}
+.box2 { margin-bottom:2px;}
+.box2 h2{ background:#EEF7FE; height:23px; line-height:23px; overflow-y:hidden; border-bottom:1px solid #ADDFF2; color:#1974C8; font-size:14px; padding:0px 8px;}
+.box2 h2 a.more{ float:right; text-decoration:underline; background:url() no-repeat 100% -123px; padding-right:8px; font-weight:normal;}
+.box2 h2 span{ margin-left:5px; font-weight:normal; color:#B9B7B8;}
+.box2 .inner{ padding:0px; line-height:20px; overflow:hidden; color:#3083C7;margin:8px 0 0 10px}
+.box2 a{ color:#3083C7; white-space:nowrap;text-decoration:none; color:#3381BF;}
+.rank_list{ line-height:18px; margin:auto; padding-top:5px;}
+.rank_list li{ height:18px; margin-bottom:8px; width:290px; padding-left:20px; white-space:nowrap; overflow:hidden; position:relative;}
+.rank_list li.top3 em{ background:#FFE4B7; border:1px solid #FFBB8B; color:#FF6800;}
+.rank_list em{ position:absolute; left:0; top:0; width:12px; height:12px; border:1px solid #B1E0F4; color:#6298CC; font-style:normal; font-size:10px; font-family:Arial; background:#E6F0FD; text-align:center; line-height:12px; overflow:hidden;}
+.rank_list span{ position:absolute; width:60px; color:#B7B7B7; text-align:right; height:14px; background:#fff; left:110px;}
+#movie_rank .rank_list span{ position:absolute; width:40px; color:#B7B7B7; text-align:right; height:14px; background:#fff; left:260px;}

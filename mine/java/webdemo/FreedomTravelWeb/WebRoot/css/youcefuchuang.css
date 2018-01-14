@@ -1,0 +1,25 @@
+/* 转载请保留版权信息：懒人图库 www.lanrentuku.com */
+#cleft_box{
+	position:absolute;
+	right:279px;
+	top:200px;
+	padding:0px;
+	margin:0px;
+	overflow:hidden;
+	width:36px;
+}
+.cleft_inner{margin:0px;padding:0px;overflow:hidden;width:166px}
+.inner_btn{width:36px;height:74px;color:#fff;font-size:14px;font-weight:bold;text-align:center;margin-top:15px;padding-top:35px;cursor:pointer;cursor:pointer;float:left;background:url(../xiaoyaoimg/rtitleico.png) left top no-repeat}
+.inner_btn span{layout-flow:vertical-ideographic}
+.inner_info{
+	width:128px;
+	overflow:hidden;
+	float:right;
+	background:none
+}
+.inner_tit{margin:0 auto;padding-left:20px;height:30px;background:url(../xiaoyaoimg/leftbg.png) left top no-repeat;overflow:hidden;width:128px}
+.inner_list{text-align:center;width:128px;background:url(../xiaoyaoimg/leftcontentbg.png) repeat-y}
+.inner_list ul{margin:0px;padding:0px;font-size:12px;list-style-type:none}
+.inner_list ul li{padding-top:5px;line-height:180%;margin:0px auto}
+.inner_list ul li a{ color:#000;text-decoration:none}
+.inner_btm a{width:128px;height:22px;background:url(../xiaoyaoimg/leftbt.png) left top no-repeat;display:block}

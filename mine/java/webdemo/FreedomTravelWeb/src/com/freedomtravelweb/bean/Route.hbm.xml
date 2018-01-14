@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.freedomtravelweb.bean.Route" table="route">
+	<id name="routeId" type="java.lang.Integer" column="routeId">
+	<generator class="increment"></generator> <!-- 这里将id属性设置为全局的 递增排序-->
+	</id>
+	<property name="routeName" type="string" column="routeName" length="200"></property>
+	<property name="username" type="string" column="username" length="45"></property>
+	<property name="cityType" type="string" column="cityType" length="20"></property>
+	<property name="keyWord" type="string" column="keyWord" length="200"></property>
+	<property name="stayType" type="string" column="stayType" length="45"></property>
+	<property name="totalDays" type="string" column="totalDays" length="45"></property>
+	<property name="stayRadio" type="string" column="stayRadio" length="11"></property>
+	<property name="publishTime" type="java.util.Date" column="publishTime" length="23"></property>
+	<property name="routeStartTime" type="string" column="routeStartTime" length="45"></property>
+	<property name="routeEndTime" type="string" column="routeEndTime" length="45"></property>
+	<property name="routeCycleTime" type="string" column="routeCycleTime" length="45"></property>
+	<property name="marketPrice" type="string" column="marketPrice" length="45"></property>
+	<property name="transType" type="string" column="transType" length="45"></property>
+	<property name="discountInfo" type="string" column="discountInfo" length="768"></property>
+
+	<property name="routeDetailInfo" type="string" column="routeDetailInfo" length="768"></property>
+	<property name="needToknow" type="string" column="needToknow" length="768"></property>
+	<property name="otherRoutes" type="string" column="otherRoutes" length="768"></property>
+	
+	<property name="validAmounts" type="string" column="validAmounts" length="45"></property>
+	<property name="imageDir" type="string" column="imageDir" ></property>
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.freedomtravelweb.bean.Collect" table="collect">
+	<id name="collectId" type="java.lang.Integer" column="collectId">
+	<generator class="increment"></generator> <!-- 这里将id属性设置为全局的 递增排序-->
+	</id>
+	
+	<property name="username" type="string" column="username" length="45"></property>
+	
+	<!-- 收藏和线路是一对一的关系 其中unique指定关系为一对一 -->
+	<many-to-one  name="route" class="com.freedomtravelweb.bean.Route"  unique="true">    
+            <column name="routeId" />    
+    </many-to-one> 
+	<!-- 收藏和商家是一对一的关系 其中unique指定关系为一对一 -->
+	<many-to-one  name="user" class="com.freedomtravelweb.bean.User"  unique="true">    
+            <column name="collectUsernameId" />    
+    </many-to-one>   
+	</class>
+</hibernate-mapping>

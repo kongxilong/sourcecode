@@ -1,0 +1,20 @@
+.guonei{width:1187px;height:650px;margin:15px auto ; border:#fff solid 1px;}
+.guoneileft{width:210px;height:593px;float:left}
+.guonei_pic img {display: block;width: 210px;height:200px;}
+.guonei_pic xiaoimg {display: block;width: 210px;height:45px;}
+.guoneileftxiao{width:210px;height:191px;}
+.guoneileft a {display: block;border-bottom: 1px solid #FFFDF9;;overflow: hidden;}
+.guoneileftxiao a:hover {border: 1px solid #F0D192;text-decoration: none;padding: 2px 8px 3px;}
+.guoneiright{width:970px;margin:0 0 0 5px;height:595px;border:#fff solid 1px;float:left}
+
+	.domestic_product {width: 920px;height: 620px;
+	    font-size: 12px;line-height: 1.5;font-family: "Î¢ÈíÑÅºÚ";margin-left:15px; }
+  .domestic_product li {width: 214px;height: 174px;border: 2px solid #fff;list-style: none;margin:5px 0 0 8px;float: left;}
+  .domestic_product li:hover {border: 2px solid #FFD986;background-color: #FFFCF4;}
+  .domestic_product  .big_pic {width: 442px;height: 356px;overflow: hidden;float: left;}
+	-webkit-margin-start: 0px;-webkit-margin-end: 0px;font-weight: bold;}
+  .price {color: #f60;font-size: 18px;line-height: 20px;height: 20px;float: left;}
+  .price:hover {text-decoration: none;}
+  .product_location {float: right;color: #999;line-height: 20px;height: 20px;}
+  .price em {font-style: normal;font-size: 12px;}
+  h4{font-size:15px}

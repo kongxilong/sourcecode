@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.freedomtravelweb.bean.User" table="users">
+	<id name="userid" type="java.lang.Integer" column="userid">
+	<generator class="increment"></generator> <!-- 这里将id属性设置为全局的 递增排序-->
+	</id>
+	
+	<property name="username" type="string" column="username" length="45"></property>
+	<property name="password" type="string" column="password" length="45"></property>
+	<property name="email" type="string" column="email" length="45"></property>
+	<property name="membershipstyle" type="string" column="membershipstyle" length="20"></property>
+	<property name="realname" type="string" column="realname" length="45"></property>
+	<property name="sex" type="string" column="sex" length="10"></property>
+	<property name="postion" type="string" column="postion" length="100"></property>
+	<property name="companyname" type="string" column="companyname" length="200"></property>
+	<property name="localcity" type="string" column="localcity" length="20"></property>
+	<property name="mainbussiness" type="string" column="mainbussiness" length="200"></property>
+	<property name="fixedphonenum" type="string" column="fixedphonenum" length="20"></property>
+	<property name="address" type="string" column="address" length="200"></property>
+	<property name="cellphone" type="string" column="cellphone" length="20"></property>
+	<property name="iconDir" type="string" column="iconDir" length="256"></property>
+	</class>
+</hibernate-mapping>

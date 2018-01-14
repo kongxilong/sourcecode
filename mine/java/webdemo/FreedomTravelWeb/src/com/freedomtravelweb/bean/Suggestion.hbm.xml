@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.freedomtravelweb.bean.Suggestion" table="suggestion">
+	<id name="suggestionId" type="java.lang.Integer" column="suggestionId">
+	<generator class="increment"></generator> <!-- 这里将id属性设置为全局的 递增排序-->
+	</id>
+	
+	<property name="username" type="string" column="username" length="45"></property>
+	<property name="suggestType" type="string" column="suggestType" length="45"></property>
+	<property name="suggestContent" type="string" column="suggestContent" length="255"></property>
+	<property name="verifyState" type="string" column="verifyState" length="45"></property>
+	<property name="verifyAdminName" type="string" column="verifyAdminName" length="45"></property>
+	
+	</class>
+</hibernate-mapping>

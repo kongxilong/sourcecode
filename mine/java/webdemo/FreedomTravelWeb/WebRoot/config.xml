@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<cu3er>
+<settings>	
+
+		<auto_play>
+			<defaults symbol="circular" /><!--倒计时按钮的位置-->
+			<tweenIn x="500" y="160" width="30" height="30" tint="0xFFFFFF" alpha="0.5"/>
+			<tweenOver alpha="1"/>
+		</auto_play>
+	
+		<prev_button><!--左右翻页按钮的位置-->				
+			<tweenIn x="865" y="400" width="30" height="30" alpha="0" />
+			<tweenOver alpha="0" />
+		</prev_button>
+		
+		<next_button>			
+			<tweenIn x="895" y="400" width="30" height="30" alpha="0" />
+			<tweenOver alpha="0" />
+		</next_button>
+		
+		<prev_symbol>
+			<defaults type="3" />
+			<tweenIn x="865" y="400" alpha="0.5"  />
+			<tweenOver time="0.15" x="860" scaleX="1.1" scaleY="1.1" />
+		</prev_symbol>
+			
+		<next_symbol>
+			<defaults type="3" />
+			<tweenIn x="895" y="400" alpha="0.5"/>
+			<tweenOver time="0.15" x="900" scaleX="1.1" scaleY="1.1" />
+		</next_symbol>		
+
+		<description>
+			<defaults 
+				round_corners="10, 10, 10, 10"					
+				heading_text_size="22"
+				heading_text_color="0xfc9900"	
+				paragraph_text_size="13"
+				paragraph_text_color="0xFFFFFF"					
+			/>
+			<tweenIn x="200" y="240" width="480" height="380" alpha="0.15" />
+			<tweenOver alpha="0.3"/>
+		</description>	
+	
+		<transitions
+			slicing="vertical" 
+			direction="down"
+			duration="0.6" 
+			delay="0.2"
+			cube_color="0x611811"
+		/>
+	
+	</settings>
+
+<slides>
+<slide>
+<url>xiaoyaoimg/login_1.png</url>
+</slide>
+<slide>
+<url>xiaoyaoimg/login_2.png</url>
+</slide>
+<slide>
+<url>xiaoyaoimg/login_3.png</url>
+</slide>
+<slide>
+<url>xiaoyaoimg/login_4.png</url>
+</slide>
+</slides>
+</cu3er>

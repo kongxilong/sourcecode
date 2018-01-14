@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.freedomtravelweb.bean.Deal" table="deal">
+	<id name="dealId" type="java.lang.Integer" column="dealId">
+	<generator class="increment"></generator> <!-- 这里将id属性设置为全局的 递增排序-->
+	</id>
+	
+	<property name="purchaserName" type="string" column="purchaserName" length="45"></property>
+	<property name="sellerName" type="string" column="sellerName" length="45"></property>
+
+	<!-- 订单和线路是一对一的关系 其中unique指定关系为一对一 -->
+	<many-to-one  name="route" class="com.freedomtravelweb.bean.Route"  unique="true">    
+            <column name="routeId" />    
+    </many-to-one> 
+	
+	<property name="dealNum" type="int" column="dealNum" length="11"></property>
+	<property name="totalMktPrice" type="double" column="totalMktPrice"></property>
+	<property name="totalDsctPrice" type="double" column="totalDsctPrice"></property>
+	<property name="message" type="string" column="message" length="768"></property>
+	<property name="dealState" type="int" column="dealState" length="11"></property>
+	<property name="tradeTime" type="java.util.Date" column="tradeTime" length="45"></property>
+	<property name="dealOver" type="int" column="dealOver" length="11"></property>
+	
+	</class>
+</hibernate-mapping>

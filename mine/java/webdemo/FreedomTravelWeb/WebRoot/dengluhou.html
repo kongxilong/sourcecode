@@ -1,0 +1,470 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=gbk">
+		<title>逍遥游，满意的选择</title>
+		<meta name="Keywords" content="登录界面">
+		<meta name="description" content="">
+		<style type="text/css">
+			*{margin:0px;padding:0px;}
+			  .head{width:100%;background:#f7f7f7;height:30px;margin:0px auto;font-size:16px;font-family:"微软雅黑";}
+				.topdiv{width:1210px;height:125px;margin:0 auto;}
+				
+				.top{width:363px;height:120px;margin:5px;float:left}
+				.top_left{width:170px;height:120px;float:left;border-right:2px solid #e8e8e8;}
+				.top_right{width:189px;height:120px;float:right;padding:45px 0 0 0}	
+				
+				.sousuo{width:525px;height:40px;padding:40px 10px 0 50px;float:left;}
+				.search_form{ height:40px;display:inline-block;padding:25px 0 0 0} 
+        .search_form:hover{-webkit-box-shadow:0 0 3px #999;-moz-box-shadow:0 0 3px #999} 
+        .sinput{float:left; width:400px; height:34px; line-height:21px; padding:3px 7px;
+        	 color:b3b3b3; border:4px solid #4d90fe; border-radius:2px 0 0 2px; background-color:#fbfbfb;} 
+        .sbtn{float:left; width:90px; height:48px; padding:0 12px; margin-left:-1px;
+        	 border-radius:0 2px 2px 0; border:1px solid #4d90fe; background-color:#4d90fe;
+        	 cursor:pointer; display:inline-block; font-size:12px; vertical-align:middle; color:#f3f7fc;position:absolute;} 
+        .sbtn:hover{background:#4084f2}
+        .hot{width:430px;height:40px;padding:5px 0 0 0;line-height:40px}
+        .t_right{width:150px;height:120px;float:left;}	
+				
+				.dh{width:100%;height:40px;margin:20px auto;background:red;font-family:"微软雅黑";}
+				.dh ul li{list-style:none;float:left;line-height:40px}
+			  .dh ul li a{text-decoration:none;color:#ffffff;font-size:18px;font-family:"微软雅黑";font-weight:bold;padding:0 40px 0 40px;
+			  	          display:block}
+			  .dh ul li a:hover{background:#a40000;}
+			  
+			  .one{width:100%;height:295px;margin-left:70px;}
+			  .quick{width:200px;height:295px;border:1px solid;border-color:#e8e8e8;border-width:1px;margin:3px 8px 0 0;float:left;}
+    		.quick h3{width:190px;height:30px;line-height:30px;overflow:hidden;background-color:#fff68f;padding:0 5px;color:red}
+			  .body_left{width:190px;height:169px;list-style-type:none;color:#e8e8e8;font-size:14px;font-family:"微软雅黑";padding:3px 0 3px 0 ;}
+			  .textdiv{width:180px;height:26px;color:#444;margin: 6px 0 6px 0; padding:6px 1px 6px 5px }
+			  .input.text{width:180px;height:26px;color:#444;font-size:23px;font-family:"微软雅黑";}
+			  .focus_dz{width:180px;height:20px;font-size:14px;font-family:"微软雅黑";margin: 6px 0 6px 0;}
+			  .weibo{width:200px;height:185px;font-size:14px;font-family:"微软雅黑";float:left;}
+			  .weibo1 {width:80px;height:80px;float:left;margin:0 0 0 15px;text-decoration: none;background:url(xiaoyaoimg/weixin.jpg) no-repeat 0 0;display:block;}
+			  .weibo1_sao {width:65px;height:80px;font-size:15px;font-family:"微软雅黑";color:black;margin:15px 5px 4px 15px;float:left;}
+			  .weibo2 {width:168px;height:45px;text-decoration: none;background:url(xiaoyaoimg/xinlang.png) no-repeat 0 0;display:block;margin:90px 5px 4px 15px;}
+			  .weibo3 {width:168px;height:47px;text-decoration: none;background:url(xiaoyaoimg/tengxun.png) no-repeat 0 0;display:block;margin:5px 5px 4px 15px;}
+			 
+			 
+			 
+			 * { margin:0; padding:0; word-break:break-all; }
+     		body { background:#FFF; color:#333; font:12px/1.6em Helvetica, Arial, sans-serif; }
+				h1, h2, h3, h4, h5, h6 { font-size:1em; }
+				a { color:#039; text-decoration:none; }
+				a:hover { text-decoration:underline; }
+				ul, li { list-style:none; }
+				fieldset, img { border:none; }
+				em, strong, cite, th { font-style:normal; font-weight:normal; }
+
+				#www_zzjs_net { position:relative; width:700px; height:295px; overflow:hidden; margin:3px 8px 0px 0px;border:1px solid;border-color:#e8e8e8;border-width:1px;float:left; }
+				#www_zzjs_net_list { position:absolute; width:28001px; height:295px; }
+				#www_zzjs_net_list li { float:left; }
+				#www_zzjs_net_list li img { width:700px; height:295px; }
+				.www_zzjs_net_opacity { position:absolute; width:700px; height:70px; top:225px; left:0; background:#000; filter:alpha(opacity=50); -moz-opacity:0.5; opacity: 0.5; }
+				#www_zzjs_net_btn { position:absolute; width:700px; height:65px; top:225px; left:0; }
+				#www_zzjs_net_btn ul { padding-left:5px; }
+				#www_zzjs_net_btn li { display:inline; float:left; margin:0 33px; padding-top:12px; }
+				#www_zzjs_net_btn li img { width:100px; height:50px; border:2px solid #888; }
+				#www_zzjs_net_btn .current { background:url() no-repeat 37px 8px;}
+				#www_zzjs_net_btn .current img { border-color:#EEE; }
+				
+			 
+			 
+			  .dlh{width:200px;height:295px;;;font-size:14px;color:#999999;border:1px solid;border-color:#e8e8e8;border-width:1px;margin:3px 8px 0 0;float:left;}
+			 
+			  
+			   .m{width:1120px;height:800px;border:1px solid;border-color:#e8e8e8;border-width:1px;margin:25px 0 0 70px;}
+			  
+			  
+</style>
+<script type="text/javascript">
+		function $(id) 
+			{ return document.getElementById(id); }
+		function moveElement(elementID,final_x,final_y,interval) 
+			{
+				if (!document.getElementById) return false;
+				if (!document.getElementById(elementID)) return false;
+				var elem = document.getElementById(elementID);
+				if (elem.movement) 
+						{
+							clearTimeout(elem.movement);
+						}
+				if (!elem.style.left)
+					 {
+							elem.style.left = "0px";
+						}
+				if (!elem.style.top)
+					 {
+							elem.style.top = "0px";
+						}
+				var xpos = parseInt(elem.style.left);
+				var ypos = parseInt(elem.style.top);
+				if (xpos == final_x && ypos == final_y)
+					 {
+							return true;
+						}
+				if (xpos < final_x)
+				 {
+						var dist = Math.ceil((final_x - xpos)/10);
+						xpos = xpos + dist;
+					}
+				if (xpos > final_x)
+				 {
+						var dist = Math.ceil((xpos - final_x)/10);
+						xpos = xpos - dist;
+					}
+				if (ypos < final_y) 
+				{
+						var dist = Math.ceil((final_y - ypos)/10);
+						ypos = ypos + dist;
+				}
+				if (ypos > final_y)
+				{
+						var dist = Math.ceil((ypos - final_y)/10);
+						ypos = ypos - dist;
+				}
+				elem.style.left = xpos + "px";
+				elem.style.top = ypos + "px";
+				var repeat = "moveElement('"+elementID+"',"+final_x+","+final_y+","+interval+")";
+				elem.movement = setTimeout(repeat,interval);
+			}
+		function classNormal()
+		{
+				var focusBtnList = $('www_zzjs_net_btn').getElementsByTagName('li');
+				for(var i=0; i<focusBtnList.length; i++) 
+				{
+					focusBtnList[i].className='';
+				}
+		}
+	function focusChange() 
+	{
+		var focusBtnList = $('www_zzjs_net_btn').getElementsByTagName('li');
+		focusBtnList[0].onmouseover = function() 
+		{
+			moveElement('www_zzjs_net_list',0,0,5);
+			classNormal()
+			focusBtnList[0].className='current'
+		}
+	focusBtnList[1].onmouseover = function() 
+		{
+			moveElement('www_zzjs_net_list',-700,0,5);
+			classNormal()
+			focusBtnList[1].className='current'
+		}
+	focusBtnList[2].onmouseover = function()
+	 {
+			moveElement('www_zzjs_net_list',-1400,0,5);
+			classNormal()
+			focusBtnList[2].className='current'
+		}
+	focusBtnList[3].onmouseover = function() 
+		{
+			moveElement('www_zzjs_net_list',-2100,0,5);
+			classNormal()
+			focusBtnList[3].className='current'
+		}
+	}
+	setInterval('autoFocusChange()', 7000);
+	var atuokey = false;
+	function autoFocusChange()
+	 {
+			$('www_zzjs_net').onmouseover = function(){atuokey = true}
+			$('www_zzjs_net').onmouseout = function(){atuokey = false}
+			if(atuokey) return;
+			var focusBtnList = $('www_zzjs_net_btn').getElementsByTagName('li');
+			for(var i=0; i<focusBtnList.length; i++)
+			 {
+					if (focusBtnList[i].className == 'current')
+					 {
+							var currentNum = i;
+						}
+				}
+				if (currentNum==0 )
+				{
+					moveElement('www_zzjs_net_list',-700,0,5);
+					classNormal()
+					focusBtnList[1].className='current'
+				}
+				if (currentNum==1 )
+				{
+					moveElement('www_zzjs_net_list',-1400,0,5);
+					classNormal()
+					focusBtnList[2].className='current'
+				}
+				if (currentNum==2 )
+				{
+					moveElement('www_zzjs_net_list',-2100,0,5);
+					classNormal()
+					focusBtnList[3].className='current'
+				}
+				if (currentNum==3 )
+				{
+						moveElement('www_zzjs_net_list',0,0,5);
+						classNormal()
+						focusBtnList[0].className='current'
+				}
+		}
+	window.onload=function()
+	{
+			focusChange();
+	}
+</script>
+</head>	
+  
+ <body>
+  	    <div class="head" >
+			  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;您好！欢迎来到
+			   <a href="#" style="color:black;text-decoration:none" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='black'"><blink><span>逍遥游</span></blink></a>！
+		     <a href="#" style="color:black;text-decoration:none" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='black'"><blink><span>&#91;登录&#93;</span></blink></a>			
+			   <a href="#" style="color:black;text-decoration:none" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='black'"><blink><span>&#91;注册&#93;</span></blink></a>
+			   <a href="#" style="color:black;text-decoration:none" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='black'"><blink><span>&#91;我的订单&#93;</span></blink></a>
+			   <a href="#" style="color:black;text-decoration:none" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='black'"><blink><span>&#91;我的购物车&#93;</span></blink></a>
+			   <a href="#" style="color:black;text-decoration:none" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='black'"><blink><span>&#91;我的收藏&#93;</span></blink></a>
+			  </div>
+  		
+  		  <div class="topdiv">
+			   <div class="top" >
+				   <div class="top_left">
+				      <img src="xiaoyaoimg/logo.png" alt="逍遥游" width="170" height="120" />
+			     </div>
+			     <div class="top_right">
+				      <img src="xiaoyaoimg/wel.png" alt="欢迎来到" width="189" height="47" />
+				   </div>
+			   </div>
+			   
+		     <div class="sousuo">
+ 							<form action="#" method="get"> 
+ 								<input type="text" name="s" class="sinput" placeholder="输入 回车搜索" autofocus x-webkit-speech>
+ 								<input type="submit" value="搜索" class="sbtn" style="font-size:25px" >
+ 							 </form> 
+ 							
+ 							 <div class="hot">
+                  <span style="text-decoration:none;color:black;font-size:17px;font-family:"微软雅黑";">近期热门搜索：</span>
+         	 				<a href="#" style="text-decoration:none;color:#65a700;font-size:17px;font-family:"微软雅黑";">灵山大佛</a>
+         					<a href="#" style="text-decoration:none;color:#65a700;font-size:17px;font-family:"微软雅黑";">马尔代夫</a>
+         					<a href="#" style="text-decoration:none;color:#65a700;font-size:17px;font-family:"微软雅黑";">海南</a>
+         					<a href="#" style="text-decoration:none;color:#65a700;font-size:17px;font-family:"微软雅黑";">巴厘岛</a>
+         					<a href="#" style="text-decoration:none;color:#65a700;font-size:17px;font-family:"微软雅黑";">美国</a>
+         			 </div>
+         </div>
+         
+          <div class="t_right">
+				      <img src="xiaoyaoimg/best.png" alt="best" width="150" height="117" />
+				  </div>
+         
+		    </div>     
+			  
+			  <div class="dh" >
+			   	<ul>
+			   		<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			   			&nbsp;&nbsp;&nbsp;&nbsp;
+			   		</li>
+			   		
+			   		<li>
+			   			<a href="#" >首页</a>
+			   		</li>
+			   		<li>
+			   			<a href="#">国内线路</a>
+			   		</li>
+			   		<li>
+			   			<a href="#">国外线路</a>
+			   		</li>
+			   		<li>
+			   			<a href="#">热门线路</a>
+			   		</li>
+			   		<li>
+			   			<a href="#">交易须知</a>
+			   		</li>
+			   		<li >	
+			   			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			   			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			   			<span style="color:#ffffff;font-size:18px;font-family:"微软雅黑";font-weight:bold;"> 客服热线：0512-88866655</span>
+			   		</li>
+			   	</ul>
+			  </div>
+			  
+			 <div class="one">
+					<div class="quick">
+						 <h3>快捷选择</h3>
+			  	   <div class="body_left">
+			  	   	   <div class="textdiv">
+			  	   	       <input type="text" class="text" value="目的地选择" style="font-size:14px;padding-top:3px"/>
+			  	   	       <div class="none" style="display:none";>
+			  	   	       	  <dl>
+			  	   	       	  	 <dt>目的地</dt>
+			  	   	       	  	  <dd>
+			  	   	       	  	     <a href="#" class="xi2">灵山大佛</a>	
+			  	   	       	  	     <a href="#" class="xi2">马尔代夫</a>	
+			  	   	       	  	    	<a href="#" class="xi2">海南</a>	
+			  	   	       	  	    	<a href="#" class="xi2">欧洲</a>	
+			  	   	       	  	    	<a href="#" class="xi2">巴厘岛</a>	
+			  	   	       	  	    	<a href="#" class="xi2">美国</a>	
+			  	   	       	  	    	<a href="#" class="xi2">陕西</a>	
+			  	   	       	  	  </dd>
+			  	   	       	  </dl>
+			  	   	       </div>	
+			  	   	   </div>
+			  	   	   <div class="focus_dz">
+			  	   	   	  <a href="#" >关注逍遥游网-微信-微博</a>	
+			  	   	   </div>
+			  	   	   <div class="weibo">
+			  	   	   	  <a href="#" class="weibo1"></a>
+			  	   	   	   <div class="weibo1_sao">
+			  	   	   	        &nbsp;&nbsp;<span style="font-size:14px;font-family:"微软雅黑";">扫一扫</span>
+			  	   	   	        <br>
+			  	   	   	        <span style="font-size:14px;font-family:"微软雅黑";">关注我们</span>
+			  	   	      </div>
+			  	   	   	  <a href="#" class="weibo2"></a>	
+										<a href="#" class="weibo3"></a>	
+			  	   	   </div> 
+			  	   </div>
+			  	</div>
+					<div id="www_zzjs_net">
+					<div id="www_zzjs_net_list" style="top:0; left:0;">
+								<ul>
+									<li><a href="#"><img src="xiaoyaoimg/one.jpg" alt="" /></a></li>
+									<li><a href="#"><img src="xiaoyaoimg/two.jpg" alt="" /></a></li>
+									<li><a href="#"><img src="xiaoyaoimg/three.jpg" alt="" /></a></li>
+									<li><a href="#"><img src="xiaoyaoimg/four.jpg" alt="" /></a></li>
+								</ul>
+					</div>
+					<div class="www_zzjs_net_opacity"></div>
+					<div id="www_zzjs_net_btn">
+								<ul>
+										<li class="current"><a href="#"><img src="xiaoyaoimg/one.jpg" alt="" /></a></li>
+										<li><a href="#"><img src="xiaoyaoimg/two.jpg" alt="" /></a></li>
+										<li><a href="#"><img src="xiaoyaoimg/three.jpg" alt="" /></a></li>
+										<li><a href="#"><img src="xiaoyaoimg/four.jpg" alt="" /></a></li>
+								</ul>
+					</div>
+					</div>
+	   	    <div class="dlh">
+         <div class="havelogin">
+                <div class="member" >
+                    <div class="img" ><a href="#" style=" float:left"><img src="xiaoyaoimg/touxiang.png"></a></div>
+                    <div class="info" style="padding:20px 0 0 0;>
+                        <p>
+                            <b><a href="#" target="_blank" title="访问我的空间" >riyuecao</a></b>
+                            <span class="pipe">|</span><a href="#" class="exit">[退出]</a>
+                        </p>
+                          <p>等级： 普通会员</p>
+                       <p class="p"><a target="_blank" href="#" id="pm_ntc">消息</a>
+                        <span>|</span>
+                        <a target="_blank" href="#" id="myprompt" class="new_t">提醒(1)</a><span id="myprompt_check"></span></p>
+                    </div>
+                </div>
+                <ul style="text-decoration: none;list-style-type: none;padding:50px 0 0 0">
+                    <li style=" width:57px;height:57px;border:1px solid;border-color:#e8e8e8;border-width:1px;float:left;margin:5px 2px 5px 7px;">
+                    	<a href="#" style="line-height: 10px;text-align: center;display: block;padding-top:15px">积分</a>
+                    	<span style="font-family: Arial;font-size: 14px;text-align: center;display: block;list-style: none;color:red;padding-top:5px">1</span>
+                    </li>
+                    <li style=" width:57px;height:57px;border:1px solid;border-color:#e8e8e8;border-width:1px;float:left;margin:5px 2px 5px 2px;">
+                    	<a href="#"  style="line-height: 10px;text-align: center;display: block;padding-top:15px">我的收藏</a>
+                    	<span style="font-family: Arial;font-size: 14px;text-align: center;display: block;list-style: none;color:red;padding-top:5px">0</span>
+                    </li>
+                    <li style=" width:57px;height:57px;border:1px solid;border-color:#e8e8e8;border-width:1px;float:left;margin:5px 7px 5px 1px;">
+                    	<a href="#"  style="line-height: 10px;text-align: center;display: block;padding-top:15px">我的订单</a>
+                    	<span style="font-family: Arial;font-size: 14px;text-align: center;display: block;list-style: none;color:red;padding-top:5px">1</span>
+                    </li>
+                </ul>
+                <div class="bbslink" style="width:100px;height:20px;background-color:green;display: block;margin:100px 0 0 40px;padding:5px 0 0 12px"><a href="#">进入个人主页</a></div>
+            </div>
+            
+        </div>
+	   	   
+	   	   
+       </div>
+       
+       
+       
+         <div class="m">
+            <div class="t"><a href="#" class="more">More&gt;&gt;</a><h3>热门线路推荐</h3></div>
+            <div class="body" style="float:left">
+                <ul>
+                    <li >
+                       <div class="img" style="float:left"><a href="#"><img src="xiaoyaoimg/one.jpg" alt="" width="180" height="70"></a></div>
+                        <dl>
+                         <dt><a href="#" style="font-size:15px;font-family:"微软雅黑";color:#0072bc;text-decoration:none" onMouseOver="this.style.color='red'" onMouseOut="this.style.color=''">
+                         	◆春暖花开◆3月16日-17日古寨炊烟 香江如画</a></dt>
+                           <dd  style="font-size:15px;font-family:"微软雅黑";">
+                                  序言：
+                                     婺源和石潭的选择是一个让人头疼的问题，婺源太多人，太多的商业味。而石潭， ...
+                           </dd>
+                        </dl>
+                       <div class="price" style="font-size:15px;font-family:"微软雅黑";">350元起</div>
+                       <div class="type" style="font-size:15px;font-family:"微软雅黑";">出外郊游</div>
+                    </li>
+                    <br>
+                    <br>
+                    <li class="li" >
+                     <div class="img" style="float:left"><a href="#"><img src="xiaoyaoimg/one.jpg" alt="" width="180" height="70"></a></div>
+                           <dl>
+                                 <dt><a href="#" style="font-size:15px;font-family:"微软雅黑";color:#0072bc;text-decoration:none" onMouseOver="this.style.color='red'" onMouseOut="this.style.color=''">
+                                 	◆春暖花开◆ 3月22日-24日 江西婺源！古村</a></dt>
+                                    <dd style="font-size:15px;font-family:"微软雅黑";">
+                                  序言：
+                                          本线路婺源门票包含12个景点，本路线途径8个，做到了资源最大化，堪称完美。 ...
+																		</dd>
+                           </dl>
+                         <div class="price" style="font-size:15px;font-family:"微软雅黑";">550元起</div>
+                         <div class="type"style="font-size:15px;font-family:"微软雅黑";" >出外郊游</div>
+                      </li>
+                        <br>
+                        <br>
+                      <li>
+                           <div class="img" style="float:left"><a href="#"><img src="xiaoyaoimg/one.jpg" alt="" width="180" height="70"></a></div>
+                                   <dl>
+                                     <dt><a href="#" style="font-size:15px;font-family:"微软雅黑";color:#0072bc;text-decoration:none" onMouseOver="this.style.color='red'" onMouseOut="this.style.color=''">
+                                     	◆登山摄影◆11月10日-11日探访世界自然遗产</a></dt>
+                                     <dd style="font-size:15px;font-family:"微软雅黑";">
+                                          ●景点介绍●
+                                          三清山坐落于江西上饶东北部。素有“天下第一仙峰，世上无双福地 ...
+                                     </dd>
+                                    </dl>
+                                            <div class="price" style="font-size:15px;font-family:"微软雅黑";">550元起</div>
+                                            <div class="type" style="font-size:15px;font-family:"微软雅黑";">出外郊游</div>
+                      </li>
+                      <br>
+                      <br>
+                      <li class="li">
+                            <div class="img" style="float:left"><a href="#"><img src="xiaoyaoimg/one.jpg" alt="" width="180" height="70"></a></div>
+                           <dl>
+                              <dt><a href="#" style="font-size:15px;font-family:"微软雅黑";color:#0072bc;text-decoration:none" onMouseOver="this.style.color='red'" onMouseOut="this.style.color=''">
+                              	◆登山摄影◆11月30号-12月2号 挺进大别山，</a></dt>
+                            <dd  style="font-size:15px;font-family:"微软雅黑";">
+                                       序言：     
+                                            挺进大别山---1947年（民国36年）8月，在第三次国内革命战争中，人民解放 ...
+                            </dd>
+                           </dl>
+                                    <div class="price" style="font-size:15px;font-family:"微软雅黑";">600元起 </div>
+                                     <div class="type" style="font-size:15px;font-family:"微软雅黑";">登山摄影</div>
+                      </li>
+                      <br>
+                      <br>
+                      <li>
+                          <div class="img" style="float:left"><a href="#"><img src="xiaoyaoimg/one.jpg" alt="" width="180" height="70"></a></div>
+                              <dl>
+                                <dt><a href="#" style="font-size:15px;font-family:"微软雅黑";color:#0072bc;text-decoration:none" onMouseOver="this.style.color='red'" onMouseOut="this.style.color=''">
+                                	◆武功山穿越◆ 11月22号-25号 十万亩草甸，</a></dt>
+                                   <dd style="font-size:15px;font-family:"微软雅黑";">
+                                          序言：
+                                              武功之奇莫若峰： 　　群峰俊秀，层峦叠嶂，绝壁千仞，突龙峥嵘，耸峙拱列，巍 ...
+                                   </dd>
+                               </dl>
+                                    <div class="price" style="font-size:15px;font-family:"微软雅黑";">600元起</div>
+                                    <div class="type" style="font-size:15px;font-family:"微软雅黑";">登山摄影</div>
+                      </li>               
+            
+                </ul>
+            </div>
+        </div>
+  	
+  </body>
+</html>

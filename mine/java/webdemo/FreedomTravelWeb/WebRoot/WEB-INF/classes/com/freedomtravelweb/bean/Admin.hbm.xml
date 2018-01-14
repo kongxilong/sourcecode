@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.freedomtravelweb.bean.Admin" table="admin">
+	<id name="adminId" type="java.lang.Integer" column="adminId">
+	<generator class="increment"></generator> <!-- 这里将id属性设置为全局的 递增排序-->
+	</id>
+	
+	<property name="adminName" type="string" column="adminName" length="100"></property>
+	<property name="password" type="string" column="password" length="100"></property>
+	
+	</class>
+</hibernate-mapping>

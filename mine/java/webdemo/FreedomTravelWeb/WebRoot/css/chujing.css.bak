@@ -1,0 +1,7 @@
+.chujing{width:1187px;height:650px;margin:15px auto;border:red solid 1px;}
+.chujingleft{width:210px;height:593px;border:red solid 1px;}
+.chujing_pic img {display: block;width: 210px;height:200px;}
+.chujing_pic xiaoimg {display: block;width: 210px;height:45px;}
+.chujingleftxiao{width:210px;height:191px;}
+.chujingleft a {display: block;border-bottom: 1px solid #FFFDF9;;overflow: hidden;}
+.chujingleftxiao a:hover {border: 1px solid #0065BB;text-decoration: none;padding: 2px 8px 3px;}
